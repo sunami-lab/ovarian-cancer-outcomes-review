@@ -1,0 +1,371 @@
+category:
+  id: "03"
+  sheet_name: "3 Cognition"
+  title: "Cognition"
+  review_question_focus: >-
+    How do previously published systematic reviews of cancer treatment build the cognition
+    concept in their database search strategies?
+  population_scope: >-
+    Cancer type and age left open, per the brief. No systematic review of cognition in
+    ovarian cancer, or in older adults with ovarian cancer, was published in a journal
+    meeting the JIF >= 5 threshold.
+  cross_cutting_note: >-
+    Cognition is one of the few outcomes that reviews reliably do search on, because
+    cancer-related cognitive impairment is usually the topic of the review rather than a
+    downstream outcome. The three reviews here show three different structures for the same
+    concept: a full stand-alone cognition block (Treanor), cognition folded into a
+    late-/adverse-effects adjacency block (Lawrie), and unstructured keyword pairings (Jim).
+
+records:
+  - title: "Non-pharmacological interventions for cognitive impairment due to systemic cancer treatment"
+    first_author_year: "Treanor CJ, 2016"
+    journal: "Cochrane Database of Systematic Reviews"
+    impact_factor: "8.8 (2023 JIF)"
+    purpose: >-
+      To evaluate the cognitive effects, non-cognitive effects, duration and safety of
+      non-pharmacological interventions aimed at maintaining cognitive function or
+      ameliorating cognitive impairment resulting from cancer or systemic cancer treatment.
+      The most complete cognition search block found in this exercise: one core adjacency
+      statement generates the cross-product of nine cognition terms and ten
+      impairment terms, sitting alongside five controlled-vocabulary terms and a
+      chemo-fog/chemo-brain phrase. Reproduced in six database syntaxes, including a
+      native PubMed version.
+    pico: |
+      P: Adults with cancer receiving or having received systemic cancer treatment
+         (chemotherapy or hormonal therapy, alone or with other treatments).
+      I: Non-pharmacological interventions targeting cognitive function (compensatory
+         strategy training, cognitive rehabilitation/training, exercise, mind-body).
+      C: Wait-list, usual care, attention control or an alternative non-pharmacological
+         intervention.
+      O: Objective and subjective cognitive function; non-cognitive effects (quality of
+         life, physical and psychological well-being, fatigue, mood); duration of effect;
+         adverse events.
+    search_pubmed: |
+      [PubMed searched natively (via NCBI); 1980 to 29 September 2015. Appendix 6, verbatim:]
+      #1  neoplasm*[MeSH Terms]
+      #2  (cancer* or neoplas* or tumor* or tumour* or carcinoma* or adenocarcinoma*
+          or malignan* or leukemia* or leukaemia*)
+      #3  #1 or #2
+      #4  cognition disorders[MeSH Terms]
+      #5  neurobehavioral manifestations[MeSH Terms]
+      #6  mental processes[MeSH Terms]
+      #7  neuropsychological tests[MeSH Terms]
+      #8  attention[MeSH Terms]
+      #9  "chemo* fog"
+      #10 "chemo* brain"
+      #11 (("cognit* deficit*") OR "cognit* declin*" OR "cognit* disorder*"
+          OR "cognit* function*" OR "cognit* dysfunction*" OR "cognit* impair*"
+          OR "cognit* decrement*" OR "cognit* problem*" OR "cognit* sequelae*")
+      #12 (("memory deficit*") OR "memory declin*" OR "memory disorder*"
+          OR "memory function*" OR "memory dysfunction*" OR "memory impair*"
+          OR "memory decrement*" OR "memory problem*" OR "memory sequelae*")
+      #13 [same nine-suffix pattern applied to neurobehavior*]
+      #14 [same nine-suffix pattern applied to neurobehaviour*]
+      #15 [same nine-suffix pattern applied to "problem solving"]
+      #16 [same nine-suffix pattern applied to attention]
+      #17 [same nine-suffix pattern applied to concentrat*]
+      #18 #4 or #5 or #6 or #7 or #8 or #9 or #10 or #11 or #12 or #13 or #14 or #15
+          or #16 or #17
+      #19 #3 and #17
+      #20 randomized controlled trial[pt]
+      #21 controlled clinical trial[pt]
+      #22 randomized[tiab]
+      #23 placebo[tiab]
+      #24 clinical trials as topic[mesh:noexp]
+      #25 randomly[tiab]
+      #26 #20 or #21 or #22 or #23 or #24
+      #27 animals [mh] NOT humans [mh]
+      #28 #26 NOT #27
+      #29 #19 AND #28
+      Note as printed: line #19 combines #3 with #17 (concentrat* only) rather than with the
+      full #18 union, and line #26 omits #25 - both appear to be typographical slips in the
+      published appendix. Reproduce with care.
+      [The Ovid MEDLINE version, Appendix 2, is the cleaner statement of the same concept:
+      1  exp Neoplasms/
+      2  (cancer* or neoplas* or tumor* or tumour* or carcinoma* or adenocarcinoma*
+         or malignan* or leukemia* or leukaemia*).mp
+      3  1 or 2
+      4  exp Cognition Disorders/
+      5  exp Neurobehavioral Manifestations/
+      6  exp Mental Processes/
+      7  exp Neuropsychological Tests/
+      8  Attention/
+      9  (chemo* adj5 (fog or brain)).mp.
+      10 ((cognit* or neurocognit* or neuropsycholog* or memory or neurobehavior*
+         or neurobehaviour* or problem solving or attention or concentrat*) adj5
+         (deficit* or declin* or disorder* or function* or dysfunction* or impair*
+         or decrement* or disturb* or problem* or sequelae*)).mp.
+      11 4 or 5 or 6 or 7 or 8 or 9 or 10
+      12 3 and 11
+      13 randomized controlled trial.pt.
+      14 controlled clinical trial.pt.
+      15 randomized.ab.
+      16 placebo.ab.
+      17 clinical trials as topic.sh.
+      18 randomly.ab.
+      19 trial.ti.
+      20 13 or 14 or 15 or 16 or 17 or 18 or 19
+      21 12 and 20
+      22 exp animals/ not humans.sh.
+      23 21 not 22]
+    search_embase: |
+      [Embase via OvidSP, 1980 to 29 September 2015. Appendix 3, verbatim:]
+      1  exp neoplasm/
+      2  (cancer* or neoplas* or tumor* or tumour* or carcinoma* or adenocarcinoma*
+         or malignan* or leukemia* or leukaemia*).mp.
+      3  1 or 2
+      4  exp cognitive defect/
+      5  cognition/
+      6  neuropsychological test/
+      7  attention/
+      8  (chemo* adj5 (fog or brain)).mp.
+      9  ((cognit* or neurocognit* or neuropsycholog* or memory or neurobehavior*
+         or neurobehaviour* or problem solving or attention or concentrat*) adj5
+         (deficit* or declin* or disorder* or function* or dysfunction* or impair*
+         or decrement* or disturb* or problem* or sequelae*)).mp.
+      10 4 or 5 or 6 or 7 or 8 or 9
+      11 3 and 10
+      12 crossover procedure/
+      13 double-blind procedure/
+      14 randomized controlled trial/
+      15 single-blind procedure/
+      16 random*.mp.
+      17 factorial*.mp.
+      18 (crossover* or cross over* or cross-over*).mp.
+      19 placebo*.mp.
+      20 (double* adj blind*).mp.
+      21 (singl* adj blind*).mp.
+      22 assign*.mp.
+      23 allocat*.mp.
+      24 volunteer*.mp.
+      25 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20 or 21 or 22 or 23 or 24
+      26 11 and 25
+      key: mp = title, abstract, subject headings, heading word, drug trade name, original
+      title, device manufacturer, drug manufacturer, device trade name, keyword.
+    search_wos: |
+      Not searched. Databases searched were CENTRAL, MEDLINE (OvidSP), Embase (OvidSP),
+      PsycINFO (OvidSP), CINAHL (EBSCO) and PubMed, 1980 to 29 September 2015, plus trial
+      registries and grey literature (theses, dissertations, conference proceedings).
+      Web of Science was not used.
+      [The CINAHL version (Appendix 5, EBSCOhost syntax) is the closest analogue to a
+      Web of Science-style proximity search and may be the most useful template if you
+      do add Web of Science:
+      S13 (MH "Cognition Disorders+") S14 (MH "Neurobehavioral Manifestations+")
+      S15 (MH "Mental Processes+") S16 (MH "Neuropsychological Tests+") S17 (MH "Attention+")
+      S18 "chemo*" S19 "fog" S20 "brain" S21 (S19 or S20) S22 (S18 N2 S21)
+      S23 "cognit*" S24 "neurocognit*" S25 "neuropsycholog*" S26 "memory"
+      S27 "neurobehavior*" S28 "neurobehaviour*" S29 "problem solving" S30 "attention"
+      S31 "concentrat*" S32 (S23 or S24 or S25 or S26 or S27 or S28 or S29 or S30)
+      S33 "deficit*" S34 "declin*" S35 "disorder*" S36 "function*" S37 "dysfunction*"
+      S38 "impair*" S39 "decrement*" S40 "disturb*" S41 "problem*" S42 "sequelae*"
+      S43 (S33 or S34 or ... or S42) S44 (S32 N2 S43)
+      S45 (S13 or S14 or S15 or S16 or S17 or S22 or S44) S46 (S12 and S45)
+      S47 MH "Randomized controlled trials" S48 MH "Clinical trials" S49 MH "Placebos"
+      S50 (S47 or S48 or S49) S51 (S44 and S50)]
+    url: "https://doi.org/10.1002/14651858.CD011325.pub2"
+    pmid: "27529826"
+    pmcid: "PMC8734151"
+    doi: "10.1002/14651858.CD011325.pub2"
+    strategy_source: "Appendices 1-6 of the review, read in full from PMC8734151"
+
+  - title: >-
+      Long-term neurocognitive and other side effects of radiotherapy, with or without
+      chemotherapy, for glioma
+    first_author_year: "Lawrie TA, 2019"
+    journal: "Cochrane Database of Systematic Reviews"
+    impact_factor: "8.8 (2023 JIF)"
+    purpose: >-
+      To evaluate the long-term (at least two years after diagnosis) neurocognitive and
+      other side effects of radiotherapy, with or without chemotherapy, in people with
+      glioma, and to write a brief economic commentary. Included as an exemplar of the
+      alternative structure: rather than a stand-alone cognition block, cognit* is one term
+      inside a generic late-effects adjacency, so cognition is retrieved as a species of
+      treatment harm.
+    pico: |
+      P: People with glioma (any grade), followed at least two years from diagnosis.
+      I: Radiotherapy, with or without chemotherapy.
+      C: No radiotherapy, or a different type/dose/schedule of radiotherapy.
+      O: Long-term neurocognitive function (primary); other late side effects; quality of
+         life; survival; costs (brief economic commentary).
+    search_pubmed: |
+      [Not searched as PubMed. MEDLINE via Ovid, 1946 to October week 5 2018; searched
+      16 February 2018 and updated 14 November 2018. Appendix 1, verbatim:]
+      1  exp Glioma/
+      2  (glioma* or astrocytoma* or medulloblastoma* or ependymoma* or craniophyrangioma*
+         or oligodendroglioma* or glioblastoma* or GBM*).ti,ab.
+      3  1 or 2
+      4  exp Radiotherapy/
+      5  radiotherapy.fs.
+      6  (radiotherap* or radiat* or irradiat*).ti,ab.
+      7  exp Antineoplastic Agents/
+      8  Antineoplastic Combined Chemotherapy Protocols/
+      9  chemotherap*.mp.
+      10 exp Chemoradiotherapy/
+      11 (radiochemo* or chemoradio*).mp.
+      12 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11
+      13 3 and 12
+      14 Radiation Effects/
+      15 exp Radiation Injuries/
+      16 adverse effects.fs.
+      17 ((late or adverse* or long term or side or long-term or chronic* or residual*
+         or delay* or undesirable or unexpected) adj5 (effect* or event* or outcome*
+         or reaction* or complication* or harm* or injur* or toxic* or cognit*)).ti,ab.
+      18 (adrs or tolerab*).ti,ab.
+      19 (radiation induced* or radiation-induced).ti,ab.
+      20 14 or 15 or 16 or 17 or 18 or 19
+      21 randomized controlled trial.pt.
+      22 controlled clinical trial.pt.
+      23 randomized.ab.
+      24 placebo.ab.
+      25 clinical trials as topic.sh.
+      26 randomly.ab.
+      27 trial.ti.
+      28 exp Cohort Studies/
+      29 cohort*.tw.
+      30 longitudinal*.tw.
+      31 prospective*.tw.
+      32 21 or 22 or 23 or 24 or 25 or 26 or 27 or 28 or 29 or 30 or 31
+      33 13 and 20 and 32
+      34 exp animals/ not humans.sh.
+      35 33 not 34
+      key: mp = title, abstract, original title, name of substance word, subject heading
+      word, keyword heading word, protocol supplementary concept word, rare disease
+      supplementary concept word, unique identifier; ab = abstract; sh = subject heading;
+      ti = title; pt = publication type.
+      [A parallel MEDLINE run replaced the design filter (lines 21-32) with a health-economics
+      filter for the economic commentary.]
+    search_embase: |
+      [Embase via Ovid, 1980 to 2018 week 46. Appendix 1, verbatim:]
+      1  exp Glioma/
+      2  (glioma* or astrocytoma* or medulloblastoma* or ependymoma* or craniophyrangioma*
+         or oligodendroglioma* or glioblastoma* or GBM*).ti,ab.
+      3  1 or 2
+      4  exp radiotherapy/
+      5  radiotherapy.fs.
+      6  (radiotherap* or radiat* or irradiat*).ti,ab.
+      7  exp chemotherapy/
+      8  exp antineoplastic agent/
+      9  chemotherap*.mp.
+      10 exp chemoradiotherapy/
+      11 (radiochemo* or chemoradio*).mp.
+      12 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11
+      13 3 and 12
+      14 radiation response/
+      15 exp radiation injury/
+      16 ae.fs.
+      17 ((late or adverse* or long term or side or long-term or chronic* or residual*
+         or delay* or undesirable or unexpected) adj5 (effect* or event* or outcome*
+         or reaction* or complication* or harm* or injur* or toxic* or cognit*)).ti,ab.
+      18 (adrs or tolerab*).ti,ab.
+      19 (radiation induced* or radiation-induced).ti,ab.
+      20 14 or 15 or 16 or 17 or 18 or 19
+      21 crossover procedure/
+      22 randomized controlled trial/
+      23 single blind procedure/
+      24 random*.mp.
+      25 factorial*.mp.
+      26 (crossover* or cross over* or cross-over).mp.
+      27 placebo*.mp.
+      28 (doubl* adj blind*).mp.
+      29 (singl* adj blind*).mp.
+      30 assign*.mp.
+      31 allocat*.mp.
+      32 volunteer*.mp.
+      33 exp cohort analysis/
+      34 cohort*.tw.
+      35 longitudinal*.tw.
+      36 prospective*.tw.
+      37 21 or 22 or ... or 36
+      38 13 and 20 and 37
+      [A parallel Embase run substituted a health-economics filter for lines 21-37.]
+    search_wos: |
+      Not searched. Databases searched were CENTRAL (2018, Issue 11), MEDLINE via Ovid and
+      Embase via Ovid, plus ClinicalTrials.gov and the WHO ICTRP for ongoing trials.
+      No language restrictions. Web of Science was not used.
+      [CENTRAL strategy, verbatim:
+      #1 MeSH descriptor: [Glioma] explode all trees
+      #2 glioma* or astrocytoma* or medulloblastoma* or ependymoma* or craniophyrangioma*
+         or oligodendroglioma* or glioblastoma* or GBM*
+      #3 #1 or #2
+      #4 MeSH descriptor: [Radiotherapy] explode all trees
+      #5 radiotherap* or radiat* or irradiat*
+      #6 MeSH descriptor: [Antineoplastic Agents] explode all trees
+      #7 MeSH descriptor: [Antineoplastic Combined Chemotherapy Protocols] this term only
+      #8 Any MeSH descriptor with qualifier(s): [Radiotherapy - RT]
+      #9 Any MeSH descriptor with qualifier(s): [Drug therapy - DT]
+      #10 Chemotherap*
+      #11 MeSH descriptor: [Chemoradiotherapy] explode all trees
+      #12 radiochemo* or chemoradio*
+      #13 #4 or #5 or #6 or #7 or #8 or #9 or #10 or #11 or #12
+      #14 #3 AND #13
+      #15 MeSH descriptor: [Radiation Effects] this term only
+      #16 MeSH descriptor: [Radiation Injuries] explode all trees
+      #17 Any MeSH descriptor with qualifier(s): [Adverse effects - AE]
+      #18 ((late or adverse* or long term or side or long-term or chronic* or residual*
+          or delay* or undesirable or unexpected) near/5 (effect* or event* or outcome*
+          or reaction* or complication* or harm* or injur* or toxic* or cognit*))
+      #19 adrs or tolerab*
+      #20 radiation induced* or radiation-induced
+      #21 #15 or #16 or #17 or #18 or #19 or #20
+      #22 #14 AND #21]
+    url: "https://doi.org/10.1002/14651858.CD013047.pub2"
+    pmid: "31425631"
+    pmcid: "PMC6699681"
+    doi: "10.1002/14651858.CD013047.pub2"
+    strategy_source: "Appendix 1 of the review, read in full from PMC6699681"
+
+  - title: >-
+      Meta-analysis of cognitive functioning in breast cancer survivors previously treated
+      with standard-dose chemotherapy
+    first_author_year: "Jim HSL, 2012"
+    journal: "Journal of Clinical Oncology"
+    impact_factor: "42.1 (2023 JIF)"
+    purpose: >-
+      To quantify cognitive deficits in breast cancer survivors at least six months after
+      completing standard-dose chemotherapy, and to examine demographic and clinical
+      moderators (age, education, time since chemotherapy, endocrine therapy). Included
+      deliberately as the counter-example: a meta-analysis in the highest-impact journal in
+      this collection, whose entire search is seven short keyword pairings with no
+      structured concept blocks, no truncation discipline and no design filter.
+    pico: |
+      P: Women who had completed standard-dose chemotherapy for breast cancer at least
+         six months previously.
+      I: Standard-dose chemotherapy (past exposure).
+      C: Healthy controls, patients not treated with chemotherapy, or the patient's own
+         pre-treatment/normative scores.
+      O: Objective neuropsychological test performance across cognitive domains (verbal
+         ability, memory, executive function, processing speed, attention, visuospatial).
+    search_pubmed: |
+      [PubMed searched natively; studies published 1937 to June 2011; English only.
+      Seven search-term sets, verbatim from the Methods:]
+      (1) cognitive effects AND cancer patients AND chemotherapy
+      (2) cognition AND cancer AND chemotherapy
+      (3) cognition disorders/chemically induced AND cancer AND chemotherapy
+      (4) [cognition disorders/chemically induced OR cognition disorders]
+          AND [neoplasms/drug therapy OR neoplasms/radiotherapy OR neoplasms]
+      (5) [cognition disorders or cognition or cognitive effects and cancer] AND chemotherapy
+      (6) chemobrain AND cancer
+      (7) cognitive impairment AND breast cancer
+      Reference lists of retrieved publications and of relevant earlier systematic reviews
+      and meta-analyses were also examined.
+      Note: no field tags, no explicit MeSH explosion and no truncation are given, so these
+      strings are not reproducible in the sense PRISMA-S requires. They are recorded here
+      exactly as published.
+    search_embase: |
+      Not searched. Databases searched were PubMed, PsycINFO, CINAHL and the Cochrane
+      Library.
+      [The terms used for PsycINFO, CINAHL and the Cochrane Library, verbatim:
+      (1) cognitive disorders AND chemotherapy AND cancer
+      (2) cognition AND chemotherapy AND cancer
+      (3) chemobrain OR chemobrain OR chemo-brain
+      (4) cognitive effects and chemotherapy and cancer
+      Set (3) is printed with "chemobrain" twice; presumably one instance was intended to be
+      a different spelling variant.]
+    search_wos: |
+      Not searched. Databases searched were PubMed, PsycINFO, CINAHL and the Cochrane
+      Library only.
+    url: "https://doi.org/10.1200/JCO.2011.39.5640"
+    pmid: "22927526"
+    pmcid: "PMC3462044"
+    doi: "10.1200/JCO.2011.39.5640"
+    strategy_source: "Methods section (Search Strategy), read from PMC3462044"
