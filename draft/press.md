@@ -101,9 +101,9 @@ This is the domain the draft genuinely fails, and it fails on omission rather th
   `blocks_pubmed.yml` but is not used, because the review is likely to be a scoping review
   or evidence map (see `docs/existing_reviews.md`), where design filters are inappropriate.
   That is a defensible choice but it must be stated in the protocol, not left implicit.
-- **No language limit.** Deliberate — several reviews in the collection (Coleridge 2021,
-  Molenaar 2023) explicitly sought papers in all languages — but it has a cost the team
-  must accept in advance.
+- **No language limit.** Deliberate — Coleridge 2021 sought papers in all languages and
+  carried out translations, and Lawrie 2019 applied no language restriction to any of its
+  searches — but it has a cost in screening effort that the team must accept in advance.
 - **No date limit.** The population block alone reaches back to the 1950s. Consider whether
   pre-platinum-era ovarian cancer treatment is within scope.
 - **No animal-study exclusion in the PubMed version.** The Ovid and Embase translations
