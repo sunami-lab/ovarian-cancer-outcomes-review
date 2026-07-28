@@ -1,0 +1,350 @@
+category:
+  id: "04"
+  sheet_name: "4 Depression"
+  title: "Depression"
+  review_question_focus: >-
+    How do previously published systematic reviews of cancer treatment build the depression
+    concept in their database search strategies?
+  population_scope: >-
+    Cancer type left open, per the brief. Two of the three reviews are restricted to older
+    adults with cancer or use age as an explicit search block, so the age dimension is
+    covered here. The one ovarian-specific option identified (Watts 2015, "Depression and
+    anxiety in ovarian cancer: a systematic review and meta-analysis of prevalence rates",
+    BMJ Open) was excluded on the JIF >= 5 threshold (BMJ Open JIF ~2.4) - it is worth
+    reading anyway if you want an ovarian-specific comparator.
+  cross_cutting_note: >-
+    Depression is searched on, and searched on well, in all three reviews - unlike functional
+    status. Compare the three depression blocks directly: Soong's is four words long, Vita's
+    is four controlled-vocabulary terms plus one adjacency, and Kulchycki's spans eight
+    controlled-vocabulary terms plus a 20-term text-word line that deliberately reaches into
+    mood, distress, hopelessness and wellbeing. Sensitivity differs by roughly an order of
+    magnitude.
+
+records:
+  - title: >-
+      Exercise Interventions for Depression, Anxiety, and Quality of Life in Older Adults
+      With Cancer: A Systematic Review and Meta-Analysis
+    first_author_year: "Soong RY, 2025"
+    journal: "JAMA Network Open"
+    impact_factor: "10.5 (2023 JIF)"
+    purpose: >-
+      To determine whether exercise interventions are associated with improvements in
+      psychological outcomes - depression, anxiety and health-related quality of life -
+      among older adults with cancer. The closest match in this whole collection to the
+      population of interest (older adults with cancer, patient-centred outcomes), and the
+      only review here whose search carries an explicit older-adults block. The trade-off is
+      sensitivity: the outcome block is four terms with no controlled vocabulary in PubMed.
+    pico: |
+      P: Older adults with cancer (mean age >= 60 years), any cancer type, any comorbidity.
+      I: Exercise interventions - aerobic, resistance and strength training, or mind-body
+         exercise (qigong, yoga, tai chi).
+      C: Usual care.
+      O: Depression severity; anxiety severity; health-related quality of life (HRQOL).
+    search_pubmed: |
+      [PubMed searched natively, database inception to 5 November 2024.
+      eTable 1 in Supplement 1, verbatim:]
+      #1 "Geriatrics"[Mesh] OR "Aged"[Mesh] OR Aging OR Aged OR Centenarians
+         OR Nonagenarians OR Octogenarians OR Elder* OR Gerontology OR 'older adult*'
+      #2 Neoplas*[title/abstract] OR Cancer[title/abstract] OR Malignan*[title/abstract]
+      #3 Exercis*[title/abstract] OR Exerciz*[title/abstract]
+         OR (Physical*[title/abstract] AND Interven*[title/abstract])
+         OR (Physical*[title/abstract] AND Activit*[title/abstract])
+      #4 depress* OR anxi* OR burden* OR Stress* OR 'quality of life'
+      The four sets are combined with AND. Note the curly quotation marks as printed;
+      PubMed will not parse 'older adult*' or 'quality of life' as phrases unless the
+      quotes are replaced with straight double quotes.
+    search_embase: |
+      [Embase, database inception to 5 November 2024. eTable 1, verbatim:]
+      #1 'geriatrics'/exp OR 'aged'/exp OR 'aging'/exp OR 'senescence'/exp
+         OR 'older adult*' OR 'aging' OR 'centenarians' OR 'nonagenarians'
+         OR 'octogenarians' OR 'gerontology' OR 'older people'/exp
+      #2 'neoplas*'/exp OR 'cancer'/exp OR 'malignan*'/exp
+      #3 'exercis*' OR 'exerciz*' OR (physical* NEAR/2 (intervent* OR activit*))
+      #4 'depress*' OR 'depression'/exp OR 'anxi*' OR 'anxiety'/exp OR 'disease burden*'
+         OR 'physiological stress*' OR 'quality of life'
+      Note: 'neoplas*'/exp and 'malignan*'/exp are printed with truncation inside an
+      Emtree explosion, which Embase does not accept; these lines will need repair
+      before reuse.
+    search_wos: |
+      Not searched. Databases searched were PubMed, Embase, PsycINFO and the Cochrane
+      Library, from inception to 5 November 2024.
+      [Cochrane Library version, verbatim:
+      #1 MeSH descriptor: [Geriatrics] explode all trees OR ((Aging OR Aged OR Centenarians
+         OR Nonagenarians OR Octogenarians OR Elder* OR Gerontology OR 'older adult*'):ti,ab,kw)
+      #2 (neoplas*):ti,ab,kw OR (cancer):ti,ab,kw OR (malignan*):ti,ab,kw
+      #3 MeSH descriptor: [Exercise] explode all trees OR (exercis*' OR 'exerciz*'
+         OR (physical* NEAR/2 (intervent* OR activit*)):ti,ab,kw)
+      #4 MeSH descriptor: [Depression] explode all trees OR (anxi* OR burden* OR Stress*
+         OR 'quality of life'):ti,ab,kw)
+      PsycINFO version, verbatim:
+      #1 (Geriatrics OR Aged OR Aging OR Centenarians OR Nonagenarians OR Octogenarians
+         OR Elder* OR Gerontology OR 'Older Adult*').mp.
+      #2 (neoplas* OR cancer OR malignan*).ti,ab.
+      #3 exp Exercise/ OR exercis*.ti,ab. OR exerciz*.ti,ab.
+         OR (physical* adj2 (intervent*.ti,ab. or activit*.ti,ab.))
+      #4 (depress* OR anxi* OR burden* OR stress* OR 'quality of life').ti,ab.]
+    url: "https://doi.org/10.1001/jamanetworkopen.2024.57859"
+    pmid: "39903465"
+    pmcid: "PMC11795328"
+    doi: "10.1001/jamanetworkopen.2024.57859"
+    strategy_source: "eTable 1 (Search Strategy) in Supplement 1"
+
+  - title: "Antidepressants for the treatment of depression in people with cancer"
+    first_author_year: "Vita G, 2023"
+    journal: "Cochrane Database of Systematic Reviews"
+    impact_factor: "8.8 (2023 JIF)"
+    purpose: >-
+      To evaluate the efficacy, tolerability and acceptability of antidepressants for
+      treating depressive symptoms in adults (18 years or older) with cancer of any site and
+      stage. Included as the reference-standard structure for this outcome: population AND
+      depression AND antidepressant, where the depression block pairs three MeSH terms with
+      one adjacency that catches adjustment, reactive and dysthymic disorders, and the drug
+      block names roughly 70 individual agents alongside five exploded drug classes.
+    pico: |
+      P: Adults (>= 18 years) with any primary cancer diagnosis and depression (major
+         depressive disorder, adjustment disorder, dysthymic disorder, or depressive
+         symptoms measured on a validated scale).
+      I: Any antidepressant.
+      C: Placebo, or another antidepressant.
+      O: Efficacy (change in depressive symptoms, response, remission); tolerability
+         (adverse events, dropouts due to adverse events); acceptability (dropouts for any
+         reason).
+    search_pubmed: |
+      [Not searched as PubMed. MEDLINE via Ovid, 1946 to November 2022; latest search date
+      24 November 2022. Appendix 2, verbatim:]
+      1  exp Neoplasms/
+      2  (cancer* or tumor* or tumour* or neoplas* or malignan* or carcinoma*
+         or adenocarcinoma* or choriocarcinoma* or lymphoma* or leukemia* or leukaemia*
+         or metastat* or sarcoma* or teratoma*).mp.
+      3  1 or 2
+      4  Depression/
+      5  exp Depressive Disorder/
+      6  Adjustment Disorders/
+      7  (depress* or melanchol* or ((adjustment or reactive or dysthymic) adj5
+         disorder*)).mp.
+      8  4 or 5 or 6 or 7
+      9  drug therapy.fs.
+      10 exp Antidepressive Agents/
+      11 exp Heterocyclic Compounds/
+      12 exp Serotonin Uptake Inhibitors/
+      13 exp Adrenergic Uptake Inhibitors/
+      14 exp Monoamine Oxidase Inhibitors/
+      15 (anti-depress* or antidepress* or drug therap* or pharmacotherap* or trycyclic*
+         or TCA* or heterocyclic* or serotonin uptake or SSRI* or SNRI*
+         or monoamine oxidase inhibitor* or MAOI*).mp.
+      16 (desipramine or imipramine or clomipramine or opipramol or trimipramine or
+         lofepramine or dibenzepin or amitriptyline or nortriptyline or protriptyline or
+         doxepin or iprindole or melitracen or butriptyline or dosulepin or amoxapine or
+         dimetacrine or amineptine or maprotiline or quinupramine or zimeldine or
+         fluoxetine or citalopram or paroxetine or sertraline or alaproclate or
+         fluvoxamine or etoperidone or escitalopram or isocarboxazid or nialamide or
+         phenelzine or tranylcypromine or iproniazide or iproclozide or moclobemide or
+         toloxatone or oxitriptan or tryptophan or mianserin or nomifensine or trazodone
+         or nefazodone or minaprine or bifemelane or viloxazine or oxaflozane or
+         mirtazapine or bupropion or medifoxamine or tianeptine or pivagabine or
+         venlafaxine or milnacipran or reboxetine or gepirone or duloxetine or
+         agomelatine or desvenlafaxine or vilazodone or hyperici herba or
+         hypericum perforatum or st john* wort* or saint john* wort*).mp.
+      17 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16
+      18 3 and 8 and 17
+      19 randomized controlled trial.pt.
+      20 controlled clinical trial.pt.
+      21 randomized.ab.
+      22 placebo.ab.
+      23 clinical trials as topic.sh.
+      24 randomly.ab.
+      25 trial.ti.
+      26 19 or 20 or 21 or 22 or 23 or 24 or 25
+      27 18 and 26
+      28 exp animals/ not humans.sh.
+      29 27 not 28
+      key: mp = title, abstract, original title, name of substance word, subject heading
+      word, keyword heading word, protocol supplementary concept, rare disease
+      supplementary concept, unique identifier; pt = publication type; ab = abstract;
+      sh = subject heading; ti = title.
+    search_embase: |
+      [Embase via Ovid, 1980 to November 2022. Appendix 3, verbatim:]
+      1  exp neoplasm/
+      2  (cancer* or tumor* or tumour* or neoplas* or malignan* or carcinoma*
+         or adenocarcinoma* or choriocrcinoma* or leukemia* or leukaemia* or metastat*
+         or sarcoma* or teratoma*).ti,ab.
+      3  1 or 2
+      4  exp depression/
+      5  adjustment disorder/
+      6  (depress* or melanchol* or ((adjustment or reactive or dysthymic) adj3
+         disorder*)).ti,ab.
+      7  4 or 5 or 6
+      8  exp antidepressant agent/
+      9  exp heterocyclic compound/
+      10 exp serotonin uptake inhibitor/
+      11 exp adrenergic receptor affecting agent/
+      12 exp monoamine oxidase inhibitor/
+      13 (anti-depress* or antidepress* or drug therap* or pharmacotherap* or trycyclic*
+         or TCA* or heterocyclic* or serotonin uptake or SSRI* or SNRI*
+         or monoamine oxidase inhibitor* or MAOI*).ti,ab.
+      14 [the same ~70-agent drug-name line as MEDLINE line 16].ti,ab.
+      15 8 or 9 or 10 or 11 or 12 or 13 or 14
+      16 3 and 7 and 15
+      17 crossover procedure/
+      18 double-blind procedure/
+      19 randomized controlled trial/
+      20 single-blind procedure/
+      21 random*.mp.
+      22 factorial*.mp.
+      23 (crossover* or cross over* or cross-over*).mp.
+      24 placebo*.mp.
+      25 (double* adj blind*).mp.
+      26 (singl* adj blind*).mp.
+      27 assign*.mp.
+      28 allocat*.mp.
+      29 volunteer*.mp.
+      30 17 or 18 or 19 or 20 or 21 or 22 or 23 or 24 or 25 or 26 or 27 or 28 or 29
+      31 16 and 30
+      32 (exp animal/ or nonhuman/ or exp animal experiment/) not human/
+      33 31 not 32
+      Note "choriocrcinoma*" is a typo for choriocarcinoma* in the published Embase and
+      CENTRAL appendices; the MEDLINE appendix spells it correctly.
+    search_wos: |
+      Not searched. Databases searched were CENTRAL (2022, Issue 11), MEDLINE Ovid,
+      Embase Ovid and PsycINFO Ovid, all to November 2022, supplemented by handsearching
+      the trial databases of the FDA, MHRA, EMA and other drug-approving agencies.
+      Web of Science was not used.
+      [CENTRAL strategy (Appendix 1), verbatim:
+      #1 MeSH descriptor: [Neoplasms] explode all trees
+      #2 (cancer* or tumor* or tumour* or neoplas* or malignan* or carcinoma* or
+         adenocarcinoma* or choriocrcinoma* or leukemia* or leukaemia* or metastat*
+         or sarcoma* or teratoma*)
+      #3 #1 or #2
+      #4 MeSH descriptor: [Depression] explode all trees
+      #5 MeSH descriptor: [Depressive Disorder] explode all trees
+      #6 MeSH descriptor: [Adjustment Disorders] explode all trees
+      #7 (depress* or melanchol* or ((adjustment or reactive or dysthymic) near/5 disorder*))
+      #8 #4 or #5 or #6 or #7
+      #9 Any MeSH descriptor with qualifier(s): [Drug therapy - DT]
+      #10-#16 [antidepressant class MeSH explosions and the ~70-agent drug-name list]
+      #17 #9 or #10 or #11 or #12 or #13 or #14 or #15 or #16
+      #18 #3 and #8 and #17]
+    url: "https://doi.org/10.1002/14651858.CD011006.pub4"
+    pmid: "36999619"
+    pmcid: "PMC10065046"
+    doi: "10.1002/14651858.CD011006.pub4"
+    strategy_source: "Appendices 1-4 of the review, read in full from PMC10065046"
+
+  - title: >-
+      Aerobic Physical Activity and Depression Among Patients With Cancer: A Systematic
+      Review and Meta-Analysis
+    first_author_year: "Kulchycki M, 2024"
+    journal: "JAMA Network Open"
+    impact_factor: "10.5 (2023 JIF)"
+    purpose: >-
+      To determine whether aerobic physical activity is associated with reduced depression
+      among patients with cancer, and to examine patient, cancer, intervention and
+      methodological moderators. Included because the strategy was built by a named research
+      librarian and is the most sensitive depression block in this collection - it is the one
+      to copy if you want maximum recall on the outcome, including a Scopus/citation-index
+      translation in proximity syntax.
+    pico: |
+      P: Patients with any cancer diagnosis, including haematopoietic stem cell transplant
+         recipients.
+      I: Aerobic physical activity interventions (randomised controlled trials).
+      C: Usual care or non-aerobic control.
+      O: Severity of depression on validated self-reported scales (CES-D, HADS, BDI and
+         others), short- and long-term.
+    search_pubmed: |
+      [Not searched as PubMed. Ovid MEDLINE, publications 1 January 1980 to 5 July 2023;
+      strategy built by a research librarian. eTable 1 in Supplement 1, verbatim
+      (population and depression blocks; the exercise block is lines 8-19 and the design
+      filter lines 20-32):]
+      1  exp neoplasms/ or cancer survivors/ or psycho-oncology/ or exp hematopoietic stem
+         cell transplantation/ or stem cell transplantation/ or hematopoietic stem cell
+         mobilization/
+      2  (cancer* or neoplas* or tumo?r* or malignan* or metasta* or oncogen* or oncolog*
+         or psychooncolog* or sarcoma* or leuk?emi* or lymphoma* or hodgkin* or nonhodgkin*
+         or carcino* or melanoma* or thymoma* or myeloma* or blastoma* or hepatoblastoma*
+         or mesenchymoma* or mesothelioma* or hepatoma* or adenocarcinoma*
+         or glioma*).ti,ab,kf
+      3  (HSCT or ((h?ematopoietic or h?emato-poietic) adj3 (transplant* or sct or bct
+         or mobili#ation)) or pbsct or pbct or psct or ((peripheral or pbsc or pbscs) adj3
+         transplant*) or autohct or autopbsct or autopbsc or autopsc or cbsct or
+         ((autologous or auto-logous or auto or allogeneic or allo-geneic or homologous
+         or homo-logous) adj hct)).ti,ab,kf
+      4  or/1-3
+      5  depression/ or exp depressive disorder/ or sadness/ or demoralization/ or
+         mental health/ or happiness/ or hope/ or resilience, psychological/
+      6  (depress* or dysthymi* or melanchol* or affective or mood or distress* or sadness
+         or sad or hopeless* or demorali* or mental health or psych* health or wellbeing
+         or wellness or contented or contentment or happiness or hope* or
+         resilien*).ti,ab,kf
+      7  5 or 6
+      8-19  [exercise block: exp exercise/ or exp exercise movement techniques/ or exp
+            exercise therapy/ or dancing/ or exp physical fitness/ or exp sports/ or
+            aquatic therapy/; plus 11 text-word lines covering modality, dose, sport and
+            exergaming terms]
+      20-30 [design filter: randomized controlled trial/ or Random Allocation/ or Double
+            Blind Method/ or Single Blind Method/; trial publication types; exp Clinical
+            Trials as topic/; (clinical adj trial$).tw,kf; (RCT or RCTs).tw,kf;
+            ((singl$ or doubl$ or treb$ or tripl$) adj (blind$3 or dumm* or mask$3)).tw,kf;
+            PLACEBOS/; (placebo$ or sham).tw,kf;
+            (randomized or randomised or randomly).ab; trial.ti]
+      31 exp animals/ not humans.sh
+      32 30 not 31
+      33 4 and 7 and 19 and 32
+         limit 33 to (english language and yr="1980 -Current")
+    search_embase: |
+      [Embase via Ovid, 1 January 1980 to 5 July 2023. eTable 1, verbatim (population and
+      depression blocks; exercise block lines 8-19, design filter lines 20-29):]
+      1  exp neoplasm/ or exp cancer patient/ or psycho-oncology/ or exp hematopoietic stem
+         cell transplantation/ or stem cell transplantation/
+      2  (cancer* or neoplas* or tumo?r* or malignan* or metasta* or oncogen* or oncolog*
+         or psychooncolog* or sarcoma* or leuk?emi* or lymphoma* or hodgkin* or nonhodgkin*
+         or carcino* or melanoma* or thymoma* or myeloma* or blastoma* or hepatoblastoma*
+         or mesenchymoma* or mesothelioma* or hepatoma* or adenocarcinoma*
+         or glioma*).ti,ab,kw
+      3  [same HSCT line as MEDLINE, .ti,ab,kw]
+      4  or/1-3
+      5  exp depression/ or sadness/ or demoralization/ or mental health/ or psychological
+         well-being/ or happiness/ or hope/ or hopelessness/ or unhappiness/ or
+         psychological resilience/
+      6  (depress* or dysthymi* or melanchol* or affective or mood or distress* or sadness
+         or sad or hopeless* or demorali* or mental health or psych* health or wellbeing
+         or wellness or contented or contentment or happiness or hope* or
+         resilien*).ti,ab,kw
+      7  5 or 6
+      8-19  [exercise block, Emtree equivalents plus the same 11 text-word lines]
+      20-28 [Embase design filter]
+      29 or/20-28
+      30 (exp animal/ or nonhuman/) not exp human/
+      31 29 not 30
+      32 4 and 7 and 19 and 31
+      33 limit 32 to (english language and yr="1980 -Current")
+    search_wos: |
+      Web of Science was not searched. Scopus was used as the citation-index equivalent,
+      alongside MEDLINE, Embase, CENTRAL, CINAHL and PsycINFO (1 January 1980 to
+      5 July 2023). The Scopus strategy is the closest available template for a Web of
+      Science translation, since Scopus proximity syntax (W/n) maps onto Web of Science
+      NEAR/n.
+      [Scopus strategy, verbatim (population and depression sets; the exercise block is
+      sets 5-15 and the design filter sets 16-24):
+      1 TITLE-ABS-KEY(cancer* or neoplas* or tumo*r* or malignan* or metasta* or oncogen*
+        or oncolog* or psychooncolog* or sarcoma* or leuk*emi* or lymphoma* or hodgkin*
+        or nonhodgkin* or carcino* or melanoma* or thymoma* or myeloma* or blastoma*
+        or hepatoblastoma* or mesenchymoma* or mesothelioma* or hepatoma*
+        or adenocarcinoma* or glioma*)
+      2 TITLE-ABS-KEY(HSCT or ((h*ematopoietic or h*emato-poietic) W/3 (transplant* or sct
+        or bct or mobili?ation)) or pbsct or pbct or psct or ((peripheral or pbsc or pbscs)
+        W/3 transplant*) or autohct or autopbsct or autopbsc or autopsc or cbsct or
+        ((autologous or auto-logous or auto or allogeneic or allo-geneic or homologous
+        or homo-logous) W/1 hct))
+      3 #1 or #2
+      4 TITLE-ABS-KEY(depress* or dysthymi* or melanchol* or affective or mood or distress*
+        or sadness or sad or hopeless* or demorali* or "mental health" or (psych* W/1 health)
+        or wellbeing or wellness or contented or contentment or happiness or hope*
+        or resilien*)
+      ...
+      25 #3 AND #4 AND #15 AND #24
+      26 #25 AND PUBYEAR AFT 1979 AND ( LIMIT-TO ( LANGUAGE , "English" ) )]
+    url: "https://doi.org/10.1001/jamanetworkopen.2024.37964"
+    pmid: "39378035"
+    pmcid: "PMC11581595"
+    doi: "10.1001/jamanetworkopen.2024.37964"
+    strategy_source: "eTable 1 (Search Strategy) in Supplement 1"
