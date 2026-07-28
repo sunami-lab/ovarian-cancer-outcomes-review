@@ -1,0 +1,191 @@
+# Known-item set for the relative-recall test of the drafted strategy (draft/blocks_pubmed.yml).
+#
+# Every item is a real study that SHOULD be retrieved by a review of ovarian cancer
+# treatment and patient-centred outcomes in older adults. If the drafted strategy misses
+# one, the strategy is at fault, not the item.
+#
+# Two provenance streams, deliberately independent of the strategy's own vocabulary:
+#   (a) studies INCLUDED by the ovarian-specific systematic reviews already in the
+#       workbook (Coleridge 2021, Billson 2013) - these are the reviews' own answer keys;
+#   (b) patient-reported-outcome and quality-of-life publications of named phase III
+#       ovarian cancer trials, plus ovarian studies reporting the other outcome domains.
+#       Trials were identified by acronym (SOLO1, PRIMA, ARIEL3, AURELIA, PAOLA-1, ICON8,
+#       DESKTOP III, GOG-0218, EORTC 55971), and no acronym appears anywhere in the
+#       drafted strategy - so retrieval is not circular.
+#
+# Every PMID, title, journal and year below was read from PubMed esummary, not recalled.
+#
+# `hard_case: true` marks items whose TITLE contains no outcome word. These are the items
+# that test whether the outcome block works on abstract and MeSH indexing rather than on
+# convenient titles - the most informative part of the test.
+
+items:
+  # --- HRQOL / patient-reported outcomes of named phase III trials -------------------
+  - pmid: "33862001"
+    title: "Patient-centred outcomes and effect of disease progression on health status in patients with newly diagnosed advanced ovarian cancer and a BRCA mutation (SOLO1)"
+    journal: "The Lancet Oncology"
+    year: "2021"
+    domain: hrqol
+    source: "SOLO1 trial PRO publication"
+
+  - pmid: "38325276"
+    title: "Health-related quality of life in patients with newly diagnosed advanced ovarian cancer treated with niraparib (PRIMA)"
+    journal: "Gynecologic Oncology"
+    year: "2024"
+    domain: hrqol
+    source: "PRIMA trial HRQoL publication"
+
+  - pmid: "42385609"
+    title: "Updated patient-reported outcomes and the effect of disease progression on health-related quality of life (PRIMA)"
+    journal: "Gynecologic Oncology"
+    year: "2026"
+    domain: hrqol
+    source: "PRIMA trial updated PRO publication"
+
+  - pmid: "37262961"
+    title: "Patient-reported outcomes of maintenance rucaparib in patients with recurrent ovarian carcinoma (ARIEL3)"
+    journal: "Gynecologic Oncology"
+    year: "2023"
+    domain: hrqol
+    source: "ARIEL3 trial PRO publication"
+
+  - pmid: "42033030"
+    title: "Health-related quality of life in patients with newly diagnosed advanced ovarian cancer receiving maintenance olaparib plus bevacizumab (PAOLA-1)"
+    journal: "Journal of the National Cancer Institute"
+    year: "2026"
+    domain: hrqol
+    source: "PAOLA-1 trial HRQoL publication"
+
+  - pmid: "28595285"
+    title: "Quality of life predicts overall survival in women with platinum-resistant ovarian cancer: an AURELIA substudy"
+    journal: "Annals of Oncology"
+    year: "2017"
+    domain: hrqol
+    source: "AURELIA trial QoL substudy"
+
+  - pmid: "23994107"
+    title: "Quality of life of advanced ovarian cancer patients in the randomized phase III study comparing primary debulking surgery versus neoadjuvant chemotherapy"
+    journal: "Gynecologic Oncology"
+    year: "2013"
+    domain: hrqol
+    source: "EORTC 55971 QoL publication - the QoL arm of a study included by Coleridge 2021"
+
+  - pmid: "37334772"
+    title: "Quality of life in patients with advanced ovarian cancer after primary debulking surgery versus neoadjuvant chemotherapy"
+    journal: "BJOG"
+    year: "2023"
+    domain: hrqol
+    source: "Ovarian treatment-strategy QoL study"
+
+  - pmid: "12504620"
+    title: "Quality of life in women treated with neoadjuvant chemotherapy for advanced ovarian cancer: a prospective study"
+    journal: "Gynecologic Oncology"
+    year: "2003"
+    domain: hrqol
+    source: "Early ovarian NACT QoL study; tests retrieval of older literature"
+
+  - pmid: "33729494"
+    title: "Quality of Life and Adverse Events: Prognostic Relationships in Long-Term Ovarian Cancer Survival"
+    journal: "Journal of the National Cancer Institute"
+    year: "2021"
+    domain: hrqol
+    source: "GOG-0218 secondary analysis"
+
+  - pmid: "28743369"
+    title: "Quality of life is significantly associated with survival in women with advanced epithelial ovarian cancer"
+    journal: "Gynecologic Oncology"
+    year: "2017"
+    domain: hrqol
+    source: "GOG secondary analysis"
+
+  - pmid: "36085091"
+    title: "HIPEC after neoadjuvant chemotherapy is associated with acceptable toxicity and favorable quality of life"
+    journal: "Gynecologic Oncology"
+    year: "2022"
+    domain: hrqol
+    source: "Ovarian HIPEC toxicity and QoL study"
+
+  # --- Symptoms: sensory neuropathy -------------------------------------------------
+  - pmid: "25529832"
+    title: "Neurotoxicity in ovarian cancer patients on Gynecologic Oncology Group (GOG) protocol 218: characteristics associated with toxicity"
+    journal: "Gynecologic Oncology"
+    year: "2015"
+    domain: symptoms
+    source: "GOG-0218 neurotoxicity analysis; tests the sensory-neuropathy terms"
+
+  - pmid: "29117336"
+    title: "Clinical and genetic predictors of paclitaxel neurotoxicity based on patient- versus clinician-reported incidence and severity"
+    journal: "Annals of Oncology"
+    year: "2017"
+    domain: symptoms
+    source: "ICON7-linked neurotoxicity PRO study"
+
+  # --- Older adults specifically -----------------------------------------------------
+  - pmid: "38833992"
+    title: "Efficacy and safety of niraparib in patients aged 65 years and older with advanced ovarian cancer"
+    journal: "Gynecologic Oncology"
+    year: "2024"
+    domain: older_adults
+    source: "PRIMA older-adult subgroup analysis"
+
+  - pmid: "39673779"
+    title: "Safety and quality of life with maintenance olaparib plus bevacizumab in older patients with ovarian cancer"
+    journal: "The Oncologist"
+    year: "2025"
+    domain: older_adults
+    source: "PAOLA-1 older-adult subgroup with QoL"
+
+  - pmid: "41911877"
+    title: "Frailty and Days at Home After Ovarian Cancer Surgery - A Patient-Centered Outcome for Older Adults"
+    journal: "Journal of the National Comprehensive Cancer Network"
+    year: "2026"
+    domain: functional
+    source: "Older adults, ovarian surgery, patient-centred functional outcome"
+
+  # --- Nutritional status -------------------------------------------------------------
+  - pmid: "42346258"
+    title: "The Impact of Malnutrition on Post-Operative Complications in Patients with Ovarian Cancer: A NSQIP analysis"
+    journal: "Current Oncology"
+    year: "2026"
+    domain: nutrition
+    source: "Ovarian surgery, malnutrition exposure"
+
+  - pmid: "41965808"
+    title: "Prevalence of ovarian cancer cachexia in patients undergoing cytoreductive surgery"
+    journal: "Journal of Ovarian Research"
+    year: "2026"
+    domain: nutrition
+    source: "Ovarian cytoreductive surgery, cachexia"
+
+  # --- Cognition -----------------------------------------------------------------------
+  - pmid: "41318434"
+    title: "Symptom experiences of cancer-related cognitive impairment in women with ovarian cancer"
+    journal: "BMC Women's Health"
+    year: "2025"
+    domain: cognition
+    source: "Ovarian cancer-related cognitive impairment"
+
+  # --- Depression -----------------------------------------------------------------------
+  - pmid: "42108834"
+    title: "Rethinking depression diagnosis in ovarian cancer: The role of somatic symptoms"
+    journal: "Cancer"
+    year: "2026"
+    domain: depression
+    source: "Ovarian cancer depression measurement"
+
+  # --- Included studies from the ovarian reviews in the workbook -----------------------
+  - pmid: "32615110"
+    title: "Weekly platinum-based chemotherapy versus 3-weekly platinum-based chemotherapy for newly diagnosed ovarian cancer (ICON8)"
+    journal: "The Lancet Oncology"
+    year: "2020"
+    domain: treatment_trial_with_qol
+    hard_case: true
+    source: "ICON8. Reported QoL, but no outcome word appears in the title."
+
+  - pmid: "34874631"
+    title: "Randomized Trial of Cytoreductive Surgery for Relapsed Ovarian Cancer (DESKTOP III)"
+    journal: "The New England Journal of Medicine"
+    year: "2021"
+    domain: treatment_trial_with_qol
+    hard_case: true
+    source: "DESKTOP III. Reported QoL, but no outcome word appears in the title."
