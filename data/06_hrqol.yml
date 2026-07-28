@@ -1,0 +1,422 @@
+category:
+  id: "06"
+  sheet_name: "6 HRQOL"
+  title: "Health-related quality of life (HRQOL)"
+  review_question_focus: >-
+    How do previously published systematic reviews of cancer treatment build the
+    health-related quality of life concept in their database search strategies?
+  population_scope: >-
+    Cancer type and age left open, per the brief. Two ovarian-specific HRQOL reviews were
+    identified and rejected on the JIF >= 5 threshold - Wilson 2018, "A Systematic Review of
+    Health-Related Quality of Life Reporting in Ovarian Cancer Phase III Clinical Trials",
+    The Oncologist (JIF ~4.8, and the closest miss in this whole exercise), and Kumar 2019,
+    "Quality of life outcomes following surgery for advanced ovarian cancer", Int J Gynecol
+    Cancer (JIF ~4.1). Cramer 2017 is retained partly because it is restricted to women.
+  cross_cutting_note: >-
+    The three HRQOL blocks span the full range. Mishra names the instruments (QLQ-C30,
+    FACIT, SF-36, HADS, POMS, MSAS and others) as search terms, which is the single most
+    transferable idea in this collection - instrument acronyms retrieve trials whose
+    abstracts never use the phrase "quality of life". Osanto builds a 40-term PRO block that
+    deliberately absorbs anxiety, depression, functional status, fatigue and pain into the
+    HRQOL concept. Cramer does not search the outcome at all.
+
+records:
+  - title: >-
+      Exercise interventions on health-related quality of life for people with cancer during
+      active treatment
+    first_author_year: "Mishra SI, 2012"
+    journal: "Cochrane Database of Systematic Reviews"
+    impact_factor: "8.8 (2023 JIF)"
+    purpose: >-
+      To evaluate the effectiveness of exercise on overall HRQoL and on specific HRQoL
+      domains among adults with cancer during active treatment. Included because its HRQoL
+      block is the most complete in this collection: alongside the expected controlled
+      vocabulary and free text it lists the named measurement instruments, so trials
+      reporting only "FACT-G" or "QLQ-C30" are still retrieved.
+    pico: |
+      P: Adults with any cancer, during active treatment (surgery, chemotherapy,
+         radiotherapy, hormonal therapy).
+      I: Exercise interventions (aerobic, resistance, combination, mind-body including
+         yoga, tai chi, qigong, hydrotherapy).
+      C: Usual care, no exercise, or an alternative non-exercise intervention.
+      O: Overall HRQoL and HRQoL domains - physical, psychological, social, spiritual
+         well-being, pain, fatigue, sleep, body image, vitality; adverse events.
+    search_pubmed: |
+      [MEDLINE searched via PubMed, inception to May 2010 (430 hits) and January 2010 to
+      November 2011 (190 hits). Appendix 1, verbatim - lines 32-58 are the HRQoL block:]
+      1-31   [exercise block: exp exercise/; exercise tolerance/; exp exertion/; Pliability/;
+             physical fitness/; "Physical Education and Training"/; exp physical endurance/;
+             exercise therapy/; exercising.mp.; physical condition$.mp.; stamina.mp.;
+             motor activity/; exercise test/; exp Sports/; tai chi.mp. or tai ji/; yoga/;
+             muscle stretching exercises/; exp "range of motion, articular"/; pilates.mp.;
+             qigong.mp.; chi kung.mp.; resistance training.mp.; mind body therap$.mp.;
+             exp complementary therapies/; Bad Ragaz.mp.; Ai Chi.mp.; Halliwick.mp.;
+             hippotherapy.mp.; Hydrotherapy/; balance exercise$.mp.; aquatic exercise$.mp.]
+      32     1 or 2 or 3 or ... or 31
+      33     "quality of life"/
+      34     exp health status/
+      35     "activities of daily living"/
+      36     life qualit$.mp.
+      37     exp self concept/
+      38     health level.mp.
+      39     level of health.mp.
+      40     wellness.mp.
+      41     well being.mp.
+      42     (activities of daily life or daily living activities).mp.
+      43     functional ability.mp.
+      44     good health.mp.
+      45     healthiness.mp.
+      46     patient reported outcomes.mp.
+      47     social adjustment/
+      48     physical limitations.mp.
+      49     psychiatric status.mp.
+      50     pain measurement/
+      51     functional assessment.mp.
+      52     fact questionnaire.mp.
+      53     fact survey.mp.
+      54     qlc-c30.mp.
+      55     facit.mp.
+      56     toi.mp.
+      57     (flic or sf-36 or ces-d or bdi or sta1 or bfi or hads or lasa or poms or qli
+             or rsci or pais or bpi or msas or mos or ptgi or panas).mp.
+      58     sense of coherence.mp.
+      59-65  [design filter: randomized.ab.; placebo.ab.; randomly.ab.; trial.ab.;
+             randomized controlled trial.pt.; controlled clinical trial.pt.; random$.ab]
+      66-69  [population: exp neoplasms/; cancer.mp.;
+             (neoplasm$ or tumor$ or tumour or malignan$).mp.; active treatment.mp.]
+      70     [union of lines 33-58 - the HRQoL set]
+      71     [union of the design lines]
+      72     [union of the cancer lines]
+      73     32 and 70 and 71 and 72
+      74-76  Survivors/ ; survivor.mp. ; 74 or 75   [used to exclude survivorship trials,
+             which are covered by the companion review]
+      Note "qlc-c30" is a transposition of QLQ-C30, and "sta1" of STAI, in the published
+      appendix. Repair both before reuse.
+    search_embase: |
+      [Embase, inception to May 2010 (713 hits) and January 2010 to November 2011 (349 hits).
+      Appendix 3, verbatim - lines 33-58 are the HRQoL block:]
+      1-31   [exercise block, Emtree equivalents: exp exercise/; exertion.mp.; pliability/;
+             fitness/; (physical education and training).mp.; physical endurance.mp. or
+             endurance/; kinesiotherapy/; exercising.mp.; "physical condition$".mp.;
+             stamina.mp.; exp motor activity/; exp sports/; exercise test/; tai chi.mp.;
+             tai ji.mp.; yoga/; stretching exercise/; "range of motion"/; pilates.mp.;
+             qigong.mp.; chi kung.mp.; muscle strength/ or muscle training/ or resistance
+             training.mp.; mind body therapy.mp.; alternative medicine/; bad ragaz.mp.;
+             ai chi.mp.; halliwick.mp.; hippotherapy.mp.; hydrotherapy/;
+             balance exercises.mp.; aquatic exercise/]
+      32     1 or 2 or ... or 31
+      33     "quality of life"/
+      34     exp health status/
+      35     daily life activity/
+      36     life qualit$.mp.
+      37     exp self concept/
+      38     health level.mp.
+      39     "level of health".mp.
+      40     wellbeing/
+      41     wellness.mp.
+      42     good health.mp.
+      43     functional ability.mp.
+      44     healthiness.mp.
+      45     "patient reported outcomes".mp.
+      46     social adaptation/
+      47     physical limitation$.mp.
+      48     psychiatric status.mp.
+      49     pain assessment/
+      50     functional assessment/
+      51     questionnaire/ or fact questionnaire.mp.
+      52     fact survey.mp.
+      53     health survey/
+      54     qlc-c30.mp.
+      55     facit.mp.
+      56     toi.mp.
+      57     sense of coherence.mp.
+      58     (flic or sf-36 or ces-d or bdi or stal or bfi or hads or lasa or poms or qli
+             or rsci or pais or bpi or msas or mos or ptgi or panas).mp.
+      59-64  [design filter]
+      65     59 or 60 or 61 or 62 or 63 or 64
+      66     [union of the HRQoL lines]
+      67-70  exp neoplasm/; cancer.mp.;
+             (neoplasm$ or tumor$ or tumour or malignan$).mp.; active treatment
+      71     (67 or 68 or 69 or 70)
+      72-74  Survivors/; survivor$.mp.; 72 or 73
+      75     32 and 65 and 66 and 71
+      76     75 not 74
+      (Line 69 is printed as ".mp3" - a typo for .mp.; "stal" in line 58 is STAI.)
+    search_wos: |
+      Web of Science was used, but for citation searching of key authors rather than with a
+      subject strategy, so no Web of Science string exists. As reported: "We also searched
+      citations of key authors through Web of Science and Scopus, and searched PubMed's
+      related article feature."
+      Databases searched with a strategy: CENTRAL, PubMed MEDLINE (Appendix 1),
+      MEDLINE In-Process (Appendix 2), EMBASE (Appendix 3), CINAHL (Appendix 4),
+      PsycINFO (Appendix 5), and PEDRO, LILACS, SIGLE, SportDiscus, OTSeeker and
+      Sociological Abstracts (Appendix 6), all from inception to November 2011, with no
+      language or date restriction. Trial registries (WHO ICTRP, Current Controlled Trials,
+      CenterWatch, ClinicalTrials.gov), reference lists and expert contact were also used.
+      [The CINAHL version (Appendix 4) is the same HRQoL set in EBSCOhost syntax and
+      includes (MH "Functional Status") and (MH "Pain Measurement") as controlled terms.]
+    url: "https://doi.org/10.1002/14651858.CD008465.pub2"
+    pmid: "22895974"
+    pmcid: "PMC7389071"
+    doi: "10.1002/14651858.CD008465.pub2"
+    strategy_source: "Appendices 1-6 of the review, read in full from PMC7389071"
+
+  - title: >-
+      Health-related quality of life outcomes in randomized controlled trials in metastatic
+      hormone-sensitive prostate cancer: a systematic review
+    first_author_year: "Osanto S, 2024"
+    journal: "eClinicalMedicine"
+    impact_factor: "9.6 (2023 JIF)"
+    purpose: >-
+      To review how HRQoL was assessed and reported in phase III randomised trials
+      comparing treatment arms in metastatic hormone-sensitive prostate cancer. Included for
+      two reasons: it is one of only two records in this collection with a published Web of
+      Science strategy, and its HRQoL/PRO block is the broadest - it treats anxiety,
+      depression, functional status, fatigue, pain, symptom burden, sexual and social
+      functioning as facets of the same concept, which is exactly the union your review
+      needs across categories 2, 3, 4, 6 and 7.
+    pico: |
+      P: Patients with metastatic hormone-sensitive prostate cancer (mHSPC).
+      I: Systemic treatment arms of phase III RCTs (androgen deprivation therapy alone or
+         in combination with docetaxel, abiraterone, apalutamide, enzalutamide, darolutamide
+         or radiotherapy).
+      C: The comparator arm of each trial (usually ADT alone).
+      O: Health-related quality of life and patient-reported outcomes - instrument used,
+         domains, timing, compliance, statistical handling, and the direction of any
+         between-arm difference.
+    search_pubmed: |
+      [PubMed searched natively; restricted to publications from 1 January 2015.
+      Supplementary Table 2, verbatim - the HRQoL/PRO block reproduced in full, the
+      population and treatment blocks abbreviated:]
+      Block 1 (population): ("Metastatic Hormone sensitive Prostate Cancer"[tw] OR
+        "mHSPC"[tw] OR "metastatic castration naive prostate cancer"[tw] OR ... [14 phrase
+        variants] ... OR (("Prostatic Neoplasms"[mesh] OR "prostate cancer"[tw] OR ...
+        [28 prostate-cancer phrase variants] ...) AND ("metastatic"[tw] OR "metasta*"[tw]
+        OR "oligometastatic"[tw] OR "oligometasta*"[tw])))
+      AND
+      Block 2 (treatment): ("androgen deprivation therapy"[tw] OR "androgen depriv*"[tw]
+        OR "androgen block*"[tw] OR "ADT"[tiab] OR "Androgen Antagonists"[Mesh]
+        OR "Androgen Antagonists"[Pharmacological Action])
+      AND
+      Block 3 (HRQoL / patient-reported outcomes) - verbatim:
+        ("Quality of Life"[mesh] OR "Quality of Life"[tw] OR "Life Quality"[tw]
+        OR "HR-QoL"[tw] OR "HRQoL"[tw] OR "QoL"[tw] OR "PROs"[tw]
+        OR "Patient Reported Outcome Measures"[Mesh] OR "Patient Reported Outcome"[tw]
+        OR "Patient Reported Outcomes"[tw] OR "Patient Reported"[tw] OR "Anxiety"[mesh]
+        OR "anxiety"[tw] OR "Depression"[mesh] OR "depression"[tw]
+        OR "Psychological Distress"[mesh] OR "distress"[tw] OR "emotional"[tw]
+        OR "Functional Status"[Mesh] OR "functional status"[tw] OR "health outcomes"[tw]
+        OR "health related quality of life"[tw] OR "Health Status"[Mesh]
+        OR "health status"[tw] OR "HRQL"[tw] OR "patient outcomes"[tw] OR "PRO"[tw]
+        OR "psychological"[tw] OR "psychosocial"[tw] OR "sexual functioning"[tw]
+        OR "Sexuality"[Mesh] OR "Sexual Behavior"[Mesh] OR "Social Interaction"[Mesh]
+        OR "social functioning"[tw] OR "social wellbeing"[tw] OR "social"[tw]
+        OR "Symptom Assessment"[Mesh] OR "symptom assessment"[tw]
+        OR "symptom burden"[tw] OR "symptom distress"[tw] OR "Fatigue"[mesh]
+        OR "fatigue"[tw] OR "Pain"[mesh] OR "pain"[tw])
+      AND
+      Block 4 (design): ("randomized controlled trial"[pt] OR "randomized"[ti]
+        OR "randomised"[ti] OR "RCT"[ti] OR "trial"[ti] OR "Clinical Trial, Phase III"[pt]
+        OR "phase iii"[tw] OR "phase three"[tw] OR "phase 3"[tw] OR "phaseiii"[tw]
+        OR "phasethree"[tw] OR "phase3"[tw])
+      NOT "review"[pt] AND english[la] AND ("2015/01/01"[PDAT] : "3000/12/31"[PDAT])
+      NOT (phase II publication types and title terms, unless also phase III)
+    search_embase: |
+      [Embase (OVID version), same date limits. Supplementary Table 2, verbatim - structure
+      reproduced, population block abbreviated:]
+      (("Metastatic Hormone sensitive Prostate Cancer".ti,ab OR "mHSPC".ti,ab OR ...
+      [same phrase variants] ... OR ((exp *"Prostatic Cancer"/ OR "prostate cancer".ti,ab
+      OR ... ) ADJ4 ("metastatic".ti,ab OR "metasta*".ti,ab OR "oligometastatic".ti,ab
+      OR "oligometasta*".ti,ab)))
+      AND ("androgen deprivation therapy".ti,ab OR "androgen depriv*".ti,ab
+      OR "androgen block*".ti,ab OR "ADT".ti,ab OR "Androgen deprivation therapy"/
+      OR exp *"antiandrogen"/)
+      AND (exp *"Quality of Life"/ OR "Quality of Life".ti,ab OR ... [the same
+      40-term PRO list, expressed as Emtree explosions plus .ti,ab text words] ...)
+      AND [phase III / randomised design filter] NOT review NOT meeting abstract,
+      English, 2015 onwards.
+      Note the population block uses ADJ4 in Embase where PubMed used a plain AND, so the
+      Embase run is the more specific of the two.
+    search_wos: |
+      [Web of Science searched. Supplementary Table 2, verbatim - the topic block
+      reproduced in full, population block abbreviated:]
+      ((TI=("Metastatic Hormone sensitive Prostate Cancer" OR "mHSPC" OR ... [phrase
+      variants] ... OR (("Prostatic Cancer" OR "prostate cancer" OR ...) AND "metastatic"))
+      OR AB=(... same phrase variants ... OR (("Prostatic Cancer" OR "prostate cancer"
+      OR ...) NEAR/5 ("metastatic" OR "metasta*" OR "oligometastatic" OR "oligometasta*"))))
+      AND (TI=("androgen deprivation therapy" OR "androgen depriv*" OR "androgen block*"
+      OR "ADT" OR "Androgen deprivation therapy" OR "antiandrogen")
+      OR AB=("androgen deprivation therapy" OR "androgen depriv*" OR "androgen block*"
+      OR "ADT" OR "Androgen deprivation therapy" OR "antiandrogen"))
+      AND TS=("Quality of Life" OR "Quality of Life" OR "Life Quality" OR "HR-QoL"
+      OR "HRQoL" OR "QoL" OR "PROs" OR "Patient-Reported Outcome"
+      OR "Patient Reported Outcome" OR "Patient Reported Outcomes" OR "Patient Reported"
+      OR "Anxiety" OR "anxiety" OR "Depression" OR "depression" OR "Distress Syndrome"
+      OR "distress" OR "emotional" OR "Functional Status" OR "functional status"
+      OR "health outcomes" OR "health related quality of life" OR "Health Status"
+      OR "health status" OR "HRQL" OR "patient outcomes" OR "PRO" OR "psychological"
+      OR "psychosocial" OR "sexual functioning" OR "Sexuality" OR "Sexual behavior"
+      OR "Social Interaction" OR "social functioning" OR "social wellbeing" OR "social"
+      OR "Symptom Assessment" OR "symptom assessment" OR "symptom burden"
+      OR "symptom distress" OR "Fatigue" OR "fatigue" OR "Pain" OR "pain")
+      AND TI=("randomized controlled trial" OR "controlled clinical trial" OR "randomized"
+      OR "randomised" OR "RCT" OR "trial" OR "phase 3 clinical trial" OR "phase iii"
+      OR "phase three" OR "phase 3" OR "phaseiii" OR "phasethree" OR "phase3")
+      NOT DT=review AND la=english
+      AND py=(2015 OR 2016 OR 2017 OR 2018 OR 2019 OR 2020 OR 2021 OR 2022 OR 2023)
+      NOT dt=(meeting abstract)
+      NOT (TI=("phase 2 clinical trial" OR "phase ii" OR "phase two" OR "phase 2"
+      OR "phaseii" OR "phasetwo" OR "phase2") NOT TS=("phase 3 clinical trial" OR ...))
+      This is the most complete Web of Science template in the collection: note TI=/AB=
+      used separately where PubMed uses [tw], TS= for the topic block, NEAR/5 replacing
+      ADJ4, DT= for document type, la= for language and py= for an explicit year list.
+      Google Scholar and the Cochrane Library were also searched.
+    url: "https://doi.org/10.1016/j.eclinm.2024.102922"
+    pmid: "39619239"
+    pmcid: "PMC11605133"
+    doi: "10.1016/j.eclinm.2024.102922"
+    strategy_source: "Supplementary Table 2 (Search Strategy) in the supplementary appendix"
+
+  - title: >-
+      Yoga for improving health-related quality of life, mental health and cancer-related
+      symptoms in women diagnosed with breast cancer
+    first_author_year: "Cramer H, 2017"
+    journal: "Cochrane Database of Systematic Reviews"
+    impact_factor: "8.8 (2023 JIF)"
+    purpose: >-
+      To assess the effects of yoga on health-related quality of life, mental health and
+      cancer-related symptoms among women diagnosed with breast cancer, during or after
+      active treatment. Included as the contrast case, and because it is restricted to
+      women: HRQoL is the first-named outcome in the title and the primary outcome of the
+      review, yet no quality-of-life, mental-health or symptom term appears anywhere in any
+      of the six search strategies.
+    pico: |
+      P: Women with a diagnosis of breast cancer, receiving active treatment or having
+         completed treatment.
+      I: Yoga (including asana, pranayama, dhyana, dharana, meditation).
+      C: No therapy, or another active intervention (psychosocial/educational, exercise).
+      O: Health-related quality of life; mental health (depression, anxiety); cancer-related
+         symptoms (fatigue, sleep disturbance); adverse events.
+    search_pubmed: |
+      [MEDLINE searched via PubMed on 29 January 2016. Appendix 1, verbatim:]
+      #1  yoga [mh]
+      #2  yoga* [tiab]
+      #3  yogic [tiab]
+      #4  meditation [tiab]
+      #5  asana* [tiab]
+      #6  pranayama [tiab]
+      #7  dharana [tiab]
+      #8  dhyana [tiab]
+      #9  #1 OR #2 OR #3 OR #4 OR #5 OR #6 OR #7 OR #8
+      #10 breast neoplasms [mh]
+      #11 breast neoplasm* [tiab]
+      #12 breast cancer [tiab]
+      #13 breast carcinoma* [tiab]
+      #14 breast tumor* [tiab]
+      #15 mamma carcinoma* [tiab]
+      #16 mammary neoplasm* [tiab]
+      #17 mammary carcinoma* [tiab]
+      #18 mammary gland carcinoma* [tiab]
+      #19 #10 OR #11 OR #12 OR #13 OR #14 OR #15 OR #16 OR #17 OR #18
+      #20 randomized controlled trial [pt]
+      #21 controlled clinical trial [pt]
+      #22 randomized [tiab]
+      #23 placebo [tiab]
+      #24 clinical trials as topic [mesh: noexp]
+      #25 randomly [tiab]
+      #26 trial [ti]
+      #27 #19 OR #20 OR #21 OR #22 OR #23 OR #24 OR #25 OR #26
+      #28 Search #7 AND #17 AND #25
+      #29 Search animals[mh] NOT humans[mh]
+      #30 Search #26 NOT #27
+      Three problems in the published appendix, all worth noting before reuse: line #27
+      unions the population set (#19) with the design terms instead of unioning the design
+      terms alone; line #28 combines single line numbers (#7 = dharana, #17 = mammary
+      carcinoma*, #25 = randomly) rather than the three set unions #9, #19 and #27; and
+      line #30 subtracts #27 from #26 rather than #29 from #28. What was run was almost
+      certainly #9 AND #19 AND (design union) NOT (animals not humans).
+      There is no HRQoL, mental-health or symptom block.
+    search_embase: |
+      [Embase searched 29 January 2016. Appendix 2 gives two versions.
+      Embase.com syntax, verbatim:]
+      #1  random* OR factorial* OR crossover* OR cross NEXT/1 over* OR placebo*
+          OR (doubl* AND blind*) OR (singl* AND blind*) OR assign* OR allocat*
+          OR volunteer* OR 'crossover procedure'/exp OR 'double blind procedure'/exp
+          OR 'randomized controlled trial'/exp OR 'single blind procedure'/exp
+      #2  'breast neoplasm'
+      #3  'breast cancer'/exp OR 'breast cancer'
+      #4  'breast tumour'
+      #5  'breast tumor'/exp OR 'breast tumor'
+      #6  'breast carcinoma'/exp OR 'breast carcinoma'
+      #7  'mamma carcinoma'/exp OR 'mamma carcinoma'
+      #8  'mammary neoplasm'
+      #9  'mammary carcinoma'/exp OR 'mammary carcinoma'
+      #10 'mammary gland carcinoma'
+      #11 #2 OR #3 OR #4 OR #5 OR #6 OR #7 OR #8 OR #9 OR #10
+      #12 'breast cancer survivor'
+      #13 'breast cancer survivors'
+      #14 #12 OR #13
+      #15 #11 OR #14
+      #16 'yoga'/exp OR yoga
+      #17 yogic
+      #18 asana
+      #19 pranayama
+      #20 dhyana
+      #21 dharana
+      #22 'meditation'/exp OR meditation
+      #23 #16 OR #17 OR #18 OR #19 OR #20 OR #21 OR #22
+      #24 #1 AND #11 AND #23
+      #25 #24 NOT ([animals]/lim NOT [humans]/lim)
+      #26 #25 AND [embase]/lim
+      [Embase via OvidSP, verbatim:]
+      1-19  [Ovid Embase RCT filter: Randomized controlled trial/; Controlled clinical
+            study/; Random$.ti,ab.; randomization/; intermethod comparison/; placebo.ti,ab.;
+            (compare or compared or comparison).ti.; ((evaluated or evaluate or evaluating
+            or assessed or assess) and (compare or compared or comparing or comparison)).ab.;
+            (open adj label).ti,ab.; ((double or single or doubly or singly) adj (blind or
+            blinded or blindly)).ti,ab.; double blind procedure/; parallel group$1.ti,ab.;
+            (crossover or cross over).ti,ab.; ((assign$ or match or matched or allocation)
+            adj5 (alternate or group$1 or intervention$1 or patient$1 or subject$1 or
+            participant$1)).ti,ab.; (assigned or allocated).ti,ab.; (controlled adj7 (study
+            or design or trial)).ti,ab.; (volunteer or volunteers).ti,ab.; human experiment/;
+            trial.ti.]
+      20    or/1-19
+      21    exp breast/
+      22    exp breast disease/
+      23    (21 or 22) and exp neoplasm/
+      24    exp breast tumor/
+      25    exp breast cancer/
+      26    exp breast carcinoma/
+      27    (breast$ adj5 (neoplas$ or cancer$ or carcin$ or tumo$ or metasta$
+            or malig$)).ti,ab.
+      28    or/21-27
+      29    exp yoga/
+      30    (yora or yogic or asana or pranayama or dhyana or dharana or meditation).tw.
+      31    exp meditation/
+      32    29 or 30 or 31
+      33    20 and 28 and 32
+      34    limit 33 to embase
+      ("yora" in line 30 is a typo for yoga.)
+    search_wos: |
+      Not searched. Databases searched were the Cochrane Breast Cancer Specialised Register,
+      MEDLINE via PubMed (Appendix 1), Embase (Appendix 2), CENTRAL 2016 Issue 1
+      (Appendix 3), the WHO ICTRP portal (Appendix 4), ClinicalTrials.gov (Appendix 5) and
+      IndMed (Appendix 6), all to 29 January 2016. Web of Science was not used.
+      [CENTRAL strategy (Appendix 3), verbatim:
+      #1 MeSH descriptor: [Breast Neoplasms] explode all trees
+      #2 breast near cancer*
+      #3 breast near neoplasm*
+      #4 breast near carcinoma*
+      #5 breast near tumour*
+      #6 breast near tumor*
+      #7 #1 or #2 or #3 or #4 or #5 or #6
+      #8 MeSH descriptor: [Yoga] explode all trees
+      #9 MeSH descriptor: [Meditation] explode all trees
+      #10 yoga or yogic or meditation or asana or pranayama or dharana or dhyana
+      #11 #8 or #9 or #10
+      #12 #7 and #11]
+    url: "https://doi.org/10.1002/14651858.CD010802.pub2"
+    pmid: "28045199"
+    pmcid: "PMC6465041"
+    doi: "10.1002/14651858.CD010802.pub2"
+    strategy_source: "Appendices 1-6 of the review, read in full from PMC6465041"
