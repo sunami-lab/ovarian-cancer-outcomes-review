@@ -127,6 +127,7 @@ eAppendix in Supplement 1, verbatim (result counts as printed):]
 35 7 and 34 (1463)
 36 23 or 35 (2191)
 37 limit 36 to yr="2012 -Current" (2030)
+[Complete unabbreviated strategy, all databases: strategies/07_balitsky2024_proms.txt]
 ```
 
 **Search strategy - Embase**
@@ -164,6 +165,7 @@ observational filter is lines 8-23 and the RCT filter lines 25-44):]
       trial.ti.]
 Yields by database for the updated search: MEDLINE, Embase, PsycInfo 605, CENTRAL 3434,
 CINAHL 1866; subtotal 13 857, 3554 after limits, 1049 duplicates removed.
+[Complete unabbreviated strategy, all databases: strategies/07_balitsky2024_proms.txt]
 ```
 
 **Search strategy - Web of Science**
@@ -186,6 +188,7 @@ S10 TX inventory or instrument* or measure* or self-report*
 S11 S9 AND S10
 S12 S4 OR S11
 S13 S3 AND S12]
+[Complete unabbreviated strategy, all databases: strategies/07_balitsky2024_proms.txt]
 ```
 
 ## Ream E, 2020 - Cochrane Database of Systematic Reviews

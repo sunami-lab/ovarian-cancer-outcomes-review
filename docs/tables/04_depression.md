@@ -159,6 +159,7 @@ key: mp = title, abstract, original title, name of substance word, subject headi
 word, keyword heading word, protocol supplementary concept, rare disease
 supplementary concept, unique identifier; pt = publication type; ab = abstract;
 sh = subject heading; ti = title.
+[Complete unabbreviated strategy, all databases: strategies/04_vita2023_antidepressants.txt]
 ```
 
 **Search strategy - Embase**
@@ -205,6 +206,7 @@ sh = subject heading; ti = title.
 33 31 not 32
 Note "choriocrcinoma*" is a typo for choriocarcinoma* in the published Embase and
 CENTRAL appendices; the MEDLINE appendix spells it correctly.
+[Complete unabbreviated strategy, all databases: strategies/04_vita2023_antidepressants.txt]
 ```
 
 **Search strategy - Web of Science**
@@ -229,6 +231,7 @@ Web of Science was not used.
 #10-#16 [antidepressant class MeSH explosions and the ~70-agent drug-name list]
 #17 #9 or #10 or #11 or #12 or #13 or #14 or #15 or #16
 #18 #3 and #8 and #17]
+[Complete unabbreviated strategy, all databases: strategies/04_vita2023_antidepressants.txt]
 ```
 
 ## Kulchycki M, 2024 - JAMA Network Open
@@ -295,6 +298,7 @@ filter lines 20-32):]
 32 30 not 31
 33 4 and 7 and 19 and 32
    limit 33 to (english language and yr="1980 -Current")
+[Complete unabbreviated strategy, all databases: strategies/04_kulchycki2024_aerobic-activity-depression.txt]
 ```
 
 **Search strategy - Embase**
@@ -326,6 +330,7 @@ depression blocks; exercise block lines 8-19, design filter lines 20-29):]
 31 29 not 30
 32 4 and 7 and 19 and 31
 33 limit 32 to (english language and yr="1980 -Current")
+[Complete unabbreviated strategy, all databases: strategies/04_kulchycki2024_aerobic-activity-depression.txt]
 ```
 
 **Search strategy - Web of Science**
@@ -356,5 +361,6 @@ sets 5-15 and the design filter sets 16-24):
 ...
 25 #3 AND #4 AND #15 AND #24
 26 #25 AND PUBYEAR AFT 1979 AND ( LIMIT-TO ( LANGUAGE , "English" ) )]
+[Complete unabbreviated strategy, all databases: strategies/04_kulchycki2024_aerobic-activity-depression.txt]
 ```
 

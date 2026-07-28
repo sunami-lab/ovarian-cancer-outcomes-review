@@ -1,0 +1,313 @@
+# Gomes B, 2013 - Cochrane Database of Systematic Reviews
+# DOI: https://doi.org/10.1002/14651858.CD007760.pub2
+# Source: Appendices 1-5 of the review (MEDLINE, PaPaS Register, EPOC Register, CENTRAL/CDSR/DARE/HTA/NHS EED, EMBASE)
+# Transcribed verbatim, including the typographical errors noted in the workbook.
+# Nothing below has been corrected, translated or reconstructed.
+##############################################################################
+
+Appendix 1. MEDLINE search strategy
+ 1. exp Palliative Care/
+ 2. exp Terminal Care/
+ 3. exp Terminally Ill/
+ 4. palliat*.mp. [mp=title, original title, abstract, name of substance word, subject heading word, unique identifier]
+ 5. (terminal* and (care or caring or ill*)).mp. [mp=title, original title, abstract, name of substance word, subject heading word, unique identifier]
+ 6. ((advanced or end stage or terminal*) adj4 (disease* or illness* or cancer* or malignan*)).mp. [mp=title, original title, abstract, name of substance word, subject heading word, unique identifier]
+ 7. (last year of life or LYOL or life's end or end of life).mp. [mp=title, original title, abstract, name of substance word, subject heading word, unique identifier]
+ 8. or/1‐7
+ 9. exp Home Care Services/
+ 10. exp Home Care Agencies/
+ 11. exp Mobile Health Units/
+ 12. exp Community Health Nursing/
+ 13. (home adj4 (hospital or palliat*)).mp. [mp=title, original title, abstract, name of substance word, subject heading word, unique identifier]
+ 14. ((macmillan or marie curie or district) adj nurs*).mp. [mp=title, original title, abstract, name of substance word, subject heading word, unique identifier]
+ 15. ((home or in‐home or domicile or outreach or residential or housing or posthospital or post‐hospital or communit* or mobile or ambulatory or door to door) adj2 (team* or center* or centre* or treat* or care or interven* or therap* or management or model* or program or programs or programme* or service* or base* or nurs*)).mp.
+ 16. (homecare or home‐care or homebased or home‐based).mp. [mp=title, original title, abstract, name of substance word, subject heading word, unique identifier]
+ 17. or/9‐16
+ 18. hospice*.mp.
+ 19. 18 or (8 and 17)
+ 20. (child* or adolescent* or infant* or baby or babies or neonat* or juvenil* or pediatric* or paediatric* or young person* or young people or youth* or young adult* or matern*).ti.
+ 21. 19 not 20
+ 22. clinical trial/ or controlled clinical trial/ or multicenter study/ or randomized controlled trial/
+ 23. (randomized controlled trial or controlled clinical trial or multicenter study).pt.
+ 24. chi‐square distribution/ or chi‐square?.ti,ab.
+ 25. "random*".ab,ti.
+ 26. controlled.ti.
+ 27. trial.ti.
+ 28. Control Groups/
+ 29. (control* adj2 (clinical or group* or trial* or study or studies or design* or method*)).ti,ab.
+ 30. ((multicent* or multi‐cent* or multisite? or multi‐site?) adj (study or studies or trial*)).ti,ab.
+ 31. double‐blind method/ or single‐blind method/
+ 32. ((single or double or triple or treble) adj blind*).ti,ab.
+ 33. or/22‐32
+ 34. (intervention? or multiintervention? or multi‐intervention? or postintervention? or post‐intervention? or preintervention? or pre‐intervention?).ti,ab.
+ 35. intervention.hw.
+ 36. (pre‐post or "pre test*" or pretest* or posttest* or "post test*" or "pre and post").ti,ab,hw.
+ 37. before‐after.ti,ab.
+ 38. (before adj4 after).ti,ab.
+ 39. ("quasi‐experiment*" or quasiexperiment* or "quasi random*" or quasirandom* or "quasi control*" or quasicontrol* or ((quasi* or experimental) adj3 (method* or study or studies or trial or design*))).ti,ab,hw.
+ 40. ("time series" adj2 interrupt*).ti,ab,hw.
+ 41. or/34‐40
+ 42. follow‐up studies/
+ 43. (("follow up" or follow‐up) adj2 (design or study or studies)).ti,ab.
+ 44. pilot projects/
+ 45. pilot.ti. or (pilot* adj3 (program* or project? or study or studies)).ab.
+ 46. comparative study.pt.
+ 47. (comparative and (study or studies)).ti.
+ 48. intervention studies/
+ 49. evaluation studies.pt.
+ 50. evaluat*.ti.
+ 51. or/42‐50
+ 52. 33 or 41 or 51
+ 53. groups.ab.
+ 54. 52 or 53
+ 55. humans.sh.
+ 56. 54 and 55
+ 57. 56 and 21
+ Appendix 2. PaPaS Trials Register search strategy
+ hospice* or ((palliat* or terminal* or "end stage") and (home or community or outreach or ambulatory))
+ Appendix 3. EPOC Group Register search strategy
+ 1. hospice* (all indexed fields)
+ 2. hospice\* (all non‐indexed fields)
+ 3. palliative (abstract)
+ 4. (palliative) AND (home\*) (all non‐indexed fields)
+ 5. (palliative) AND (home\*) (all indexed fields)
+ 6. (Hospice care*) OR (Hospices*) (keywords)
+ 7. (#1 OR #2 OR #3 OR #4 OR #5 OR #6)
+ Appendix 4. CENTRAL, CDSR, DARE, HTA and NHS EED search strategy
+ 1. MeSH descriptor Palliative Care explode all trees
+ 2.  MeSH descriptor Terminal Care explode all trees
+ 3.  MeSH descriptor Terminally Ill explode all trees
+ 4.  (palliat*):ti,ab,kw
+ 5.  (terminal* and (care or caring or ill*))
+ 6.  (advanced or end stage or terminal*) near/4 (disease* or illness* or cancer* or malignan*):ti,ab,kw
+ 7.  (last year of life or LYOL or life's end or end of life):ti,ab,kw
+ 8.  (#1 OR #2 OR #3 OR #4 OR #5 OR #6 OR #7)
+ 9.  MeSH descriptor Home Care Services explode all trees
+ 10. MeSH descriptor Home Care Agencies explode all trees
+ 11. MeSH descriptor Mobile Health Units explode all trees
+ 12. MeSH descriptor Community Health Nursing explode all trees
+ 13. (macmillan or marie curie or district) near nurs*
+ 14. (home near/4 (hospital or palliat*)):ti,ab,kw
+ 15. (home or in‐home or domicile or outreach or residential or housing or posthospital or post‐hospital or communit* or mobile or ambulatory or door to door) near/2 (team* or center* or centre* or treat* or care or interven* or therap* or management or model* or program or programs or programme* or service* or base* or nurs*):ti,ab,kw
+ 16. (homecare or home care or home‐care or homebased or home based or home‐based):ti,ab,kw
+ 17. (#9 OR #10 OR #11 OR #12 OR #13 OR #14 OR #15 OR #16)
+ 18. (hospice*):ti,ab,kw
+ 19. (#18 OR ( #8 AND #17 ))
+ 20. (child* or adolescent* or infant* or baby or babies or neonat* or juvenil* or pediatric* or paediatric* or young person* or young people or youth* or young adult* or matern*):ti
+ 21. (#19 AND NOT #20)
+ Appendix 5. EMBASE search strategy
+ 1. exp palliative therapy/
+ 2. exp palliative nursing/
+ 3. exp cancer palliative therapy/
+ 4. exp terminal care/
+ 5. exp terminal disease/
+ 6. exp terminally ill patient/
+ 7. palliat*.mp
+ 8. terminal* and (care or caring or ill*).mp
+ 9. ((advanced or end stage or terminal*) adj4 (disease* or illness* or cancer* or malignan*)).mp
+ 10. last year of life or LYOL or or end of life.mp
+ 11. or/1‐10
+ 12. exp home care/
+ 13. exp home health agency/
+ 14. exp community care/
+ 15. exp community health nursing/
+ 16. home adj4 (hospital or palliat*).mp
+ 17. (macmillan or marie curie or district) adj nurs*.mp
+ 18. (home or in‐home or domicile or outreach or residential or housing or posthospital or post‐hospital or communit* or mobile or
+ ambulatory or door to door) adj2 (team* or center* or centre* or treat* or care or interven* or therap* or management or model* or
+ program or programs or programme* or service* or base* or nurs*).mp
+ 19. homecare or home‐care or homebased or home‐based.mp
+ 20. or/12‐19
+ 21. hospice*.mp
+ 22. 21 or (11 and 20)
+ 23. (child* or adolescent* or infant* or baby or babies or neonat* or juvenil* or pediatric* or paediatric* or young person* or young people or youth* or young adult* or matern*).ti.
+ 24. 22 not 23
+ 25. clinical trial/ or controlled clinical trial/ or multicenter study/ or randomized controlled trial/
+ 26. chi‐square distribution/ or chi‐square?.ti,ab.
+ 27. "random*".ab,ti.
+ 28. controlled.ti.
+ 29. trial.ti.
+ 30. Control Groups/
+ 31. (control* adj2 (clinical or group* or trial* or study or studies or design* or method*)).ti,ab.
+ 32. ((multicent* or multi‐cent* or multisite? or multi‐site?) adj (study or studies or trial*)).ti,ab.
+ 33. double‐blind method/ or single‐blind method/
+ 34. ((single or double or triple or treble) adj blind*).ti,ab.
+ 35. (intervention? or multiintervention? or multi‐intervention? or postintervention? or post‐intervention? or preintervention? or pre‐intervention?).ti,ab.
+ 36. intervention.hw.
+ 37. (pre‐post or "pre test*" or pretest* or posttest* or "post test*" or "pre and post").ti,ab,hw.
+ 38. before‐after.ti,ab.
+ 39. (before adj4 after).ti,ab.
+ 40. ("quasi‐experiment*" or quasiexperiment* or "quasi random*" or quasirandom* or "quasi control*" or quasicontrol* or ((quasi* or experimental) adj3 (method* or study or studies or trial or design*))).ti,ab,hw.
+ 41. ("time series" adj2 interrupt*).ti,ab,hw.
+ 42. follow‐up studies/
+ 43. (("follow up" or follow‐up) adj2 (design or study or studies)).ti,ab.
+ 44. pilot projects/
+ 45. pilot.ti. or (pilot* adj3 (program* or project? or study or studies)).ab.
+ 46. (comparative and (study or studies)).ti.
+ 47. intervention studies/
+ 48. evaluat*.ti.
+ 49. or/25‐48
+ 50. groups.ab
+ 51. 49 or 50
+ 52. human.sh
+ 53. 51 and 52
+ 54. 53 and 24
+ Appendix 6. CINAHL search strategy
+ 1. MH palliative care
+ 2. MH terminal care
+ 3. MH terminally ill patients
+ 4. TX palliat*
+ 5. TX terminal* and (care or caring or ill*)
+ 6. TX ((advanced or end stage or terminal*) and (disease* or illness* or cancer* or malignan*))
+ 7. TX last year of life or LYOL or life's end or end of life
+ 8. S1 or S2 or S3 or S4 or S5 or S6 or S7
+ 9. MH home health care
+ 10. MH home health agencies
+ 11. MH mobile health units
+ 12. MH community health nursing
+ 13. TX home and (hospital or palliat*)
+ 14. TX (macmillan or marie curie or district) and nurs*
+ 15. TX (home or in‐home or domicile or outreach or residential or housing or posthospital or post‐hospital or communit* or mobile or ambulatory or door to door) and (team* or center* or centre* or treat* or care or interven* or therap* or management or model* or program or programs or programme* or service* or base* or nurs*)
+ 16. TX homecare or home‐care or homebased or home‐based
+ 17. S9 or S10 or S11 or S12 or S13 or S14 or S15 or S16
+ 18. TX hospice*
+ 19. S18 or (S8 and S17) 
+ 20. TI (child* or adolescent* or infant* or baby or babies or neonat* or juvenil* or pediatric* or paediatric* or young person* or young people or youth* or young adult* or matern*)
+ 21. S19 not S20
+ 22. MH clinical trials or MH multicenter studies
+ 23. PT clinical trial
+ 24. AB chi‐square? or TI chi‐square?
+ 25. AB "random*" or TI "random*"
+ 26. TI controlled
+ 27. TI trial
+ 28. MH control group
+ 29. AB (control* and (clinical or group* or trial* or study or studies or design* or method*)) or TI (control* and (clinical or group* or trial* or study or studies or design* or method*))
+ 30. AB ((multicent* or multi‐cent* or multisite? or multi‐site?) and (study or studies or trial*)) or TI ((multicent* or multi‐cent* or multisite? or multi‐site?) and (study or studies or trial*))
+ 31. MH triple‐blind studies or MH double‐blind studies or MH single‐blind studies
+ 32. AB ((single or double or triple or treble) and blind*) or TI ((single or double or triple or treble) and blind*)
+ 33. S22 or S23 or S24 or S25 or S26 or S27 or S28 or S29 or S30 or S31 or S32  
+ 34. AB (intervention? or multiintervention? or multi‐intervention? or postintervention? or post‐intervention? or preintervention? or pre‐intervention?) or TI (intervention? or multiintervention? or multi‐intervention? or postintervention? or post‐intervention? or preintervention? or pre‐intervention?)
+ 35. MW intervention
+ 36. AB (pre‐post or "pre test*" or pretest* or posttest* or "post test*" or "pre and post") or TI (pre‐post or "pre test*" or pretest* or posttest* or "post test*" or "pre and post") or MW (pre‐post or "pre test*" or pretest* or posttest* or "post test*" or "pre and post")
+ 37. AB before‐after or TI before‐after
+ 38. AB (before and after) or TI (before and after)
+ 39. AB ("quasi‐experiment*" or quasiexperiment* or "quasi random*" or quasirandom* or "quasi control*" or quasicontrol* or ((quasi* or experimental) and (method* or study or studies or trial or design*))) or TI ("quasi‐experiment*" or quasiexperiment* or "quasi random*" or quasirandom* or "quasi control*" or quasicontrol* or ((quasi* or experimental) and (method* or study or studies or trial or design*))) or MW ("quasi‐experiment*" or quasiexperiment* or "quasi random*" or quasirandom* or "quasi control*" or quasicontrol* or ((quasi* or experimental) and (method* or study or studies or trial or design*)))
+ 40. BG ("time series" and interrupt*) or TI ("time series" and interrupt*) or MW ("time series" and interrupt*)
+ 41. S34 or S35 or S36 or S37 or S38 or S39 or S40  
+ 42. MH prospective studies
+ 43. AB (("follow up" or follow‐up) and (design or study or studies)) or TI (("follow up" or follow‐up) and (design or study or studies))
+ 44. MH pilot studies
+ 45. TI pilot or AB (pilot* and (program* or project? or study or studies))
+ 46. MH comparative studies
+ 47. TI (comparative and (study or studies))
+ 48. MH evaluation research
+ 49. MH program evaluation
+ 50. TI evaluat*
+ 51. S42 or S43 or S44 or S45 or S46 or S47 or S48 or S49 or S50  
+ 52. S33 or S41 or S51
+ 53. AB groups
+ 54. S52 or S53
+ 55. S54 and S21
+ Appendix 7. PsycINFO search strategy
+ 1. exp palliative care/
+ 2. exp terminal cancer/
+ 3. exp terminally ill patients/
+ 4. palliat*.mp
+ 5. terminal* and (care or caring or ill*).mp
+ 6. ((advanced or end stage or terminal*) adj4 (disease* or illness* or cancer* or malignan*)).mp
+ 7. last year of life or LYOL or life's end or end of life.mp
+ 8. or/1‐7
+ 9. exp home care/
+ 10. exp home visiting programs/
+ 11. home adj4 (hospital or palliat*).mp
+ 12. (macmillan or marie curie or district) adj nurs*.mp
+ 13. (home or in‐home or domicile or outreach or residential or housing or posthospital or post‐hospital or communit* or mobile or ambulatory or door to door) adj2 (team* or center* or centre* or treat* or care or interven* or therap* or management or model* or program or programs or programme* or service* or base* or nurs*).mp
+ 14. homecare or home‐care or homebased or home‐based.mp
+ 15. or/9‐14
+ 16. hospice*.mp
+ 17. 16 or (8 and 15)
+ 18. (child* or adolescent* or infant* or baby or babies or neonat* or juvenil* or pediatric* or paediatric* or young person* or young people or youth* or young adult* or matern*).ti.
+ 19. 17 not 18
+ 20. clinical trial/
+ 21. chi‐square?.ti,ab.
+ 22. "random*".ab,ti.
+ 23. controlled.ti.
+ 24. trial.ti.
+ 25. Control Groups/
+ 26. (control* adj2 (clinical or group* or trial* or study or studies or design* or method*)).ti,ab.
+ 27. ((multicent* or multi‐cent* or multisite? or multi‐site?) adj (study or studies or trial*)).ti,ab.
+ 28. ((single or double or triple or treble) adj blind*).ti,ab.
+ 29. or/20‐28
+ 30. (intervention? or multiintervention? or multi‐intervention? or postintervention? or post‐intervention? or preintervention? or pre‐intervention?).ti,ab.
+ 31. intervention.hw.
+ 32. (pre‐post or "pre test*" or pretest* or posttest* or "post test*" or "pre and post").ti,ab,hw.
+ 33. before‐after.ti,ab.
+ 34. (before adj4 after).ti,ab.
+ 35. ("quasi‐experiment*" or quasiexperiment* or "quasi random*" or quasirandom* or "quasi control*" or quasicontrol* or ((quasi* or experimental) adj3 (method* or study or studies or trial or design*))).ti,ab,hw.
+ 36. ("time series" adj2 interrupt*).ti,ab,hw.
+ 37. or/30‐36
+ 38. followup studies/
+ 39. (("follow up" or follow‐up) adj2 (design or study or studies)).ti,ab.
+ 40. pilot.ti. or (pilot* adj3 (program* or project? or study or studies)).ab.
+ 41. (comparative and (study or studies)).ti.
+ 42. treatment effectiveness evaluation/
+ 43. evaluat*.ti.
+ 44. or/38‐43
+ 45. 29 or 37 or 44
+ 46. groups.ab
+ 47. 45 or 46
+ 48. 47 and 19
+ Appendix 8. EURONHEED search strategy
+ 1. hospice*
+ 2. (palliat* or terminal* or end stage) and (home* or community or outreach or ambulatory)
+ 3. (#1 or #2)
+ Appendix 9. References of literature reviews screened
+ Curiale 2007: Curiale V, Cella A, Luzzani M, Prete C. Home‐based palliative care for adults with cancer. (Protocol) Cochrane Database of Systematic Reviews 2007; Issue 2. Art. No.: CD006510. DOI: 10.1002/14651858.CD006510
+ Douglas 2003: Douglas HR, Halliday D, Normand C, Corner J, Bath P, Beech N, et al. Economic evaluation of specialist cancer and palliative nursing: a literature review. International Journal of Palliative Nursing 2003; 9(10): 424‐8.
+ Dy 2008: Dy SM, Shugarman LR, Lorenz KA, Mularski RA, Lynn J. A systematic review of satisfaction with care at the end of life. Journal of the American Geriatrics Society 2008; 56(1): 124‐9.
+ Elkan 2001: Elkan R, Kendrick D, Dewey M, Hewitt M, Robinson J, Blair M, et al. Effectiveness of home based support for older people: systematic review and meta‐analysis. BMJ 2001; 323(7315): 719‐25.
+ Evans 2003: Evans R, Stone D, Elwyn G. Organizing palliative care for rural populations: a systematic review of the evidence. Family Practice 2003; 20(3): 304‐10.
+ Finlay 2002: Finlay IG, Higginson IJ, Goodwin DM, Cook AM, Edwards AG, Hood K, et al. Palliative care in hospital, hospice, at home: results from a systematic review. Annals of Oncology 2002; 13 suppl 4: 257‐64.
+ Fordham 1999: Fordham S, Dowrick C. Is care of the dying improving? The contribution of specialist and non‐specialist to palliative care. Family Practice 1999; 16(6): 573‐9.
+ Francke 2000: Francke AL. Evaluative research on palliative support teams: a literature review. Patient Education & Counseling 2000; 41(1): 83‐91.
+ García‐Pérez 2008: García‐Pérez L, Linertová R, Martín‐Olivera R, Serrano‐Aguilar P, Benítez‐Rosario MA. A systematic review of specialised palliative care for terminal patients: which model is better? Palliative Medicine 2009; 23(1): 17‐22.
+ Gomes 2006 : Gomes B, Higginson IJ. Factors influencing death at home in terminally ill patients with cancer: systematic review. BMJ 2006; 332(7540): 515‐8.
+ Harding 2003 : Harding R, Higginson IJ. What is the best way to help caregivers in cancer and palliative care? A systematic literature review of interventions and their effectiveness. Palliative Medicine 2003; 17(1): 63‐74.
+ Harding 2005: Harding R, Karus D, Easterbrook P, Raveis VH, Higginson IJ, Marconi K. Does palliative care improve outcomes for patients with HIV/AIDS? A systematic review of the evidence. Sexually Transmitted Infections 2005; 81(1): 5‐14.
+ Harding 2011 : Harding R, List S, Epiphaniou E, Jones H. How can informal caregivers in cancer and palliative care be supported? An updated systematic literature review of interventions and their effectiveness. Palliative Medicine 2012; 26(1): 7‐22.
+ Hearn 1998: Hearn J, Higginson IJ. Do specialist palliative care teams improve outcomes for cancer patients? A systematic literature review. Palliative Medicine 1998; 12(5): 317‐32.
+ Higginson 2000 a: Higginson IJ, Finlay IG, Goodwin DM, Cook AM, Edwards AGK, Hood K, et al. The role of palliative care teams: a systematic review of their effectiveness and cost‐effectiveness. Report to Wales Office of Research and Development of the National Assembly of Wales London: Department of Palliative Care and Policy, Velindre NHS Trust, and Department of General Practice, University of Wales College of Medicine, 2000.
+ Higginson 2000 b: Higginson IJ, Sen‐Gupta GJ. Place of care in advanced cancer: a qualitative systematic literature review of patient preferences. Journal of Palliative Medicine 2000; 3(3): 287‐300.
+ Higginson 2003 : Higginson IJ, Finlay IG, Goodwin DM, Hood K, Edwards AGK, Cook A, et al. Is there evidence that palliative care teams alter end‐of‐life experiences of patients and their caregivers? Journal of Pain & Symptom Management 2003; 25(2): 150‐68.
+ Holland 2005: Holland R, Battersby J, Harvey I, Lenaghan E, Smith J, Hay L. Systematic review of multidisciplinary interventions in heart failure. Heart 2005; 91(7): 899‐906.
+ Hughes 1997: Hughes SL, Ulasevich A, Weaver FM, Henderson W, Manheim L, Kubal JD, et al Impact of home care on hospital days: a meta analysis. Health Services Research 1997; 32(4): 415‐32.
+ Ingleton 2003: Ingleton C, Payne S, Nolan M, Carey I. Respite in palliative care: a review and discussion of the literature. Palliative Medicine 2003; 17(7): 567‐75.
+ Lindstrom 2009: Lindstrom KB, Melnyk BM. Interventions for family caregivers of loved ones on hospice: a literature review with recommendations for clinical practice and future research. Journal of Hospice & Palliative Nursing 2009; 11(3): 167‐78.
+ McAlister 2001: McAlister FA, Lawson FM, Teo KK, Armstrong PW. A systematic review of randomized trials of disease management programs in heart failure. American Journal of Medicine 2001;  110(5): 378‐84.
+ McPherson 2001: McPherson CJ, Higginson IJ, Hearn J. Effective methods of giving information in cancer: a systematic literature review of randomized controlled trials. Journal of Public Health Medicine 2001; 23(3): 227‐34.
+ Miller 2009: Miller RG, Jackson CE, Kasarskis EJ, England JD, Forshew D, Johnston W, et al. Practice Parameter update: the care of the patient with amyotrophic lateral sclerosis: multidisciplinary care, symptom management, and cognitive/behavioral impairment (an evidence‐based review): Report of the Quality Standards Subcommittee of the American Academy of Neurology. Neurology 2009; 73(15): 1227‐33.
+ Murray 2009: Murray MA, Fiset V, Young S, Kryworuchko J. Where the dying live: a systematic review of determinants of place of end‐of‐life cancer care. Oncology Nursing Forum 2009; 36(1): 69‐77.
+ National Institutes of Health 2004: National Institutes of Health (NIH) State‐of‐the‐Science Conference Statement on improving end‐of‐life care. NIH Consensus & State‐of‐the‐Science Statements 2004; 21: 1‐26.
+ Nowak 1998: Nowak F, Nagle L, Bernardo A. Review: case management programmes improve patient outcomes [commentary on Ferguson JA, Weinberger M. Case management programs in primary care. Journal of General Internal Medicine 1998; 13:123‐126]. Evidence‐Based Nursing 1998; 1(4): 128.
+ Phillips 2004: Phillips CO, Wright SM, Kern DE, Singa RM, Shepperd S, Rubin HR. Comprehensive discharge planning with postdischarge support for older patients with congestive heart failure: a meta‐analysis. JAMA 2004; 291(11): 1358‐67.
+ Rinck 1997 : Rinck GC, van den Bos GA, Kleijnen J, de Haes HJ, Schade E, Veenhof CH. Methodologic issues in effectiveness research on palliative cancer care: a systematic review. Journal of Clinical Oncology 1997; 15(4): 1697‐707.
+ Robinson 1996 : Robinson BE, Pham H. Cost‐effectiveness of hospice care. Clinics in Geriatric Medicine 1996; 12(2): 417‐28.
+ Salisbury 1999: Salisbury C, Bosanquet N, Wilkinson EK, Franks PJ, Kite S, Lorentzon M, et al. The impact of different models of specialist palliative care on patients' quality of life: a systematic literature review. Palliative Medicine 1999; 13(1): 3‐17
+ Shepperd 1998: Shepperd S, Iliffe S. The effectiveness of hospital at home compared with in‐patient hospital care: A systematic review . Journal of Public Health Medicine 1998; 20(3): 344‐50.
+ Shepperd 2005: Shepperd S, Iliffe S. Hospital at home versus in‐patient hospital care. Cochrane Database of Systematic Reviews 2005, Issue 3. Art. No.: CD000356.
+ Shepperd 2008: Shepperd S, Doll H, Angus RM, Clarke MJ, Iliffe S, Kalra L, et al. Admission avoidance hospital at home. Cochrane Database of Systematic Reviews 2008, Issue 4. Art. No.: CD007491. DOI: 10.1002/14651858.CD007491.
+ Shepperd 2009: Shepperd S, Doll H, Broad J, Gladman J, Iliffe S, Langhorne P, et al. Early discharge hospital at home. Cochrane Database of Systematic Reviews 2009, Issue 1. Art. No.: CD000356. DOI: 10.1002/14651858.CD000356.
+ Shepperd 2011 : Shepperd S, Wee B, Straus S. Hospital at home: home‐based end of life care. Cochrane Database of Systematic Reviews 2011, Issue 7. Art. No.: CD009231. DOI: 10.1002/14651858.CD009231.
+ Smeenk 1998b : Smeenk FWJ, Van Haastregt JCM, de Witte LP, Crebolder HFJ. Effectiveness of home care programmes for patients with incurable cancer on their quality of life and time spent in hospital: systematic review. BMJ 1998; 316(7149): 1939‐44.
+ Soderstrom 1999: Soderstrom L, Tousignant P, Kaufman T. The health and cost effects of substituting home care for inpatient acute care: a review of the evidence. Canadian Medical Association Journal 1999; 160(8): 1151‐5.
+ Stuck 2002: Stuck AE, Egger M, Hammer A, Minder CE, Beck JC. Home visits to prevent nursing home admission and functional decline in elderly people: systematic review and meta‐regression analysis. JAMA 2002; 287(8): 1022‐8.
+ Taylor 2005: Taylor SJC, Bestall JC, Cotter S, Falshaw M, Hood SG, Parsons S, et al. Clinical service organisation for heart failure . Cochrane Database of Systematic Reviews 2005, Issue 2. Art. No.: CD002752. DOI: 10.1002/14651858.CD002752.pub2.
+ Thomé 2003: Thomé B, Dykes A, Hallberg IR. Home care with regard to definition, care recipients, content and outcome: systematic literature review. Journal of Clinical Nursing 2003; 12(6): 860‐72.
+ Thomas 2006: Thomas RE, Wilson D, Sheps S. A literature review of randomized controlled trials of the organization of care at the end of life. Canadian Journal on Aging 2006; 25(3): 271‐93.
+ Tieman 2008: Tieman J, Sladek R, Currow D. Changes in the quantity and level of evidence of palliative and hospice care literature: the last century. Journal of Clinical Oncology 2008; 26(35): 5679‐83.
+ Turner‐Stokes 2005: Turner‐Stokes L, Nair A, Sedki I, Disler PB, Wade DT.  Multi disciplinary rehabilitation for acquired brain injury in adults of working age. Cochrane Database of Systematic Reviews 2005, Issue 3. Art. No: CD004170. DOI: 10.1002/14651858.CD004170.pub2.
+ van Haastregt 2000: van Haastregt JC, Diederiks JP, van Rossum E, de Witte LP, Crebolder HF. Effects of preventive home visits to elderly people living in the community: systematic review. BMJ 2000; 320(7237): 754‐8.
+ Wilkinson 1999: Wilkinson EK, Salisbury C, Bosanquet N, Franks PJ, Kite S, Lorentzon M, et al. Patient and carer preference for, and satisfaction with, specialist models of palliative care: a systematic literature review. Palliative Medicine 1999; 13(3): 197‐216.
+ Wilson 2006: Wilson DM, Justice C, Sheps S, Thomas R, Reid P, Leibovici K. Planning and providing end‐of‐life care in rural areas. Journal of Rural Health 2006; 22(2): 174‐81.
+ Young 2010: Young T, Busgeeth K. Home based care for reducing morbidity and mortality in people infected with HIV/AIDS Cochrane Database of Systematic Reviews 2010, Issue 1. Art. No.: CD005417. DOI: 10.1002/14651858.CD005417.pub2.
+ Zimmermann 2008 : Zimmermann C, Riechelmann R, Krzyzanowska M, Rodin G, Tannock I. Effectiveness of specialized palliative care: a systematic review. JAMA 2008; 299(14): 1698‐709.

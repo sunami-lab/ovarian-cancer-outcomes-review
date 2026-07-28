@@ -163,6 +163,7 @@ O: Physical function endpoints - handgrip strength, 6-minute walk test, timed
 25 24 not 19
 26 19 or 24
 Note: no physical-function terms appear in the strategy.
+[Complete unabbreviated strategy, all databases: strategies/02_mcdonald2023_cachexia-physical-function.txt]
 ```
 
 **Search strategy - Embase**
@@ -213,6 +214,7 @@ standard Embase RCT/observational filter, lines 7-45):]
 51 limit 50 to conference abstracts
 52 50 not 51
 53 52 not 45
+[Complete unabbreviated strategy, all databases: strategies/02_mcdonald2023_cachexia-physical-function.txt]
 ```
 
 **Search strategy - Web of Science**
@@ -237,6 +239,7 @@ Central Register of Controlled Trials, 1990 to 2 June 2021. Web of Science was n
    or adenoma or metasta*))):ti,ab,kw
 #8 [same term list combined with AND rather than near/3]:ti
 #9 #6 or #7 or #8 with Publication Year from 1990 to 2021, in Trials]
+[Complete unabbreviated strategy, all databases: strategies/02_mcdonald2023_cachexia-physical-function.txt]
 ```
 
 ## Scheepers ERM, 2020 - Haematologica

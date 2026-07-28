@@ -80,6 +80,7 @@ November 2011 (190 hits). Appendix 1, verbatim - lines 32-58 are the HRQoL block
        which are covered by the companion review]
 Note "qlc-c30" is a transposition of QLQ-C30, and "sta1" of STAI, in the published
 appendix. Repair both before reuse.
+[Complete unabbreviated strategy, all databases: strategies/06_mishra2012_hrqol.txt]
 ```
 
 **Search strategy - Embase**
@@ -134,6 +135,7 @@ Appendix 3, verbatim - lines 33-58 are the HRQoL block:]
 75     32 and 65 and 66 and 71
 76     75 not 74
 (Line 69 is printed as ".mp3" - a typo for .mp.; "stal" in line 58 is STAI.)
+[Complete unabbreviated strategy, all databases: strategies/06_mishra2012_hrqol.txt]
 ```
 
 **Search strategy - Web of Science**
@@ -151,6 +153,7 @@ language or date restriction. Trial registries (WHO ICTRP, Current Controlled Tr
 CenterWatch, ClinicalTrials.gov), reference lists and expert contact were also used.
 [The CINAHL version (Appendix 4) is the same HRQoL set in EBSCOhost syntax and
 includes (MH "Functional Status") and (MH "Pain Measurement") as controlled terms.]
+[Complete unabbreviated strategy, all databases: strategies/06_mishra2012_hrqol.txt]
 ```
 
 ## Osanto S, 2024 - eClinicalMedicine
@@ -216,6 +219,7 @@ Block 4 (design): ("randomized controlled trial"[pt] OR "randomized"[ti]
   OR "phasethree"[tw] OR "phase3"[tw])
 NOT "review"[pt] AND english[la] AND ("2015/01/01"[PDAT] : "3000/12/31"[PDAT])
 NOT (phase II publication types and title terms, unless also phase III)
+[Complete unabbreviated strategy, all databases: strategies/06_osanto2024_hrqol-mhspc.txt]
 ```
 
 **Search strategy - Embase**
@@ -236,6 +240,7 @@ AND [phase III / randomised design filter] NOT review NOT meeting abstract,
 English, 2015 onwards.
 Note the population block uses ADJ4 in Embase where PubMed used a plain AND, so the
 Embase run is the more specific of the two.
+[Complete unabbreviated strategy, all databases: strategies/06_osanto2024_hrqol-mhspc.txt]
 ```
 
 **Search strategy - Web of Science**
@@ -274,6 +279,7 @@ This is the most complete Web of Science template in the collection: note TI=/AB
 used separately where PubMed uses [tw], TS= for the topic block, NEAR/5 replacing
 ADJ4, DT= for document type, la= for language and py= for an explicit year list.
 Google Scholar and the Cochrane Library were also searched.
+[Complete unabbreviated strategy, all databases: strategies/06_osanto2024_hrqol-mhspc.txt]
 ```
 
 ## Cramer H, 2017 - Cochrane Database of Systematic Reviews

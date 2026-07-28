@@ -1,0 +1,332 @@
+# McDonald J, 2023 - Journal of Cachexia, Sarcopenia and Muscle
+# DOI: https://doi.org/10.1002/jcsm.13321
+# Source: Supporting Information Appendix S1 (Documentation of literature search)
+# Transcribed verbatim, including the typographical errors noted in the workbook.
+# Nothing below has been corrected, translated or reconstructed.
+##############################################################################
+
+Documentation of literature search 
+
+Documentation on the literature search for “What is the optimal endpoint to evaluate effect of interventions aiming to treat cancer cachexia?”
+
+The following databases were searched:
+Database
+Number of retrieved references for TRIALS
+Number of retrieved references  for Cohort/ longitudinal studies
+Medline (Ovid):
+3812
+1918
+Embase (Ovid):
+2033
+2031
+Cochrane Central Register of Controlled Trials:
+1923
+
+Number of references before deduplication: 
+8166
+3949
+Number of references after deduplication: 
+5998
+3190
+
+All searches were done  02 Juni 20201 by Gunn Kleven, Senior librarian at the Library of Medicine and Science, University of Oslo.
+Number of hours spent: 30
+
+Ovid MEDLINE(R) ALL 1946 to July 01, 2021
+Date searched: 02 Juni 20201Search Strategy:
+#
+Searches
+Results
+1
+exp Neoplasms/ or (neoplasm* or cancer* or tumor* or tumour* or oncol* or malign* or carcinom* or adenocarcinom* or adenoma or metasta*).ti,ab,kf.
+4606655
+2
+Cachexia/ or Emaciation/ or Malnutrition/ or Starvation/ or Wasting syndrome/ or Thinness/ or Sarcopenia/ or Anorexia/ or *Weight Loss/
+63432
+3
+and/1-2
+9650
+4
+((cachexia or cachexic or anorexia or anorectic or emaciat* or malnutrition or underweight or starvation* or thiness or leanness or sarcopenia or wasting syndrome* or wasting disease* or weightloss* or ((appetite* or weight) adj2 (loss or loosing or losing))) adj4 (neoplasm* or cancer* or tumor* or tumour* or oncol* or malign* or carcinom* or adenocarcinom* or adenoma or metasta*)).ti,ab,kf.
+7231
+5
+((cachexia or cachexic or anorexia or anorectic or emaciat* or malnutrition or underweight or starvation* or thiness or leanness or sarcopenia or wasting syndrome* or wasting disease* or weightloss* or ((appetite* or weight) adj2 (loss or loosing or losing))) and (neoplasm* or cancer* or tumor* or tumour* or oncol* or malign* or carcinom* or adenocarcinom* or adenoma or metasta*)).ti.
+4253
+6
+or/3-5
+13924
+7
+randomized controlled trial.pt.
+536354
+8
+controlled clinical trial.pt.
+94265
+9
+randomized.ab.
+525221
+10
+placebo.ab.
+219320
+11
+drug therapy.fs.
+2343029
+12
+randomly.ab.
+360557
+13
+trial.ab.
+557904
+14
+groups.ab.
+2213680
+15
+or/7-14
+5047938
+16
+exp animals/ not humans.sh.
+4855037
+17
+15 not 16
+4388865
+18
+6 and 17
+4078
+19
+limit 18 to yr="1990 -Current"
+3812
+20
+cohort studies/ or follow-up studies/ or longitudinal studies/ or "national longitudinal study of adolescent health"/ or prospective studies/ or retrospective studies/
+2168707
+21
+(cohort* or longitudinal or prospective* or retrospective*).tw.
+2098508
+22
+or/20-21
+3012965
+23
+and/6,22
+3215
+24
+limit 23 to yr="1990 -Current"
+3139
+25
+24 not 19
+1918
+26
+19 or 24
+5730
+
+Embase Classic+Embase 1947 to 2021 July 01
+Date searched: 02 Juni 20201Search Strategy:
+#
+Searches
+Results
+1
+exp neoplasm/ or (neoplasm* or cancer* or tumor* or tumour* or oncol* or malign* or carcinom* or adenocarcinom* or adenoma or metasta*).ti,ab,kw.
+6400926
+2
+cachexia/ or emaciation/ or *malnutrition/ or starvation/ or wasting syndrome/ or *anorexia/ or sarcopenia/ or *weight loss/
+93608
+3
+and/1-2
+20654
+4
+((cachexia or cachexic or anorexia or anorectic or emaciat* or malnutrition or underweight or starvation* or thiness or leanness or sarcopenia or wasting syndrome* or wasting disease* or weightloss* or ((appetite* or weight) adj2 (loss or loosing or losing))) adj3 (neoplasm* or cancer* or tumor* or tumour* or oncol* or malign* or carcinom* or adenocarcinom* or adenoma or metasta*)).ti,ab,kw.
+9798
+5
+((cachexia or cachexic or anorexia or anorectic or emaciat* or malnutrition or underweight or starvation* or thiness or leanness or sarcopenia or wasting syndrome* or wasting disease* or weightloss* or ((appetite* or weight) adj2 (loss or loosing or losing))) and (neoplasm* or cancer* or tumor* or tumour* or oncol* or malign* or carcinom* or adenocarcinom* or adenoma or metasta*)).ti.
+6437
+6
+or/3-5
+24964
+7
+Randomized controlled trial/
+666248
+8
+Controlled clinical trial/
+463928
+9
+random$.ti,ab.
+1691555
+10
+randomization/
+91413
+11
+intermethod comparison/
+272763
+12
+placebo.ti,ab.
+330754
+13
+(compare or compared or comparison).ti.
+571937
+14
+((evaluated or evaluate or evaluating or assessed or assess) and (compare or compared or comparing or comparison)).ab.
+2334019
+15
+(open adj label).ti,ab.
+88467
+16
+((double or single or doubly or singly) adj (blind or blinded or blindly)).ti,ab.
+251401
+17
+double blind procedure/
+187924
+18
+parallel group$1.ti,ab.
+27750
+19
+(crossover or cross over).ti,ab.
+112863
+20
+((assign$ or match or matched or allocation) adj5 (alternate or group$1 or intervention$1 or patient$1 or subject$1 or participant$1)).ti,ab.
+359989
+21
+(assigned or allocated).ti,ab.
+424479
+22
+(controlled adj7 (study or design or trial)).ti,ab.
+385967
+23
+(volunteer or volunteers).ti,ab.
+264717
+24
+human experiment/
+550005
+25
+trial.ti.
+340818
+26
+or/7-25
+5516795
+27
+(random$ adj sampl$ adj7 (cross section$ or questionnaire$1 or survey$ or database$1)).ti,ab. not (comparative study/ or controlled study/ or randomi?ed controlled.ti,ab. or randomly assigned.ti,ab.)
+8736
+28
+Cross-sectional study/ not (randomized controlled trial/ or controlled clinical study/ or controlled study/ or randomi?ed controlled.ti,ab. or control group$1.ti,ab.)
+273554
+29
+(((case adj control$) and random$) not randomi?ed controlled).ti,ab.
+18641
+30
+(Systematic review not (trial or study)).ti.
+179350
+31
+(nonrandom$ not random$).ti,ab.
+17184
+32
+Random field$.ti,ab.
+2525
+33
+(random cluster adj3 sampl$).ti,ab.
+1368
+34
+(review.ab. and review.pt.) not trial.ti.
+902488
+35
+we searched.ab. and (review.ti. or review.pt.)
+37332
+36
+update review.ab.
+116
+37
+(databases adj4 searched).ab.
+43700
+38
+(rat or rats or mouse or mice or swine or porcine or murine or sheep or lambs or pigs or piglets or rabbit or rabbits or cat or cats or dog or dogs or cattle or bovine or monkey or monkeys or trout or marmoset$1).ti. and animal experiment/
+1113420
+39
+Animal experiment/ not (human experiment/ or human/)
+2339504
+40
+or/27-39
+3735626
+41
+26 not 40
+4907360
+42
+and/6,41
+3904
+43
+limit 42 to yr="1990 -Current"
+3674
+44
+limit 43 to conference abstracts
+1641
+45
+43 not 44
+2033
+46
+cohort analysis/ or follow up/ or longitudinal study/ or "national longitudinal study of adolescent health"/ or prospective study/ or retrospective study/
+3499550
+47
+((cohort adj (study or studies)) or cohort analy* or longitudinal).tw.
+705575
+48
+or/46-47
+3722608
+49
+and/6,48
+4417
+50
+limit 49 to yr="1990 -Current"
+4387
+51
+limit 50 to conference abstracts
+1639
+52
+50 not 51
+2748
+53
+52 not 45
+2031
+
+Cochrane Central Register of Controlled Trials:
+Date searched: 02 Juni 20201: Search Strategy:
+
+#1[mh Neoplasms]82548
+#2((neoplasm* or cancer* or tumor* or tumour* or oncol* or malign* or carcinom* or 
+              adenocarcinom* or adenoma or metasta*)):ti,ab,kw (Word variations have been searched)232559
+#3#1 or #2241300
+#4[mh Cachexia] or [mh ^Emaciation] or [mh ^Malnutrition] or [mh Starvation] or [mh 
+               ^"Wasting syndrome"] or [mh Thinness] or [mh Sarcopenia] or [mh Anorexia]2665
+#5MeSH descriptor: [Weight Loss] this term only6360
+#6#3 and (#4 or #5)1017
+#7(((cachexia or cachexic or anorexia or anorectic or emaciat* or malnutrition or underweight 
+ or starvation* or thiness or leanness or sarcopenia or "wasting syndrome" or "wasting syndromes" or "wasting disease" or "wasting diseases" or weightloss* or ((appetite* or weight) near/2 (loss or loosing or losing))) near/3 (neoplasm* or cancer* or tumor* or tumour* or oncol* or malign* or carcinom* or adenocarcinom* or adenoma or metasta*))):ti,ab,kw1475
+#8(((cachexia or cachexic or anorexia or anorectic or emaciat* or malnutrition or underweight or starvation* or thiness or leanness or sarcopenia or "wasting syndrome" or "wasting syndromes" or "wasting disease" or "wasting diseases" or weightloss* or ((appetite* or weight) near/2 (loss or loosing or losing))) and (neoplasm* or cancer* or tumor* or tumour* or oncol* or malign* or carcinom* or adenocarcinom* or adenoma or metasta*))):ti (Word variations have been searched)758
+#9#6 or #7 or #8 with Publication Year from 1990 to 2021, in Trials2345
+
+-571500-22860000PRISMA 2009 Flow Diagram
+-9944102720340Screening
+00Screening
+-9944104320540Eligibility
+00Eligibility
+342900811530Records identified through database searching(n =   )
+00Records identified through database searching(n =   )
+160020014973300038862001497330002914650811530Additional records identified through other sources(n =   )
+00Additional records identified through other sources(n =   )
+13569951954530Records after duplicates removed(n =   )
+00Records after duplicates removed(n =   )
+19081752983230Records screened(n =   )
+00Records screened(n =   )
+42291002983230Records excluded(n =   )
+00Records excluded(n =   )
+18859503897630Full-text articles assessed for eligibility(n =   )
+00Full-text articles assessed for eligibility(n =   )
+42291003897630Full-text articles excluded, with reasons(n =   )
+00Full-text articles excluded, with reasons(n =   )
+18859504926330Studies included in qualitative synthesis(n =   )
+00Studies included in qualitative synthesis(n =   )
+18859505955030Studies included in quantitative synthesis (meta-analysis)(n =   )
+00Studies included in quantitative synthesis (meta-analysis)(n =   )
+274320025260300027432003554730002743200458343000274320056121300035782253268980003600450424053000-9944101120140Identification
+00Identification
+-9944105920740Included
+00Included
+
+-1635257500975From: Moher D, Liberati A, Tetzlaff J, Altman DG; PRISMA Group. Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement. PLoS Med. 2009 Jul 21;6(7):e1000097. doi: 10.1371/journal.pmed.1000097
+For more information, visit www.prisma-statement.org.
+
+00From: Moher D, Liberati A, Tetzlaff J, Altman DG; PRISMA Group. Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement. PLoS Med. 2009 Jul 21;6(7):e1000097. doi: 10.1371/journal.pmed.1000097
+For more information, visit www.prisma-statement.org.

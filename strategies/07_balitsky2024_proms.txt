@@ -1,0 +1,1112 @@
+# Balitsky AK, 2024 - JAMA Network Open
+# DOI: https://doi.org/10.1001/jamanetworkopen.2024.24793
+# Source: eAppendices (search strategies) in Supplement 1 - Medline, Embase, PsycInfo, CINAHL, both the original and the updated search
+# Transcribed verbatim, including the typographical errors noted in the workbook.
+# Nothing below has been corrected, translated or reconstructed.
+##############################################################################
+
+Database: OVID Medline Epub Ahead of Print, In-Process & Other Non-Indexed Citations, Ovid 
+MEDLINE(R) Daily and Ovid MEDLINE(R) 1946 to Present 
+Search Strategy: 
+-------------------------------------------------------------------------------- 
+1     exp Neoplasms/ (3489255) 
+2     (cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia* or leukaemia* 
+or sarcoma* or lymphoma* or melanoma* or blastoma* or myeloma*).mp. (4606954) 
+3     1 or 2 (4799855) 
+4     (patient reported outcomes or patient reported outcome or patient based outcome or patient 
+reported outcome measure$).mp. (27045) 
+5     (inventory or instrument* or measure* or self-report*).ti,ab. (3825061) 
+6     4 and 5 (17872) 
+7     3 and 6 (3253) 
+8     Epidemiologic Studies/ (8708) 
+9     exp Case-Control Studies/ (1189370) 
+10     exp Cohort Studies/ (2159240) 
+11     Case control.tw. (134508) 
+12     (cohort adj (study or studies)).tw. (238711) 
+13     Cohort analy$.tw. (9174) 
+14     (Follow up adj (study or studies)).tw. (51361) 
+15     (observational adj (study or studies)).tw. (123476) 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+16     Longitudinal.tw. (268228) 
+17     Retrospective.tw. (597112) 
+18     Cross sectional.tw. (400545) 
+19     Cross-sectional studies/ (372470) 
+20     or/8-19 (3264389) 
+21     exp animals/ not humans.sh. (4849833) 
+22     20 not 21 (3196743) 
+23     7 and 22 (1296) 
+24     randomized controlled trial.pt. (534665) 
+25     controlled clinical trial.pt. (94229) 
+26     randomi?ed.ab. (626711) 
+27     placebo.ab. (219040) 
+28     drug therapy.fs. (2336519) 
+29     randomly.ab. (359969) 
+30     trial.ab. (556534) 
+31     groups.ab. (2209788) 
+32     or/24-31 (5054529) 
+33     exp animals/ not humans.sh. (4849833) 
+34     32 not 33 (4396229) 
+35     7 and 34 (1463) 
+36     23 or 35 (2191) 
+37     limit 36 to yr="2012 -Current" (2030) 
+ 
+EMBASE (OVID) 
+ 
+Database: Embase <1974 to 2021 June 23>  
+Search Strategy: 
+-------------------------------------------------------------------------------- 
+1     exp malignant neoplasm/ (3666710) 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+2     (cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia* or leukaemia* 
+or sarcoma* or lymphoma* or melanoma* or blastoma* or myeloma*).mp. (6022711) 
+3     1 or 2 (6089519) 
+4     (patient reported outcomes or patient reported outcome or patient based outcome or patient 
+reported outcome measure$).mp. (49934) 
+5     (inventory or instrument* or measure* or self-report*).ti,ab. (4948202) 
+6     4 and 5 (31490) 
+7     3 and 6 (6768) 
+8     clinical study/ (155826) 
+9     case control study/ (174101) 
+10     family study/ (25360) 
+11     longitudinal study/ (157330) 
+12     retrospective study/ (1093385) 
+13     prospective study/ (693562) 
+14     randomized controlled trials/ (205892) 
+15     13 not 14 (685701) 
+16     cohort analysis/ (720879) 
+17     (Cohort adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, original 
+title, device manufacturer, drug manufacturer, device trade name, keyword, ﬂoating subheading word, 
+candidate term word] (355608) 
+18     (Case control adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, 
+original title, device manufacturer, drug manufacturer, device trade name, keyword, ﬂoating subheading 
+word, candidate term word] (233699) 
+19     (follow up adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, original 
+title, device manufacturer, drug manufacturer, device trade name, keyword, ﬂoating subheading word, 
+candidate term word] (70084) 
+20     (observational adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, 
+original title, device manufacturer, drug manufacturer, device trade name, keyword, ﬂoating subheading 
+word, candidate term word] (293105) 
+21     (epidemiologic$ adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, 
+original title, device manufacturer, drug manufacturer, device trade name, keyword, ﬂoating subheading 
+word, candidate term word] (116891) 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+22     (cross sectional adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, 
+original title, device manufacturer, drug manufacturer, device trade name, keyword, ﬂoating subheading 
+word, candidate term word] (464847) 
+23     or/8-12,15-22 (3278054) 
+24     7 and 23 (2301) 
+25     randomized controlled trial/ (663283) 
+26     Controlled clinical study/ (464263) 
+27     random$.ti,ab. (1678708) 
+28     randomization/ (91086) 
+29     intermethod comparison/ (273060) 
+30     placebo.ti,ab. (325879) 
+31     (compare or compared or comparison).ti. (540864) 
+32     ((evaluated or evaluate or evaluating or assessed or assess) and (compare or compared or 
+comparing or comparison)).ab. (2324141) 
+33     (open adj label).ti,ab. (88151) 
+34     ((double or single or doubly or singly) adj (blind or blinded or blindly)).ti,ab. (245951) 
+35     double blind procedure/ (185419) 
+36     parallel group$1.ti,ab. (27710) 
+37     (crossover or cross over).ti,ab. (111543) 
+38     ((assign$ or match or matched or allocation) adj5 (alternate or group$1 or intervention$1 or 
+patient$1 or subject$1 or participant$1)).ti,ab. (357548) 
+39     (assigned or allocated).ti,ab. (421582) 
+40     (controlled adj7 (study or design or trial)).ti,ab. (382208) 
+41     (volunteer or volunteers).ti,ab. (258723) 
+42     human experiment/ (550059) 
+43     trial.ti. (332237) 
+44     or/25-43 (5437627) 
+45     (random$ adj sampl$ adj7 ("cross section$" or questionnaire$1 or survey$ or database$1)).ti,ab. 
+not (comparative study/ or controlled study/ or randomi?ed controlled.ti,ab. or randomly 
+assigned.ti,ab.) (8620) 
+ 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+46     Cross-sectional study/ not (randomized controlled trial/ or controlled clinical study/ or controlled 
+study/ or randomi?ed controlled.ti,ab. or control group$1.ti,ab.) (272969) 
+47     (((case adj control$) and random$) not randomi?ed controlled).ti,ab. (18630) 
+48     (Systematic review not (trial or study)).ti. (178809) 
+49     (nonrandom$ not random$).ti,ab. (17084) 
+50     "Random ﬁeld$".ti,ab. (2519) 
+51     (random cluster adj3 sampl$).ti,ab. (1369) 
+52     (review.ab. and review.pt.) not trial.ti. (900966) 
+53     "we searched".ab. and (review.ti. or review.pt.) (37262) 
+54     "update review".ab. (116) 
+55     (databases adj4 searched).ab. (43608) 
+56     (rat or rats or mouse or mice or swine or porcine or murine or sheep or lambs or pigs or piglets or 
+rabbit or rabbits or cat or cats or dog or dogs or cattle or bovine or monkey or monkeys or trout or 
+marmoset$1).ti. and animal experiment/ (1114266) 
+57     Animal experiment/ not (human experiment/ or human/) (2338374) 
+58     or/45-57 (3731597) 
+59     44 not 58 (4828779) 
+60     7 and 59 (2707) 
+61     24 or 60 (4136) 
+62     limit 61 to yr="2012 -Current" (3875) 
+ 
+ 
+PsycInfo (OVID) 
+ 
+Database: APA PsycInfo <1806 to June Week 2 2021> 
+Search Strategy: 
+-------------------------------------------------------------------------------- 
+1     exp neoplasms/ (54786) 
+2     (cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia* or leukaemia* 
+or sarcoma* or lymphoma* or melanoma* or blastoma* or myeloma*).mp. (93452) 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+3     1 or 2 (93746) 
+4     patient reported outcome measures/ (389) 
+5     (patient reported outcomes or patient reported outcome or patient based outcome or patient 
+reported outcome measure$).mp. (3622) 
+6     (inventory or instrument* or measure* or self-report*).ti,ab. (984915) 
+7     5 and 6 (2787) 
+8     4 or 7 (2816) 
+9     3 and 8 (510) 
+ 
+Cochrane Library CENTRAL (Wiley) 
+Search Name: 2021-06-23 Amaris PROMS 
+Date Run: 24/06/2021 20:20:37 
+Comment:  
+ 
+ID Search Hits 
+#1 MeSH descriptor: [Neoplasms] explode all trees 82113 
+#2 cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia* or 
+leukaemia* or sarcoma* or lymphoma* or melanoma* or blastoma* or myeloma* 253639 
+#3 #1 or #2 257658 
+#4 "patient reported outcome" 6600 
+#5 "patient reported outcomes" 6950 
+#6 "patient based outcome" 41 
+#7 "patient reported outcome measure*" 308 
+#8 #4 or #5 or #6 or #7 10170 
+#9 #3 and #8 in Trials 2937 
+#10 #9 with Publication Year from 2012 to 2021, in Trials 2707 
+ 
+CINAHL (EBSCO) 
+# Query Results 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+S59 S41 OR S58 1,436 
+S58 S13 AND S57 804 
+S57 
+S42 OR S43 OR S44 OR S45 OR S46 OR S47 OR S48 
+OR S49 OR S50 OR S51 OR S52 OR S53 OR S54 OR 
+S55 OR S56 863,550 
+S56 AB (CLUSTER W3 RCT) 389 
+S55 
+MH (CROSSOVER DESIGN) OR MH (COMPARATIVE 
+STUDIES) 390,888 
+S54 AB (CONTROL W5 GROUP) 121,670 
+S53 PT (randomized controlled trial) 129,455 
+S52 MH (placebos) 12,905 
+S51 
+MH (sample size) AND AB (assigned OR allocated OR 
+control) 4,159 
+S50 TI (trial) 150,765 
+S49 AB (random*) 340,663 
+S48 TI (randomised OR randomized) 116,517 
+S47 (MH "Cluster Sample") 4,771 
+S46 (MH "Pretest-Posttest Design") 46,444 
+S45 (MH "Random Assignment") 68,154 
+S44 (MH "Single-Blind Studies") 14,895 
+S43 (MH "Double-Blind Studies") 50,589 
+S42 (MH "Randomized Controlled Trials") 115,887 
+S41 S13 AND S40 1,043 
+S40 S14 OR S15 OR S16 OR S17 OR S18 OR S19 OR S20 
+OR S21 OR S22 OR S23 OR S24 OR S25 OR S26 OR 
+1,421,217 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+S27 OR S28 OR S29 OR S30 OR S31 OR S32 OR S33 
+OR S34 OR S35 OR S36 OR S37 OR S38 OR S39 
+S39 TI “Descriptive stud*” OR AB “Descriptive stud*” 20,522 
+S38 TI “ecological stud*” OR AB “ecological stud*” 1,221 
+S37 TI Correlational OR AB Correlational 9,784 
+S36 TI “Interrupted time series” OR AB “Interrupted time series” 1,990 
+S35 
+TI “Controlled before and after” OR AB “Controlled before 
+and after” 387 
+S34 TI “adverse effect*” OR AB “adverse effect*” 35,941 
+S33 TI observational OR AB observational 77,429 
+S32 TI prospective* OR AB prospective* 227,749 
+S31 TI retrospective* OR AB retrospective* 228,279 
+S30 TI longitudinal OR AB longitudinal 94,317 
+S29 TI “follow up” OR AB “follow up” 268,405 
+S28 TI “cross sectional” OR AB “cross sectional” 164,597 
+S27 TI cohort* OR AB cohort* 239,577 
+S26 TI “case series” OR AB “case series” 25,054 
+S25 TI “case stud*” OR AB “case stud*” 60,552 
+S24 TI “case referent” OR AB “case referent*” 117 
+S23 TI "case control" OR AB "case control" 36,932 
+S22 TI epidemiologic OR AB epidemiologic 17,714 
+S21 (MH "Descriptive Research") 87,573 
+S20 (MH "Ecological Research") 1,267 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+S19 (MH "Correlational Studies") 27,318 
+S18 (MH "Retrospective Panel Studies") 201 
+S17 (MH "Prospective Studies+") 471,729 
+S16 (MH "Cross Sectional Studies") 208,244 
+S15 (MH "Case Studies") 24,962 
+S14 (MH "Case Control Studies+") 87,185 
+S13 S3 AND S12 2,157 
+S12 S4 OR S11 10,419 
+S11 S9 AND S10 9,103 
+S10 TX inventory or instrument* or measure* or self-report* 1,099,448 
+S9 S5 OR S6 OR S7 OR S8 13,247 
+S8 TX patient reported outcome measure* 4,482 
+S7 TX patient based outcome 144 
+S6 TX patient reported outcomes 13,119 
+S5 TX patient reported outcome 13,119 
+S4 (MH "Patient-Reported Outcomes") 3,413 
+S3 S1 OR S2 950,358 
+S2 
+TX cancer* or neoplasm* or carcinoma* or oncol* or 
+malignan* or tumor* or leukemia* or leukaemia* or 
+sarcoma* or lymphoma* or melanoma* or blastoma* or 
+myeloma* 923,592 
+S1 (MH "Neoplasms+") 580,938 
+ 
+  
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+eAppendix 2. Second Search Strategy 
+Sept 26 2022 
+database Total  Update  
+MEDLINE 2720 641 
+EMBASE 5232 1506 
+PsycInfo 605 101 
+Central 3434 769 
+CINAHL 1866 537 
+Subtotal 13857 3554 
+-dupes  1049 
+Total  2505 
+ 
+MEDLINE 
+Database: OVID Medline Epub Ahead of Print, In-Process & Other Non-Indexed Citations, Ovid 
+MEDLINE(R) Daily and Ovid MEDLINE(R) 1946 to Present 
+Search Strategy: 
+-------------------------------------------------------------------------------- 
+1     exp Neoplasms/ (3739653) 
+2     (cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia* or leukaemia* 
+or sarcoma* or lymphoma* or melanoma* or blastoma* or myeloma*).mp. (4932103) 
+3     1 or 2 (5133876) 
+4     (patient reported outcomes or patient reported outcome or patient based outcome or patient 
+reported outcome measure$).mp. (35148) 
+5     (inventory or instrument* or measure* or self-report*).ti,ab. (4129657) 
+6     4 and 5 (23296) 
+7     3 and 6 (4199) 
+8     Epidemiologic Studies/ (9182) 
+9     exp Case-Control Studies/ (1355861) 
+10     exp Cohort Studies/ (2397905) 
+11     Case control.tw. (146719) 
+12     (cohort adj (study or studies)).tw. (286109) 
+13     Cohort analy$.tw. (10766) 
+14     (Follow up adj (study or studies)).tw. (54449) 
+15     (observational adj (study or studies)).tw. (146423) 
+16     Longitudinal.tw. (301544) 
+17     Retrospective.tw. (687156) 
+18     Cross sectional.tw. (469179) 
+19     Cross-sectional studies/ (440988) 
+20     or/8-19 (3609613) 
+21     exp animals/ not humans.sh. (5049594) 
+22     20 not 21 (3536688) 
+23     7 and 22 (1705) 
+24     randomized controlled trial.pt. (577665) 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+25     controlled clinical trial.pt. (95044) 
+26     randomi?ed.ab. (689248) 
+27     placebo.ab. (231999) 
+28     drug therapy.fs. (2532652) 
+29     randomly.ab. (392069) 
+30     trial.ab. (617811) 
+31     groups.ab. (2412574) 
+32     or/24-31 (5488384) 
+33     exp animals/ not humans.sh. (5049594) 
+34     32 not 33 (4784072) 
+35     7 and 34 (1934) 
+36     23 or 35 (2881) 
+37     limit 36 to yr="2012 -Current" (2720) 
+38     limit 37 to ed=20210624-20220926 (641) 
+ 
+Embase (Ovid) 
+ 
+Database: Embase <1996 to 2022 September 23> 
+Search Strategy: 
+-------------------------------------------------------------------------------- 
+1     exp malignant neoplasm/ (3418024) 
+2     (cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia* or leukaemia* 
+or sarcoma* or lymphoma* or melanoma* or blastoma* or myeloma*).mp. (5517495) 
+3     1 or 2 (5566134) 
+4     (patient reported outcomes or patient reported outcome or patient based outcome or patient 
+reported outcome measure$).mp. (64282) 
+5     (inventory or instrument* or measure* or self-report*).ti,ab. (4618315) 
+6     4 and 5 (40053) 
+7     3 and 6 (8716) 
+8     clinical study/ (109681) 
+9     case control study/ (188489) 
+10     family study/ (22970) 
+11     longitudinal study/ (171574) 
+12     retrospective study/ (1285551) 
+13     prospective study/ (776942) 
+14     randomized controlled trials/ (234906) 
+15     13 not 14 (767551) 
+16     cohort analysis/ (892178) 
+17     (Cohort adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, original 
+title, device manufacturer, drug manufacturer, device trade name, keyword heading word, ﬂoating 
+subheading word, candidate term word] (416794) 
+18     (Case control adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, 
+original title, device manufacturer, drug manufacturer, device trade name, keyword heading word, 
+ﬂoating subheading word, candidate term word] (243481) 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+19     (follow up adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, original 
+title, device manufacturer, drug manufacturer, device trade name, keyword heading word, ﬂoating 
+subheading word, candidate term word] (59990) 
+20     (observational adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, 
+original title, device manufacturer, drug manufacturer, device trade name, keyword heading word, 
+ﬂoating subheading word, candidate term word] (351908) 
+21     (epidemiologic$ adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, 
+original title, device manufacturer, drug manufacturer, device trade name, keyword heading word, 
+ﬂoating subheading word, candidate term word] (106643) 
+22     (cross sectional adj (study or studies)).mp. [mp=title, abstract, heading word, drug trade name, 
+original title, device manufacturer, drug manufacturer, device trade name, keyword heading word, 
+ﬂoating subheading word, candidate term word] (545584) 
+23     or/8-12,15-22 (3628028) 
+24     7 and 23 (3186) 
+25     randomized controlled trial/ (683889) 
+26     Controlled clinical study/ (421838) 
+27     random$.ti,ab. (1701896) 
+28     randomization/ (86896) 
+29     intermethod comparison/ (278169) 
+30     placebo.ti,ab. (298231) 
+31     (compare or compared or comparison).ti. (457752) 
+32     ((evaluated or evaluate or evaluating or assessed or assess) and (compare or compared or 
+comparing or comparison)).ab. (2447463) 
+33     (open adj label).ti,ab. (99161) 
+34     ((double or single or doubly or singly) adj (blind or blinded or blindly)).ti,ab. (212502) 
+35     double blind procedure/ (172786) 
+36     parallel group$1.ti,ab. (27911) 
+37     (crossover or cross over).ti,ab. (98043) 
+38     ((assign$ or match or matched or allocation) adj5 (alternate or group$1 or intervention$1 or 
+patient$1 or subject$1 or participant$1)).ti,ab. (356557) 
+39     (assigned or allocated).ti,ab. (418563) 
+40     (controlled adj7 (study or design or trial)).ti,ab. (388163) 
+41     (volunteer or volunteers).ti,ab. (220970) 
+42     human experiment/ (461689) 
+43     trial.ti. (339366) 
+44     or/25-43 (5299364) 
+45     (random$ adj sampl$ adj7 ("cross section$" or questionnaire$1 or survey$ or database$1)).ti,ab. 
+not (comparative study/ or controlled study/ or randomi?ed controlled.ti,ab. or randomly 
+assigned.ti,ab.) (8222) 
+46     Cross-sectional study/ not (randomized controlled trial/ or controlled clinical study/ or controlled 
+study/ or randomi?ed controlled.ti,ab. or control group$1.ti,ab.) (316167) 
+47     (((case adj control$) and random$) not randomi?ed controlled).ti,ab. (19261) 
+48     (Systematic review not (trial or study)).ti. (222528) 
+49     (nonrandom$ not random$).ti,ab. (15523) 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+50     "Random ﬁeld$".ti,ab. (2714) 
+51     (random cluster adj3 sampl$).ti,ab. (1418) 
+52     (review.ab. and review.pt.) not trial.ti. (992191) 
+53     "we searched".ab. and (review.ti. or review.pt.) (43710) 
+54     "update review".ab. (114) 
+55     (databases adj4 searched).ab. (53651) 
+56     (rat or rats or mouse or mice or swine or porcine or murine or sheep or lambs or pigs or piglets or 
+rabbit or rabbits or cat or cats or dog or dogs or cattle or bovine or monkey or monkeys or trout or 
+marmoset$1).ti. and animal experiment/ (793661) 
+57     Animal experiment/ not (human experiment/ or human/) (1647985) 
+58     or/45-57 (3202329) 
+59     44 not 58 (4664740) 
+60     7 and 59 (3541) 
+61     24 or 60 (5493) 
+62     limit 61 to yr="2012 -Current" (5232) 
+63     limit 62 to dc=20210623-20220926 (1506) 
+ 
+PsycInfo (OVID) 
+ 
+Database: APA PsycInfo <1806 to September Week 1 2022>  
+Search Strategy: 
+-------------------------------------------------------------------------------- 
+1     exp Neoplasms/ (58167) 
+2     (cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia* or leukaemia* 
+or sarcoma* or lymphoma* or melanoma* or blastoma* or myeloma*).mp. [mp=title, abstract, heading 
+word, table of contents, key concepts, original title, tests & measures, mesh word] (102191) 
+3     1 or 2 (102388) 
+4     patient reported outcome measures/ (584) 
+5     (patient reported outcomes or patient reported outcome or patient based outcome or patient 
+reported outcome measure$).mp. (4454) 
+6     (inventory or instrument* or measure* or self-report*).ti,ab. (1041144) 
+7     5 and 6 (3409) 
+8     4 or 7 (3462) 
+9     3 and 8 (605) 
+10     limit 9 to yr="2021 -Current" (101) 
+ 
+Cochrane Library (Wiley) 
+Search Name:  
+Date Run: 26/09/2022 21:58:20 
+Comment:  
+  
+ID Search Hits 
+#1 MeSH descriptor: [Neoplasms] explode all trees 89520 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+#2 cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia* or 
+leukaemia* or sarcoma* or lymphoma* or melanoma* or blastoma* or myeloma* 274894 
+#3 #1 or #2 279349 
+#4 "patient reported outcome" 8415 
+#5 "patient reported outcomes" 8299 
+#6 "patient based outcome" 42 
+#7 "patient reported outcome measure*" 371 
+#8 #4 or #5 or #6 or #7 12436 
+#9 #3 and #8 in Trials 3665 
+#10 #9 with Publication Year from 2012 to 2022, in Trials 3434 
+#11 #10 with Cochrane Library publication date Between Jun 2021 and Sep 2022 769 
+ 
+CINAHL (EBSCO) 
+Tuesday, September 27, 2022 5:04:57 PM 
+# Query Limiters/Expanders Last Run Via Result
+s 
+S60 S59 Limiters - Published 
+Date: 20210101-
+20221231 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+537 
+S59 S41 OR S58 Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+1,866 
+S58 S13 AND S57 Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+1,032 
+S57 S42 OR S43 OR S44 
+OR S45 OR S46 OR 
+S47 OR S48 OR S49 
+OR S50 OR S51 OR 
+S52 OR S53 OR S54 
+OR S55 OR S56 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+975,52
+2 
+S56 AB (CLUSTER W3 
+RCT) 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+471 
+S55 MH (CROSSOVER 
+DESIGN) OR MH 
+(COMPARATIVE 
+STUDIES) 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+461,15
+1 
+S54 AB (CONTROL W5 
+GROUP) 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+137,91
+4 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+S53 PT (randomized 
+controlled trial) 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+145,64
+6 
+S52 MH (placebos) Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+13,445 
+S51 MH (sample size) AND 
+AB (assigned OR 
+allocated OR control) 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+4,379 
+S50 TI (trial) Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+169,85
+6 
+S49 AB (random*) Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+383,68
+8 
+S48 TI (randomised OR 
+randomized) 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+131,82
+2 
+S47 (MH "Cluster Sample") Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+5,074 
+S46 (MH "Pretest-Posttest 
+Design") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+50,475 
+S45 (MH "Random 
+Assignment") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+75,602 
+S44 (MH "Single-Blind 
+Studies") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+15,729 
+S43 (MH "Double-Blind 
+Studies") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+53,386 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+S42 (MH "Randomized 
+Controlled Trials") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+132,36
+8 
+S41 S13 AND S40 Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+1,372 
+S40 S14 OR S15 OR S16 
+OR S17 OR S18 OR 
+S19 OR S20 OR S21 
+OR S22 OR S23 OR 
+S24 OR S25 OR S26 
+OR S27 OR S28 OR 
+S29 OR S30 OR S31 
+OR S32 OR S33 OR 
+S34 OR S35 OR S36 
+OR S37 OR S38 OR 
+S39 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+1,579,4
+04 
+S39 TI “Descriptive stud*” 
+OR AB “Descriptive 
+stud*”
+ 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+22,887 
+S38 TI “ecological stud*” OR 
+AB “ecological stud*” 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+1,439 
+S37 TI Correlational OR AB 
+Correlational 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+10,853 
+S36 TI “Interrupted time 
+series” OR AB 
+“Interrupted time series”
+ 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+2,462 
+S35 TI “Controlled before 
+and after” OR AB 
+“Controlled before and 
+after”
+ 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+415 
+S34 TI “adverse effect*” OR 
+AB “adverse effect*” 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+39,999 
+S33 TI observational OR AB 
+observational 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+90,837 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+S32 TI prospective* OR AB 
+prospective* 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+254,44
+8 
+S31 TI retrospective* OR AB 
+retrospective* 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+267,66
+3 
+S30 TI longitudinal OR AB 
+longitudinal 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+107,82
+8 
+S29 TI “follow up” OR AB 
+“follow up” 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+304,40
+3 
+S28 TI “cross sectional” OR 
+AB “cross sectional” 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+195,07
+5 
+S27 TI cohort* OR AB 
+cohort* 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+281,58
+5 
+S26 TI “case series” OR AB 
+“case series” 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+29,124 
+S25 TI “case stud*” OR AB 
+“case stud*” 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+65,635 
+S24 TI “case referent” OR 
+AB “case referent*” 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+122 
+S23 TI "case control" OR AB 
+"case control" 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+41,029 
+S22 TI epidemiologic OR AB 
+epidemiologic 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+18,975 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+S21 (MH "Descriptive 
+Research") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+94,177 
+S20 (MH "Ecological 
+Research") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+1,433 
+S19 (MH "Correlational 
+Studies") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+29,319 
+S18 (MH "Retrospective 
+Panel Studies") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+200 
+S17 (MH "Prospective 
+Studies+") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+510,24
+1 
+S16 (MH "Cross Sectional 
+Studies") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+237,40
+2 
+S15 (MH "Case Studies") Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+26,139 
+S14 (MH "Case Control 
+Studies+") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+91,982 
+S13 S3 AND S12 Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+2,802 
+S12 S4 OR S11 Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+13,647 
+S11 S9 AND S10 Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+11,768 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open. 
+S10 TX inventory or 
+instrument* or 
+measure* or self-report* 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+1,212,1
+93 
+S9 S5 OR S6 OR S7 OR 
+S8 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+17,545 
+S8 TX patient reported 
+outcome measure* 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+5,960 
+S7 TX patient based 
+outcome 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+149 
+S6 TX patient reported 
+outcomes 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+17,413 
+S5 TX patient reported 
+outcome 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+17,413 
+S4 (MH "Patient-Reported 
+Outcomes+") 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+4,896 
+S3 S1 OR S2 Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+1,051,6
+34 
+S2 TX cancer* or 
+neoplasm* or 
+carcinoma* or oncol* or 
+malignan* or tumor* or 
+leukemia* or 
+leukaemia* or sarcoma* 
+or lymphoma* or 
+melanoma* or 
+blastoma* or myeloma* 
+Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+1,022,7
+15 
+S1 (MH "Neoplasms+") Search modes - 
+Boolean/Phrase 
+Interface - EBSCOhost 
+Research Databases 
+Search Screen - Advanced 
+Search 
+Database - CINAHL 
+636,94
+5 
+ 
+© 2024 Balitsky AK et al. JAMA Network Open.

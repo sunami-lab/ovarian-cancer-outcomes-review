@@ -152,6 +152,7 @@ records:
       setting concept) - a "named-entity OR concept-intersection" construction that is
       worth borrowing whenever one word reliably identifies the topic.
       There is no satisfaction, quality-of-life or symptom term anywhere in the strategy.
+      [Complete unabbreviated strategy, all databases: strategies/08_gomes2013_home-palliative-care.txt]
     search_embase: |
       [EMBASE, 1980 to 21 November 2012. Appendix 5, verbatim (population/setting blocks;
       design filter from line 25):]
@@ -190,6 +191,7 @@ records:
          multicenter study/ or randomized controlled trial/; chi-square distribution/ or
          chi-square?.ti,ab.; "random*".ab,ti.; controlled.ti.; and the rest as in MEDLINE]
       (Line 10 is printed with a duplicated "or".)
+      [Complete unabbreviated strategy, all databases: strategies/08_gomes2013_home-palliative-care.txt]
     search_wos: |
       Not searched. Twelve databases were searched: CENTRAL (21 November 2012), EMBASE
       (1980 to 21 November 2012), MEDLINE (1950 to 21 November 2012), the Cochrane PaPaS
@@ -202,6 +204,7 @@ records:
       the PaPaS Trials Register line (Appendix 2), verbatim:
       hospice* or ((palliat* or terminal* or "end stage") and (home or community or
       outreach or ambulatory))]
+      [Complete unabbreviated strategy, all databases: strategies/08_gomes2013_home-palliative-care.txt]
     url: "https://doi.org/10.1002/14651858.CD007760.pub2"
     pmid: "23744578"
     pmcid: "PMC4473359"

@@ -135,6 +135,7 @@ records:
       35 7 and 34 (1463)
       36 23 or 35 (2191)
       37 limit 36 to yr="2012 -Current" (2030)
+      [Complete unabbreviated strategy, all databases: strategies/07_balitsky2024_proms.txt]
     search_embase: |
       [Embase via OvidSP, 1974 to 2021 (original search) and 1996 to 23 September 2022
       (update). eAppendix in Supplement 1, verbatim (population and PRO blocks; the
@@ -168,6 +169,7 @@ records:
             trial.ti.]
       Yields by database for the updated search: MEDLINE, Embase, PsycInfo 605, CENTRAL 3434,
       CINAHL 1866; subtotal 13 857, 3554 after limits, 1049 duplicates removed.
+      [Complete unabbreviated strategy, all databases: strategies/07_balitsky2024_proms.txt]
     search_wos: |
       Not searched. Databases searched were MEDLINE and MEDLINE Epub ahead of print
       (OvidSP), Embase (OvidSP), PsycINFO (OvidSP), CENTRAL and CINAHL (EBSCO), from
@@ -186,6 +188,7 @@ records:
       S11 S9 AND S10
       S12 S4 OR S11
       S13 S3 AND S12]
+      [Complete unabbreviated strategy, all databases: strategies/07_balitsky2024_proms.txt]
     url: "https://doi.org/10.1001/jamanetworkopen.2024.24793"
     pmid: "39136947"
     pmcid: "PMC11322847"

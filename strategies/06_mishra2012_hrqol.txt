@@ -1,0 +1,786 @@
+# Mishra SI, 2012 - Cochrane Database of Systematic Reviews
+# DOI: https://doi.org/10.1002/14651858.CD008465.pub2
+# Source: Appendices 1-6 of the review (MEDLINE, MEDLINE In-Process, EMBASE, CINAHL, PsycINFO, and the smaller databases)
+# Transcribed verbatim, including the typographical errors noted in the workbook.
+# Nothing below has been corrected, translated or reconstructed.
+##############################################################################
+
+Appendix 1. MEDLINE search strategy
+ [inception to May 2010; 430 hits] [January 2010 to November 2011; 190 hits]
+ exp exercise/
+ exercise tolerance/
+ exp exertion/
+ Pliability/
+ physical fitness/
+ "Physical Education and Training"/
+ exp physical endurance/
+ exercise therapy/
+ exercising.mp.
+ physical condition$.mp.
+ stamina.mp.
+ motor activity/
+ exercise test/
+ exp Sports/
+ tai chi.mp. or tai ji/
+ yoga/
+ muscle stretching exercises/
+ exp "range of motion, articular"/
+ pilates.mp.
+ qigong.mp.
+ chi kung.mp.
+ resistance training.mp.
+ mind body therap$.mp.
+ exp complementary therapies/
+ Bad Ragaz.mp.
+ Ai Chi.mp.
+ Halliwick.mp.
+ hippotherapy.mp.
+ Hydrotherapy/
+ balance exercise$.mp.
+ aquatic exercise$.mp.
+ 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20 or 21 or 22 or 23 or 24 or 25 or 26 or 27 or 28 or 29 or 30 or 31
+ "quality of life"/
+ exp health status/
+ "activities of daily living"/
+ life qualit$.mp.
+ exp self concept/
+ health level.mp.
+ level of health.mp.
+ wellness.mp.
+ well being.mp.
+ (activities of daily life or daily living activities).mp. [mp=protocol supplementary concept, rare disease supplementary concept, title, original title, abstract, name of substance word, subject heading word, unique identifier]
+ functional ability.mp.
+ good health.mp.
+ healthiness.mp.
+ patient reported outcomes.mp.
+ social adjustment/
+ physical limitations.mp.
+ psychiatric status.mp.
+ pain measurement/
+ functional assessment.mp.
+ fact questionnaire.mp.
+ fact survey.mp.
+ qlc‐c30.mp.
+ facit.mp.
+ toi.mp.
+ (flic or sf‐36 or ces‐d or bdi or sta1 or bfi or hads or lasa or poms or qli or rsci or pais or bpi or msas or mos or ptgi or panas).mp.
+ sense of coherence.mp.
+ randomized.ab.
+ placebo.ab.
+ randomly.ab.
+ trial.ab.
+ randomized controlled trial.pt.
+ controlled clinical trial.pt.
+ random$.ab
+ exp neoplasms/
+ cancer.mp.
+ (neoplasm$ or tumor$ or tumour or malignan$).mp.
+ active treatment.mp.
+ 35 or 33 or 53 or 48 or 42 or 46 or 44 or 55 or 50 or 39 or 57 or 36 or 40 or 51 or 58 or 41 or 47 or 52 or 38 or 34 or 56 or 49 or 37 or 45 or 43 or 54
+ 59 or 60 or 63 or 64 or 61 or 62 or 65
+ 66 or 67 or 68 or 69
+ 32 and 70 and 71 and 72
+ Survivors/
+ survivor.mp.
+ 74 or 75
+ 73 not 76
+ Appendix 2. CENTRAL search strategy
+ [inception to May 2010; 423 hits] [January 2010 to November 2011; 219 hits]
+ Searched via Ovid EBM Reviews
+ [mp=ti, ot, ab, tx, kw, ct, sh, hw]
+ exercise.mp.
+ physical fitness.mp.  
+ physical endurance.mp.
+ exercising.mp.  
+ physical conditioning.mp.
+ stamina.mp.
+ sports.mp.
+ tai chi.mp.
+ yoga.mp.
+ pilates.mp.
+ qigong.mp.
+ chi kung.mp.
+ resistance training.mp.   
+ mind body therap$.mp.
+ complementary therap$.mp.   
+ bad ragaz.mp.   
+ ai chi.mp.  
+ halliwick.mp.   
+ hippotherapy.mp.   
+ hydrotherapy.mp.   
+ balance exercise$.mp.   
+ aquatic exercise$.mp.   
+ exercise tolerance.mp.   
+ pliability.mp.   
+ exertion.mp.   
+ exercise therapy.mp.   
+ motor activit$.mp.   
+ exercise test$.mp.   
+ muscle stretching exercise$.mp.   
+ range of motion.mp.   
+ 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20 or 21 or 22 or 23 or 24 or 25 or 26 or 27 or 28 or 29 or 30
+ quality of life.mp.   
+ health status.mp.   
+ activities of daily living.mp.   
+ life qualit$.mp.   
+ self concept.mp.   
+ health level.mp.   
+ level of health.mp.   
+ wellness.mp.   
+ well being.mp.   
+ (activities of daily life or daily living activities).mp.   
+ functional ability.mp.  
+ good health.mp.   
+ healthiness.mp.   
+ patient reported outcomes.mp.  
+ social adjustment.mp.   
+ physical limitation$.mp.   
+ psychiatric status.mp.   
+ pain measurement.mp.   
+ functional assessment.mp.   
+ fact questionnaire.mp.   
+ fact survey.mp.   
+ qlc‐c30.mp.   
+ facit.mp.   
+ toi.mp.   
+ (flic or sf‐36 or ces‐d or bdi or sta1 or bfi or hads or lasa or poms or qli or rsci or pais or bpi or msas or mos or ptgi).mp.   
+ sense of coherence.mp.   
+ 32 or 33 or 34 or 35 or 36 or 37 or 38 or 39 or 40 or 41 or 42 or 43 or 44 or 45 or 46 or 47 or 48 or 49 or 50 or 51 or 52 or 53 or 54 or 55 or 56 or 57
+ randomized.ab.
+ placebo.ab.
+ randomly.ab.
+ trial.ab.
+ random$.ab.
+ 59 or 60 or 61 or 62 or 63
+ cancer.mp.   
+ (neoplasm$ or tumor$ or tumour$ or malignan$).mp.   
+ active treatment.mp.   
+ 65 or 66 or 67
+ 31 and 58 and 64 and 68
+ survivor$.mp.   
+ 69 not 70
+ Appendix 3. EMBASE search strategy
+ [inception to May 2010; 713 hits] [January 2010 to November 2011; 349 hits]
+ exp exercise/
+ exertion.mp.
+ pliability/
+ fitness/
+ (physical education and training).mp. [mp=title, abstract, subject headings, heading word, drug trade name, original title, device manufacturer, drug manufacturer name]
+ physical endurance.mp. or endurance/
+ kinesiotherapy/
+ exercising.mp.
+ "physical condition$".mp.
+ stamina.mp.
+ exp motor activity/
+ exp sports/
+ exercise test/
+ tai chi.mp.
+ tai ji.mp.
+ yoga/
+ stretching exercise/
+ "range of motion"/
+ pilates.mp.
+ qigong.mp.
+ chi kung.mp.
+ muscle strength/ or muscle training/ or resistance training.mp.
+ mind body therapy.mp.
+ alternative medicine/
+ bad ragaz.mp.
+ ai chi.mp.
+ halliwick.mp.
+ hippotherapy.mp.
+ hydrotherapy/
+ balance exercises.mp.
+ aquatic exercise/
+ 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20 or 21 or 22 or 23 or 24 or 25 or 26 or 27 or 28 or 29 or 30 or 31
+ "quality of life"/
+ exp health status/
+ daily life activity/
+ life qualit$.mp.
+ exp self concept/
+ health level.mp.
+ "level of health".mp.
+ wellbeing/
+ wellness.mp.
+ good health.mp.
+ functional ability.mp.
+ healthiness.mp.
+ "patient reported outcomes".mp.
+ social adaptation/
+ physical limitation$.mp.
+ psychiatric status.mp.
+ pain assessment/
+ functional assessment/
+ questionnaire/ or fact questionnaire.mp.
+ fact survey.mp.
+ health survey/
+ qlc‐c30.mp.
+ facit.mp.
+ toi.mp.
+ sense of coherence.mp.
+ (flic or sf‐36 or ces‐d or bdi or stal or bfi or hads or lasa or poms or qli or rsci or pais or bpi or msas or mos or ptgi or panas).mp. [mp=title, abstract, subject headings, heading word, drug trade name, original title, device manufacturer, drug manufacturer name]
+ randomized.ab.
+ placebo.ab.
+ randomly.ab.
+ trial.ab.
+ random$.ab.
+ randomized controlled trial.pt
+ 59 or 60 or 61 or 62 or 63 or 64
+ 35 or 33 or 53 or 48 or 42 or 46 or 44 or 55 or 50 or 39 or 57 or 36 or 40 or 51 or 58 or 41 or 47 or 52 or 38 or 34 or 56 or 49 or 37 or 45 or 43 or 54
+ exp neoplasm/
+ cancer.mp.
+ (neoplasm$ or tumor$ or tumour or malignan$).mp3    
+ active treatment
+ (67 or 68 or 69 or 70)
+ Survivors/
+ survivor$.mp.
+ 72 or 73
+ 32 and 65 and 66 and 71
+ 75 not 74
+ Appendix 4. CINAHL search strategy
+ [inception to May 2010; 92 hits] [January 2010 to November 2011; 36 hits]
+ Search ID#
+ Search Terms
+ S73
+ s72 NOT s70
+ S72
+ S32 and S59 and S65 and S71
+ S71
+ S66 or S67
+ S70
+ S68 or S69
+ S69
+ survivor*
+ S68
+ (MH "Cancer Survivors")
+ S67
+ cancer
+ S66
+ (MH "Neoplasms+")
+ S65
+ S60 or S61 or S62 or S63 or S64
+ S64
+ AB randomized controlled trial
+ S63
+ PT clinical trial
+ S62
+ AB randomly or trial
+ S61
+ AB placebo
+ S60
+ AB randomized
+ S59
+ S33 or S34 or S35 or S36 or S37 or S38 or S39 or S40 or S41 or S42 or S43 or S44 or S45 or S46 or S47 or S48 or S49 or S50 or S51 or S52 or S55 or S56 or S57 or S58
+ S58
+ sense of coherence
+ S57
+ (flic or sf‐36 or ces‐d or bdi or sta1 or bfi or hads or lasa or poms or qli or rsci or pais or bpi or msas or mos or ptgi or panas)
+ S56
+ toi
+ S55
+ facit
+ S54
+ qlc‐c30
+ S53
+ fact survey
+ S52
+ "fact questionnaire"
+ S51
+ (MH "Functional Assessment")
+ S50
+ (MH "Pain Measurement")
+ S49
+ "psychiatric status"
+ S48
+ physical limitations
+ S47
+ (MH "Social Adjustment")
+ S46
+ "patient reported outcomes"
+ S45
+ healthiness
+ S44
+ good health
+ S43
+ (MH "Functional Status")
+ S42
+ activities of daily life or daily living activities
+ S41
+ (MH "Psychological Well‐Being")
+ S40
+ (MH "Wellness")
+ S39
+ level of health
+ S38
+ health level
+ S37
+ (MH "Self Concept+")
+ S36
+ life qualit*
+ S35
+ (MH "Activities of Daily Living")
+ S34
+ (MH "Health Status+")
+ S33
+ (MH "Quality of Life+")
+ S32
+ S1 or S2 or S3 or S4 or S5 or S6 or S7 or S8 or S9 or S10 or S11 or S12 or S13 or S14 or S15 or S16 or S17 or S18 or S19 or S20 or S21 or S22 or S23 or S24 or S25 or S26 or S27 or S28 or S29 or S30 or S31
+ S31
+ aquatic exercise*
+ S30
+ balance exercise*
+ S29
+ hydrotherapy
+ S28
+ hippotherapy
+ S27
+ halliwick
+ S26
+ bad ragaz
+ S25
+ (MH "Alternative Therapies")
+ S24
+ mind body therap*
+ S23
+ ("resistance training") or (MH "Muscle Strengthening")
+ S22
+ chi kung
+ S21
+ qigong
+ S20
+ pilates
+ S19
+ (MH "Range of Motion")
+ S18
+ "muscle stretching exercises"
+ S17
+ (MH "Yoga")
+ S16
+ tai chi
+ S15
+ (MH "Sports+")
+ S14
+ (MH "Exercise Test")
+ S13
+ (MH "Motor Activity")
+ S12
+ stamina
+ S11
+ physical condition*
+ S10
+ exercising
+ S9
+ (MH "Therapeutic Exercise")
+ S8
+ (MH "Physical Endurance")
+ S7
+ (MH "Physical Therapy")
+ S6
+ (MH "Physical Education and Training")
+ S5
+ (MH "Physical Fitness")
+ S4
+ (MH "Pliability")
+ S3
+ (MH "Exertion")
+ S2
+ (MH "Exercise Tolerance")
+ S1
+ (MH "Exercise")
+ Open in a new tab 
+ Appendix 5. PsycINFO search strategy
+ [inception to May 2010; 18 hits] [January 2010 to November 2011; 4 hits]
+ exp exercise/
+ physical fitness/
+ exp physical endurance/
+ exercising.mp.
+ physical condition$.mp.
+ stamina.mp.
+ exp Sports/
+ tai chi.mp. or tai ji/
+ yoga/
+ pilates.mp.
+ qigong.mp.
+ chi kung.mp.
+ resistance training.mp.
+ mind body therap$.mp.
+ exp complementary therapies/
+ Bad Ragaz.mp.
+ Ai Chi.mp.
+ Halliwick.mp.
+ hippotherapy.mp.
+ balance exercise$.mp.
+ aquatic exercise$.mp.
+ "quality of life"/
+ exp health status/
+ "activities of daily living"/
+ life qualit$.mp.
+ exp self concept/
+ health level.mp.
+ level of health.mp.
+ wellness.mp.
+ well being.mp.
+ (activities of daily life or daily living activities).mp.
+ functional ability.mp.
+ good health.mp.
+ healthiness.mp.
+ patient reported outcomes.mp.
+ social adjustment/
+ physical limitations.mp.
+ psychiatric status.mp.
+ pain measurement/
+ functional assessment.mp.
+ fact questionnaire.mp.
+ fact survey.mp.
+ qlc‐c30.mp.
+ facit.mp.
+ toi.mp.
+ (flic or sf‐36 or ces‐d or bdi or sta1 or bfi or hads or lasa or poms or qli or rsci or pais or bpi or msas or mos or ptgi or panas).mp.
+ sense of coherence.mp.
+ randomized.ab.
+ placebo.ab.
+ randomly.ab.
+ trial.ab.
+ exp neoplasms/
+ cancer.mp.
+ 24 or 22 or 42 or 37 or 31 or 35 or 33 or 44 or 39 or 28 or 46 or 25 or 29 or 40 or 47 or 30 or 36 or 41 or 27 or 23 or 45 or 38 or 26 or 34 or 32 or 43
+ random$.ab.
+ (neoplasm$ or tumor$ or tumour or malignan$).mp.
+ active treatment.mp.
+ 52 or 53 or 56 or 57
+ Survivors/
+ 59 or survivor.mp.
+ exercise tolerance.mp.
+ Physical Education/
+ exertion.mp.
+ pliability.mp.
+ exercise therapy.mp.
+ Motor Processes/ or motor activity.mp.
+ exercise test.mp.
+ muscle stretching exercise*.mp.
+ "Range of Motion"/
+ hydrotherapy.mp.
+ 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20 or 21 or 61 or 62 or 63 or 64 or 65 or 66 or 67 or 68 or 69 or 70
+ 54 and 58 and 71
+ 48 or 49 or 50 or 51 or 55
+ 72 and 73
+ 74 not 60
+ Appendix 6. Other search strategies
+ LILACS search strategy [inception to May 2010; 3 hits] [January 2010 to November 2011; 12 hits]
+ Neoplasms and exercise and treatment
+ OT Seeker search strategy [inception to May 2010; 26 hits] [January 2010 to November 2011; 20 hits]
+ Database Note returned with search: A precise search did not find any articles. A less precise search has been done and the results are shown below.
+ (exercise  OR exertion OR pliability OR "physical fitness" OR "physical endurance" OR "exercise therapy" OR "motor activity" OR sports) AND cancer AND "quality of life" AND "active treatment"
+ Limits: Method: clinical trial and Diagnosis/Subdiscipline: Oncology/palliative care
+ PEDro search strategy [inception to May 2010; 71 hits] [January 2010 to November 2011; 33 hits]
+ exercise AND cancer  AND "quality of life" AND  treatment
+ SIGLE search strategy (now OpenGrey ) [inception to July 2010; 0 hits] [January 2010 to November 2011; 0 hits]
+ exercise AND (cancer OR neoplasms) AND "quality of life AND treatment
+ Sociological Abstracts (SocINDEX) search strategy [inception to May 2010; 16 hits] [January 2010 to November 2011; 1 hit]
+ Search ID#
+ Search Terms
+ S74
+ s73 NOT survivor*
+ S73
+ S32 and S58 and S71 and S72
+ S72
+ S66 or S67 or S68 or S69 or S70
+ S71
+ S59 or S60 or S61 or S62 or S63 or S64 or S65
+ S70
+ active treatment
+ S69
+ malignan*
+ S68
+ tumor or tumour
+ S67
+ neoplasm*
+ S66
+ DE Cancer
+ S65
+ AB random*
+ S64
+ controlled clinical trial
+ S63
+ randomized controlled trial
+ S62
+ AB trial
+ S61
+ AB randomly
+ S60
+ AB placebo
+ S59
+ AB randomized
+ S58
+ S33 or S34 or S35 or S36 or S37 or S38 or S39 or S40 or S41 or S42 or S43 or S44 or S45 or S46 or S47 or S48 or S49 or S50 or S51 or S52 or S54 or S55 or S56 or S57
+ S57
+ sense of coherence
+ S56
+ flic or sf‐36 or ces‐d or bdi or sta1 or bfi or hads or lasa or pms or qli or rsci or pais or bpi or msas or mos or ptgi or panas
+ S55
+ facit
+ S54
+ toi
+ S53
+ qlc‐c30
+ S52
+ fact survey
+ S51
+ fact questionnaire
+ S50
+ functional assessment
+ S49
+ pain measurement
+ S48
+ psychiatric status
+ S47
+ physical limitations
+ S46
+ DE "SOCIAL adjustment"
+ S45
+ patient reported outcomes
+ S44
+ healthiness
+ S43
+ good health
+ S42
+ functional ability
+ S41
+ activities of daily life OR daily living activities
+ S40
+ wellness
+ S39
+ level of health
+ S38
+ health level
+ S37
+ self concept
+ S36
+ life qualit*
+ S35
+ DE "ACTIVITIES of daily living"
+ S34
+ health status
+ S33
+ DE "QUALITY of life"
+ S32
+ S1 or S2 or S3 or S4 or S5 or S6 or S7 or S8 or S9 or S10 or S11 or S12 or S13 or S14 or S15 or S16 or S17 or S18 or S19 or S20 or S21 or S22 or S23 or S24 or S25 or S28 or S29 or S30 or S31
+ S31
+ aquatic exercise*
+ S30
+ balance exercise*
+ S29
+ hydrotherapy
+ S28
+ hippotherapy
+ S27
+ halliwick
+ S26
+ ai chi
+ S25
+ bad ragaz
+ S24
+ complementary therap*
+ S23
+ mind body therap*
+ S22
+ resistance training
+ S21
+ chi kung
+ S20
+ qigong
+ S19
+ pilates
+ S18
+ range of motion
+ S17
+ muscle strengthening exercise*
+ S16
+ yoga
+ S15
+ tai chi
+ S14
+ sports
+ S13
+ exercise test
+ S12
+ motor activity
+ S11
+ stamina
+ S10
+ physical condition*
+ S9
+ exercising
+ S8
+ exercise therapy
+ S7
+ physical endurance
+ S6
+ physical education
+ S5
+ DE "PHYSICAL fitness"
+ S4
+ pliability
+ S3
+ exertion
+ S2
+ exercise tolerance
+ S1
+ DE "EXERCISE"
+ Open in a new tab 
+ SportDiscus search strategy [inception to May 2010; 21 hits] [January 2010 to November 2011; 10 hits]
+ Search ID#
+ Search Terms
+ S76
+ S74 NOT S75
+ S75
+ survivor*
+ S74
+ S34 and S70 and S71 and S73
+ S73
+ S66 or S67 or S68 or S72
+ S72
+ active treatment
+ S71
+ S60 or S61 or S62 or S63 or S64 or S65 or S69
+ S70
+ S35 or S36 or S37 or S38 or S39 or S40 or S41 or S42 or S43 or S44 or S45 or S46 or S47 or S48 or S49 or S50 or S51 or S52 or S53 or S54 or S55 or S56 or S57 or S58 or S59
+ S69
+ random*
+ S68
+ cancer
+ S67
+ neoplasms
+ S66
+ DE "CANCER" OR DE "BREAST ‐‐ Cancer" OR DE "LEUKEMIA" OR DE "LUNGS ‐‐ Cancer" OR DE "MELANOMA"
+ S65
+ controlled clinical trial
+ S64
+ randomized controlled trial
+ S63
+ trial
+ S62
+ randomly
+ S61
+ placebo
+ S60
+ randomized
+ S59
+ sense of coherence
+ S58
+ (flic OR sf‐36 OR ces‐d OR bdi OR sta1 OR bfi OR hads OR lasa OR poms OR qli OR rsci OR pais OR bpi OR msas OR mos OR ptgi OR panas)
+ S57
+ toi
+ S56
+ facit
+ S55
+ qlc‐c30
+ S54
+ fact survey
+ S53
+ fact questionnaire
+ S52
+ functional assessment
+ S51
+ pain measurement
+ S50
+ psychiatric status
+ S49
+ physical limitations
+ S48
+ social adjustment
+ S47
+ patient reported outcomes
+ S46
+ healthiness
+ S45
+ good health
+ S44
+ functional ability
+ S43
+ activities of daily living OR daily living activities
+ S42
+ well being
+ S41
+ wellness
+ S40
+ level of health
+ S39
+ health level
+ S38
+ self concept
+ S37
+ life qualit*
+ S36
+ DE "ACTIVITIES of daily living"
+ S35
+ DE "QUALITY of life" OR DE "HEALTH status indicators" OR DE "LIFESTYLES" OR DE "WELL‐being"
+ S34
+ S1 or S2 or S3 or S4 or S5 or S6 or S7 or S8 or S9 or S10 or S11 or S12 or S13 or S14 or S15 or S16 or S17 or S18 or S19 or S20 or S21 or S22 or S23 or S24 or S25 or S26 or S27 or S28 or S29 or S30 or S31 or S32 or S33
+ S33
+ DE "AQUATIC exercises"
+ S32
+ balance exercise*
+ S31
+ DE hydrotherapy
+ S30
+ hippotherapy
+ S29
+ halliwick
+ S28
+ ai chi
+ S27
+ bad ragaz
+ S26
+ complementary therap*
+ S25
+ mind body therap*
+ S24
+ resistance training
+ S23
+ DE "WEIGHT training" OR DE "BENCH press" OR DE "DEAD lift (Weight lifting)" OR DE "POWERLIFTING" OR DE "SQUAT (Weight lifting)" OR DE "STONE lifting" OR DE "WEIGHT lifting"
+ S22
+ chi kung
+ S21
+ qigong
+ S20
+ DE pilates
+ S19
+ DE pilates
+ S18
+ DE "JOINTS ‐‐ Range of motion"
+ S17
+ muscle stretching exercise*
+ S16
+ DE yoga
+ S15
+ DE tai chi
+ S14
+ DE sports
+ S13
+ exercise test
+ S12
+ motor activity
+ S11
+ stamina
+ S10
+ physical condition*
+ S9
+ exercising
+ S8
+ DE "EXERCISE therapy"
+ S7
+ physical endurance
+ S6
+ DE "PHYSICAL education & training"
+ S5
+ DE "PHYSICAL fitness"
+ S4
+ pliability
+ S3
+ exertion
+ S2
+ exercise tolerance
+ S1
+ DE "EXERCISE"
+ Open in a new tab

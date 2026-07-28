@@ -1,0 +1,529 @@
+# Kulchycki M, 2024 - JAMA Network Open
+# DOI: https://doi.org/10.1001/jamanetworkopen.2024.37964
+# Source: eTable 1 (Search Strategy) in Supplement 1 - Medline, Embase, Central, Cinahl, PsycInfo, Scopus
+# Transcribed verbatim, including the typographical errors noted in the workbook.
+# Nothing below has been corrected, translated or reconstructed.
+##############################################################################
+
+eTable 1. Search Strategy 
+ 
+Medline 
+1 
+exp neoplasms/ or cancer survivors/ or psycho-oncology/ or exp hematopoietic stem 
+cell transplantation/ or stem cell transplantation/ or hematopoietic stem cell 
+mobilization/ 
+No. 
+Results 
+ 
+3739041 
+2 
+(cancer* or neoplas* or tumo?r* or malignan* or metasta* or oncogen* or oncolog* or 
+psychooncolog* or sarcoma* or leuk?emi* or lymphoma* or hodgkin* or nonhodgkin* 
+or carcino* or melanoma* or thymoma* or myeloma* or blastoma* or 
+hepatoblastoma* or mesenchymoma* or mesothelioma* or hepatoma* or 
+adenocarcinoma* or glioma*).ti,ab,kf 4317109 
+3 
+(HSCT or ((h?ematopoietic or h?emato-poietic) adj3 (transplant* or sct or bct or 
+mobili#ation)) or pbsct or pbct or psct or ((peripheral or pbsc or pbscs) adj3 
+transplant*) or autohct or autopbsct or autopbsc or autopsc or cbsct or ((autologous 
+or auto-logous or auto or allogeneic or allo-geneic or homologous or homo-logous) 
+adj hct)).ti,ab,kf 44187 
+4 or/1-3 5046055 
+5 depression/ or exp depressive disorder/ or sadness/ or demoralization/ or mental 
+health/ or happiness/ or hope/ or resilience, psychological/ 302190 
+6 
+(depress* or dysthymi* or melanchol* or affective or mood or distress* or sadness or 
+sad or hopeless* or demorali* or mental health or psych* health or wellbeing or 
+wellness or contented or contentment or happiness or hope* or resilien*).ti,ab,kf 1049135 
+7 5 or 6 1096843 
+8 exp exercise/ or exp exercise movement techniques/ or exp exercise therapy/ or 
+dancing/ or exp physical fitness/ or exp sports/ or aquatic therapy/ 375589 
+9 
+(exercis* or fitness or physiotherap* or physio therap* or kinesiotherap* or aerobics 
+or athletic* or workout or gym? or gymnasi* or work* out or (activity adj4 
+prescri*)).ti,ab,kf 462696 
+10 (physical* adj4 (activ* or fit* or condition* or recondition* or program* or 
+train*)).ti,ab,kf 187835 
+11 (activ* adj4 (living or play* or gaming or game* or lifestyle or behavio?r* or transport* 
+or commut* or transit* or travel* or aerobic*)).ti,ab,kf 177595 
+12 (crossfit* or HIIT or HIIE or plyometric* or personal train* or bodybuild* or body build* 
+or weightlift* or (weight* adj2 lift*)).ti,ab,kf 8689 
+13 ((train* or condition* or program* or session*) adj5 (weight* or strength* or enduranc* 
+or resistance or athletic* or cardiovascular or aerobic* or interval* or flexibility or 
+balance or muscle* or muscular or circuit or isometric* or isotonic* or agility or power 
+or propriocept* or coordination or gait)).ti,ab,kf 158596 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+14 
+(treadmill* or walk* or jog* or swim* or running or runner* or run or runs or marathon* 
+or triathl* or dance or dancing or climb* or stair* or elliptical* or cycling or bicycl* or 
+bike or bikes or calisthenic* or skateboard* or rowing or rower or canoe* or kayak* or 
+paddl* or skate or skating or ski or skiing or hike or hiking or jump or jumping).ti,ab,kf 532856 
+15 
+(tai ji or tai chi or ai chi or yoga or pilates or stretch or stretches or stretching or 
+flexibility or movement or qigong or qi gong or barre or tae bo or zumba or 
+jazzercise).ti,ab,kf 435748 
+16 (exergam* or wii fit or zwift or peloton or kinect).ti,ab,kf 2516 
+17 
+(martial art* or boxing or kickboxing or karate or judo or jiu jitsu or jiujitsu or 
+taekwondo or tae kwon do or fencing or wrestl* or aikido or fight* or grappl*).ti,ab,kf 48231 
+18 
+(sport* or golf* or aquatic* or gymnastic* or tennis or badminton or volleyball or ball 
+or basketball or baseball or bowling or lacrosse or racquet* or ringette or softball or 
+polo or cricket or hockey or football or soccer or rugby or handball or 
+mountaineer*).ti,ab,kf 212520 
+19 or/8-18 1877837 
+20 randomized controlled trial/ or Random Allocation/ or Double Blind Method/ or Single 
+Blind Method/ 697529 
+21 ("clinical trial, phase i" or "clinical trial, phase ii" or "clinical trial, phase iii" or "clinical 
+trial, phase iv" or controlled clinical trial or multicenter study or clinical trial or 
+pragmatic clinical trial).pt 856245 
+22 exp Clinical Trials as topic/ 374140 
+23 (clinical adj trial$).tw,kf 447472 
+24 (RCT or RCTs).tw,kf 64729 
+25 ((singl$ or doubl$ or treb$ or tripl$) adj (blind$3 or dumm* or mask$3)).tw,kf 188784 
+26 PLACEBOS/ 35916 
+27 (placebo$ or sham).tw,kf 328095 
+28 (randomized or randomised or randomly).ab 990502 
+29 trial.ti 262853 
+30 or/20-29 2287124 
+31 exp animals/ not humans.sh 5010272 
+32 30 not 31 2070023 
+33 4 and 7 and 19 and 32 1944  
+limit 33 to (english language and yr="1980 -Current")  1896 
+ 
+Embase 
+1 exp neoplasm/ or exp cancer patient/ or psycho-oncology/ or exp hematopoietic stem 
+cell transplantation/ or stem cell transplantation/  5122112 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+2 
+(cancer* or neoplas* or tumo?r* or malignan* or metasta* or oncogen* or oncolog* or 
+psychooncolog* or sarcoma* or leuk?emi* or lymphoma* or hodgkin* or nonhodgkin* 
+or carcino* or melanoma* or thymoma* or myeloma* or blastoma* or 
+hepatoblastoma* or mesenchymoma* or mesothelioma* or hepatoma* or 
+adenocarcinoma* or glioma*).ti,ab,kw 5586634 
+3 
+(HSCT or ((h?ematopoietic or h?emato-poietic) adj3 (transplant* or sct or bct or 
+mobili#ation)) or pbsct or pbct or psct or ((peripheral or pbsc or pbscs) adj3 
+transplant*) or autohct or autopbsct or autopbsc or autopsc or cbsct or ((autologous 
+or auto-logous or auto or allogeneic or allo-geneic or homologous or homo-logous) 
+adj hct)).ti,ab,kw 82961 
+4 or/1-3 6458335 
+5 
+exp depression/ or sadness/ or demoralization/ or mental health/ or psychological 
+well-being/ or happiness/ or hope/ or hopelessness/ or unhappiness/ or psychological 
+resilience/ 728081 
+6 
+(depress* or dysthymi* or melanchol* or affective or mood or distress* or sadness or 
+sad or hopeless* or demorali* or mental health or psych* health or wellbeing or 
+wellness or contented or contentment or happiness or hope* or resilien*).ti,ab,kw 1366632 
+7 5 or 6 1576315 
+8 exp exercise/ or training/ or exp physical activity/ or exp kinesiotherapy/ or dancing/ 
+or fitness/ or exp sport/ 1002836 
+9 
+(exercis* or fitness or physiotherap* or physio therap* or kinesiotherap* or aerobics 
+or athletic* or workout or gym? or gymnasi* or work* out or (activity adj4 
+prescri*)).ti,ab,kw 603035 
+10 (physical* adj4 (activ* or fit* or condition* or recondition* or program* or 
+train*)).ti,ab,kw 244515 
+11 (activ* adj4 (living or play* or gaming or game* or lifestyle or behavio?r* or transport* 
+or commut* or transit* or travel* or aerobic*)).ti,ab,kw 219102 
+12 (crossfit* or HIIT or HIIE or plyometric* or personal train* or bodybuild* or body build* 
+or weightlift* or (weight* adj2 lift*)).ti,ab,kw 10568 
+13 ((train* or condition* or program* or session*) adj5 (weight* or strength* or enduranc* 
+or resistance or athletic* or cardiovascular or aerobic* or interval* or flexibility or 
+balance or muscle* or muscular or circuit or isometric* or isotonic* or agility or power 
+or propriocept* or coordination or gait)).ti,ab,kw 201271 
+14 
+(treadmill* or walk* or jog* or swim* or running or runner* or run or runs or marathon* 
+or triathl* or dance or dancing or climb* or stair* or elliptical* or cycling or bicycl* or 
+bike or bikes or calisthenic* or skateboard* or rowing or rower or canoe* or kayak* or 
+paddl* or skate or skating or ski or skiing or hike or hiking or jump or 
+jumping).ti,ab,kw 681880 
+15 
+(tai ji or tai chi or ai chi or yoga or pilates or stretch or stretches or stretching or 
+flexibility or movement or qigong or qi gong or barre or tae bo or zumba or 
+jazzercise).ti,ab,kw 515095 
+16 (exergam* or wii fit or zwift or peloton or kinect).ti,ab,kw 3173 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+17 
+(martial art* or boxing or kickboxing or karate or judo or jiu jitsu or jiujitsu or 
+taekwondo or tae kwon do or fencing or wrestl* or aikido or fight* or grappl*).ti,ab,kw 57481 
+18 
+(sport* or golf* or aquatic* or gymnastic* or tennis or badminton or volleyball or ball or 
+basketball or baseball or bowling or lacrosse or racquet* or ringette or softball or polo 
+or cricket or hockey or football or soccer or rugby or handball or 
+mountaineer*).ti,ab,kw 253244 
+19 or/8-18 2578851 
+20 exp randomized controlled trial/ or Randomization/ or single blind procedure/ or 
+double blind procedure/ or triple blind procedure/ 835470 
+21 exp "clinical trial (topic)"/ 390735 
+22 (clinical adj trial$).tw,kw 623087 
+23 (RCT or RCTs).tw,kw 97030 
+24 ((singl$ or doubl$ or treb$ or tripl$) adj (blind$3 or dumm* or mask$3)).tw,kw 263554 
+25 PLACEBO/ 380253 
+26 (placebo$ or sham).tw,kw 470699 
+27 (randomized or randomised or randomly).ab 1391285 
+28 trial.ti 358290 
+29 or/20-28 2553590 
+30 (exp animal/ or nonhuman/) not exp human/ 6815610 
+31 29 not 30 2247279 
+32 4 and 7 and 19 and 31 3897 
+33 limit 32 to (english language and yr="1980 -Current")  3825 
+ 
+Central 
+1 
+exp neoplasms/ or cancer survivors/ or psycho-oncology/ or exp hematopoietic stem 
+cell transplantation/ or stem cell transplantation/ or hematopoietic stem cell 
+mobilization/ 89174 
+2 
+(cancer* or neoplas* or tumo?r* or malignan* or metasta* or oncogen* or oncolog* or 
+psychooncolog* or sarcoma* or leuk?emi* or lymphoma* or hodgkin* or nonhodgkin* 
+or carcino* or melanoma* or thymoma* or myeloma* or blastoma* or 
+hepatoblastoma* or mesenchymoma* or mesothelioma* or hepatoma* or 
+adenocarcinoma* or glioma*).ti,ab,kw 264556 
+3 
+(HSCT or ((h?ematopoietic or h?emato-poietic) adj3 (transplant* or sct or bct or 
+mobili#ation)) or pbsct or pbct or psct or ((peripheral or pbsc or pbscs) adj3 
+transplant*) or autohct or autopbsct or autopbsc or autopsc or cbsct or ((autologous 
+or auto-logous or auto or allogeneic or allo-geneic or homologous or homo-logous) 
+adj hct)).ti,ab,kw 5068 
+4 or/1-3 277579 
+5 depression/ or exp depressive disorder/ or sadness/ or demoralization/ or mental 
+health/ or happiness/ or hope/ or resilience, psychological/ 24936 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+6 
+(depress* or dysthymi* or melanchol* or affective or mood or distress* or sadness or 
+sad or hopeless* or demorali* or mental health or psych* health or wellbeing or 
+wellness or contented or contentment or happiness or hope* or resilien*).ti,ab,kw 155454 
+7 5 or 6 157208 
+8 exp exercise/ or exp exercise movement techniques/ or exp exercise therapy/ or 
+dancing/ or exp physical fitness/ or exp sports/ or aquatic therapy/ 42461 
+9 
+(exercis* or fitness or physiotherap* or physio therap* or kinesiotherap* or aerobics or 
+athletic* or workout or gym? or gymnasi* or work* out or (activity adj4 
+prescri*)).ti,ab,kw 126288 
+10 (physical* adj4 (activ* or fit* or condition* or recondition* or program* or 
+train*)).ti,ab,kw 48671 
+11 (activ* adj4 (living or play* or gaming or game* or lifestyle or behavio?r* or transport* 
+or commut* or transit* or travel* or aerobic*)).ti,ab,kw 20674 
+12 (crossfit* or HIIT or HIIE or plyometric* or personal train* or bodybuild* or body build* 
+or weightlift* or (weight* adj2 lift*)).ti,ab,kw 3350 
+13 ((train* or condition* or program* or session*) adj5 (weight* or strength* or enduranc* 
+or resistance or athletic* or cardiovascular or aerobic* or interval* or flexibility or 
+balance or muscle* or muscular or circuit or isometric* or isotonic* or agility or power 
+or propriocept* or coordination or gait)).ti,ab,kw 51938 
+14 
+(treadmill* or walk* or jog* or swim* or running or runner* or run or runs or marathon* 
+or triathl* or dance or dancing or climb* or stair* or elliptical* or cycling or bicycl* or 
+bike or bikes or calisthenic* or skateboard* or rowing or rower or canoe* or kayak* or 
+paddl* or skate or skating or ski or skiing or hike or hiking or jump or jumping).ti,ab,kw 76765 
+15 
+(tai ji or tai chi or ai chi or yoga or pilates or stretch or stretches or stretching or 
+flexibility or movement or qigong or qi gong or barre or tae bo or zumba or 
+jazzercise).ti,ab,kw 46060 
+16 (exergam* or wii fit or zwift or peloton or kinect).ti,ab,kw 1061 
+17 
+(martial art* or boxing or kickboxing or karate or judo or jiu jitsu or jiujitsu or 
+taekwondo or tae kwon do or fencing or wrestl* or aikido or fight* or grappl*).ti,ab,kw 2039 
+18 
+(sport* or golf* or aquatic* or gymnastic* or tennis or badminton or volleyball or ball or 
+basketball or baseball or bowling or lacrosse or racquet* or ringette or softball or polo 
+or cricket or hockey or football or soccer or rugby or handball or 
+mountaineer*).ti,ab,kw 17091 
+19 or/8-18 247800 
+20 4 and 7 and 19 3341 
+21 limit 20 to (english language and yr="1980 -Current")  3119 
+ 
+Cinahl 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+1 (MH neoplasms+) or (MH "cancer survivors") or (MH "psycho-oncology") or (MH 
+"hematopoietic stem cell transplantation")  633417 
+2 
+TI(cancer* or neoplas* or tumor* or tumour* or malignan* or metasta* or oncogen* or 
+oncolog* or psychooncolog* or sarcoma* or leukemi* or leukaemi* or lymphoma* or 
+hodgkin* or nonhodgkin* or carcino* or melanoma* or thymoma* or myeloma* or 
+blastoma* or hepatoblastoma* or mesenchymoma* or mesothelioma* or hepatoma* 
+or adenocarcinoma* or glioma*) OR AB(cancer* or neoplas* or tumor* or tumour* or 
+malignan* or metasta* or oncogen* or oncolog* or psychooncolog* or sarcoma* or 
+leukemi* or leukaemi* or lymphoma* or hodgkin* or nonhodgkin* or carcino* or 
+melanoma* or thymoma* or myeloma* or blastoma* or hepatoblastoma* or 
+mesenchymoma* or mesothelioma* or hepatoma* or adenocarcinoma* or glioma*) 732757 
+3 
+TI(HSCT or ((h#ematopoietic or (h#emato N1 poietic)) N3 (transplant* or sct or bct or 
+mobili?ation)) or pbsct or pbct or psct or ((peripheral or pbsc or pbscs) N3 
+transplant*) or autohct or autopbsct or autopbsc or autopsc or cbsct or ((autologous 
+or "auto-logous" or auto or allogeneic or "allo-geneic" or homologous or "homo-
+logous") N1 hct)) OR AB(HSCT or ((h#ematopoietic or (h#emato N1 poietic)) N3 
+(transplant* or sct or bct or mobili?ation)) or pbsct or pbct or psct or ((peripheral or 
+pbsc or pbscs) N3 transplant*) or autohct or autopbsct or autopbsc or autopsc or 
+cbsct or ((autologous or "auto-logous" or auto or allogeneic or "allo-geneic" or 
+homologous or "homo-logous") N1 hct)) 7763 
+4 S1 or S2 or S3 875757 
+5 
+(MH depression+) or (MH sadness) or (MH demoralization) or (MH "mental health") 
+or (MH happiness) or (MH hope) or (MH hopelessness) or (MH "psychological 
+distress") 180871 
+6 
+TI(depress* or dysthymi* or melanchol* or affective or mood or distress* or sadness 
+or sad or hopeless* or demorali* or "mental health" or (psych* N1 health) or wellbeing 
+or wellness or contented or contentment or happiness or hope* or resilien*) OR 
+AB(depress* or dysthymi* or melanchol* or affective or mood or distress* or sadness 
+or sad or hopeless* or demorali* or "mental health" or (psych* N1 health) or wellbeing 
+or wellness or contented or contentment or happiness or hope* or resilien*) 431571 
+7 S5 or S6 473887 
+8 
+(MH exercise+) or (MH "therapeutic exercise+") or (MH dancing+) or (MH "physical 
+fitness+") or (MH sports+) or (MH "aquatic exercises") or (MH "gait training+") 226732 
+9 
+TI(exercis* or fitness or physiotherap* or (physio N1 therap*) or kinesiotherap* or 
+aerobics or athletic* or workout or gym or gyms or gymnasi* or (work* N1 out) or 
+(activity N4 prescri*)) OR AB(exercis* or fitness or physiotherap* or (physio N1 
+therap*) or kinesiotherap* or aerobics or athletic* or workout or gym or gyms or 
+gymnasi* or (work* N1 out) or (activity N4 prescri*)) 193329 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+10 
+TI(physical* N4 (activ* or fit* or condition* or recondition* or program* or train*)) OR 
+AB(physical* N4 (activ* or fit* or condition* or recondition* or program* or train*)) 93921 
+11 
+TI(activ* N4 (living or play* or gaming or game* or lifestyle or behavio#r* or transport* 
+or commut* or transit* or travel* or aerobic*)) OR AB(activ* N4 (living or play* or 
+gaming or game* or lifestyle or behavio#r* or transport* or commut* or transit* or 
+travel* or aerobic*)) 49364 
+12 TI(crossfit* or HIIT or HIIE or plyometric* or (personal N1 train*) or bodybuild* or 
+(body N1 build*) or weightlift* or (weight* N2 lift*)) OR AB(crossfit* or HIIT or HIIE or 
+plyometric* or (personal N1 train*) or bodybuild* or (body N1 build*) or weightlift* or 
+(weight* N2 lift*)) 5025 
+13 
+TI((train* or condition* or program* or session*) N5 (weight* or strength* or enduranc* 
+or resistance or athletic* or cardiovascular or aerobic* or interval* or flexibility or 
+balance or muscle* or muscular or circuit or isometric* or isotonic* or agility or power 
+or propriocept* or coordination or gait)) OR AB((train* or condition* or program* or 
+session*) N5 (weight* or strength* or enduranc* or resistance or athletic* or 
+cardiovascular or aerobic* or interval* or flexibility or balance or muscle* or muscular 
+or circuit or isometric* or isotonic* or agility or power or propriocept* or coordination 
+or gait)) 
+60408 
+14 
+TI(treadmill* or walk* or jog* or swim* or running or runner* or run or runs or 
+marathon* or triathl* or dance or dancing or climb* or stair* or elliptical* or cycling or 
+bicycl* or bike or bikes or calisthenic* or skateboard* or rowing or rower or canoe* or 
+kayak* or paddl* or skate or skating or ski or skiing or hike or hiking or jump or 
+jumping) OR AB(treadmill* or walk* or jog* or swim* or running or runner* or run or 
+runs or marathon* or triathl* or dance or dancing or climb* or stair* or elliptical* or 
+cycling or bicycl* or bike or bikes or calisthenic* or skateboard* or rowing or rower or 
+canoe* or kayak* or paddl* or skate or skating or ski or skiing or hike or hiking or 
+jump or jumping) 135434 
+15 
+TI("tai ji" or "tai chi" or "ai chi" or yoga or pilates or stretch or stretches or stretching or 
+flexibility or movement or qigong or "qi gong" or barre or "tae bo" or zumba or 
+jazzercise) OR AB("tai ji" or "tai chi" or "ai chi" or yoga or pilates or stretch or 
+stretches or stretching or flexibility or movement or qigong or "qi gong" or barre or 
+"tae bo" or zumba or jazzercise) 107408 
+16 TI(exergam* or "wii fit" or zwift or peloton or kinect) OR AB(exergam* or "wii fit" or 
+zwift or peloton or kinect) 1106 
+17 
+TI((martial N1 art*) or boxing or kickboxing or karate or judo or "jiu jitsu" or jiujitsu or 
+taekwondo or "tae kwon do" or fencing or wrestl* or aikido or fight* or grappl*) OR 
+AB((martial N1 art*) or boxing or kickboxing or karate or judo or "jiu jitsu" or jiujitsu or 
+taekwondo or "tae kwon do" or fencing or wrestl* or aikido or fight* or grappl*) 20744 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+18 
+TI(sport* or golf* or aquatic* or gymnastic* or tennis or badminton or volleyball or ball 
+or basketball or baseball or bowling or lacrosse or racquet* or ringette or softball or 
+polo or cricket or hockey or football or soccer or rugby or handball or mountaineer*) 
+OR AB(sport* or golf* or aquatic* or gymnastic* or tennis or badminton or volleyball 
+or ball or basketball or baseball or bowling or lacrosse or racquet* or ringette or 
+softball or polo or cricket or hockey or football or soccer or rugby or handball or 
+mountaineer*) 79711 
+19 S8 or S9 or S10 or S11 or S12 or S13 or S14 or S15 or S16 or S17 or S18 613585 
+20 (MH "randomized controlled trials+") or (MH "random assignment") or (MH "double-
+blind studies") or (MH "single-blind studies") or (MH "triple-blind studies") 201944 
+21 (ZT "clinical trial")  or  (ZT "randomized controlled trial") 241194 
+22 (clinical N1 trial*) 282744 
+23 (RCT or RCTs) 26927 
+24 ((singl* or doubl* or treb* or tripl*) N1 (blind* or dumm* or mask*)) 84817 
+25 (MH placebos) 13364 
+26 (placebo* or sham) 88259 
+27 AB(randomized or randomised or randomly) 316012 
+28 TI(trial) 164666 
+29 S20 or S21 or S22 or S23 or S24 or S25 or S26 or S27 or S28 617080 
+30 (MH vertebrates+) not (MH human) 212352 
+31 S29 not S30 591376 
+32 S4 and S7 and S19 and S31 1020 
+33 S32  Limiters - Published Date: 19800101-; English Language  1008 
+ 
+Psychinfo 
+1 exp neoplasms/ 57230 
+2 
+(cancer* or neoplas* or tumo?r* or malignan* or metasta* or oncogen* or oncolog* or 
+psychooncolog* or sarcoma* or leuk?emi* or lymphoma* or hodgkin* or nonhodgkin* 
+or carcino* or melanoma* or thymoma* or myeloma* or blastoma* or 
+hepatoblastoma* or mesenchymoma* or mesothelioma* or hepatoma* or 
+adenocarcinoma* or glioma*).ti,ab,id 95128 
+3 
+(HSCT or ((h?ematopoietic or h?emato-poietic) adj3 (transplant* or sct or bct or 
+mobili#ation)) or pbsct or pbct or psct or ((peripheral or pbsc or pbscs) adj3 
+transplant*) or autohct or autopbsct or autopbsc or autopsc or cbsct or ((autologous 
+or auto-logous or auto or allogeneic or allo-geneic or homologous or homo-logous) 
+adj hct)).ti,ab,id 709 
+4 or/1-3 96531 
+5 
+"depression (emotion)"/ or contentment/ or distress/ or hapiness/ or hope/ or 
+hopelessness/ or pessimism/ or sadness/ or exp major depression/ or 
+demoralization/ or mental health/ or "resilience (psychological)"/ 288996 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+6 
+(depress* or dysthymi* or melanchol* or affective or mood or distress* or sadness or 
+sad or hopeless* or demorali* or mental health or psych* health or wellbeing or 
+wellness or contented or contentment or happiness or hope* or resilien*).ti,ab,id 798601 
+7 5 or 6 808004 
+8 
+exp physical activity/ or active living/ or movement therapy/ or dance/ or dance 
+therapy/ or physical fitness/ or exp sports/ or athletic participation/ or athletic training/ 90924 
+9 
+(exercis* or fitness or physiotherap* or physio therap* or kinesiotherap* or aerobics 
+or athletic* or workout or gym? or gymnasi* or work* out or (activity adj4 
+prescri*)).ti,ab,id 106888 
+10 (physical* adj4 (activ* or fit* or condition* or recondition* or program* or 
+train*)).ti,ab,id 57525 
+11 (activ* adj4 (living or play* or gaming or game* or lifestyle or behavio?r* or transport* 
+or commut* or transit* or travel* or aerobic*)).ti,ab,id 56718 
+12 (crossfit* or HIIT or HIIE or plyometric* or personal train* or bodybuild* or body build* 
+or weightlift* or (weight* adj2 lift*)).ti,ab,id 1956 
+13 ((train* or condition* or program* or session*) adj5 (weight* or strength* or enduranc* 
+or resistance or athletic* or cardiovascular or aerobic* or interval* or flexibility or 
+balance or muscle* or muscular or circuit or isometric* or isotonic* or agility or power 
+or propriocept* or coordination or gait)).ti,ab,id 32821 
+14 
+(treadmill* or walk* or jog* or swim* or running or runner* or run or runs or marathon* 
+or triathl* or dance or dancing or climb* or stair* or elliptical* or cycling or bicycl* or 
+bike or bikes or calisthenic* or skateboard* or rowing or rower or canoe* or kayak* or 
+paddl* or skate or skating or ski or skiing or hike or hiking or jump or jumping).ti,ab,id 112096 
+15 
+(tai ji or tai chi or ai chi or yoga or pilates or stretch or stretches or stretching or 
+flexibility or movement or qigong or qi gong or barre or tae bo or zumba or 
+jazzercise).ti,ab,id 146396 
+16 (exergam* or wii fit or zwift or peloton or kinect).ti,ab,id 813 
+17 
+(martial art* or boxing or kickboxing or karate or judo or jiu jitsu or jiujitsu or 
+taekwondo or tae kwon do or fencing or wrestl* or aikido or fight* or grappl*).ti,ab,id 22686 
+18 
+(sport* or golf* or aquatic* or gymnastic* or tennis or badminton or volleyball or ball 
+or basketball or baseball or bowling or lacrosse or racquet* or ringette or softball or 
+polo or cricket or hockey or football or soccer or rugby or handball or 
+mountaineer*).ti,ab,id 54990 
+19 or/8-18 495157 
+20 exp randomized controlled trials/ 1198 
+21 ("0300").md 33511 
+22 (clinical adj trial$).tw,id 39520 
+23 (RCT or RCTs).tw,id 9914 
+24 ((singl$ or doubl$ or treb$ or tripl$) adj (blind$3 or dumm* or mask$3)).tw,id 28049 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+25 PLACEBO/ 6232 
+26 (placebo$ or sham).tw,id 56395 
+27 (randomized or randomised or randomly).ab 160781 
+28 trial.ti 35090 
+29 or/20-28 236269 
+30 ("20" not "10").po 377439 
+31 29 not 30 220516 
+32 4 and 7 and 19 and 31 414 
+33 limit 32 to (english language and yr="1980 -Current")  390 
+ 
+Scopus 
+1 
+ 
+TITLE-ABS-KEY(cancer* or neoplas* or tumo*r* or malignan* or metasta* or 
+oncogen* or oncolog* or psychooncolog* or sarcoma* or leuk*emi* or lymphoma* or 
+hodgkin* or nonhodgkin* or carcino* or melanoma* or thymoma* or myeloma* or 
+blastoma* or hepatoblastoma* or mesenchymoma* or mesothelioma* or hepatoma* 
+or adenocarcinoma* or glioma*) 6455147 
+2 
+ 
+TITLE-ABS-KEY(HSCT or ((h*ematopoietic or h*emato-poietic) W/3 (transplant* or 
+sct or bct or mobili?ation)) or pbsct or pbct or psct or ((peripheral or pbsc or pbscs) 
+W/3 transplant*) or autohct or autopbsct or autopbsc or autopsc or cbsct or 
+((autologous or auto-logous or auto or allogeneic or allo-geneic or homologous or 
+homo-logous) W/1 hct)) 89393 
+3  #1 or #2 6488041 
+4 
+ 
+TITLE-ABS-KEY(depress* or dysthymi* or melanchol* or affective or mood or 
+distress* or sadness or sad or hopeless* or demorali* or "mental health" or (psych* 
+W/1 health) or wellbeing or wellness or contented or contentment or happiness or 
+hope* or resilien*) 2288241 
+5 
+ 
+TITLE-ABS-KEY(exercis* or fitness or physiotherap* or (physio W/1 therap*) or 
+kinesiotherap* or aerobics or athletic* or workout or gym or gyms or gymnasi* or 
+(work* W/1 out) or (activity W/4 prescri*)) 1150296 
+6 
+ 
+TITLE-ABS-KEY(physical* W/4 (activ* or fit* or condition* or recondition* or program* 
+or train*)) 415073 
+7 
+ 
+TITLE-ABS-KEY(activ* W/4 (living or play* or gaming or game* or lifestyle or 
+behavio*r* or transport* or commut* or transit* or travel* or aerobic*)) 421786 
+8 
+ 
+TITLE-ABS-KEY(crossfit* or HIIT or HIIE or plyometric* or (personal W/1 train*) or 
+bodybuild* or (body W/1 build*) or weightlift* or (weight* W/2 lift*)) 26899 
+9 
+ 
+TITLE-ABS-KEY((train* or condition* or program* or session*) W/5 (weight* or 
+strength* or enduranc* or resistance or athletic* or cardiovascular or aerobic* or 
+interval* or flexibility or balance or muscle* or muscular or circuit or isometric* or 
+isotonic* or agility or power or propriocept* or coordination or gait)) 494382 
+ 
+© 2024 Kulchycki M et al. JAMA Network Open. 
+10 
+ 
+TITLE-ABS-KEY(treadmill* or walk* or jog* or swim* or running or runner* or run or 
+runs or marathon* or triathl* or dance or dancing or climb* or stair* or elliptical* or 
+cycling or bicycl* or bike or bikes or calisthenic* or skateboard* or rowing or rower or 
+canoe* or kayak* or paddl* or skate or skating or ski or skiing or hike or hiking or 
+jump or jumping) 2042429 
+11 
+ 
+TITLE-ABS-KEY("tai ji" or "tai chi" or "ai chi" or yoga or pilates or stretch or stretches 
+or stretching or flexibility or movement or qigong or "qi gong" or barre or "tae bo" or 
+zumba or jazzercise) 1944992 
+12  TITLE-ABS-KEY(exergam* or "wii fit" or zwift or peloton or kinect) 14406 
+13 
+ 
+TITLE-ABS-KEY((martial W/1 art*) or boxing or kickboxing or karate or judo or "jiu 
+jitsu" or jiujitsu or taekwondo or "tae kwon do" or fencing or wrestl* or aikido or fight* 
+or grappl*) 193326 
+14 
+ 
+TITLE-ABS-KEY(sport* or golf* or aquatic* or gymnastic* or tennis or badminton or 
+volleyball or ball or basketball or baseball or bowling or lacrosse or racquet* or 
+ringette or softball or polo or cricket or hockey or football or soccer or rugby or 
+handball or mountaineer*) 747108 
+15  #5 or #6 or #7 or #8 or #9 or #10 or #11 or #12 or #13 or #14 6340866 
+16  TITLE-ABS-KEY(clinical W/1 trial*) 1654917 
+17  TITLE-ABS-KEY(RCT or RCTs) 73435 
+18  TITLE-ABS-KEY((singl* or doubl* or treb* or tripl*) W/1 (blind* or dumm* or mask*)) 314512 
+19  TITLE-ABS-KEY(placebo* or sham) 532631 
+20  ABS(randomized or randomised or randomly) 1374881 
+21  TITLE(trial) 408099 
+22  #16 or #17 or #18 or #19 or #20 or #21 2945032 
+23  INDEXTERMS(animal*) AND NOT INDEXTERMS(human*) 5233875 
+24  #22 AND NOT #23 2721072 
+25  #3 AND #4 AND #15 AND #24 4540 
+26  #25 AND PUBYEAR AFT 1979 AND  ( LIMIT-TO ( LANGUAGE ,  "English" ) )   4402 
+ 
+ 
+ 
+  
+ 
+© 2024 Kulchycki M et al. JAMA Network Open.

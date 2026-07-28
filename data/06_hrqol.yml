@@ -92,6 +92,7 @@ records:
              which are covered by the companion review]
       Note "qlc-c30" is a transposition of QLQ-C30, and "sta1" of STAI, in the published
       appendix. Repair both before reuse.
+      [Complete unabbreviated strategy, all databases: strategies/06_mishra2012_hrqol.txt]
     search_embase: |
       [Embase, inception to May 2010 (713 hits) and January 2010 to November 2011 (349 hits).
       Appendix 3, verbatim - lines 33-58 are the HRQoL block:]
@@ -142,6 +143,7 @@ records:
       75     32 and 65 and 66 and 71
       76     75 not 74
       (Line 69 is printed as ".mp3" - a typo for .mp.; "stal" in line 58 is STAI.)
+      [Complete unabbreviated strategy, all databases: strategies/06_mishra2012_hrqol.txt]
     search_wos: |
       Web of Science was used, but for citation searching of key authors rather than with a
       subject strategy, so no Web of Science string exists. As reported: "We also searched
@@ -155,6 +157,7 @@ records:
       CenterWatch, ClinicalTrials.gov), reference lists and expert contact were also used.
       [The CINAHL version (Appendix 4) is the same HRQoL set in EBSCOhost syntax and
       includes (MH "Functional Status") and (MH "Pain Measurement") as controlled terms.]
+      [Complete unabbreviated strategy, all databases: strategies/06_mishra2012_hrqol.txt]
     url: "https://doi.org/10.1002/14651858.CD008465.pub2"
     pmid: "22895974"
     pmcid: "PMC7389071"
@@ -221,6 +224,7 @@ records:
         OR "phasethree"[tw] OR "phase3"[tw])
       NOT "review"[pt] AND english[la] AND ("2015/01/01"[PDAT] : "3000/12/31"[PDAT])
       NOT (phase II publication types and title terms, unless also phase III)
+      [Complete unabbreviated strategy, all databases: strategies/06_osanto2024_hrqol-mhspc.txt]
     search_embase: |
       [Embase (OVID version), same date limits. Supplementary Table 2, verbatim - structure
       reproduced, population block abbreviated:]
@@ -237,6 +241,7 @@ records:
       English, 2015 onwards.
       Note the population block uses ADJ4 in Embase where PubMed used a plain AND, so the
       Embase run is the more specific of the two.
+      [Complete unabbreviated strategy, all databases: strategies/06_osanto2024_hrqol-mhspc.txt]
     search_wos: |
       [Web of Science searched. Supplementary Table 2, verbatim - the topic block
       reproduced in full, population block abbreviated:]
@@ -271,6 +276,7 @@ records:
       used separately where PubMed uses [tw], TS= for the topic block, NEAR/5 replacing
       ADJ4, DT= for document type, la= for language and py= for an explicit year list.
       Google Scholar and the Cochrane Library were also searched.
+      [Complete unabbreviated strategy, all databases: strategies/06_osanto2024_hrqol-mhspc.txt]
     url: "https://doi.org/10.1016/j.eclinm.2024.102914"
     pmid: "39619239"
     pmcid: "PMC11605133"

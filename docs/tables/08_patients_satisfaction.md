@@ -148,6 +148,7 @@ Line 19 is the useful pattern: hospice* alone, OR (palliative concept AND home
 setting concept) - a "named-entity OR concept-intersection" construction that is
 worth borrowing whenever one word reliably identifies the topic.
 There is no satisfaction, quality-of-life or symptom term anywhere in the strategy.
+[Complete unabbreviated strategy, all databases: strategies/08_gomes2013_home-palliative-care.txt]
 ```
 
 **Search strategy - Embase**
@@ -190,6 +191,7 @@ design filter from line 25):]
    multicenter study/ or randomized controlled trial/; chi-square distribution/ or
    chi-square?.ti,ab.; "random*".ab,ti.; controlled.ti.; and the rest as in MEDLINE]
 (Line 10 is printed with a duplicated "or".)
+[Complete unabbreviated strategy, all databases: strategies/08_gomes2013_home-palliative-care.txt]
 ```
 
 **Search strategy - Web of Science**
@@ -206,6 +208,7 @@ Cochrane Library proximity syntax, and the shortest usable version of the concep
 the PaPaS Trials Register line (Appendix 2), verbatim:
 hospice* or ((palliat* or terminal* or "end stage") and (home or community or
 outreach or ambulatory))]
+[Complete unabbreviated strategy, all databases: strategies/08_gomes2013_home-palliative-care.txt]
 ```
 
 ## Alessy SA, 2022 - eClinicalMedicine
