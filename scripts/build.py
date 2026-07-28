@@ -20,6 +20,16 @@ OUT_XLSX = os.path.join(ROOT, "output", "search_strategies.xlsx")
 OUT_MD = os.path.join(ROOT, "docs", "tables")
 
 # (spreadsheet header, key in the YAML record, column width)
+ANNEX_COLUMNS = [
+    ("Title", "title", 60),
+    ("1st author / year", "first_author_year", 18),
+    ("Journal", "journal", 30),
+    ("Impact factor", "impact_factor", 16),
+    ("Why it is relevant to this review", "why_relevant", 62),
+    ("Why it was excluded", "why_excluded", 34),
+    ("URL", "url", 42),
+]
+
 COLUMNS = [
     ("Title", "title", 46),
     ("1st author / year", "first_author_year", 18),
@@ -59,10 +69,10 @@ def clean(v):
     return (v or "").rstrip() if isinstance(v, str) else ("" if v is None else str(v))
 
 
-def est_height(rec):
+def est_height(rec, cols=None):
     """Row height that shows most of the tallest cell without absurd rows."""
     lines = 1
-    for header, key, width in COLUMNS:
+    for header, key, width in (cols or COLUMNS):
         txt = clean(rec.get(key))
         n = sum(max(1, -(-len(ln) // max(width - 2, 10))) for ln in txt.split("\n"))
         lines = max(lines, n)
@@ -74,15 +84,16 @@ def build_xlsx(cats):
     wb.remove(wb.active)
     for cat in cats:
         meta = cat["category"]
+        cols = ANNEX_COLUMNS if meta.get("column_set") == "annex" else COLUMNS
         ws = wb.create_sheet(meta["sheet_name"][:31])
         ws.freeze_panes = "A3"
 
         ws.cell(row=1, column=1, value=f"{meta['id']}. {meta['title']}").font = Font(
             bold=True, size=12, name="Calibri")
-        ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=len(COLUMNS))
+        ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=len(cols))
         ws.row_dimensions[1].height = 20
 
-        for i, (header, key, width) in enumerate(COLUMNS, start=1):
+        for i, (header, key, width) in enumerate(cols, start=1):
             c = ws.cell(row=2, column=i, value=header)
             c.fill, c.font, c.border = HEAD_FILL, HEAD_FONT, BORDER
             c.alignment = Alignment(vertical="center", wrap_text=True)
@@ -90,15 +101,15 @@ def build_xlsx(cats):
         ws.row_dimensions[2].height = 30
 
         for r, rec in enumerate(cat["records"], start=3):
-            for i, (header, key, width) in enumerate(COLUMNS, start=1):
+            for i, (header, key, width) in enumerate(cols, start=1):
                 c = ws.cell(row=r, column=i, value=clean(rec.get(key)))
                 c.font = MONO_FONT if key in MONO_KEYS else BODY_FONT
                 c.alignment = Alignment(vertical="top", wrap_text=True)
                 c.border = BORDER
                 if r % 2:
                     c.fill = BAND
-            ws.row_dimensions[r].height = est_height(rec)
-        ws.auto_filter.ref = f"A2:{get_column_letter(len(COLUMNS))}{2 + len(cat['records'])}"
+            ws.row_dimensions[r].height = est_height(rec, cols)
+        ws.auto_filter.ref = f"A2:{get_column_letter(len(cols))}{2 + len(cat['records'])}"
 
     os.makedirs(os.path.dirname(OUT_XLSX), exist_ok=True)
     wb.save(OUT_XLSX)
@@ -119,6 +130,16 @@ def build_md(cats):
         L = [f"# {meta['id']}. {meta['title']}", ""]
         L += [f"**Focus of this category.** {clean(meta['review_question_focus'])}", ""]
         L += [f"**Population scope applied.** {clean(meta['population_scope'])}", ""]
+        if meta.get("column_set") == "annex":
+            L += ["| Title | 1st author / year | Journal | Impact factor | Why relevant | Why excluded | URL |",
+                  "|---|---|---|---|---|---|---|"]
+            for rec in cat["records"]:
+                L.append("| " + " | ".join(md_cell(rec.get(k)) for k in
+                         ("title", "first_author_year", "journal", "impact_factor",
+                          "why_relevant", "why_excluded", "url")) + " |")
+            open(path, "w").write("\n".join(L) + "\n")
+            written.append(path)
+            continue
         for rec in cat["records"]:
             L += [f"## {clean(rec['first_author_year'])} - {clean(rec['journal'])}", ""]
             L += [f"**{clean(rec['title'])}**", ""]

@@ -1,0 +1,155 @@
+category:
+  id: "09"
+  sheet_name: "9 Annex - excluded by IF rule"
+  title: "Annex: reviews excluded by the JIF >= 5 rule"
+  column_set: annex
+  review_question_focus: >-
+    Reviews that were topically closer to ovarian cancer, to gynaecological cancer or to
+    older adults than several records that made the main sheets, and that were rejected
+    only because of the Journal Impact Factor >= 5 threshold. None of these is a quality
+    judgement - they are here so the cost of the threshold is visible and reversible.
+  population_scope: >-
+    Six of the ten are ovarian or gynaecological cancer specific; two are restricted to
+    older adults. The ovarian and geriatric-oncology systematic review literature sits
+    almost entirely in the 2.4-4.8 impact band, so the threshold functions in practice as a
+    trade of population relevance for journal prestige. If you relax it, start here.
+    Impact factors are approximate - see docs/impact_factors.md.
+
+records:
+  - title: >-
+      A Systematic Review of Health-Related Quality of Life Reporting in Ovarian Cancer
+      Phase III Clinical Trials
+    first_author_year: "Wilson MK, 2018"
+    journal: "The Oncologist"
+    impact_factor: "~4.8"
+    why_relevant: >-
+      The single closest miss in the whole exercise. Ovarian cancer specific, HRQOL
+      specific, and about phase III treatment trials - it maps onto category 6 and onto
+      your review's population simultaneously. Would have replaced a breast or prostate
+      cancer record on the HRQOL sheet.
+    why_excluded: "JIF ~4.8, just below the 5 threshold"
+    url: "https://doi.org/10.1634/theoncologist.2017-0297"
+    pmid: "29118265"
+    doi: "10.1634/theoncologist.2017-0297"
+
+  - title: >-
+      Nutritional Interventions to Improve Clinical Outcomes in Ovarian Cancer: A
+      Systematic Review of Randomized Controlled Trials
+    first_author_year: "Rinninella E, 2019"
+    journal: "Nutrients"
+    impact_factor: "~4.8"
+    why_relevant: >-
+      Ovarian cancer specific and nutrition specific. Would have given category 5 a second
+      ovarian record alongside Billson 2013, and a more recent one.
+    why_excluded: "JIF ~4.8, just below the 5 threshold"
+    url: "https://doi.org/10.3390/nu11061404"
+    pmid: "31234395"
+    doi: "10.3390/nu11061404"
+
+  - title: >-
+      Depression and anxiety in ovarian cancer: a systematic review and meta-analysis of
+      prevalence rates
+    first_author_year: "Watts S, 2015"
+    journal: "BMJ Open"
+    impact_factor: "~2.4"
+    why_relevant: >-
+      The only ovarian-cancer-specific depression review found. A prevalence review, so
+      depression is necessarily a search concept rather than a screening criterion - which
+      is exactly the structure category 4 is about.
+    why_excluded: "JIF ~2.4"
+    url: "https://doi.org/10.1136/bmjopen-2015-007618"
+    pmid: "26621509"
+    doi: "10.1136/bmjopen-2015-007618"
+
+  - title: >-
+      Functional recovery in older women undergoing surgery for gynaecological
+      malignancies: A systematic review and meta-analysis
+    first_author_year: "Martin FE, 2020"
+    journal: "Journal of Geriatric Oncology"
+    impact_factor: "~3.0"
+    why_relevant: >-
+      Older women, gynaecological cancer, surgical treatment, functional status. On paper
+      this is the single best population-and-outcome match to your review in the entire
+      candidate pool - it fails only on impact factor.
+    why_excluded: "JIF ~3.0"
+    url: "https://doi.org/10.1016/j.jgo.2020.06.006"
+    pmid: "32601003"
+    doi: "10.1016/j.jgo.2020.06.006"
+
+  - title: >-
+      Quality of life outcomes following surgery for advanced ovarian cancer: a systematic
+      review and meta-analysis
+    first_author_year: "Kumar S, 2019"
+    journal: "International Journal of Gynecological Cancer"
+    impact_factor: "~4.1"
+    why_relevant: >-
+      Ovarian cancer, surgical treatment, HRQOL outcome - the exact intersection of
+      category 1 and category 6.
+    why_excluded: "JIF ~4.1"
+    url: "https://doi.org/10.1136/ijgc-2018-000125"
+    pmid: "31273066"
+    doi: "10.1136/ijgc-2018-000125"
+
+  - title: "Ovarian cancer survivors' quality of life: a systematic review"
+    first_author_year: "Ahmed-Lecheheb D, 2016"
+    journal: "Journal of Cancer Survivorship"
+    impact_factor: "~3.4"
+    why_relevant: >-
+      Ovarian cancer specific HRQOL review covering the survivorship phase, which the
+      records on sheet 6 do not.
+    why_excluded: "JIF ~3.4"
+    url: "https://doi.org/10.1007/s11764-016-0525-8"
+    pmid: "26884372"
+    doi: "10.1007/s11764-016-0525-8"
+
+  - title: >-
+      A systematic review of patient values, preferences and expectations for the treatment
+      of recurrent ovarian cancer
+    first_author_year: "PEBC's Ovarian Oncology Guidelines Group, 2017"
+    journal: "Gynecologic Oncology"
+    impact_factor: "~4.5"
+    why_relevant: >-
+      Ovarian cancer, treatment, and a patient-centred construct (values, preferences,
+      expectations) adjacent to satisfaction. Relevant to categories 1 and 8 together, and
+      to any patient-centred framing of a treatment review.
+    why_excluded: "JIF ~4.5"
+    url: "https://doi.org/10.1016/j.ygyno.2017.05.039"
+    pmid: "28601379"
+    doi: "10.1016/j.ygyno.2017.05.039"
+
+  - title: "Psychosocial interventions and quality of life in gynaecological cancer patients: a systematic review"
+    first_author_year: "Hersch J, 2009"
+    journal: "Psycho-Oncology"
+    impact_factor: "~3.3"
+    why_relevant: >-
+      Gynaecological cancer with HRQOL and psychological outcomes - closer in population to
+      your review than the breast and prostate cancer records that occupy sheet 6.
+    why_excluded: "JIF ~3.3"
+    url: "https://doi.org/10.1002/pon.1443"
+    pmid: "19090556"
+    doi: "10.1002/pon.1443"
+
+  - title: "Patient-Reported Physical Function Measures in Cancer Clinical Trials"
+    first_author_year: "Atkinson TM, 2017"
+    journal: "Epidemiologic Reviews"
+    impact_factor: "~3.4-4.1"
+    why_relevant: >-
+      A five-component search built around physical function and PRO measurement
+      properties, in native PubMed syntax. Would have strengthened category 2, though only
+      the measurement-properties component is printed verbatim in the paper.
+    why_excluded: "JIF below 5; sources give ~3.4 (2024) to ~4.1 (2023)"
+    url: "https://doi.org/10.1093/epirev/mxx008"
+    pmid: "28453627"
+    doi: "10.1093/epirev/mxx008"
+
+  - title: "Effects of patient navigation on satisfaction with cancer care: a systematic review and meta-analysis"
+    first_author_year: "Wells KJ, 2018"
+    journal: "Supportive Care in Cancer"
+    impact_factor: "~2.8"
+    why_relevant: >-
+      The most on-topic satisfaction review found anywhere - satisfaction with cancer care
+      is the outcome, not a secondary endpoint. Directly relevant to category 8.
+    why_excluded: "JIF ~2.8"
+    url: "https://doi.org/10.1007/s00520-018-4108-2"
+    pmid: "29497815"
+    doi: "10.1007/s00520-018-4108-2"
