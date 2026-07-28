@@ -1,0 +1,372 @@
+# 01. Ovarian cancer treatment (general, not a specific treatment)
+
+**Focus of this category.** How do previously published systematic reviews operationalise the concept of "treatment" for ovarian cancer in their database search strategies?
+
+**Population scope applied.** Ovarian cancer was held fixed (it is the object of interest for this category). Reviews restricted to older adults were sought first; none were found in a journal meeting the JIF >= 5 threshold, so the age restriction was dropped and the population was broadened to all adults with ovarian cancer. See docs/methods.md for the searches run.
+
+## Coleridge SL, 2021 - Cochrane Database of Systematic Reviews
+
+**Neoadjuvant chemotherapy before surgery versus surgery followed by chemotherapy for initial treatment in advanced epithelial ovarian cancer**
+
+- Impact factor: 8.8 (2023 JIF)
+- URL: <https://doi.org/10.1002/14651858.CD005343.pub6>
+- PMID: 34328210 | PMCID: PMC8406953
+- Search strategy taken from: Appendices 1-3 of the review, read in full from PMC8406953
+
+**Purpose.** To assess whether there is an advantage to treating women with advanced epithelial ovarian cancer with chemotherapy before debulking surgery (neoadjuvant chemotherapy, NACT) compared with conventional treatment where chemotherapy follows debulking surgery (primary debulking surgery, PDS). Included as an exemplar because the search builds two separate treatment-modality blocks (chemotherapy AND surgery) and intersects them with the ovarian cancer population block.
+
+**PICO**
+
+```
+P: Women with advanced (FIGO stage III/IV) epithelial ovarian cancer.
+I: Platinum-based chemotherapy before cytoreductive surgery (neoadjuvant chemotherapy).
+C: Platinum-based chemotherapy following cytoreductive surgery (primary debulking surgery).
+O: Overall survival; progression-free survival; adverse events; quality of life;
+   surgical morbidity/mortality.
+```
+
+**Search strategy - PubMed / MEDLINE**
+
+```
+[Not searched as PubMed. MEDLINE was searched via Silver Platter/Ovid,
+1966 to October week 1 2020; searches run 9 October 2020. Appendix 2, verbatim:]
+1  exp Ovarian Neoplasms/
+2  (ovar* adj5 (neoplas* or tumor* or tumour* or cancer* or malignan* or carcinoma*)).mp.
+3  1 or 2
+4  chemotherap*.mp.
+5  drug therapy.fs.
+6  exp Antineoplastic Agents/
+7  Antineoplastic Combined Chemotherapy Protocols/
+8  Neoadjuvant Therapy/
+9  4 or 5 or 6 or 7 or 8
+10 surg*.mp.
+11 surgery.fs.
+12 exp Surgical Procedures, Operative/
+13 10 or 11 or 12
+14 3 and 9 and 13
+15 randomized controlled trial.pt.
+16 controlled clinical trial.pt.
+17 randomized.ab.
+18 placebo.ab.
+19 clinical trials as topic.sh.
+20 randomly.ab.
+21 trial.ti.
+22 15 or 16 or 17 or 18 or 19 or 20 or 21
+23 14 and 22
+key: mp = title, original title, abstract, name of substance word, subject heading
+word, unique identifier; fs = floating subheading; pt = publication type; ab = abstract.
+[An earlier Silver Platter search, 1966 to Sept 2006, was reported as:
+(ovar*) and (cancer* or carcinoma* or malignan* or neoplas* or tumour* or tumor*)
+and (chemotherap*) and (surg*) and (rct or random* or study or studies or trial*
+or investigation*) and (advanced or stage III or stage IV)]
+```
+
+**Search strategy - Embase**
+
+```
+[Embase via Ovid, 1980 to 2020 week 40; searches run 9 October 2020.
+Appendix 1, verbatim:]
+1  exp ovary tumor/
+2  (ovar* adj5 (neoplas* or tumor* or tumour* or cancer* or malignan* or carcinoma*)).mp.
+3  1 or 2
+4  chemotherap*.mp.
+5  dt.fs.
+6  exp antineoplastic agent/
+7  exp cancer chemotherapy/
+8  adjuvant chemotherapy/
+9  4 or 5 or 6 or 7 or 8
+10 surg*.mp.
+11 su.fs.
+12 exp surgery/
+13 10 or 11 or 12
+14 3 and 9 and 13
+15 random*.ti,ab.
+16 factorial*.ti,ab.
+17 (crossover* or cross over* or cross-over*).ti,ab.
+18 placebo*.ti,ab.
+19 (doubl* adj blind*).ti,ab.
+20 (singl* adj blind*).ti,ab.
+21 assign*.ti,ab.
+22 allocat*.ti,ab.
+23 volunteer*.ti,ab.
+24 crossover procedure/
+25 double blind procedure/
+26 randomised controlled trial/
+27 single blind procedure/
+28 15 or 16 or 17 or 18 or 19 or 20 or 21 or 22 or 23 or 24 or 25 or 26 or 27
+29 14 and 28
+[An earlier Embase(R) 1980 to Sept 2006 search was reported as:
+(ovar*) and (cancer* or carcinoma* or malignan* or neoplas* or tumour* or tumor*)
+and (chemotherap*) and (surg*) and (rct or random* or study or studies or trial*
+or investigation*) and (advanced or stage III or stage IV)]
+```
+
+**Search strategy - Web of Science**
+
+```
+Not searched. Databases searched were CENTRAL (2020, Issue 10), Embase via Ovid,
+MEDLINE (Silver Platter/Ovid), PDQ and MetaRegister; reference lists and trial
+investigators were also checked. Web of Science was not used.
+[For completeness, the CENTRAL strategy (Appendix 3) was:
+#1 MeSH descriptor Ovarian Neoplasms explode all trees
+#2 ovar* near/5 (neoplas* or tumor* or tumour* or cancer* or malignan* or carcinoma*)
+#3 (#1 OR #2)
+#4 chemotherap*
+#5 Any MeSH descriptor with qualifier: DT
+#6 MeSH descriptor Antineoplastic Agents explode all trees
+#7 MeSH descriptor Antineoplastic Combined Chemotherapy Protocols explode all trees
+#8 MeSH descriptor Neoadjuvant Therapy explode all trees
+#9 (#4 OR #5 OR #6 OR #7 OR #8)
+#10 surg*
+#11 Any MeSH descriptor with qualifier: SU
+#12 MeSH descriptor Surgical Procedures, Operative explode all trees
+#13 (#10 OR #11 OR #12)
+#14 (#3 AND #9 AND #13)]
+```
+
+## Faluyi O, 2010 - Cochrane Database of Systematic Reviews
+
+**Interventions for the treatment of borderline ovarian tumours**
+
+- Impact factor: 8.8 (2023 JIF)
+- URL: <https://doi.org/10.1002/14651858.CD007696.pub2>
+- PMID: 20824864 | PMCID: PMC4164822
+- Search strategy taken from: Appendices 1-3 of the review, read in full from PMC4164822
+
+**Purpose.** To evaluate the benefits and harms of different interventions (surgery, chemotherapy, radiotherapy, observation) in women with borderline ovarian tumours. Included as an exemplar of the broadest possible treatment concept: the review has no drug- or procedure-named intervention block at all. Instead, treatment is captured through floating subheadings (drug therapy, surgery, therapy, radiotherapy) folded into the study-design block, so that any treatment is retrievable.
+
+**PICO**
+
+```
+P: Women with borderline (low malignant potential) ovarian tumours.
+I: Any intervention for treatment - surgery (including fertility-sparing and
+   radical), chemotherapy, radiotherapy.
+C: An alternative intervention, or observation/no further treatment.
+O: Overall survival; recurrence/disease-free survival; fertility outcomes;
+   adverse events; quality of life.
+```
+
+**Search strategy - PubMed / MEDLINE**
+
+```
+[Not searched as PubMed. MEDLINE via Ovid, 1950 to week 3 2009. Appendix 1, verbatim:]
+1  exp Ovarian Neoplasms/
+2  (ovar* adj5 (cancer* or neoplas* or carcinom* or malignan* or tumor* or tumour*)).mp.
+3  1 or 2
+4  (atypical adj proliferative).mp.
+5  borderline.mp.
+6  micropapillary.mp.
+7  (low adj malignan*).mp.
+8  (semi adj malignan*).mp.
+9  4 or 5 or 6 or 7 or 8
+10 3 and 9
+11 (ovar* adj5 cystadeno*).mp.
+12 10 or 11
+13 "randomized controlled trial".pt.
+14 "controlled clinical trial".pt.
+15 randomized.ab.
+16 placebo.ab.
+17 "drug therapy".fs.
+18 "surgery".fs.
+19 "therapy".fs.
+20 "radiotherapy".fs.
+21 randomly.ab.
+22 trial.ab.
+23 groups.ab.
+24 exp Cohort Studies/
+25 cohort*.mp.
+26 (case adj series).mp.
+27 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20 or 21 or 22 or 23 or 24 or 25 or 26
+28 12 and 27
+29 Animals/
+30 Humans/
+31 29 not (29 and 30)
+32 28 not 31
+key: mp = title, original title, abstract, name of substance word, subject heading
+word; ab = abstract; fs = floating subheading.
+```
+
+**Search strategy - Embase**
+
+```
+[Embase via Ovid, 1980 to 2009 week 2. Appendix 2, verbatim:]
+1  Ovary Tumor/
+2  (ovar* adj5 (cancer* or neoplas* or carcinom* or malignan* or tumor* or tumour*)).mp.
+3  1 or 2
+4  (atypical adj proliferative).mp.
+5  borderline.mp.
+6  micropapillary.mp.
+7  (low adj malignan*).mp.
+8  (semi adj malignan*).mp.
+9  4 or 5 or 6 or 7 or 8
+10 3 and 9
+11 (ovar* adj5 cystadeno*).mp.
+12 10 or 11
+13 exp Controlled Clinical Trial/
+14 randomized.ab.
+15 placebo.ab.
+16 dt.fs.
+17 su.fs.
+18 th.fs.
+19 rt.fs.
+20 randomly.ab.
+21 trial.ab.
+22 groups.ab.
+23 exp Cohort Analysis/
+24 cohort*.mp.
+25 (case adj series).mp.
+26 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20 or 21 or 22 or 23 or 24 or 25
+27 12 and 26
+28 exp Animal/
+29 Human/
+30 28 not (28 and 29)
+31 27 not 30
+key: mp = title, abstract, subject headings, heading word, drug trade name, original
+title, device manufacturer, drug manufacturer name; fs = floating subheading;
+ab = abstract.
+Note: the treatment concept is carried entirely by the floating subheadings
+dt (drug therapy), su (surgery), th (therapy) and rt (radiotherapy).
+```
+
+**Search strategy - Web of Science**
+
+```
+Not searched. Databases searched were the Cochrane Gynaecological Cancer Group
+Trials Register, CENTRAL, MEDLINE and EMBASE, plus reference lists and trial
+registers. Web of Science was not used.
+[CENTRAL strategy (Appendix 3), Issue 4 2008:
+#1 MeSH descriptor Ovarian Neoplasms explode all trees
+#2 ovar* near/5 (cancer* or neoplas* or carcinom* or malignan* or tumor* or tumour*)
+#3 (#1 OR #2)
+#4 atypical adj proliferative
+#5 borderline
+#6 micropapillary
+#7 low adj malignan*
+#8 semi adj malignan*
+#9 (#4 OR #5 OR #6 OR #7 OR #8)
+#10 (#3 AND #9)
+#11 ovar* near/5 cystadeno*
+#12 (#10 OR #11)]
+```
+
+## Elattar A, 2011 - Cochrane Database of Systematic Reviews
+
+**Optimal primary surgical treatment for advanced epithelial ovarian cancer**
+
+- Impact factor: 8.8 (2023 JIF)
+- URL: <https://doi.org/10.1002/14651858.CD007565.pub2>
+- PMID: 21833960 | PMCID: PMC6457688
+- Search strategy taken from: Appendices 1-3 of the review, read in full from PMC6457688
+
+**Purpose.** To assess the impact of the extent of primary cytoreductive surgery (residual disease after surgery) on overall and progression-free survival in women with advanced epithelial ovarian cancer. Included as an exemplar of a single-modality treatment block that is deliberately layered: a broad surgery concept (MeSH + truncated free text + the surgery floating subheading) is intersected with a narrow procedure concept (debulk*/cytoreduc*).
+
+**PICO**
+
+```
+P: Women with advanced (FIGO stage III/IV) epithelial ovarian cancer undergoing
+   primary cytoreductive surgery.
+I: Primary cytoreductive surgery achieving a given level of residual disease
+   (e.g. microscopic / < 1 cm / optimal).
+C: Primary cytoreductive surgery achieving a greater level of residual disease
+   (e.g. suboptimal, > 1 cm).
+O: Overall survival; progression-free survival; adverse events; quality of life.
+```
+
+**Search strategy - PubMed / MEDLINE**
+
+```
+[Not searched as PubMed. MEDLINE via Ovid, 1950 to July week 3 2010
+(databases searched to August 2010). Appendix 1, verbatim:]
+1  exp Ovarian Neoplasms/
+2  (ovar* adj5 cancer*).mp.
+3  (ovar* adj5 neoplas*).mp.
+4  (ovar* adj5 carcinom*).mp.
+5  (ovar* adj5 malignan*).mp.
+6  (ovar* adj5 tumor*).mp.
+7  (ovar* adj5 tumour*).mp.
+8  1 or 2 or 3 or 4 or 5 or 6 or 7
+9  exp Surgical Procedures, Operative/
+10 surg*.mp.
+11 "surgery".fs.
+12 9 or 10 or 11
+13 debulk*.mp.
+14 cytoreduc*.mp.
+15 13 or 14
+16 8 and 12 and 15
+17 "randomized controlled trial".pt.
+18 "controlled clinical trial".pt.
+19 random*.mp.
+20 trial*.mp.
+21 group*.mp.
+22 exp Cohort Studies/
+23 cohort*.mp.
+24 series.mp.
+25 17 or 18 or 19 or 20 or 21 or 22 or 23 or 24
+26 16 and 25
+27 Animals/
+28 Humans/
+29 27 not (27 and 28)
+30 26 not 29
+key: mp = title, original title, abstract, name of substance word, subject heading
+word; fs = floating subheading; pt = publication type.
+```
+
+**Search strategy - Embase**
+
+```
+[Embase via Ovid, 1980 to week 30 2010. Appendix 2, verbatim:]
+1  exp Ovary Tumor/
+2  (ovar* adj5 cancer*).mp.
+3  (ovar* adj5 neoplas*).mp.
+4  (ovar* adj5 carcinom*).mp.
+5  (ovar* adj5 malignan*).mp.
+6  (ovar* adj5 tumor*).mp.
+7  (ovar* adj5 tumour*).mp.
+8  1 or 2 or 3 or 4 or 5 or 6 or 7
+9  exp Surgery/
+10 surg*.mp.
+11 su.fs.
+12 9 or 10 or 11
+13 debulk*.mp.
+14 cytoreduc*.mp.
+15 13 or 14
+16 8 and 12 and 15
+17 exp Controlled Clinical Trial/
+18 random*.mp.
+19 trial*.mp.
+20 group*.mp.
+21 exp Cohort Analysis/
+22 cohort*.mp.
+23 series.mp.
+24 17 or 18 or 19 or 20 or 21 or 22 or 23
+25 16 and 24
+key: mp = title, abstract, subject headings, heading word, drug trade name, original
+title, device manufacturer, drug manufacturer name; fs = floating subheading.
+```
+
+**Search strategy - Web of Science**
+
+```
+Not searched. Databases searched were the Cochrane Gynaecological Cancer
+Collaborative Review Group Trials Register, CENTRAL (The Cochrane Library 2010,
+Issue 3), MEDLINE (to August 2010) and EMBASE (to August 2010). Web of Science
+was not used.
+[CENTRAL strategy (Appendix 3), Issue 3 2010:
+#1 MeSH descriptor Ovarian Neoplasms explode all trees
+#2 ovar* near/5 cancer*
+#3 ovar* near/5 neoplas*
+#4 ovar* near/5 carcinom*
+#5 ovar* near/5 malignan*
+#6 ovar* near/5 tumor*
+#7 ovar* near/5 tumour*
+#8 (#1 OR #2 OR #3 OR #4 OR #5 OR #6 OR #7)
+#9 MeSH descriptor Surgical Procedures, Operative explode all trees
+#10 surg*
+#11 Any MeSH descriptor with qualifier: SU
+#12 (#9 OR #10 OR #11)
+#13 debulk*
+#14 cytoreduc*
+#15 (#13 OR #14)
+#16 (#8 AND #12 AND #15)]
+```
+
