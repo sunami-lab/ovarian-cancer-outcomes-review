@@ -18,7 +18,9 @@ This is a methods scoping exercise, not a systematic review.
 
 | Path | Contents |
 |---|---|
-| `output/search_strategies.xlsx` | **The extraction deliverable.** 8 category sheets + an annex sheet. |
+| `output/search_strategies.md` | **Read the tables here.** Browsable mirror of the workbook — no download needed. |
+| `output/search_strategies.xlsx` | The same content as a spreadsheet. 8 category sheets + an annex sheet. |
+| `output/csv/` | Per-sheet CSV. GitHub renders these as interactive, searchable tables. |
 | `draft/` | **A candidate search strategy for your review**, sized and recall-tested. Start at `draft/README.md`. |
 | `data/NN_*.yml` | Source of truth for the workbook, one file per category. |
 | `strategies/` | Complete unabbreviated search strategies for the 7 reviews whose workbook cells are condensed. |

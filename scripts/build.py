@@ -3,7 +3,11 @@
 
 Usage: python3 scripts/build.py
 Outputs: output/search_strategies.xlsx  (one sheet per category)
-         docs/tables/<id>_<name>.md     (same content, browsable on GitHub)
+         output/search_strategies.md    (browsable mirror of the workbook, for GitHub)
+         output/csv/<id>_<name>.csv     (per sheet; GitHub renders CSV as a live table)
+         docs/tables/<id>_<name>.md     (per category, one section per review)
+
+Everything is generated from data/NN_*.yml, so the four views cannot drift apart.
 """
 import os
 import re
@@ -147,6 +151,99 @@ def md_cell(v):
     return clean(v).replace("|", "\\|").replace("\n", "<br>")
 
 
+def build_companion(cats):
+    """One browsable Markdown mirror of the whole workbook, for reading on GitHub.
+
+    Generated from the same YAML as the .xlsx, so the two cannot drift. The three
+    search-string columns hold up to 3 KB each; putting them inline would make the table
+    unreadable, so each sheet gets a table of the short columns followed by the full
+    strategies in collapsible <details> blocks, which GitHub renders natively.
+    """
+    path = os.path.join(ROOT, "output", "search_strategies.md")
+    n_rec = sum(len(c["records"]) for c in cats if c["category"].get("column_set") != "annex")
+    L = ["# Search strategies — browsable companion to `search_strategies.xlsx`", "",
+         "Same content as the workbook, generated from the same source (`data/NN_*.yml`) by",
+         "`scripts/build.py`, so the two cannot drift apart. Here so you can read the tables on",
+         "GitHub without downloading the spreadsheet.", "",
+         f"**{n_rec} systematic reviews across 8 categories, plus an annex of 10 reviews "
+         "excluded by the impact-factor rule.**", "",
+         "Each sheet below gives a table of the descriptive columns, then the full verbatim",
+         "search strategies in collapsible blocks — click to expand. Where a review did not",
+         "search a database, or searched it without publishing the string, the cell says so.", "",
+         "## Contents", ""]
+    for cat in cats:
+        m = cat["category"]
+        L.append(f"- [{m['id']}. {m['title']}](#{anchor(m)})")
+    L.append("")
+
+    for cat in cats:
+        meta = cat["category"]
+        L += ["---", "", f"## {meta['id']}. {meta['title']}", ""]
+        L += [f"**Focus.** {clean(meta['review_question_focus'])}", ""]
+        L += [f"**Population scope applied.** {clean(meta['population_scope'])}", ""]
+        if meta.get("cross_cutting_note"):
+            L += [f"**Note.** {clean(meta['cross_cutting_note'])}", ""]
+
+        if meta.get("column_set") == "annex":
+            L += ["| Title | 1st author / year | Journal | Impact factor | Why relevant | Why excluded | URL |",
+                  "|---|---|---|---|---|---|---|"]
+            for rec in cat["records"]:
+                L.append("| " + " | ".join(md_cell(rec.get(k)) for k in
+                         ("title", "first_author_year", "journal", "impact_factor",
+                          "why_relevant", "why_excluded", "url")) + " |")
+            L.append("")
+            continue
+
+        L += ["| Title | 1st author / year | Journal | Impact factor | Purpose of the study "
+              "| P — Population | I — Intervention / exposure | C — Comparison | O — Outcome | URL |",
+              "|---|---|---|---|---|---|---|---|---|---|"]
+        for rec in cat["records"]:
+            L.append("| " + " | ".join(md_cell(rec.get(k)) for k in
+                     ("title", "first_author_year", "journal", "impact_factor", "purpose",
+                      "pico_p", "pico_i", "pico_c", "pico_o", "url")) + " |")
+        L += ["", "### Search strategies", ""]
+        for rec in cat["records"]:
+            L += [f"<details>", f"<summary><b>{clean(rec['first_author_year'])}</b> — "
+                  f"{clean(rec['journal'])}</summary>", ""]
+            if rec.get("strategy_source"):
+                L += [f"Taken from: {clean(rec['strategy_source'])}", ""]
+            for label, key in (("PubMed / MEDLINE", "search_pubmed"),
+                               ("Embase", "search_embase"),
+                               ("Web of Science", "search_wos")):
+                L += [f"**{label}**", "", "```", clean(rec[key]), "```", ""]
+            L += ["</details>", ""]
+
+    open(path, "w").write("\n".join(L) + "\n")
+    return path
+
+
+def anchor(meta):
+    """GitHub heading anchor for '## <id>. <title>'."""
+    t = f"{meta['id']}-{meta['title']}".lower()
+    return re.sub(r"[^a-z0-9\s-]", "", t).replace(" ", "-")
+
+
+def build_csv(cats):
+    """Per-sheet CSV. GitHub renders .csv with an interactive, searchable table viewer,
+    which is the closest thing to opening the workbook in the browser."""
+    import csv
+    outdir = os.path.join(ROOT, "output", "csv")
+    os.makedirs(outdir, exist_ok=True)
+    written = []
+    for cat in cats:
+        meta = cat["category"]
+        cols = ANNEX_COLUMNS if meta.get("column_set") == "annex" else COLUMNS
+        slug = re.sub(r"[^a-z0-9]+", "_", meta["title"].lower()).strip("_")[:60]
+        p = os.path.join(outdir, f"{meta['id']}_{slug}.csv")
+        with open(p, "w", newline="", encoding="utf-8-sig") as fh:
+            w = csv.writer(fh)
+            w.writerow([h for h, _, _ in cols])
+            for rec in cat["records"]:
+                w.writerow([clean(rec.get(k)) for _, k, _ in cols])
+        written.append(p)
+    return written
+
+
 def build_md(cats):
     os.makedirs(OUT_MD, exist_ok=True)
     written = []
@@ -200,9 +297,13 @@ def main():
         sys.exit("No YAML files found in data/")
     x = build_xlsx(cats)
     m = build_md(cats)
+    comp = build_companion(cats)
+    csvs = build_csv(cats)
     n = sum(len(c["records"]) for c in cats)
     print(f"{len(cats)} categories, {n} reviews")
     print("wrote", os.path.relpath(x, ROOT))
+    print("wrote", os.path.relpath(comp, ROOT))
+    print(f"wrote {len(csvs)} files in output/csv/")
     for p in m:
         print("wrote", os.path.relpath(p, ROOT))
 
