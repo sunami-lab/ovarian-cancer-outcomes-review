@@ -9,131 +9,110 @@ category:
   population_scope: >-
     Cancer type and age left open, per the brief. No systematic review of functional status
     in ovarian cancer specifically, or in older adults with ovarian cancer, was published in
-    a journal meeting the JIF >= 5 threshold; the closest candidates (Martin 2020, J Geriatr
-    Oncol, JIF ~3.0, functional recovery after gynaecological cancer surgery; Neo 2017,
-    Cancer Treat Rev, ADL disability in adults with cancer) either fell below the threshold
-    or had no retrievable search strategy. Scheepers 2020 is retained because it is
-    restricted to older adults.
+    a journal meeting the JIF >= 5 threshold; the closest was Martin 2020 (J Geriatr Oncol,
+    JIF ~3.0, functional recovery after gynaecological cancer surgery). Scheepers 2020 is
+    retained because it is restricted to older adults.
   cross_cutting_note: >-
-    None of the three reviews put functional status into the search string. In each case the
-    outcome was applied at screening, and the search combined population with intervention
-    (and study design). This is the dominant pattern across categories 2-8 and is worth
-    knowing before writing a search that tries to retrieve on outcome terms.
+    Read these three as a spectrum. Neo 2017 is the one to copy: thirteen
+    functional-disability synonyms plus the "Activities of Daily Living" MeSH explosion,
+    with no intervention concept at all. McDonald 2023 is the opposite - physical function
+    is the entire subject of the review and appears nowhere in the search, which is applied
+    at screening instead. Scheepers 2020 is the common middle case: functional status is
+    reached indirectly through "frailty" and "Geriatric Assessment"[Mesh], with no ADL or
+    physical-function term. Not searching the outcome is the dominant pattern across
+    categories 2-8, so Neo is the exception worth learning from rather than the norm.
 
 records:
   - title: >-
-      Prehabilitation versus no prehabilitation to improve functional capacity, reduce
-      postoperative complications and improve quality of life in colorectal cancer surgery
-    first_author_year: "Molenaar CJ, 2023"
-    journal: "Cochrane Database of Systematic Reviews"
-    impact_factor: "8.4 (2023 JIF, Cochrane Library)"
+      Disability in activities of daily living among adults with cancer: a systematic
+      review and meta-analysis
+    first_author_year: "Neo J, 2017"
+    journal: "Cancer Treatment Reviews"
+    impact_factor: "9.6 (2023 JIF)"
     purpose: >-
-      To determine the effects of multimodal prehabilitation programmes on functional
-      capacity, postoperative complications and quality of life in adults undergoing surgery
-      for colorectal cancer. Functional capacity (6-minute walk test, VO2 peak, handgrip
-      strength) is the lead outcome, yet no functional-capacity terms appear anywhere in the
-      search - the strategy is population AND surgery AND (each of four intervention
-      components), run as four separate intersections.
+      To determine the prevalence of disability in activities of daily living among adults
+      with cancer, which ADL items are most often affected, and which instruments are used
+      to measure it. The best functional-status search block available in this impact band:
+      the review has no intervention concept at all, and instead intersects a two-term
+      cancer population with a thirteen-synonym functional-disability block and an
+      observational-design filter. If you take one outcome block for functional status,
+      take this one.
     pico: |
-      P: Adults with non-metastatic colorectal cancer scheduled for surgery.
-      I: Multimodal prehabilitation (>= two preoperative components from exercise,
-         nutrition, psychological support, smoking cessation).
-      C: No prehabilitation (usual preoperative care).
-      O: Functional capacity (6-minute walk test, VO2 peak, handgrip strength);
-         postoperative complications and mortality; health-related quality of life;
-         hospital length of stay.
+      P: Adults with cancer (any type, any stage, any treatment setting).
+      I: Nil - the review deliberately has no intervention concept.
+      C: Nil.
+      O: Disability in activities of daily living (ADL) and instrumental activities of daily
+         living (IADL) - prevalence, affected items, and measurement instruments.
     search_pubmed: |
-      [MEDLINE searched January 2021, reported in native PubMed syntax.
-      Appendix 2, verbatim:]
-      #1 Search ((("Colorectal Neoplasms"[Mesh] OR (("Neoplasms"[Mesh] OR carcinoma*[tiab]
-         OR neoplas*[tiab] OR tumour*[tiab] OR tumor*[tiab] OR cancer*[tiab] OR cancer[sb]
-         OR oncolog*[tiab] OR malignan*[tiab] OR carcinogen*[tiab] OR oncogen*[tiab]
-         AND (colorectal*[tiab] OR colon*[tiab] OR rectal*[tiab])))))
-      #2 Search "surgery"[Subheading] OR "Surgical Procedures, Operative"[Mesh]
-         OR "Surgeons"[Mesh] OR "Perioperative Period"[Mesh] OR "Perioperative Care"[Mesh]
-         OR "Preoperative Care"[Mesh] OR "Perioperative Care"[Mesh:NoExp] OR surger*[tiab]
-         OR surgical*[tiab] OR surgeon*[tiab] OR operation*[tiab] OR operative*[tiab]
-         OR perioperati*[tiab] OR preoperati*[tiab] OR pre operati*[tiab]
-         OR peri operati*[tiab] OR anesthe*[tiab] OR anaesthe*[tiab] OR incisi*[tiab]
-         OR excisi*[tiab] OR invasive*[tiab] OR Prehab*[tiab]
-      #3 Search (#1 AND #2)
-      #4 Search "Exercise Therapy"[Mesh] OR "Exercise"[Mesh] OR "Physical Education and
-         Training"[Mesh] OR "Exercise Movement Techniques"[Mesh] OR remedial exercis*[tiab]
-         OR exercise therap*[tiab] OR rehabilitation exercis*[tiab] OR exercis*[tiab]
-         OR physical activit*[tiab] OR physical exercis*[tiab] OR aerobic exercis*[tiab]
-         OR exercise training*[tiab] OR isometric exercis*[tiab]
-         OR (Physical Education*[tiab] AND training) OR exercise movement Techni*[tiab]
-      #5 Search (Psychosocial[tiab] OR psychologic*[tiab] OR "Cognitive Behavioral
-         Therapy"[Mesh] OR cognitive behav*[tiab] OR cognitive psychotherap*[tiab]
-         OR (cogniti*[tiab] AND therap*[tiab]) OR psychoeducation[tiab]
-         OR psycho-education[tiab])
-      #6 Search "Nutrition Therapy"[Mesh] OR "Nutritional Status"[Mesh]
-         OR medical nutrition therap*[tiab] OR nutrition therap*[tiab] OR nutrition[tiab]
-      #7 Search "Smoking Cessation"[Mesh] OR "Smoking"[Mesh] OR "Tobacco Use Cessation"[Mesh]
-         OR stopping smoking[tiab] OR smoking cessation*[tiab] OR giving up smoking*[tiab]
-         OR quitting smoking[tiab] smoking[tiab] OR smoking behav*[tiab]
-         OR smoking habit*[tiab] OR tobacco cessation[tiab]
-      #8  Search #3 AND #4
-      #9  Search #3 AND #5
-      #10 Search #3 AND #6
-      #11 Search #3 AND #7
-      Note: no functional-capacity, physical-function or activities-of-daily-living terms
-      appear in the strategy; the outcome was applied at screening.
+      [Not searched as PubMed. MEDLINE(R) via Ovid, 1946 to June 2016; search alerts run to
+      November 2016. Online supplement, Appendix 1, verbatim - the review labels this the
+      "example search strategy", adapted for the other 11 databases:]
+      1  Cancer*.mp.
+      2  exp Carcinoma/
+      3  Carcinoma*.mp.
+      4  1 or 2 or 3
+      5  Function* disabilit*.mp.
+      6  Function* outcome*.mp.
+      7  Function* impairment*.mp.
+      8  Function* status.mp.
+      9  Function* performance.mp.
+      10 Function* limitation*.mp.
+      11 exp "Activities of Daily Living"/
+      12 ADL.mp.
+      13 (Activit* adj2 daily living).mp.
+      14 (Instrumental Activit* adj2 daily living).mp.
+      15 IADL.mp.
+      16 Activit* limitation*.mp.
+      17 Participation restriction*.mp.
+      18 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17
+      19 Epidemiologic studies/
+      20 exp case control studies/
+      21 exp cohort studies/
+      22 Case control.tw.
+      23 (Cohort adj (study or studies)).tw.
+      24 Cohort analy$.tw.
+      25 (Follow up adj (study or studies)).tw.
+      26 (Observational adj (study or studies)).tw.
+      27 Longitudinal.tw.
+      28 Retrospective.tw.
+      29 Cross sectional.tw.
+      30 Cross-sectional studies/
+      31 19 or 20 or 21 or 22 or 23 or 24 or 25 or 26 or 27 or 28 or 29 or 30
+      32 4 and 18 and 31
+      33 Limit 32 to (English language and humans and "all adult (19 plus years)")
+      key: adj = adjacent; exp = explode; mp = title, original title, abstract, subject
+      heading, name of substance, and registry word; tw = text word.
+      The supplement also gives the concept table the strategy was built from - Population:
+      cancer, carcinoma. Intervention: nil. Comparison: nil. Outcome: functional
+      disability, functional disabilities, functional outcome, functional impairment,
+      functional limitation, functional status, functional performance, activities of daily
+      living, ADL, instrumental activities of daily living, IADL, activity limitation,
+      participation restriction. Study type: observational/epidemiologic/case-control/
+      cohort/cohort analysis/longitudinal/retrospective/cross-sectional/follow-up/
+      prospective/correlational studies.
     search_embase: |
-      [Embase via Ovid, 1974 to 2021 week 4. Appendix 3, verbatim:]
-      #1  exp colorectal tumor/
-      #2  exp neoplasm/
-      #3  (carcinoma* or neoplasm* or tumour* or tumor* or cancer* or oncolog* or malignan*
-          or carcinogen* or oncogen*).ab,ti.
-      #4  2 or 3
-      #5  (colorectal* or colon* or rectal*).ab,ti.
-      #6  4 and 5
-      #7  1 or 6
-      #8  exp surgery/
-      #9  exp surgeon/
-      #10 exp perioperative period/
-      #11 exp preoperative period/
-      #12 (surger* or surgical* or surgeon* or operation* or operative* or perioperati*
-          or preoperati* or pre operati* or peri operati* or anesthe* or anaesthe*
-          or incisi* or excisi* or invasive* or Prehab*).ab,ti.
-      #13 8 or 9 or 10 or 11 or 12
-      #14 (remedial exercis* or exercise therap* or rehabilitation exercis* or exercis*
-          or physical activit* or physical exercis* or aerobic exercis* or exercise training*
-          or isometric exercis* or exercise movement techni*).ab,ti.
-      #15 exp kinesiotherapy/
-      #16 14 or 15
-      #17 7 and 13 and 16
-      #18 exp diet therapy/
-      #19 exp nutritional status/
-      #20 (medical nutrition therap* or nutrition therap* or nutrition).ab,ti.
-      #21 18 or 19 or 20
-      #22 7 and 13 and 21
-      #23 exp cognitive behavioral therapy/
-      #24 (Psychosocial or psychologic* or cognitive behav* or cognitive psychotherap*
-          or psychoeducation or psycho-education).ab,ti.
-      #25 (cogniti* and therap*).ab,ti.
-      #26 23 or 24 or 25
-      #27 7 and 13 and 26
-      #28 exp smoking cessation/
-      #29 exp smoking/
-      #30 (stopping smoking or smoking cessation* or giving up smoking* or quitting smoking
-          or smoking or smoking behav* or smoking habit* or tobacco cessation).ab,ti.
-      #31 28 or 29 or 30
-      #32 7 and 13 and 31
+      Searched, but no Embase-specific string was published. The Methods state that the
+      strategy "was developed for MEDLINE and adapted where necessary for all other
+      databases", and only the MEDLINE example is reproduced (Appendix 1). Twelve
+      databases were searched from inception to June 2016: MEDLINE, EMBASE, CINAHL, ASSIA,
+      PsycINFO, Social Policy and Practice, IBSS, ScienceDirect, Social Service Abstracts,
+      Sociological Abstracts, Scopus and Web of Science Core Collection.
     search_wos: |
-      Not searched. Databases searched were CENTRAL (Cochrane Library, 2021 week 4),
-      MEDLINE (Ovid, 1950 to 2021 week 4), Embase (Ovid, 1974 to 2021 week 4) and PsycINFO
-      (EBSCOhost, 1967 to 2021 week 4), plus ClinicalTrials.gov, Google Scholar, the
-      Netherlands Trial Register and WHO ICTRP (to March 2021). Web of Science was not used.
-      [PsycINFO strategy (Appendix 4) shows the same shape in EBSCOhost syntax:
-      S1 DE "Neoplasms"; S2 TI colorectal cancer* OR AB colorectal cancer*; S3 DE "Surgery";
-      S4 TI surger* OR AB surger*; S5 S1 OR S2; S6 S3 OR S4; S7 S5 AND S6;
-      S8 DE "Psychosocial Rehabilitation"; ... S24 S7 AND S23]
-    url: "https://doi.org/10.1002/14651858.CD013259.pub3"
-    pmid: "37162250"
-    pmcid: "PMC10171468"
-    doi: "10.1002/14651858.CD013259.pub3"
-    strategy_source: "Appendices 1-5 of the review, read in full from PMC10171468"
+      Searched (Web of Science Core Collection, and Web of Science Conference Proceedings
+      for grey literature), but no Web of Science-specific string was published - only the
+      MEDLINE example strategy, adapted. Grey literature was additionally searched in
+      OpenGrey, ProQuest Dissertations & Theses, Scopus Conference Proceedings, HMIC and
+      Global Health. No date restriction; limited to human studies published in English.
+      This is one of only four reviews in the collection that searched Web of Science, and
+      one of two that searched it without publishing the string.
+    url: "https://doi.org/10.1016/j.ctrv.2017.10.006"
+    pmid: "29125982"
+    pmcid: ""
+    doi: "10.1016/j.ctrv.2017.10.006"
+    strategy_source: >-
+      Online supplement Appendix 1 (Search terms used in review; example MEDLINE strategy),
+      obtained from the King's College London institutional repository copy
+      (gold OA, CC BY-NC-ND) identified via Unpaywall
 
   - title: >-
       Physical function endpoints in cancer cachexia clinical trials: Systematic Review 1 of
