@@ -2,8 +2,9 @@
 # in older adults.
 #
 # Generated from draft/blocks_pubmed.yml. This is the ONLY version of the drafted
-# strategy that has been executed; yields are in draft/counts.md. The Ovid MEDLINE,
-# Embase and Web of Science files in this directory are untested translations.
+# strategy that has been executed. Yields: draft/counts.md. Known-item recall:
+# draft/recall.md. The Ovid MEDLINE, Embase and Web of Science files in this
+# directory are untested translations.
 #
 # Paste each block into PubMed's Advanced Search builder as its own numbered set,
 # then combine the sets as set out at the bottom of this file.
@@ -166,16 +167,22 @@ trial[ti] OR "Cohort Studies"[Mesh] OR cohort*[tiab] OR longitudinal[tiab] OR pr
 OR retrospective*[tiab] OR "observational study"[pt]
 
 #==============================================================================================
-# COMBINATIONS - measured yields are in draft/counts.md
+# COMBINATIONS - yields in draft/counts.md, known-item recall in draft/recall.md
 #
-# Recommended primary search   ~12,061 records
-#   P_ovarian AND I_treatment AND (O1 OR O2 OR O3 OR O4 OR O5 OR O6 OR O7)
+# RECOMMENDED PRIMARY SEARCH        17,623 records   23/23 known items (100%)
+#   P_ovarian AND (O1 OR O2 OR O3 OR O4 OR O5 OR O6 OR O7)
+#   No treatment block. In an ovarian cancer review the treatment block buys little
+#   precision and costs sensitivity: it drops PRO and quality-of-life secondary
+#   analyses of trials that never restate the intervention. See draft/README.md.
 #
-# Widest defensible search     ~91,708 records
+# Precision option                  12,061 records   22/23 known items (96%)
+#   P_ovarian AND I_treatment AND (O1 OR ... OR O7)
+#   32% fewer abstracts to screen, at the cost of the class of paper above.
+#
+# Widest defensible search          91,708 records   22/23 known items
 #   P_ovarian AND I_treatment
 #
-# Age-filtered                 ~4,075 records. NOT recommended as the primary
-# search: MEDLINE indexes participant age inconsistently, and an age block drops
-# studies whose abstracts never use the words older or elderly. Apply age at
-# screening instead, and use A_older only for a sensitivity check.
+# NOT RECOMMENDED - age-filtered     4,075 records   15/23 known items (65%)
+#   Adding A_older loses eight of the 23 known items, and they are precisely the
+#   quality-of-life papers the review exists to find. Apply age at screening.
 #   P_ovarian AND I_treatment AND A_older AND (O1 OR ... OR O7)

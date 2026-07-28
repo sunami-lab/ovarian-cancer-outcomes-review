@@ -210,6 +210,7 @@ combinations:
   - {id: "P AND I", and: [P_ovarian, I_treatment]}
   - {id: "P AND I AND age", and: [P_ovarian, I_treatment, A_older]}
   - {id: "P AND I AND design", and: [P_ovarian, I_treatment, D_design]}
+  - {id: "P AND anyOutcome (no treatment block)", and: [P_ovarian], or_group: [O1_functional, O2_cognition, O3_depression, O4_nutrition, O5_hrqol, O6_symptoms, O7_satisfaction]}
   - {id: "P AND I AND anyOutcome", and: [P_ovarian, I_treatment], or_group: [O1_functional, O2_cognition, O3_depression, O4_nutrition, O5_hrqol, O6_symptoms, O7_satisfaction]}
   - {id: "P AND I AND age AND anyOutcome", and: [P_ovarian, I_treatment, A_older], or_group: [O1_functional, O2_cognition, O3_depression, O4_nutrition, O5_hrqol, O6_symptoms, O7_satisfaction]}
   - {id: "P AND I AND O1 functional", and: [P_ovarian, I_treatment, O1_functional]}

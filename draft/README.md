@@ -12,25 +12,31 @@ collection, with every line traced back to the review it came from.
 | `blocks_pubmed.yml` | Source of truth. Each block with its provenance and the combinations to size. |
 | `pubmed.txt` | Runnable PubMed strategy, generated from the YAML. **The only version that has been executed.** |
 | `counts.md` | Live PubMed yields for every block and combination. |
+| `recall.md` | Known-item recall test — does the strategy find what it must? |
 | `ovid_medline.txt` | Ovid MEDLINE translation. **Untested.** |
 | `embase_ovid.txt` | Embase (Ovid) translation. **Untested.** |
 | `web_of_science.txt` | Web of Science translation. **Untested.** |
 
-Re-run the sizing at any time:
+Re-run either test at any time:
 
 ```bash
-python3 scripts/test_draft.py --write
+python3 scripts/test_draft.py --write     # how much is there to screen
+python3 scripts/recall_test.py --write    # what does it miss
 ```
 
-## What it yields
+## What it yields, and what it finds
 
-| Strategy | PubMed records | Comment |
-|---|---:|---|
-| Population only | 179,495 | — |
-| Population AND treatment | **91,708** | Widest defensible. Too many to screen. |
-| … AND any patient-centred outcome | **12,061** | **Recommended primary search.** |
-| … AND age block as well | 4,075 | Comfortable, but see the warning below. |
-| … AND design filter instead of outcome | 26,181 | If you would rather screen on outcome. |
+Two numbers matter for a search: how much you have to screen, and how much you miss.
+`scripts/test_draft.py` gives the first, `scripts/recall_test.py` the second — the latter
+against 23 verified studies a review of this question must not miss (`draft/recall.md`).
+
+| Strategy | Records to screen | Known items found | Recall |
+|---|---:|---:|---:|
+| Population only | 179,495 | 23/23 | 100% |
+| **Population AND any outcome** | **17,623** | **23/23** | **100%** ← recommended |
+| Population AND treatment AND any outcome | 12,061 | 22/23 | 96% |
+| Population AND treatment | 91,708 | 22/23 | 96% |
+| … AND age block as well | 4,075 | 15/23 | 65% |
 
 Per outcome, intersected with population AND treatment:
 
@@ -44,38 +50,50 @@ Per outcome, intersected with population AND treatment:
 | Depression | 611 |
 | Patient satisfaction | 321 |
 
-## Three decisions you have to make, with the evidence for each
+## The decisions, and the evidence for each
 
-**1. Should the outcome be in the search at all?**
+**1. Should the outcome be in the search at all?** — Yes.
 
-The evidence from the 24 reviews says usually not: population AND intervention, with the
-outcome applied at screening, is the dominant pattern, and reviews that name an outcome in
-the title still frequently omit it from the strategy (Molenaar, Cramer, Ream). The argument
-against putting it in is that you lose studies whose abstracts report your outcome without
-naming it — a trial reporting "QLQ-C30 scores" and nothing else is retrieved by Mishra's
-instrument-name line but not by "quality of life".
+The evidence from the 24 reviews says most reviews do not: population AND intervention,
+with the outcome applied at screening, is the dominant pattern. But that pattern is for
+reviews whose population block is already narrow. Here the arithmetic settles it: the
+outcome block cuts 179,495 records to 17,623 and loses none of the 23 known items. There is
+no sensitivity argument against it in this particular review.
 
-The argument for putting it in is arithmetic: 91,708 records is not a screenable set for a
-review team, and 12,061 is. The outcome block keeps 13% of the population-and-treatment set.
+**1b. Should the *treatment* block be in the search?** — Probably not, and this is the one
+place the recall test changed my recommendation.
 
-My recommendation: run `P AND I AND anyOutcome` as the primary search, and run `P AND I`
-separately, restricted to the last five years, as a sensitivity check on what the outcome
-block loses. If the check turns up eligible studies the primary search missed, the block is
-too tight and the instrument-name lines are where to widen first.
+Adding it takes 17,623 records down to 12,061 — 32% less screening — but drops a known
+item: Wenzel 2021 (JNCI), a quality-of-life and adverse-event analysis of GOG-0218. That
+paper carries **no treatment MeSH heading at all**, and its abstract never names a drug or
+a procedure; it says only "post-treatment" and reports FACT-O-TOI scores. It is not an
+oddity — it is the signature of a whole class of paper this review needs: **patient-reported
+outcome secondary analyses of trials, which describe the outcome in detail and take the
+intervention as read**. A treatment block systematically drops them.
 
-**2. Should the age block be in the search?**
+Since every study of ovarian cancer patients is, in practice, a study of treated ovarian
+cancer patients, the treatment block buys precision rather than validity here.
 
-Probably not. MEDLINE indexes participant age inconsistently, and "older" and "elderly"
-appear in abstracts erratically — a trial of women with a median age of 68 will often say
-neither. Applying `A_older` drops the set from 12,061 to 4,075, which is a two-thirds
-reduction that is very unlikely to be two-thirds irrelevance.
+My recommendation: run `P AND anyOutcome` as the primary search. If 17,623 abstracts is
+beyond the team's capacity, `P AND I AND anyOutcome` is a defensible fallback — but record
+in the protocol that it is a pragmatic restriction, not a conceptual one, and consider
+running `P AND (O5_hrqol OR O6_symptoms)` without the treatment block as a top-up to
+recover the PRO secondary analyses.
 
-Note that only one review in the entire collection (Soong 2025) used an age block in the
-search. Scheepers 2020, which is restricted to older adults, reached them through
-"frailty" and "Geriatric Assessment"[Mesh] rather than through age terms — worth
-considering as a middle path.
+**2. Should the age block be in the search?** — No. This is now measured, not argued.
 
-My recommendation: apply age at screening, and keep `A_older` for a sensitivity check.
+Applying `A_older` drops the known-item recall from 100% to **65%**: eight of the 23 items
+disappear, and they are almost all the trial quality-of-life papers — SOLO1's and PAOLA-1's
+PRO publications, the AURELIA QoL substudy, ARIEL3's PROs, PRIMA's updated PROs. Those
+trials enrolled plenty of older women; their PRO papers simply do not use the words "older"
+or "elderly" and are not indexed under Aged.
+
+Note also that only one review in the whole collection (Soong 2025) used an age block in
+the search. Scheepers 2020, which is restricted to older adults, reached them through
+"frailty" and "Geriatric Assessment"[Mesh] instead — a middle path worth considering, though
+the recall test suggests even that will lose PRO papers.
+
+My recommendation: apply age at screening. Keep `A_older` only for a sensitivity check.
 
 **3. Which databases?**
 

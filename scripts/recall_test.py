@@ -100,6 +100,7 @@ def main():
     combos = {
         "P": f"({P})",
         "P AND I": f"({P}) AND ({I})",
+        "P AND anyOutcome (no treatment block)": f"({P}) AND ({OUT})",
         "P AND I AND anyOutcome": f"({P}) AND ({I}) AND ({OUT})",
         "P AND I AND age AND anyOutcome": f"({P}) AND ({I}) AND ({A}) AND ({OUT})",
     }

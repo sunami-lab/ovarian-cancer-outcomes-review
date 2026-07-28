@@ -28,6 +28,7 @@ ratios are the point, not the absolute numbers.
 | P AND I | 91,708 |
 | P AND I AND age | 20,648 |
 | P AND I AND design | 26,181 |
+| P AND anyOutcome (no treatment block) | 17,623 |
 | P AND I AND anyOutcome | 12,061 |
 | P AND I AND age AND anyOutcome | 4,075 |
 | P AND I AND O1 functional | 1,294 |
@@ -44,6 +45,7 @@ Taking `P AND I` = 91,708 records as the reference:
 
 - **P AND I AND age** retains 20,648 records, 22.5% of the population-and-intervention set.
 - **P AND I AND design** retains 26,181 records, 28.5% of the population-and-intervention set.
+- **P AND anyOutcome (no treatment block)** retains 17,623 records, 19.2% of the population-and-intervention set.
 - **P AND I AND anyOutcome** retains 12,061 records, 13.2% of the population-and-intervention set.
 - **P AND I AND age AND anyOutcome** retains 4,075 records, 4.4% of the population-and-intervention set.
 - **P AND I AND O1 functional** retains 1,294 records, 1.4% of the population-and-intervention set.
