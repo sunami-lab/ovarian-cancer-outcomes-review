@@ -1,0 +1,290 @@
+category:
+  id: "07"
+  sheet_name: "7 Patients' symptoms"
+  title: >-
+    Patients' symptoms (fatigue, insomnia, pain, anorexia, dyspnea, cognitive problems,
+    anxiety, nausea, depression, sensory neuropathy, constipation, diarrhea)
+  review_question_focus: >-
+    How do previously published systematic reviews of cancer treatment build the
+    symptom concept in their database search strategies, given the 12 recommended
+    patient-reported symptoms?
+  population_scope: >-
+    Cancer type and age left open, per the brief.
+  cross_cutting_note: >-
+    An honest negative finding worth acting on: across everything screened for this
+    exercise, no systematic review in a journal with JIF >= 5 enumerates the 12 symptoms as
+    a search block. Reviews either (a) search a single named symptom, (b) search
+    "symptom(s)" or "patient-reported outcome" as an abstraction, or (c) do not search the
+    outcome at all and pick symptoms up at data extraction - which is what both Reeve and
+    Ream do. If you want a symptom block for an ovarian cancer review, the nearest
+    off-the-shelf material is the PRO block in Osanto 2024 (category 6), which already
+    carries fatigue, pain, anxiety, depression, functional status and symptom burden, and
+    the instrument-name line in Mishra 2012 (category 6), which retrieves via MSAS, MDASI
+    and QLQ-C30 rather than via symptom words.
+
+records:
+  - title: "Recommended patient-reported core set of symptoms to measure in adult cancer treatment trials"
+    first_author_year: "Reeve BB, 2014"
+    journal: "Journal of the National Cancer Institute"
+    impact_factor: "9.9 (2023 JIF)"
+    purpose: >-
+      To derive, by systematic review plus analysis of six large datasets and multistakeholder
+      consensus, a core set of patient-reported symptoms for adult cancer treatment trials.
+      This is the paper that produced the 12 symptoms in the brief - fatigue, insomnia,
+      pain, anorexia (appetite loss), dyspnea, cognitive problems, anxiety (includes worry),
+      nausea, depression (includes sadness), sensory neuropathy, constipation and diarrhea.
+      Included as the anchor reference for the category, and as a caution: the paper that
+      defines the symptom set retrieved its evidence with a two-term search.
+    pico: |
+      P: Adults (>= 18 years) with cancer, across diverse cancer populations and treatment
+         modalities.
+      I: Anticancer treatment (any modality) in clinical trials measuring a patient-reported
+         outcome.
+      C: Not applicable - this is a core-outcome-set derivation, not a comparative review.
+      O: Which symptoms should form a core set, judged on prevalence across cancer
+         populations, impact on health outcomes and quality of life, and attribution to
+         disease or to anticancer treatment.
+    search_pubmed: |
+      [Reported in full in the Literature Review section, verbatim:]
+      "Search terms included 'multiple symptoms' and 'cancer' and was limited to adults
+      (aged 18 years or older) and to reports published in English between 2001 and 2011.
+      This strategy identified 55 publications..."
+      The review itself is reported as "described elsewhere" - in Reilly CM et al.,
+      "A literature synthesis of symptom prevalence and severity in persons receiving
+      active cancer treatment", Support Care Cancer 2013;21:1525-50 - which extended
+      Kim et al.'s earlier synthesis of studies using the Symptom Distress Scale, the
+      M.D. Anderson Symptom Inventory and the Memorial Symptom Assessment Scale.
+      No database name, interface, field tag or line-numbered strategy is given. The 12
+      symptoms are an output of the review; none of them is an input to the search.
+    search_embase: |
+      Not reported. No database is named in the paper; the search is described only by the
+      two terms above, and the underlying review is cited to Reilly 2013.
+    search_wos: |
+      Not reported. See above.
+    url: "https://doi.org/10.1093/jnci/dju129"
+    pmid: "25006191"
+    pmcid: "PMC4110472"
+    doi: "10.1093/jnci/dju129"
+    strategy_source: "Literature Review subsection of the Methods, read from PMC4110472"
+
+  - title: >-
+      Patient-Reported Outcome Measures in Cancer Care: An Updated Systematic Review and
+      Meta-Analysis
+    first_author_year: "Balitsky AK, 2024"
+    journal: "JAMA Network Open"
+    impact_factor: "10.5 (2023 JIF)"
+    purpose: >-
+      To determine whether integrating patient-reported outcome measures into cancer care is
+      associated with patient-related, therapy-related and health-care-utilisation outcomes.
+      Included because it is the best-documented symptom-adjacent strategy at this impact
+      level: an information specialist's line-numbered strategies for five databases, run
+      twice (an original search and a 2022 update), with per-database yields reported. The
+      symptom concept is expressed at one level of abstraction - "patient reported
+      outcome(s)" AND (inventory or instrument* or measure* or self-report*) - rather than
+      by naming symptoms.
+    pico: |
+      P: Adults (>= 18 years) with active cancer receiving anticancer therapy (survivors
+         excluded).
+      I: Administration of a patient-reported outcome measure, with results shared with the
+         patient's health care professional.
+      C: Standard care without PROM administration.
+      O: Patient-related outcomes (HRQOL, symptom control, patient-clinician communication);
+         therapy-related outcomes (treatment adherence, chemotherapy dose modification,
+         survival); health care utilisation (emergency visits, hospital admissions).
+    search_pubmed: |
+      [Not searched as PubMed. Ovid MEDLINE and MEDLINE Epub Ahead of Print, In-Process and
+      other non-indexed citations, 1946 to present; searches to 26 September 2022.
+      eAppendix in Supplement 1, verbatim (result counts as printed):]
+      1  exp Neoplasms/ (3489255)
+      2  (cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia*
+         or leukaemia* or sarcoma* or lymphoma* or melanoma* or blastoma*
+         or myeloma*).mp. (4606954)
+      3  1 or 2 (4799855)
+      4  (patient reported outcomes or patient reported outcome or patient based outcome
+         or patient reported outcome measure$).mp. (27045)
+      5  (inventory or instrument* or measure* or self-report*).ti,ab. (3825061)
+      6  4 and 5 (17872)
+      7  3 and 6 (3253)
+      8  Epidemiologic Studies/ (8708)
+      9  exp Case-Control Studies/ (1189370)
+      10 exp Cohort Studies/ (2159240)
+      11 Case control.tw. (134508)
+      12 (cohort adj (study or studies)).tw. (238711)
+      13 Cohort analy$.tw. (9174)
+      14 (Follow up adj (study or studies)).tw. (51361)
+      15 (observational adj (study or studies)).tw. (123476)
+      16 Longitudinal.tw. (268228)
+      17 Retrospective.tw. (597112)
+      18 Cross sectional.tw. (400545)
+      19 Cross-sectional studies/ (372470)
+      20 or/8-19 (3264389)
+      21 exp animals/ not humans.sh. (4849833)
+      22 20 not 21 (3196743)
+      23 7 and 22 (1296)
+      24 randomized controlled trial.pt. (534665)
+      25 controlled clinical trial.pt. (94229)
+      26 randomi?ed.ab. (626711)
+      27 placebo.ab. (219040)
+      28 drug therapy.fs. (2336519)
+      29 randomly.ab. (359969)
+      30 trial.ab. (556534)
+      31 groups.ab. (2209788)
+      32 or/24-31 (5054529)
+      33 exp animals/ not humans.sh. (4849833)
+      34 32 not 33 (4396229)
+      35 7 and 34 (1463)
+      36 23 or 35 (2191)
+      37 limit 36 to yr="2012 -Current" (2030)
+    search_embase: |
+      [Embase via OvidSP, 1974 to 2021 (original search) and 1996 to 23 September 2022
+      (update). eAppendix in Supplement 1, verbatim (population and PRO blocks; the
+      observational filter is lines 8-23 and the RCT filter lines 25-44):]
+      1  exp malignant neoplasm/ (3666710)
+      2  (cancer* or neoplasm* or carcinoma* or oncol* or malignan* or tumor* or leukemia*
+         or leukaemia* or sarcoma* or lymphoma* or melanoma* or blastoma*
+         or myeloma*).mp. (6022711)
+      3  1 or 2 (6089519)
+      4  (patient reported outcomes or patient reported outcome or patient based outcome
+         or patient reported outcome measure$).mp. (49934)
+      5  (inventory or instrument* or measure* or self-report*).ti,ab. (4948202)
+      6  4 and 5 (31490)
+      7  3 and 6 (6768)
+      8-23  [observational-study filter: clinical study/; case control study/; family study/;
+            longitudinal study/; retrospective study/; prospective study/ not randomized
+            controlled trials/; cohort analysis/; and .mp. adjacency lines for cohort,
+            case control, follow up, observational, epidemiologic$ and cross sectional
+            "study or studies"]
+      24 7 and 23 (2301)
+      25-44 [Embase RCT filter: randomized controlled trial/; Controlled clinical study/;
+            random$.ti,ab.; randomization/; intermethod comparison/; placebo.ti,ab.;
+            (compare or compared or comparison).ti.; ((evaluated or evaluate or evaluating
+            or assessed or assess) and (compare or compared or comparing or comparison)).ab.;
+            (open adj label).ti,ab.; ((double or single or doubly or singly) adj (blind or
+            blinded or blindly)).ti,ab.; double blind procedure/; parallel group$1.ti,ab.;
+            (crossover or cross over).ti,ab.; ((assign$ or match or matched or allocation)
+            adj5 (alternate or group$1 or intervention$1 or patient$1 or subject$1 or
+            participant$1)).ti,ab.; (assigned or allocated).ti,ab.; (controlled adj7 (study
+            or design or trial)).ti,ab.; (volunteer or volunteers).ti,ab.; human experiment/;
+            trial.ti.]
+      Yields by database for the updated search: MEDLINE, Embase, PsycInfo 605, CENTRAL 3434,
+      CINAHL 1866; subtotal 13 857, 3554 after limits, 1049 duplicates removed.
+    search_wos: |
+      Not searched. Databases searched were MEDLINE and MEDLINE Epub ahead of print
+      (OvidSP), Embase (OvidSP), PsycINFO (OvidSP), CENTRAL and CINAHL (EBSCO), from
+      1 January 2012 to 26 September 2022, with no language or publication-status
+      restriction. The search from the 2014 predecessor review was re-run first
+      (eAppendices 1 and 2). Web of Science was not used.
+      [The CINAHL translation (EBSCOhost) is given in the same appendix and shows the PRO
+      concept in EBSCO syntax:
+      S4  (MH "Patient-Reported Outcomes")
+      S5  TX patient reported outcome
+      S6  TX patient reported outcomes
+      S7  TX patient based outcome
+      S8  TX patient reported outcome measure*
+      S9  S5 OR S6 OR S7 OR S8
+      S10 TX inventory or instrument* or measure* or self-report*
+      S11 S9 AND S10
+      S12 S4 OR S11
+      S13 S3 AND S12]
+    url: "https://doi.org/10.1001/jamanetworkopen.2024.24793"
+    pmid: "39136947"
+    pmcid: "PMC11322847"
+    doi: "10.1001/jamanetworkopen.2024.24793"
+    strategy_source: "eAppendices (search strategies) in Supplement 1"
+
+  - title: "Telephone interventions for symptom management in adults with cancer"
+    first_author_year: "Ream E, 2020"
+    journal: "Cochrane Database of Systematic Reviews"
+    impact_factor: "8.8 (2023 JIF)"
+    purpose: >-
+      To assess the effectiveness of telephone-delivered interventions for reducing symptoms
+      associated with cancer and its treatment, to determine which symptoms are most
+      responsive, and whether intervention configuration and dose modify the effect.
+      Included because the review's own question is explicitly "which symptoms respond" -
+      it analyses anxiety, depression, fatigue, emotional distress, pain and others as
+      separate outcomes - and yet not one symptom term appears in any of the three search
+      strategies. It is the clearest demonstration in this collection that a symptom-focused
+      review can be built entirely on a population-plus-intervention search.
+    pico: |
+      P: Adults (>= 18 years) with cancer, during or after treatment.
+      I: Telephone-delivered interventions for symptom management, alone or with additional
+         face-to-face, printed or electronic support.
+      C: Usual care or another intervention.
+      O: Individual symptoms - anxiety, depression, fatigue, emotional distress, pain,
+         nausea and others; symptom clusters; quality of life; adverse events.
+    search_pubmed: |
+      [Not searched as PubMed. MEDLINE via Ovid. Appendix 2, verbatim:]
+      1  exp Neoplasms/
+      2  (neoplasm* or cancer* or carcinoma* or tumour* or adenocarcinoma* or leukemi*
+         or leukaemi* or lymphoma* or tumor* or malignan* or myeloma*).mp.
+      3  exp Radiotherapy/
+      4  (radiotherap* or radiation or radiochemotherap* or chemoradi* or chemotherap*).mp.
+      5  1 or 2 or 3 or 4
+      6  exp Telemedicine/
+      7  (telemedicine or (tele adj medicine)).mp.
+      8  (teleconsultation or (tele adj consultation)).mp.
+      9  (remote* adj5 consultation*).mp.
+      10 telephone*.mp.
+      11 phone*.mp.
+      12 cellphone*.mp.
+      13 8 or 6 or 11 or 7 or 10 or 9 or 12
+      14 "randomized controlled trial".pt.
+      15 "controlled clinical trial".pt.
+      16 randomized.ab.
+      17 randomly.ab.
+      18 trial.ab.
+      19 groups.ab.
+      20 18 or 19 or 16 or 17 or 15 or 14
+      21 13 and 20 and 5
+      Note that the population block folds treatment modality (radiotherapy, chemotherapy)
+      into the cancer concept with OR rather than AND - a useful pattern if you want to
+      capture treated populations without requiring the treatment to be indexed. There is
+      no symptom block.
+    search_embase: |
+      [Embase via Ovid. Appendix 3, verbatim:]
+      1  exp Neoplasm/
+      2  (neoplasm* or cancer* or carcinoma* or tumour* or adenocarcinoma* or leukemi*
+         or leukaemi* or lymphoma* or tumor* or malignan* or myeloma*).mp.
+      3  exp Radiotherapy/
+      4  (radiotherap* or radiation or radiochemotherap* or chemoradi* or chemotherap*).mp
+      5  1 or 2 or 3 or 4
+      6  exp Telemedicine/
+      7  (telemedicine or (tele adj medicine)).mp.
+      8  (teleconsultation or (tele adj consultation)).mp.
+      9  (remote* adj5 consultation*).mp.
+      10 telephone*.mp.
+      11 phone*.mp.
+      12 cellphone*.mp.
+      13 8 or 6 or 11 or 7 or 10 or 9 or 12
+      14 exp Controlled Clinical Trial/
+      15 randomized.ab.
+      16 randomly.ab.
+      17 trial.ab.
+      18 groups.ab.
+      19 18 or 16 or 17 or 15 or 14
+      20 19 and 13 and 5
+    search_wos: |
+      Not searched. Databases searched were CENTRAL, MEDLINE (Ovid), Embase (Ovid),
+      PsycINFO, CINAHL and British Nursing Index, plus trial registries and reference
+      lists. Web of Science was not used.
+      [CENTRAL strategy (Appendix 1), verbatim:
+      #1 MeSH descriptor Neoplasms explode all trees
+      #2 neoplasm* or cancer* or carcinoma* or tumour* or adenocarcinoma* or leukemi*
+         or leukaemi* or lymphoma* or tumor* or malignan* or myeloma*
+      #3 MeSH descriptor Radiotherapy explode all trees
+      #4 radiotherap* or radiation or radiochemotherap* or chemoradi* or chemotherap*
+      #5 (#1 OR #2 OR #3 OR #4)
+      #6 MeSH descriptor Telemedicine explode all trees
+      #7 telemedicine or (tele next medicine)
+      #8 teleconsultation or (tele next consultation)
+      #9 telephone*
+      #10 phone*
+      #11 cellphone*
+      #12 remote* near/5 consultation*
+      #13 (#6 OR #7 OR #8 OR #9 OR #10 OR #11 OR #12)
+      #14 (#5 AND #13)]
+    url: "https://doi.org/10.1002/14651858.CD007568.pub2"
+    pmid: "32483832"
+    pmcid: "PMC7264015"
+    doi: "10.1002/14651858.CD007568.pub2"
+    strategy_source: "Appendices 1-3 of the review, read in full from PMC7264015"
