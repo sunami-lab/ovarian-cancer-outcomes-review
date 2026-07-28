@@ -84,7 +84,7 @@ PsycINFO version, verbatim:
 
 **Antidepressants for the treatment of depression in people with cancer**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD011006.pub4>
 - PMID: 36999619 | PMCID: PMC10065046
 - Search strategy taken from: Appendices 1-4 of the review, read in full from PMC10065046

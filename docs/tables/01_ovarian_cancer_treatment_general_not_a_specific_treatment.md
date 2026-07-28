@@ -8,7 +8,7 @@
 
 **Neoadjuvant chemotherapy before surgery versus surgery followed by chemotherapy for initial treatment in advanced epithelial ovarian cancer**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD005343.pub6>
 - PMID: 34328210 | PMCID: PMC8406953
 - Search strategy taken from: Appendices 1-3 of the review, read in full from PMC8406953
@@ -128,7 +128,7 @@ investigators were also checked. Web of Science was not used.
 
 **Interventions for the treatment of borderline ovarian tumours**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD007696.pub2>
 - PMID: 20824864 | PMCID: PMC4164822
 - Search strategy taken from: Appendices 1-3 of the review, read in full from PMC4164822
@@ -253,7 +253,7 @@ registers. Web of Science was not used.
 
 **Optimal primary surgical treatment for advanced epithelial ovarian cancer**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD007565.pub2>
 - PMID: 21833960 | PMCID: PMC6457688
 - Search strategy taken from: Appendices 1-3 of the review, read in full from PMC6457688

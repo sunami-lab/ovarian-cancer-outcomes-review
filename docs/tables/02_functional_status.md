@@ -8,7 +8,7 @@
 
 **Prehabilitation versus no prehabilitation to improve functional capacity, reduce postoperative complications and improve quality of life in colorectal cancer surgery**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD013259.pub3>
 - PMID: 37162250 | PMCID: PMC10171468
 - Search strategy taken from: Appendices 1-5 of the review, read in full from PMC10171468

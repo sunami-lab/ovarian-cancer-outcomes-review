@@ -8,7 +8,7 @@
 
 **Perioperative nutrition interventions for women with ovarian cancer**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD009884.pub2>
 - PMID: 24027084 | PMCID: PMC8730356
 - Search strategy taken from: Appendices 1-3 of the review, read in full from PMC8730356

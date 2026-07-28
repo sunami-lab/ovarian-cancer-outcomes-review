@@ -8,7 +8,7 @@
 
 **Non-pharmacological interventions for cognitive impairment due to systemic cancer treatment**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD011325.pub2>
 - PMID: 27529826 | PMCID: PMC8734151
 - Search strategy taken from: Appendices 1-6 of the review, read in full from PMC8734151
@@ -167,7 +167,7 @@ S50 (S47 or S48 or S49) S51 (S44 and S50)]
 
 **Long-term neurocognitive and other side effects of radiotherapy, with or without chemotherapy, for glioma**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD013047.pub2>
 - PMID: 31425631 | PMCID: PMC6699681
 - Search strategy taken from: Appendix 1 of the review, read in full from PMC6699681

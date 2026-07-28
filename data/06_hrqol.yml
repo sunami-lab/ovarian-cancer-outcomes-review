@@ -26,7 +26,7 @@ records:
       active treatment
     first_author_year: "Mishra SI, 2012"
     journal: "Cochrane Database of Systematic Reviews"
-    impact_factor: "8.8 (2023 JIF)"
+    impact_factor: "8.4 (2023 JIF, Cochrane Library)"
     purpose: >-
       To evaluate the effectiveness of exercise on overall HRQoL and on specific HRQoL
       domains among adults with cancer during active treatment. Included because its HRQoL
@@ -271,10 +271,10 @@ records:
       used separately where PubMed uses [tw], TS= for the topic block, NEAR/5 replacing
       ADJ4, DT= for document type, la= for language and py= for an explicit year list.
       Google Scholar and the Cochrane Library were also searched.
-    url: "https://doi.org/10.1016/j.eclinm.2024.102922"
+    url: "https://doi.org/10.1016/j.eclinm.2024.102914"
     pmid: "39619239"
     pmcid: "PMC11605133"
-    doi: "10.1016/j.eclinm.2024.102922"
+    doi: "10.1016/j.eclinm.2024.102914"
     strategy_source: "Supplementary Table 2 (Search Strategy) in the supplementary appendix"
 
   - title: >-
@@ -282,7 +282,7 @@ records:
       symptoms in women diagnosed with breast cancer
     first_author_year: "Cramer H, 2017"
     journal: "Cochrane Database of Systematic Reviews"
-    impact_factor: "8.8 (2023 JIF)"
+    impact_factor: "8.4 (2023 JIF, Cochrane Library)"
     purpose: >-
       To assess the effects of yoga on health-related quality of life, mental health and
       cancer-related symptoms among women diagnosed with breast cancer, during or after

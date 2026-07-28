@@ -192,7 +192,7 @@ S13 S3 AND S12]
 
 **Telephone interventions for symptom management in adults with cancer**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD007568.pub2>
 - PMID: 32483832 | PMCID: PMC7264015
 - Search strategy taken from: Appendices 1-3 of the review, read in full from PMC7264015

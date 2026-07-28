@@ -8,7 +8,7 @@
 
 **Exercise interventions on health-related quality of life for people with cancer during active treatment**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD008465.pub2>
 - PMID: 22895974 | PMCID: PMC7389071
 - Search strategy taken from: Appendices 1-6 of the review, read in full from PMC7389071
@@ -158,7 +158,7 @@ includes (MH "Functional Status") and (MH "Pain Measurement") as controlled term
 **Health-related quality of life outcomes in randomized controlled trials in metastatic hormone-sensitive prostate cancer: a systematic review**
 
 - Impact factor: 9.6 (2023 JIF)
-- URL: <https://doi.org/10.1016/j.eclinm.2024.102922>
+- URL: <https://doi.org/10.1016/j.eclinm.2024.102914>
 - PMID: 39619239 | PMCID: PMC11605133
 - Search strategy taken from: Supplementary Table 2 (Search Strategy) in the supplementary appendix
 
@@ -280,7 +280,7 @@ Google Scholar and the Cochrane Library were also searched.
 
 **Yoga for improving health-related quality of life, mental health and cancer-related symptoms in women diagnosed with breast cancer**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD010802.pub2>
 - PMID: 28045199 | PMCID: PMC6465041
 - Search strategy taken from: Appendices 1-6 of the review, read in full from PMC6465041

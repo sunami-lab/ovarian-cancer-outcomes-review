@@ -75,7 +75,7 @@ Not reported. See above.
 
 **Effectiveness and cost-effectiveness of home palliative care services for adults with advanced illness and their caregivers**
 
-- Impact factor: 8.8 (2023 JIF)
+- Impact factor: 8.4 (2023 JIF, Cochrane Library)
 - URL: <https://doi.org/10.1002/14651858.CD007760.pub2>
 - PMID: 23744578 | PMCID: PMC4473359
 - Search strategy taken from: Appendices 1-5 of the review, read in full from PMC4473359
@@ -208,65 +208,74 @@ hospice* or ((palliat* or terminal* or "end stage") and (home or community or
 outreach or ambulatory))]
 ```
 
-## Shao Q, 2025 - International Journal of Nursing Studies
+## Alessy SA, 2022 - eClinicalMedicine
 
-**Development and application of patient-reported experience measures for cancer patients: a scoping review**
+**Factors influencing cancer patients' experiences of care in the USA, United Kingdom and Canada: A systematic review**
 
-- Impact factor: 7.5 (2023 JIF)
-- URL: <https://doi.org/10.1016/j.ijnurstu.2025.105077>
-- PMID: 40292184 | PMCID: PMC12033920
-- Search strategy taken from: Section 2.2 (Search strategy) of the article; the Web of Science strategy is Figure 1, an image
+- Impact factor: 9.6 (2023 JIF)
+- URL: <https://doi.org/10.1016/j.eclinm.2022.101405>
+- PMID: 35497061 | PMCID: PMC9046116
+- Search strategy taken from: Table 1 (Mesh terms used in PubMed and Web of Science) of the article
 
-**Purpose.** To map the development, content and application of patient-reported experience measures (PREMs) for people with cancer, and to define what a PREM is relative to neighbouring constructs. Included for two reasons: it searched Web of Science, and it makes explicit a vocabulary problem that matters for your review - the authors deliberately excluded studies that measured patient satisfaction, quality of care or attitude scales rather than patient experience, treating satisfaction and experience as distinct constructs with distinct literatures.
+**Purpose.** To identify which patient, clinical and health-system factors are consistently associated with cancer patients' reported experiences of care across three national survey programmes in three countries. Included because it publishes a Web of Science strategy alongside its PubMed strategy, and because it shows the instrument-name route into this literature: rather than searching the concept "satisfaction" or "experience", it searches the named survey instruments (CPES, CAHPS/SEER-CAHPS, AOPSS), which is the same trick Mishra 2012 uses for HRQOL in category 6.
 
 **PICO**
 
 ```
-P: Patients with cancer (any type, any stage).
-Concept: Patient-reported experience measures - their development, psychometric
-   evaluation and domains.
-Context: National and international cancer-care initiatives; excluded were studies
-   measuring patient satisfaction, quality of care, attitude scales or PROMs rather
-   than patient experience, studies tied to one specific treatment, and studies where
-   proxies completed the measure.
-O: Number and identity of PREMs; definitions; evaluation status; domains of
-   application.
+P: Adults with cancer responding to a national patient-experience survey in the USA,
+   United Kingdom or Canada.
+I/E: Patient, clinical and health-system characteristics (age, sex, ethnicity,
+   socioeconomic position, cancer type and stage, comorbidity, provider and
+   hospital factors).
+C: Patients with the contrasting characteristic within the same survey.
+O: Reported experience of cancer care, as measured by the National Cancer Patient
+   Experience Survey (CPES), the Consumer Assessment of Healthcare Providers and
+   Systems (CAHPS/SEER-CAHPS) or the Ambulatory Oncology Patient Satisfaction
+   Survey (AOPSS).
 ```
 
 **Search strategy - PubMed / MEDLINE**
 
 ```
-[PubMed searched, from database inception to July 2024, using "a combination of
-subject terms and free-text words". The Methods give the concept groups verbatim
-rather than a line-numbered strategy:]
-Group 1 (population): 'cancer, oncology, malignancy, neoplasms'
-Group 2 (concept): 'patient experience, patient-reported experience,
-                    patient-reported experience measure'
-Group 3 (measurement): 'measure, tool, instrument, score, scale, survey,
-                    questionnaire, psychometrics'
-The paper states that the English terms "reported experience measure" and
-"measure, tool, instrument, score, scale, survey, questionnaire, psychometrics" were
-the ones applied in PubMed, Web of Science and MEDLINE. Reference lists of all
-retrieved articles were checked and Google Scholar was hand-searched.
-2216 records were reviewed and 24 included.
-Note there is no satisfaction term: satisfaction was an explicit exclusion criterion,
-not a search concept.
+[PubMed searched, no year restriction, English only; last search 27 February 2022.
+Table 1, verbatim - three parallel searches, one per survey instrument:]
+1 "CPES" OR "National Cancer Patient Experience Survey"
+  OR "Cancer Patient Experience Survey" AND (cancer)
+2 "Consumer Assessments of Healthcare Providers and Systems" OR "SEER-CAHPS"
+  OR "HCAHPS" AND (Cancer)
+3 "Ambulatory Oncology Patient Satisfaction Survey" OR "AOPSS" AND (cancer)
+Google Scholar's "with the exact phrase" advanced search was used in addition, plus
+reference lists of identified studies and of three earlier reviews.
+Note the operator precedence: as printed, PubMed will evaluate AND before OR, so
+each line reads as (phrase1) OR (phrase2) OR (phrase3 AND cancer) rather than as
+(phrase1 OR phrase2 OR phrase3) AND cancer. Parenthesise the OR group before reuse.
 ```
 
 **Search strategy - Embase**
 
 ```
-Not searched. The three databases searched were PubMed, Web of Science and MEDLINE.
+Not searched. Only PubMed, Web of Science and Google Scholar were used.
 ```
 
 **Search strategy - Web of Science**
 
 ```
-Searched. The Web of Science strategy is reproduced in the paper as Figure 1
-("Web of Science search strategies"), which is a bitmap image rather than text, so it
-cannot be transcribed verbatim here. What the Methods state in text is that the same
-three concept groups above were applied in Web of Science using a combination of
-subject terms and free-text words, from database inception to July 2024. Consult
-Figure 1 of the published article for the exact string.
+[Web of Science searched, all years, English. Table 1, verbatim - three parallel
+searches, one per survey instrument:]
+1 (TI=("CPES") OR TI=("National Cancer Patient Experience Survey")
+  OR TI=("Cancer Patient Experience Survey") AND TS=(cancer))
+  Databases = WOS, MEDLINE, SCIELO   Timespan = All years   Search language = English
+2 AB=("Consumer Assessments of Healthcare Providers and Systems")
+  OR AB=("SEER-CAHPS") OR AB=("CAHPS") AND TS=(cancer)
+3 AB=("Ambulatory Oncology Patient Satisfaction Survey") OR AB=("AOPSS")
+  AND TS=(cancer)
+This is the second of only two full Web of Science strategies in the collection (the
+other is Osanto 2024, category 6). It illustrates the cross-database search set
+feature - Databases = WOS, MEDLINE, SCIELO - and the same operator-precedence trap
+as the PubMed version.
+One caveat about scope: the review explicitly excluded studies that focused on
+patient satisfaction, on the grounds that satisfaction and experience are different
+constructs, even though one of its three instruments is a satisfaction survey. If
+your review needs both, search both vocabularies.
 ```
 
