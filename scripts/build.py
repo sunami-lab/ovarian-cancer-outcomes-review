@@ -69,14 +69,21 @@ def clean(v):
     return (v or "").rstrip() if isinstance(v, str) else ("" if v is None else str(v))
 
 
+# Excel's hard maximum row height is 409.5 points. Asking for more is silently clamped,
+# which is why very long strategy cells cannot be fully displayed in the grid however the
+# row is sized. The cell CONTENT is complete either way - it is visible in the formula bar,
+# and rendered in full in docs/tables/*.md and strategies/*.txt.
+EXCEL_MAX_ROW_HEIGHT = 409.0
+
+
 def est_height(rec, cols=None):
-    """Row height that shows most of the tallest cell without absurd rows."""
+    """Row height that shows as much of the tallest cell as Excel permits."""
     lines = 1
     for header, key, width in (cols or COLUMNS):
         txt = clean(rec.get(key))
         n = sum(max(1, -(-len(ln) // max(width - 2, 10))) for ln in txt.split("\n"))
         lines = max(lines, n)
-    return min(max(lines, 4) * 11.5, 760)
+    return min(max(lines, 4) * 11.5, EXCEL_MAX_ROW_HEIGHT)
 
 
 def build_xlsx(cats):
@@ -100,6 +107,7 @@ def build_xlsx(cats):
             ws.column_dimensions[get_column_letter(i)].width = width
         ws.row_dimensions[2].height = 30
 
+        overflow = []
         for r, rec in enumerate(cat["records"], start=3):
             for i, (header, key, width) in enumerate(cols, start=1):
                 c = ws.cell(row=r, column=i, value=clean(rec.get(key)))
@@ -108,8 +116,22 @@ def build_xlsx(cats):
                 c.border = BORDER
                 if r % 2:
                     c.fill = BAND
-            ws.row_dimensions[r].height = est_height(rec, cols)
+            h = est_height(rec, cols)
+            ws.row_dimensions[r].height = h
+            if h >= EXCEL_MAX_ROW_HEIGHT:
+                overflow.append(r)
         ws.auto_filter.ref = f"A2:{get_column_letter(len(cols))}{2 + len(cat['records'])}"
+        if overflow:
+            n = 3 + len(cat["records"])
+            c = ws.cell(row=n, column=1, value=(
+                "Rows " + ", ".join(map(str, overflow)) + ": some cells are longer than "
+                "Excel's maximum row height (409.5 pt) allows it to display. The cell "
+                "content is complete - click the cell and read the formula bar, or use "
+                "docs/tables/*.md and strategies/*.txt for the full text."))
+            c.font = Font(size=9, italic=True, name="Calibri", color="7F7F7F")
+            c.alignment = Alignment(vertical="top", wrap_text=True)
+            ws.merge_cells(start_row=n, start_column=1, end_row=n, end_column=len(cols))
+            ws.row_dimensions[n].height = 28
 
     os.makedirs(os.path.dirname(OUT_XLSX), exist_ok=True)
     wb.save(OUT_XLSX)

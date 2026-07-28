@@ -26,22 +26,29 @@ Where sources conflicted, the publisher's own statement was preferred.
 
 | Journal | Value used | Records | Basis and confidence |
 |---|---|---|---|
-| Cochrane Database of Systematic Reviews | 8.4 (2023) | 12 | The Cochrane Library's own impact page states 8.4 for the 2023 JCR year. Several aggregators list 8.8; the publisher's figure was preferred. |
+| Cochrane Database of Systematic Reviews | 8.4 (2023) | 11 | The Cochrane Library's own impact page states 8.4 for the 2023 JCR year. Several aggregators list 8.8; the publisher's figure was preferred. |
+| Cancer Treatment Reviews | 9.6 (2023) | 1 | Consistently reported around 9.6 for 2023. Good confidence. |
 | Journal of Clinical Oncology | 42.1 (2023) | 2 | Consistently reported as 42.1 for 2023, ranked 6/322 in Oncology. High confidence. |
 | JAMA Network Open | 10.5 (2023) | 3 | Widely reported as 10.5 for 2023. Some aggregators quote ~6.9, which is CiteScore, not JIF. |
 | Journal of the National Cancer Institute | 9.9 (2023) | 1 | Reported as 9.9 for 2023; one aggregator quotes 7.2 for 2024. Direction of travel is downward — verify if the exact figure matters. |
-| eClinicalMedicine | 9.6 (2023) | 1 | Reported as 9.6 for 2023; 15.1 appears in some places and corresponds to an earlier year. Verify. |
+| eClinicalMedicine | 9.6 (2023) | 2 | Reported as 9.6 for 2023; 15.1 appears in some places and corresponds to an earlier year. Verify. |
 | Journal of Cachexia, Sarcopenia and Muscle | 9.4 (2023) | 1 | Reported as 9.4 for 2023; 9.9 for 2024/2025. Verify. |
 | Haematologica | 8.2 (2023) | 1 | 8.2 for 2023, corroborated by a haematology-journal JIF listing published on the day the 2023 factors were released. Good confidence. |
 | Advances in Nutrition | 8.0 (2023) | 1 | Reported around 8.0 for 2023; aggregators also quote 7.5 and 8.9 for adjacent years. Verify. |
-| International Journal of Nursing Studies | 7.5 (2023) | 1 | Reported as 7.3–7.5 for 2023. Verify. |
 | British Journal of Cancer | 6.4 (2023) | 1 | Reported as 6.4 for 2023; one aggregator gives 7.3 for 2023 and 6.3 for 2024. Verify. |
+
+A record originally attributed to *International Journal of Nursing Studies* (JIF ~7.5) was
+found on checking to be in *International Journal of Nursing Studies **Advances***, a
+separate companion journal below the threshold, and was replaced. That is the failure mode
+this table exists to prevent: two journals whose names differ by one word and whose impact
+factors differ by a factor of two. Check the container title, not the abbreviation.
 
 ## Journals excluded on the threshold
 
 These were topically closer to ovarian cancer or to older adults than some of the records
-that were included, and were rejected only because of the JIF ≥ 5 rule. If the threshold is
-ever relaxed, start here.
+that were included, and were rejected only because of the JIF ≥ 5 rule. They are now also
+an annex sheet in the workbook (sheet 9) with full citations, so they can be pulled in
+without re-finding them. If the threshold is ever relaxed, start here.
 
 | Journal | Approx. JIF | What was lost |
 |---|---|---|
