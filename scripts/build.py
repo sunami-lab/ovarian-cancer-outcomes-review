@@ -44,11 +44,13 @@ MONO_KEYS = {"search_pubmed", "search_embase", "search_wos"}
 
 
 def load():
+    """Category files are named NN_<slug>.yml; anything else in data/ is ignored."""
     cats = []
     for fn in sorted(os.listdir(DATA)):
-        if fn.endswith((".yml", ".yaml")):
-            with open(os.path.join(DATA, fn)) as fh:
-                cats.append(yaml.safe_load(fh))
+        if not re.match(r"\d{2}_.*\.ya?ml$", fn):
+            continue
+        with open(os.path.join(DATA, fn)) as fh:
+            cats.append(yaml.safe_load(fh))
     return cats
 
 

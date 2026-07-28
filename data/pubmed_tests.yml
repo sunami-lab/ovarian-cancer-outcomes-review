@@ -1,0 +1,156 @@
+# Runnable PubMed strings, transcribed from the reviews recorded in data/*.yml.
+#
+# Purpose: verify the transcriptions actually parse and retrieve. Run with
+#   python3 scripts/validate_pubmed.py
+# which reports the hit count and, critically, PubMed's own query translation and any
+# terms it could not match. A term PubMed silently drops (a dead MeSH heading, a
+# mistyped tag) is invisible on the page and obvious in the translation.
+#
+# Only strategies published in native PubMed syntax are testable. Ovid MEDLINE, Embase
+# and CENTRAL strategies cannot be run here and are not listed.
+#
+# `note` records any change made to get the string to execute. Where a review printed
+# numbered sets, they are combined here with the operator the review itself specifies.
+
+tests:
+  - id: "scheepers2020"
+    record: "Scheepers ERM, 2020 - Haematologica (sheet 2)"
+    note: "As printed, single string. No modification."
+    query: >-
+      ((("Hematologic Neoplasms"[Mesh] OR "Leukemia"[Mesh] OR "Lymphoma"[Mesh]
+      OR "Multiple Myeloma"[Mesh] OR "Myelodysplastic Syndromes"[Mesh] OR leukemia[tiab]
+      OR leukaemia[tiab] OR lymphoma*[tiab] OR hodgkin*[tiab] OR non-hodgkin*[tiab]
+      OR (multiple myeloma[tiab]) OR myelodysplas*[tiab] OR (haematolog* AND malignan*[tiab])
+      OR (hematolog* AND malignan*[tiab]) OR (myeloid[tiab] OR lymphoid[tiab]
+      AND neoplas*[tiab]) OR myeloproliferative[tiab] OR (plasma cell neoplas*[tiab])
+      OR plasma cell dyscrasia*[tiab] OR (myeloid[tiab] AND sarcoma*[tiab])
+      OR waldenstrom[tiab] OR myelofibrosis[tiab] OR mastocystosis[tiab]
+      OR (polycyth* AND vera[tiab]) OR (essential AND thrombocyt*[tiab])))
+      AND (("frailty"[All Fields] OR "Geriatric Assessment"[Mesh] OR frail*[tiab]
+      OR vulnerabl*[tiab] OR geriatric assessment*[tiab] OR geriatric*[tiab])))
+
+  - id: "soong2025"
+    record: "Soong RY, 2025 - JAMA Network Open (sheet 4)"
+    note: >-
+      Sets #1-#4 combined with AND as the review specifies. The published curly
+      quotation marks around 'older adult*' and 'quality of life' were replaced with
+      straight double quotes; PubMed does not treat curly quotes as phrase delimiters.
+    query: >-
+      ("Geriatrics"[Mesh] OR "Aged"[Mesh] OR Aging OR Aged OR Centenarians
+      OR Nonagenarians OR Octogenarians OR Elder* OR Gerontology OR "older adult*")
+      AND (Neoplas*[title/abstract] OR Cancer[title/abstract] OR Malignan*[title/abstract])
+      AND (Exercis*[title/abstract] OR Exerciz*[title/abstract]
+      OR (Physical*[title/abstract] AND Interven*[title/abstract])
+      OR (Physical*[title/abstract] AND Activit*[title/abstract]))
+      AND (depress* OR anxi* OR burden* OR Stress* OR "quality of life")
+
+  - id: "jacobsen2018"
+    record: "Jacobsen PB, 2018 - Journal of Clinical Oncology (sheet 8)"
+    note: >-
+      Sets 1-4 combined as the review specifies (1 AND 2 AND 3 AND 4). The published
+      set 2 has an unbalanced parenthesis; one closing bracket was added after
+      "Survivors"[Mesh] to make it executable.
+    query: >-
+      (Cancer OR Cancers OR Neoplasm OR Neoplasms OR Neoplasia OR "Neoplasms"[Mesh])
+      AND (("care planning" OR "care plan*" OR "survivorship care plan*"
+      OR "Follow-up care" OR "follow up care" OR ("follow up" AND care)
+      OR (follow-up AND care) OR "continuity of care" OR "continual care"
+      OR "continuous care" OR "longitudinal care" OR "Patient Care Planning"[Mesh]
+      OR "Continuity of Patient Care"[Mesh]) AND (Survivor* OR Survivorship
+      OR "Survivors"[Mesh]))
+      AND ("Randomized controlled trial" OR "Non-randomized controlled trial"
+      OR "Randomized Controlled Trial"[Publication Type]
+      OR "Non-Randomized Controlled Trials as Topic"[Mesh])
+      AND ("patient satisfaction" OR "quality of life" OR QOL OR Distress
+      OR Understanding OR "screening compliance" OR Feasibility
+      OR ("care coordination" AND rating*) OR "disease recurrence"
+      OR "serious clinical event*" OR "social support" OR "survival rate"
+      OR "Treatment Outcome"[Mesh] OR "Patient Outcome Assessment"[Mesh]
+      OR "Patient Satisfaction"[Mesh] OR "Quality of Life"[Mesh]
+      OR "Stress, Psychological"[Mesh] OR "Comprehension"[Mesh]
+      OR "Patient Compliance"[Mesh] OR "Feasibility Studies"[Mesh]
+      OR "Recurrence"[Mesh] OR "Social Support"[Mesh] OR "Survival Rate"[Mesh])
+
+  - id: "jacobsen2018_outcome_block_only"
+    record: "Jacobsen PB, 2018 - set 4 alone (the reusable patient-satisfaction block)"
+    note: "Set 4 in isolation, to size the outcome block on its own."
+    query: >-
+      ("patient satisfaction" OR "quality of life" OR QOL OR Distress OR Understanding
+      OR "screening compliance" OR Feasibility OR ("care coordination" AND rating*)
+      OR "disease recurrence" OR "serious clinical event*" OR "social support"
+      OR "survival rate" OR "Treatment Outcome"[Mesh] OR "Patient Outcome Assessment"[Mesh]
+      OR "Patient Satisfaction"[Mesh] OR "Quality of Life"[Mesh]
+      OR "Stress, Psychological"[Mesh] OR "Comprehension"[Mesh]
+      OR "Patient Compliance"[Mesh] OR "Feasibility Studies"[Mesh]
+      OR "Recurrence"[Mesh] OR "Social Support"[Mesh] OR "Survival Rate"[Mesh])
+
+  - id: "alessy2022_cpes"
+    record: "Alessy SA, 2022 - eClinicalMedicine, CPES search (sheet 8)"
+    note: >-
+      As printed. Note the operator-precedence problem flagged in the workbook - PubMed
+      evaluates AND before OR, so this reads as two bare phrases OR (third phrase AND
+      cancer), not as the intended (phrase1 OR phrase2 OR phrase3) AND cancer.
+    query: >-
+      "CPES" OR "National Cancer Patient Experience Survey"
+      OR "Cancer Patient Experience Survey" AND (cancer)
+
+  - id: "alessy2022_cpes_repaired"
+    record: "Alessy SA, 2022 - CPES search, parenthesised as intended"
+    note: "The same terms with the OR group parenthesised, to show the size of the error."
+    query: >-
+      ("CPES" OR "National Cancer Patient Experience Survey"
+      OR "Cancer Patient Experience Survey") AND (cancer)
+
+  - id: "takaoka2024"
+    record: "Takaoka T, 2024 - Advances in Nutrition (sheet 5)"
+    note: "Sets #4 AND #8 AND #12 AND #17 as the review's line #18 specifies."
+    query: >-
+      ("Neoplasms"[MeSH] OR Cancer[TIAB] OR Tumor[TIAB])
+      AND ("Cachexia"[MeSH] OR "Wasting Syndrome"[MeSH] OR "Disease-related malnutrition"[TIAB])
+      AND ("Diagnosis"[MeSH] OR Assessment[TIAB] OR Screening[TIAB])
+      AND ("Clinical Study"[Publication Type] OR "Epidemiologic Studies"[MeSH])
+
+  - id: "treanor2016_cognition_block"
+    record: "Treanor CJ, 2016 - Cochrane, PubMed Appendix 6 cognition block (sheet 3)"
+    note: >-
+      Sets #4-#17 unioned, i.e. the review's intended line #18. The published appendix
+      has line #19 combining the cancer set with #17 (concentrat*) alone rather than with
+      #18; this test uses the intended union.
+    query: >-
+      "cognition disorders"[MeSH Terms] OR "neurobehavioral manifestations"[MeSH Terms]
+      OR "mental processes"[MeSH Terms] OR "neuropsychological tests"[MeSH Terms]
+      OR "attention"[MeSH Terms] OR "chemo* fog" OR "chemo* brain"
+      OR "cognit* deficit*" OR "cognit* declin*" OR "cognit* disorder*"
+      OR "cognit* function*" OR "cognit* dysfunction*" OR "cognit* impair*"
+      OR "cognit* decrement*" OR "cognit* problem*" OR "cognit* sequelae*"
+      OR "memory deficit*" OR "memory declin*" OR "memory impair*"
+      OR "attention deficit*" OR "attention impair*"
+
+  - id: "cramer2017_repaired"
+    record: "Cramer H, 2017 - Cochrane, PubMed Appendix 1 (sheet 6)"
+    note: >-
+      The published appendix mis-numbers its final combinations (see the workbook cell).
+      This test runs what was evidently intended: yoga set AND breast cancer set AND
+      design set.
+    query: >-
+      (yoga[mh] OR yoga*[tiab] OR yogic[tiab] OR meditation[tiab] OR asana*[tiab]
+      OR pranayama[tiab] OR dharana[tiab] OR dhyana[tiab])
+      AND (breast neoplasms[mh] OR breast neoplasm*[tiab] OR breast cancer[tiab]
+      OR breast carcinoma*[tiab] OR breast tumor*[tiab] OR mamma carcinoma*[tiab]
+      OR mammary neoplasm*[tiab] OR mammary carcinoma*[tiab]
+      OR mammary gland carcinoma*[tiab])
+      AND (randomized controlled trial[pt] OR controlled clinical trial[pt]
+      OR randomized[tiab] OR placebo[tiab] OR clinical trials as topic[mesh:noexp]
+      OR randomly[tiab] OR trial[ti])
+
+  - id: "billson2013_ovarian_population"
+    record: "Billson HA, 2013 - Cochrane (sheet 5), ovarian population block"
+    note: >-
+      The review's Ovid lines 26-29 rendered in PubMed syntax, since this is the block
+      most likely to be reused directly for an ovarian cancer review. This is a
+      translation, not a transcription - it is not what Billson ran.
+    query: >-
+      "Genital Neoplasms, Female"[Mesh] OR "Ovarian Neoplasms"[Mesh]
+      OR ((gynaecologic*[tiab] OR gynecologic*[tiab] OR ovar*[tiab])
+      AND (cancer*[tiab] OR tumor*[tiab] OR tumour*[tiab] OR malignan*[tiab]
+      OR carcinoma*[tiab] OR adenocarcinoma*[tiab]))

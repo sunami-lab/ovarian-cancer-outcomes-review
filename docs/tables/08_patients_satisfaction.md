@@ -53,9 +53,12 @@ four sets combined as 1 AND 2 AND 3 AND 4:]
 1 AND 2 AND 3 AND 4
 Set 4 is the reusable part: it pairs each free-text outcome phrase with its MeSH
 equivalent, so "patient satisfaction" and "Patient Satisfaction"[Mesh] both appear.
-Caveat before reuse: bare Understanding, Feasibility and Distress will retrieve very
-widely, and AND-ing an outcome set into the strategy will drop trials whose abstracts
-do not name the outcome.
+Caveat before reuse, now measured: set 4 on its own retrieves 5,302,230 PubMed
+records (docs/validation.md). Bare Understanding, Feasibility, Distress and Social
+Support do almost all of that work, so the block adds very little precision - its
+value is that it names patient satisfaction explicitly, not that it narrows.
+AND-ing an outcome set in also drops trials whose abstracts never name the outcome.
+The full four-set strategy returns 846 records.
 ```
 
 **Search strategy - Embase**
@@ -249,9 +252,12 @@ Table 1, verbatim - three parallel searches, one per survey instrument:]
 3 "Ambulatory Oncology Patient Satisfaction Survey" OR "AOPSS" AND (cancer)
 Google Scholar's "with the exact phrase" advanced search was used in addition, plus
 reference lists of identified studies and of three earlier reviews.
-Note the operator precedence: as printed, PubMed will evaluate AND before OR, so
-each line reads as (phrase1) OR (phrase2) OR (phrase3 AND cancer) rather than as
-(phrase1 OR phrase2 OR phrase3) AND cancer. Parenthesise the OR group before reuse.
+The unparenthesised OR chain looks like an operator-precedence hazard, but it is
+not one in PubMed: running the string as printed and with the OR group explicitly
+parenthesised returns the identical translation and the identical 109 records
+(see docs/validation.md). PubMed's parser groups the OR chain before applying AND.
+The same construction is genuinely unsafe in Ovid and in Web of Science, so
+parenthesise if you port it.
 ```
 
 **Search strategy - Embase**
@@ -274,8 +280,9 @@ searches, one per survey instrument:]
   AND TS=(cancer)
 This is the second of only two full Web of Science strategies in the collection (the
 other is Osanto 2024, category 6). It illustrates the cross-database search set
-feature - Databases = WOS, MEDLINE, SCIELO - and the same operator-precedence trap
-as the PubMed version.
+feature - Databases = WOS, MEDLINE, SCIELO. Unlike the PubMed version, the
+unparenthesised OR chain here is a real hazard: Web of Science does not group it
+the way PubMed does, so parenthesise before running.
 One caveat about scope: the review explicitly excluded studies that focused on
 patient satisfaction, on the grounds that satisfaction and experience are different
 constructs, even though one of its three instruments is a satisfaction survey. If
