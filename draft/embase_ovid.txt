@@ -1,0 +1,158 @@
+# Drafted Embase (Ovid) strategy - ovarian cancer treatment and patient-centred outcomes
+# in older adults.
+#
+# UNTESTED. No Embase access, so this has not been executed and no yields are known.
+# Emtree headings change more often than MeSH; check every heading below against the
+# current Emtree before running, particularly the outcome headings.
+#
+# Field codes: exp = explode; / = Emtree heading; .mp. = multi-purpose;
+# .ti,ab,kw. = title, abstract, keyword; .fs. = floating subheading; adjN = within N words.
+#==============================================================================================
+
+## 1. POPULATION - ovarian cancer
+1   exp ovary tumor/
+2   exp uterine tube tumor/
+3   ((ovar* or "fallopian tube*" or "primary peritoneal" or "peritoneal carcinoma" or
+    tubo-ovarian) adj5 (cancer* or carcinoma* or adenocarcinoma* or neoplas* or tumor* or
+    tumour* or malignan*)).ti,ab,kw.
+4   or/1-3
+
+## 2. INTERVENTION - any anticancer treatment
+#  Lines 9-12 are Faluyi 2010's floating-subheading device in Embase form.
+5   exp antineoplastic agent/
+6   exp cancer chemotherapy/
+7   adjuvant chemotherapy/
+8   neoadjuvant chemotherapy/
+9   dt.fs.
+10  su.fs.
+11  th.fs.
+12  rt.fs.
+13  exp surgery/
+14  cytoreductive surgery/
+15  exp radiotherapy/
+16  exp immunotherapy/
+17  molecularly targeted therapy/
+18  exp "poly(adenosine diphosphate ribose) polymerase inhibitor"/
+19  (chemotherap* or chemoradi* or radiotherap* or surg* or operat* or debulk* or
+    cytoreduc* or "targeted therapy" or immunotherap* or "PARP inhibitor*" or olaparib or
+    niraparib or rucaparib or bevacizumab or platinum or carboplatin or cisplatin or
+    paclitaxel or "best supportive care").mp.
+20  or/5-19
+
+## 3. AGE - older adults (optional)
+21  exp aged/
+22  geriatrics/
+23  frail elderly/
+24  geriatric assessment/
+25  (older or elder* or elderly or geriatric* or gerontolog* or octogenarian* or
+    nonagenarian* or centenarian* or "advanced age" or "old age" or senior* or frail*).ti,ab,kw.
+26  or/21-25
+
+## 4. OUTCOMES
+#  4.1 Functional status
+27  exp daily life activity/
+28  functional status/
+29  physical performance/
+30  frailty/
+31  (Function* adj (disabilit* or outcome* or impairment* or status or performance or
+    limitation* or declin* or recover*)).mp.
+32  ((Activit* or "Instrumental Activit*") adj2 daily living).mp.
+33  (ADL or IADL or "activity limitation*" or "participation restriction*" or
+    "physical function*" or "performance status").mp.
+34  or/27-33
+
+#  4.2 Cognition - Treanor 2016 Embase appendix, extended
+35  exp cognitive defect/
+36  cognition/
+37  neuropsychological test/
+38  attention/
+39  memory disorder/
+40  (chemo* adj5 (fog or brain)).mp.
+41  ((cognit* or neurocognit* or neuropsycholog* or memory or neurobehavio?r* or
+    "problem solving" or attention or concentrat*) adj5 (deficit* or declin* or disorder*
+    or function* or dysfunction* or impair* or decrement* or disturb* or problem* or
+    sequelae*)).mp.
+42  or/35-41
+
+#  4.3 Depression - Kulchycki 2024 Embase lines 5-6, trimmed
+43  exp depression/
+44  adjustment disorder/
+45  distress syndrome/
+46  sadness/
+47  (depress* or dysthymi* or melanchol* or "low mood" or sadness or hopeless* or
+    demorali* or "psychological distress" or "emotional distress").ti,ab,kw.
+48  ((adjustment or reactive or dysthymic) adj3 disorder*).ti,ab,kw.
+49  or/43-48
+
+#  4.4 Nutritional status - Billson 2013 Embase lines 7-13; Takaoka 2024
+50  exp nutritional status/
+51  nutritional assessment/
+52  exp malnutrition/
+53  exp nutritional disorder/
+54  cachexia/
+55  sarcopenia/
+56  weight reduction/
+57  body composition/
+58  ("nutrition* status" or "nutritional assessment" or "nutritional risk" or malnutrition
+    or malnourish* or undernutrition or undernourish* or cachexi* or sarcopeni* or
+    "weight loss" or underweight or "body composition" or "appetite loss" or anorexia).ti,ab,kw.
+59  or/50-58
+
+#  4.5 HRQOL - Osanto 2024 Embase block; Mishra 2012 instrument names
+60  "quality of life"/
+61  exp health status/
+62  patient-reported outcome/
+63  ("quality of life" or "life quality" or HRQOL or HRQL or QoL or "well being" or
+    wellbeing or "patient reported outcome*" or PROM or PROMs).ti,ab,kw.
+64  ("QLQ-C30" or "QLQ-OV28" or EORTC or "FACT-G" or "FACT-O" or FACIT or "SF-36" or
+    "SF-12" or "EQ-5D" or PROMIS or MSAS or MDASI).ti,ab,kw.
+65  or/60-64
+
+#  4.6 The 12 recommended symptoms - constructed
+66  fatigue/
+67  insomnia/
+68  exp pain/
+69  anorexia/
+70  dyspnea/
+71  anxiety/
+72  nausea/
+73  vomiting/
+74  exp peripheral neuropathy/
+75  constipation/
+76  diarrhea/
+77  symptom assessment/
+78  (fatigue or asthenia or insomnia or "sleep disturbance*" or pain or "appetite loss" or
+    "loss of appetite" or dyspn?ea or breathless* or anxiety or anxious or worry or nausea
+    or vomit* or "peripheral neuropathy" or "sensory neuropathy" or neurotoxic* or
+    constipation or diarrh?ea or "symptom burden" or "symptom cluster*" or "PRO-CTCAE" or
+    ESAS).ti,ab,kw.
+79  or/66-78
+
+#  4.7 Patient satisfaction - Jacobsen 2018 set 4, narrowed; Alessy 2022 instruments
+80  patient satisfaction/
+81  patient preference/
+82  patient participation/
+83  ("patient satisfaction" or "satisfaction with care" or "care satisfaction" or
+    "treatment satisfaction" or "patient experience*" or "patient reported experience*" or
+    PREM or PREMs or CAHPS or "SEER-CAHPS" or AOPSS or CPES).ti,ab,kw.
+84  or/80-83
+
+85  or/34,42,49,59,65,79,84        # any patient-centred outcome
+
+## 5. STUDY DESIGN (optional) - Coleridge 2021 Embase filter plus cohort terms
+86  crossover procedure/
+87  double blind procedure/
+88  randomized controlled trial/
+89  single blind procedure/
+90  (random* or factorial* or crossover* or "cross over*" or placebo* or (doubl* adj blind*)
+    or (singl* adj blind*) or assign* or allocat* or volunteer*).ti,ab.
+91  exp cohort analysis/
+92  (cohort* or longitudinal or prospective* or retrospective*).tw.
+93  or/86-92
+
+## 6. COMBINE
+94  4 and 20 and 85                # recommended primary search
+95  4 and 20                       # widest defensible search
+96  4 and 20 and 26 and 85         # age-filtered; sensitivity check only
+97  (exp animal/ or nonhuman/ or exp animal experiment/) not human/
+98  94 not 97

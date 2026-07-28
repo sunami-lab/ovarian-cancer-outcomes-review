@@ -1,0 +1,98 @@
+# Drafted Web of Science strategy - ovarian cancer treatment and patient-centred outcomes
+# in older adults.
+#
+# UNTESTED. No Web of Science access, so this has not been executed and no yields are
+# known.
+#
+# Modelled on the two full Web of Science strategies in the collection: Osanto 2024
+# (sheet 6), which is the more complete, and Alessy 2022 (sheet 8). Takaoka 2024 (sheet 5)
+# supplies the plain TS= pattern.
+#
+# Field tags: TS= topic (title, abstract, author keywords, Keywords Plus);
+# TI= title; AB= abstract; NEAR/n = within n words either direction;
+# DT= document type; LA= language; PY= publication year.
+#
+# Two things Web of Science will not do that MEDLINE and Embase will, and that change how
+# this strategy has to be written:
+#   1. There is no controlled vocabulary. Every MeSH and Emtree heading in the MEDLINE and
+#      Embase versions has to be re-expressed as free text here, which is why this file has
+#      no headings and longer term lists.
+#   2. There are no floating subheadings, so the Faluyi 2010 device that carries the whole
+#      treatment concept in Ovid has no equivalent - the treatment block must name every
+#      modality explicitly.
+#==============================================================================================
+
+## SET 1 - POPULATION: ovarian cancer
+TS=(("ovarian" OR "ovary" OR "fallopian tube" OR "fallopian tubes" OR "primary peritoneal"
+OR "peritoneal carcinoma" OR "tubo-ovarian") NEAR/5 ("cancer*" OR "carcinoma*" OR
+"adenocarcinoma*" OR "neoplas*" OR "tumor*" OR "tumour*" OR "malignan*"))
+
+## SET 2 - INTERVENTION: any anticancer treatment
+TS=("chemotherap*" OR "chemoradi*" OR "radiotherap*" OR "radiation therapy" OR
+"antineoplastic*" OR "cytotoxic*" OR "neoadjuvant*" OR "adjuvant therapy" OR
+"maintenance therapy" OR "surgery" OR "surgical*" OR "debulk*" OR "cytoreduc*" OR
+"targeted therapy" OR "immunotherap*" OR "checkpoint inhibitor*" OR "PARP inhibitor*" OR
+"olaparib" OR "niraparib" OR "rucaparib" OR "bevacizumab" OR "platinum" OR "carboplatin"
+OR "cisplatin" OR "paclitaxel" OR "best supportive care" OR "treatment" OR "therapy")
+
+## SET 3 - AGE: older adults (optional; see draft/README.md)
+TS=("older adult*" OR "older patient*" OR "older wom*n" OR "elderly" OR "geriatric*" OR
+"gerontolog*" OR "octogenarian*" OR "nonagenarian*" OR "centenarian*" OR "advanced age" OR
+"old age" OR "frail" OR "frailty")
+
+## SET 4 - OUTCOMES (run as one union, or as sets 4a-4g separately)
+
+# 4a functional status
+TS=("functional status" OR "functional disabilit*" OR "functional outcome*" OR
+"functional impairment*" OR "functional performance" OR "functional limitation*" OR
+"functional declin*" OR "functional recover*" OR "activities of daily living" OR "ADL" OR
+"IADL" OR "activity limitation*" OR "participation restriction*" OR "physical function*" OR
+"physical performance" OR "performance status" OR "mobility limitation*")
+
+# 4b cognition
+TS=("cognitive impair*" OR "cognitive declin*" OR "cognitive dysfunction*" OR
+"cognitive function*" OR "cognitive deficit*" OR "cognitive problem*" OR
+"cognitive disorder*" OR "neurocognit*" OR "neuropsycholog*" OR "chemobrain" OR
+"chemo brain" OR "chemo fog" OR "memory impair*" OR "memory loss" OR "executive function")
+
+# 4c depression
+TS=("depress*" OR "dysthymi*" OR "melanchol*" OR "low mood" OR "sadness" OR "hopeless*" OR
+"demorali*" OR "psychological distress" OR "emotional distress" OR "adjustment disorder*")
+
+# 4d nutritional status
+TS=("nutritional status" OR "nutrition status" OR "nutritional assessment" OR
+"nutritional risk" OR "malnutrition" OR "malnourish*" OR "undernutrition" OR
+"undernourish*" OR "cachexi*" OR "sarcopeni*" OR "weight loss" OR "underweight" OR
+"body composition" OR "appetite loss" OR "anorexia")
+
+# 4e health-related quality of life
+TS=("quality of life" OR "life quality" OR "HRQOL" OR "HRQL" OR "QoL" OR "well-being" OR
+"wellbeing" OR "patient reported outcome*" OR "patient-reported outcome*" OR "PROM" OR
+"PROMs" OR "QLQ-C30" OR "QLQ-OV28" OR "EORTC" OR "FACT-G" OR "FACT-O" OR "FACIT" OR
+"SF-36" OR "SF-12" OR "EQ-5D" OR "PROMIS")
+
+# 4f the 12 recommended symptoms
+TS=("fatigue" OR "asthenia" OR "insomnia" OR "sleep disturbance*" OR "pain" OR
+"appetite loss" OR "loss of appetite" OR "dyspnea" OR "dyspnoea" OR "breathless*" OR
+"anxiety" OR "anxious" OR "worry" OR "nausea" OR "vomit*" OR "peripheral neuropathy" OR
+"sensory neuropathy" OR "neurotoxic*" OR "constipation" OR "diarrhea" OR "diarrhoea" OR
+"symptom burden" OR "symptom cluster*" OR "MDASI" OR "MSAS" OR "PRO-CTCAE" OR "ESAS")
+
+# 4g patient satisfaction
+TS=("patient satisfaction" OR "satisfaction with care" OR "care satisfaction" OR
+"treatment satisfaction" OR "patient experience*" OR "patient reported experience*" OR
+"PREM" OR "PREMs" OR "CAHPS" OR "SEER-CAHPS" OR "AOPSS" OR "CPES")
+
+## SET 5 - LIMITS
+# Applied as Osanto 2024 does, at the end rather than as a design block.
+NOT DT=(review OR "meeting abstract")
+AND LA=(English)
+
+## COMBINE
+#   Recommended primary search:  #1 AND #2 AND (#4a OR #4b OR #4c OR #4d OR #4e OR #4f OR #4g)
+#   Widest defensible search:    #1 AND #2
+#   Age-filtered, sensitivity check only: add AND #3
+#
+# Parenthesise every OR chain explicitly. Web of Science does not group unparenthesised OR
+# chains the way PubMed does - this is the one place where the construction printed in
+# Alessy 2022 (sheet 8) would genuinely change the result set.

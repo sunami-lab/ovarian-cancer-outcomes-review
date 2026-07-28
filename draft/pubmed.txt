@@ -1,0 +1,181 @@
+# Drafted PubMed strategy - ovarian cancer treatment and patient-centred outcomes
+# in older adults.
+#
+# Generated from draft/blocks_pubmed.yml. This is the ONLY version of the drafted
+# strategy that has been executed; yields are in draft/counts.md. The Ovid MEDLINE,
+# Embase and Web of Science files in this directory are untested translations.
+#
+# Paste each block into PubMed's Advanced Search builder as its own numbered set,
+# then combine the sets as set out at the bottom of this file.
+#==============================================================================================
+
+### P_ovarian - Population - ovarian cancer
+#
+# Billson 2013 (sheet 5, Ovid lines 26-29) and Elattar 2011 (sheet 1, lines 1-7), translated
+# to PubMed syntax. The fallopian tube and primary peritoneal terms are an addition: current
+# WHO classification treats high-grade serous carcinoma of ovary, fallopian tube and
+# peritoneum as one entity, and trials from about 2010 onward recruit and report them
+# together. None of the three sheet-1 reviews includes them, which is a real sensitivity gap
+# in strategies written before that convention settled.
+#
+"Ovarian Neoplasms"[Mesh] OR "Fallopian Tube Neoplasms"[Mesh] OR "Carcinoma, Ovarian
+Epithelial"[Mesh] OR ((ovar*[tiab] OR "fallopian tube"[tiab] OR "fallopian tubes"[tiab] OR
+"primary peritoneal"[tiab] OR "peritoneal carcinoma"[tiab] OR tubo-ovarian[tiab]) AND
+(cancer*[tiab] OR carcinoma*[tiab] OR adenocarcinoma*[tiab] OR neoplas*[tiab] OR tumor*[tiab] OR
+tumour*[tiab] OR malignan*[tiab]))
+
+### I_treatment - Intervention - any anticancer treatment
+#
+# Coleridge 2021 (sheet 1) supplies the chemotherapy and surgery concepts; Elattar 2011
+# supplies debulk*/cytoreduc*; Faluyi 2010 supplies the principle of letting subheadings carry
+# the treatment concept, which has no PubMed equivalent and is replaced here with named MeSH
+# headings. Targeted therapy, PARP and immunotherapy terms are additions: the sheet-1
+# strategies pre-date first-line PARP maintenance, so a strategy copied from them will miss
+# the trials that now define ovarian cancer treatment.
+#
+"Antineoplastic Agents"[Mesh] OR "Antineoplastic Combined Chemotherapy Protocols"[Mesh] OR
+"Neoadjuvant Therapy"[Mesh] OR "Chemotherapy, Adjuvant"[Mesh] OR "Surgical Procedures,
+Operative"[Mesh] OR "Cytoreduction Surgical Procedures"[Mesh] OR "Radiotherapy"[Mesh] OR
+"Immunotherapy"[Mesh] OR "Molecular Targeted Therapy"[Mesh] OR "Poly(ADP-ribose) Polymerase
+Inhibitors"[Mesh] OR "Maintenance Chemotherapy"[Mesh] OR chemotherap*[tiab] OR chemoradi*[tiab]
+OR radiotherap*[tiab] OR surg*[tiab] OR operat*[tiab] OR debulk*[tiab] OR cytoreduc*[tiab] OR
+"targeted therapy"[tiab] OR immunotherap*[tiab] OR "PARP inhibitor"[tiab] OR "PARP
+inhibitors"[tiab] OR olaparib[tiab] OR niraparib[tiab] OR rucaparib[tiab] OR bevacizumab[tiab]
+OR platinum[tiab] OR carboplatin[tiab] OR cisplatin[tiab] OR paclitaxel[tiab] OR "best
+supportive care"[tiab] OR "treatment"[ti] OR "therapy"[ti]
+
+### A_older - Age - older adults (optional; see the note on age filters)
+#
+# Soong 2025 (sheet 4), which is the only record in the collection with an explicit
+# older-adults block, plus the standard Aged MeSH terms it omits.
+#
+"Aged"[Mesh] OR "Aged, 80 and over"[Mesh] OR "Geriatrics"[Mesh] OR "Frail Elderly"[Mesh] OR
+"Health Services for the Aged"[Mesh] OR "Geriatric Assessment"[Mesh] OR older[tiab] OR
+elder*[tiab] OR elderly[tiab] OR geriatric*[tiab] OR gerontolog*[tiab] OR octogenarian*[tiab] OR
+nonagenarian*[tiab] OR centenarian*[tiab] OR "advanced age"[tiab] OR "old age"[tiab] OR
+senior*[tiab] OR frail*[tiab]
+
+### O1_functional - Outcome - functional status
+#
+# Neo 2017 (sheet 2), Appendix 1, translated from Ovid. This is the richest functional-status
+# block in the collection and is taken over essentially whole.
+#
+"Activities of Daily Living"[Mesh] OR "Mobility Limitation"[Mesh] OR "Physical Functional
+Performance"[Mesh] OR "Frailty"[Mesh] OR "functional disability"[tiab] OR "functional
+disabilities"[tiab] OR "functional outcome"[tiab] OR "functional outcomes"[tiab] OR "functional
+impairment"[tiab] OR "functional status"[tiab] OR "functional performance"[tiab] OR "functional
+limitation"[tiab] OR "functional decline"[tiab] OR "functional recovery"[tiab] OR "activities of
+daily living"[tiab] OR ADL[tiab] OR IADL[tiab] OR "activity limitation"[tiab] OR "participation
+restriction"[tiab] OR "physical function"[tiab] OR "physical functioning"[tiab] OR "physical
+performance"[tiab] OR "performance status"[tiab]
+
+### O2_cognition - Outcome - cognition
+#
+# Treanor 2016 (sheet 3), Appendix 6, which is already native PubMed. The nine-by-ten
+# cognition-by-impairment cross product is preserved; Lawrie 2019's trick of catching cognit*
+# inside a late-effects adjacency is not needed once the block is explicit.
+#
+"Cognition Disorders"[Mesh] OR "Cognitive Dysfunction"[Mesh] OR "Neurobehavioral
+Manifestations"[Mesh] OR "Mental Processes"[Mesh] OR "Neuropsychological Tests"[Mesh] OR "Memory
+Disorders"[Mesh] OR "chemo brain"[tiab] OR "chemobrain"[tiab] OR "chemo fog"[tiab] OR "cognitive
+impairment"[tiab] OR "cognitive decline"[tiab] OR "cognitive dysfunction"[tiab] OR "cognitive
+function"[tiab] OR "cognitive deficit"[tiab] OR "cognitive deficits"[tiab] OR "cognitive
+problems"[tiab] OR "cognitive disorder"[tiab] OR neurocognit*[tiab] OR neuropsycholog*[tiab] OR
+"memory impairment"[tiab] OR "memory loss"[tiab] OR "executive function"[tiab] OR "attention
+deficit"[tiab]
+
+### O3_depression - Outcome - depression
+#
+# Kulchycki 2024 (sheet 4), the most sensitive depression block found, trimmed of the
+# wellbeing and resilience terms that make it very broad; Vita 2023 supplies the
+# adjustment/reactive/dysthymic disorder construction.
+#
+"Depression"[Mesh] OR "Depressive Disorder"[Mesh] OR "Adjustment Disorders"[Mesh] OR
+"Psychological Distress"[Mesh] OR "Sadness"[Mesh] OR depress*[tiab] OR dysthymi*[tiab] OR
+melanchol*[tiab] OR "low mood"[tiab] OR sadness[tiab] OR hopeless*[tiab] OR demorali*[tiab] OR
+"psychological distress"[tiab] OR "emotional distress"[tiab]
+
+### O4_nutrition - Outcome - nutritional status
+#
+# Billson 2013 (sheet 5), Ovid lines 8-14, translated; Takaoka 2024 supplies the cachexia and
+# wasting terms; Lovell 2025 supplies the body-composition sub-block.
+#
+"Nutritional Status"[Mesh] OR "Nutrition Assessment"[Mesh] OR "Malnutrition"[Mesh] OR "Nutrition
+Disorders"[Mesh] OR "Cachexia"[Mesh] OR "Sarcopenia"[Mesh] OR "Weight Loss"[Mesh] OR "Body
+Composition"[Mesh] OR "Thinness"[Mesh] OR "nutritional status"[tiab] OR "nutrition status"[tiab]
+OR "nutritional assessment"[tiab] OR "nutritional risk"[tiab] OR malnutrition[tiab] OR
+malnourish*[tiab] OR undernutrition[tiab] OR undernourish*[tiab] OR cachexi*[tiab] OR
+sarcopeni*[tiab] OR "weight loss"[tiab] OR underweight[tiab] OR "body composition"[tiab] OR
+"appetite loss"[tiab] OR anorexia[tiab]
+
+### O5_hrqol - Outcome - health-related quality of life
+#
+# Osanto 2024 (sheet 6) supplies the concept terms; Mishra 2012 supplies the instrument names,
+# which is the part most worth keeping - trials often report "QLQ-C30" or "FACT-G" without
+# ever using the phrase quality of life.
+#
+"Quality of Life"[Mesh] OR "Health Status"[Mesh] OR "Patient Reported Outcome Measures"[Mesh] OR
+"Sickness Impact Profile"[Mesh] OR "quality of life"[tiab] OR "life quality"[tiab] OR
+HRQOL[tiab] OR HRQoL[tiab] OR HRQL[tiab] OR QoL[tiab] OR "well-being"[tiab] OR wellbeing[tiab]
+OR "patient reported outcome"[tiab] OR "patient reported outcomes"[tiab] OR "patient-reported
+outcome"[tiab] OR "patient-reported outcomes"[tiab] OR PROM[tiab] OR PROMs[tiab] OR
+"QLQ-C30"[tiab] OR "QLQ-OV28"[tiab] OR EORTC[tiab] OR FACT-G[tiab] OR FACT-O[tiab] OR
+FACIT[tiab] OR "SF-36"[tiab] OR "SF-12"[tiab] OR "EQ-5D"[tiab] OR PROMIS[tiab]
+
+### O6_symptoms - Outcome - the 12 recommended patient-reported symptoms
+#
+# Reeve 2014 (sheet 7) defines the 12 symptoms but does not search them; no review in the
+# collection enumerates them, so this block is assembled from the symptom names themselves
+# plus the symptom terms embedded in Osanto 2024's PRO block and the instrument names from
+# Mishra 2012. It is the most constructed block here and the one to scrutinise most.
+#
+"Fatigue"[Mesh] OR "Sleep Initiation and Maintenance Disorders"[Mesh] OR "Pain"[Mesh] OR
+"Anorexia"[Mesh] OR "Dyspnea"[Mesh] OR "Anxiety"[Mesh] OR "Nausea"[Mesh] OR "Vomiting"[Mesh] OR
+"Peripheral Nervous System Diseases"[Mesh] OR "Constipation"[Mesh] OR "Diarrhea"[Mesh] OR
+"Symptom Assessment"[Mesh] OR "Symptom Burden"[Mesh] OR fatigue[tiab] OR asthenia[tiab] OR
+insomnia[tiab] OR "sleep disturbance"[tiab] OR pain[tiab] OR "appetite loss"[tiab] OR "loss of
+appetite"[tiab] OR dyspnea[tiab] OR dyspnoea[tiab] OR breathless*[tiab] OR anxiety[tiab] OR
+anxious[tiab] OR worry[tiab] OR nausea[tiab] OR vomit*[tiab] OR "peripheral neuropathy"[tiab] OR
+"sensory neuropathy"[tiab] OR neurotoxic*[tiab] OR constipation[tiab] OR diarrhea[tiab] OR
+diarrhoea[tiab] OR "symptom burden"[tiab] OR "symptom cluster"[tiab] OR "symptom clusters"[tiab]
+OR MDASI[tiab] OR MSAS[tiab] OR "PRO-CTCAE"[tiab] OR "ESAS"[tiab]
+
+### O7_satisfaction - Outcome - patient satisfaction
+#
+# Jacobsen 2018 (sheet 8), whose set 4 is the only genuine named satisfaction block in the
+# collection, narrowed to the satisfaction and experience concepts - its broader terms
+# (Understanding, Feasibility, Social Support) retrieve 5.3 million records on their own.
+# Alessy 2022 supplies the named survey instruments and the reminder that satisfaction and
+# experience are indexed separately.
+#
+"Patient Satisfaction"[Mesh] OR "Patient Preference"[Mesh] OR "Patient Reported Outcome
+Measures"[Mesh] OR "Patient Participation"[Mesh] OR "patient satisfaction"[tiab] OR
+"satisfaction with care"[tiab] OR "care satisfaction"[tiab] OR "treatment satisfaction"[tiab] OR
+"patient experience"[tiab] OR "patient experiences"[tiab] OR "patient reported experience"[tiab]
+OR PREM[tiab] OR PREMs[tiab] OR CAHPS[tiab] OR "SEER-CAHPS"[tiab] OR AOPSS[tiab] OR CPES[tiab]
+
+### D_design - Study design - trials and comparative observational studies (optional)
+#
+# Coleridge 2021's MEDLINE design filter, widened with the cohort terms from Neo 2017 so that
+# observational evidence on older adults is not lost. Most treatment questions in older adults
+# are answered by cohorts, not trials.
+#
+"randomized controlled trial"[pt] OR "controlled clinical trial"[pt] OR randomized[tiab] OR
+randomised[tiab] OR placebo[tiab] OR "clinical trials as topic"[Mesh:noexp] OR randomly[tiab] OR
+trial[ti] OR "Cohort Studies"[Mesh] OR cohort*[tiab] OR longitudinal[tiab] OR prospective*[tiab]
+OR retrospective*[tiab] OR "observational study"[pt]
+
+#==============================================================================================
+# COMBINATIONS - measured yields are in draft/counts.md
+#
+# Recommended primary search   ~12,061 records
+#   P_ovarian AND I_treatment AND (O1 OR O2 OR O3 OR O4 OR O5 OR O6 OR O7)
+#
+# Widest defensible search     ~91,708 records
+#   P_ovarian AND I_treatment
+#
+# Age-filtered                 ~4,075 records. NOT recommended as the primary
+# search: MEDLINE indexes participant age inconsistently, and an age block drops
+# studies whose abstracts never use the words older or elderly. Apply age at
+# screening instead, and use A_older only for a sensitivity check.
+#   P_ovarian AND I_treatment AND A_older AND (O1 OR ... OR O7)

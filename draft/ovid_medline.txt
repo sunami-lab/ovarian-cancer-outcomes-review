@@ -1,0 +1,169 @@
+# Drafted Ovid MEDLINE strategy - ovarian cancer treatment and patient-centred outcomes
+# in older adults.
+#
+# UNTESTED. I have no Ovid access, so unlike draft/pubmed.txt this has not been executed
+# and no yields are known. It is a translation of the same concepts, written to Ovid
+# conventions. Have an information specialist check it before you run it, and expect to
+# adjust the .mp. field lists to your institution's Ovid configuration.
+#
+# Field codes used: exp = explode; / = subject heading; .mp. = multi-purpose (title,
+# abstract, heading words, keywords); .ti,ab,kf. = title, abstract, author keyword;
+# .fs. = floating subheading; adjN = within N words, any order.
+#==============================================================================================
+
+## 1. POPULATION - ovarian cancer
+1   exp Ovarian Neoplasms/
+2   exp Fallopian Tube Neoplasms/
+3   Carcinoma, Ovarian Epithelial/
+4   ((ovar* or "fallopian tube*" or "primary peritoneal" or "peritoneal carcinoma" or
+    tubo-ovarian) adj5 (cancer* or carcinoma* or adenocarcinoma* or neoplas* or tumor* or
+    tumour* or malignan*)).ti,ab,kf.
+5   or/1-4
+
+## 2. INTERVENTION - any anticancer treatment
+#  Lines 10-13 are the Faluyi 2010 device: floating subheadings carry the treatment concept
+#  without naming any modality. This has no PubMed equivalent and is the main reason to run
+#  the Ovid version as well as the PubMed one.
+6   exp Antineoplastic Agents/
+7   Antineoplastic Combined Chemotherapy Protocols/
+8   Neoadjuvant Therapy/
+9   Chemotherapy, Adjuvant/
+10  dt.fs.
+11  su.fs.
+12  th.fs.
+13  rt.fs.
+14  exp Surgical Procedures, Operative/
+15  Cytoreduction Surgical Procedures/
+16  exp Radiotherapy/
+17  exp Immunotherapy/
+18  Molecular Targeted Therapy/
+19  exp Poly(ADP-ribose) Polymerase Inhibitors/
+20  (chemotherap* or chemoradi* or radiotherap* or surg* or operat* or debulk* or
+    cytoreduc* or "targeted therapy" or immunotherap* or "PARP inhibitor*" or olaparib or
+    niraparib or rucaparib or bevacizumab or platinum or carboplatin or cisplatin or
+    paclitaxel or "best supportive care").mp.
+21  or/6-20
+
+## 3. AGE - older adults (optional; see draft/README.md before using)
+22  exp Aged/
+23  Geriatrics/
+24  Frail Elderly/
+25  Geriatric Assessment/
+26  (older or elder* or elderly or geriatric* or gerontolog* or octogenarian* or
+    nonagenarian* or centenarian* or "advanced age" or "old age" or senior* or frail*).ti,ab,kf.
+27  or/22-26
+
+## 4. OUTCOMES
+#  4.1 Functional status - Neo 2017, Appendix 1, essentially as published
+28  exp "Activities of Daily Living"/
+29  Mobility Limitation/
+30  Physical Functional Performance/
+31  Frailty/
+32  (Function* adj (disabilit* or outcome* or impairment* or status or performance or
+    limitation* or declin* or recover*)).mp.
+33  ((Activit* or "Instrumental Activit*") adj2 daily living).mp.
+34  (ADL or IADL).mp.
+35  ("activity limitation*" or "participation restriction*" or "physical function*" or
+    "physical performance" or "performance status").mp.
+36  or/28-35
+
+#  4.2 Cognition - Treanor 2016, Appendices 2 and 3
+37  exp Cognition Disorders/
+38  Cognitive Dysfunction/
+39  exp Neurobehavioral Manifestations/
+40  exp Mental Processes/
+41  exp Neuropsychological Tests/
+42  exp Memory Disorders/
+43  (chemo* adj5 (fog or brain)).mp.
+44  ((cognit* or neurocognit* or neuropsycholog* or memory or neurobehavio?r* or
+    "problem solving" or attention or concentrat*) adj5 (deficit* or declin* or disorder*
+    or function* or dysfunction* or impair* or decrement* or disturb* or problem* or
+    sequelae*)).mp.
+45  or/37-44
+
+#  4.3 Depression - Kulchycki 2024 lines 5-6, trimmed; Vita 2023 adjacency
+46  Depression/
+47  exp Depressive Disorder/
+48  Adjustment Disorders/
+49  Psychological Distress/
+50  Sadness/
+51  (depress* or dysthymi* or melanchol* or "low mood" or sadness or hopeless* or
+    demorali* or "psychological distress" or "emotional distress").ti,ab,kf.
+52  ((adjustment or reactive or dysthymic) adj5 disorder*).ti,ab,kf.
+53  or/46-52
+
+#  4.4 Nutritional status - Billson 2013 lines 8-14; Takaoka 2024; Lovell 2025
+54  Nutritional Status/
+55  Nutrition Assessment/
+56  exp Malnutrition/
+57  exp Nutrition Disorders/
+58  Cachexia/
+59  Sarcopenia/
+60  Weight Loss/
+61  Body Composition/
+62  Thinness/
+63  ("nutrition* status" or "nutritional assessment" or "nutritional risk" or malnutrition
+    or malnourish* or undernutrition or undernourish* or cachexi* or sarcopeni* or
+    "weight loss" or underweight or "body composition" or "appetite loss" or anorexia).ti,ab,kf.
+64  or/54-63
+
+#  4.5 HRQOL - Osanto 2024 concepts; Mishra 2012 instrument names
+65  "Quality of Life"/
+66  exp Health Status/
+67  Patient Reported Outcome Measures/
+68  Sickness Impact Profile/
+69  ("quality of life" or "life quality" or HRQOL or HRQL or QoL or "well being" or
+    wellbeing or "patient reported outcome*" or PROM or PROMs).ti,ab,kf.
+70  ("QLQ-C30" or "QLQ-OV28" or EORTC or "FACT-G" or "FACT-O" or FACIT or "SF-36" or
+    "SF-12" or "EQ-5D" or PROMIS or MSAS or MDASI).ti,ab,kf.
+71  or/65-70
+
+#  4.6 The 12 recommended symptoms - constructed; see draft/README.md
+72  Fatigue/
+73  Sleep Initiation and Maintenance Disorders/
+74  exp Pain/
+75  Anorexia/
+76  Dyspnea/
+77  Anxiety/
+78  Nausea/
+79  Vomiting/
+80  exp Peripheral Nervous System Diseases/
+81  Constipation/
+82  Diarrhea/
+83  Symptom Assessment/
+84  (fatigue or asthenia or insomnia or "sleep disturbance*" or pain or "appetite loss" or
+    "loss of appetite" or dyspn?ea or breathless* or anxiety or anxious or worry or nausea
+    or vomit* or "peripheral neuropathy" or "sensory neuropathy" or neurotoxic* or
+    constipation or diarrh?ea or "symptom burden" or "symptom cluster*" or
+    "PRO-CTCAE" or ESAS).ti,ab,kf.
+85  or/72-84
+
+#  4.7 Patient satisfaction - Jacobsen 2018 set 4, narrowed; Alessy 2022 instruments
+86  Patient Satisfaction/
+87  Patient Preference/
+88  Patient Participation/
+89  ("patient satisfaction" or "satisfaction with care" or "care satisfaction" or
+    "treatment satisfaction" or "patient experience*" or "patient reported experience*" or
+    PREM or PREMs or CAHPS or "SEER-CAHPS" or AOPSS or CPES).ti,ab,kf.
+90  or/86-89
+
+91  or/36,45,53,64,71,85,90        # any patient-centred outcome
+
+## 5. STUDY DESIGN (optional) - Coleridge 2021 filter widened with Neo 2017 cohort terms
+92  randomized controlled trial.pt.
+93  controlled clinical trial.pt.
+94  randomized.ab.
+95  placebo.ab.
+96  clinical trials as topic.sh.
+97  randomly.ab.
+98  trial.ti.
+99  exp Cohort Studies/
+100 (cohort* or longitudinal or prospective* or retrospective*).tw.
+101 or/92-100
+
+## 6. COMBINE
+102 5 and 21 and 91                # recommended primary search
+103 5 and 21                       # widest defensible search
+104 5 and 21 and 27 and 91         # age-filtered; sensitivity check only
+105 exp animals/ not humans.sh.
+106 102 not 105
