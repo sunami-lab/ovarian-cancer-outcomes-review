@@ -1,0 +1,295 @@
+# Published symptom concept blocks, verbatim, one per symptom in the recommended core set.
+#
+# WHY THIS FILE EXISTS. The 24 reviews in the main workbook contain no strategy that
+# enumerates the 12 recommended patient-reported symptoms (Reeve 2014, JNCI). The first
+# version of the O6_symptoms block in draft/blocks_pubmed.yml was therefore constructed
+# from the symptom names themselves, which made it the least evidence-based part of the
+# drafted strategy. This file replaces that guesswork: for each symptom, a systematic
+# review in oncology or palliative care that published a real concept block for it.
+#
+# Ten of the twelve sources are Cochrane reviews, read from the PMC HTML of the article.
+# All twelve PMIDs and DOIs were resolved and their titles checked. Three blocks
+# (Cramp fatigue, Haywood dyspnoea, Wei diarrhoea) were additionally re-read from source
+# character by character; two more (Vita depression, Treanor cognition) match the
+# independent transcriptions already in the workbook exactly.
+#
+# Transcription note: Wiley and PMC render every ASCII hyphen as U+2010; these have been
+# normalised to "-" so the strings are paste-safe. Nothing else was changed. Published
+# typographical errors are preserved and flagged.
+
+blocks:
+
+  fatigue:
+    first_author_year: "Cramp F, 2012"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "23152233"
+    pmcid: "PMC8480137"
+    doi: "10.1002/14651858.CD006145.pub3"
+    review: "Exercise for the management of cancer-related fatigue in adults"
+    source: "Appendix 1, MEDLINE Ovid, steps 26-30"
+    interface: "Ovid MEDLINE"
+    block: |
+      26 Fatigue/
+      27 fatigue.mp.
+      28 (tired$ or weary or weariness or exhaustion or exhausted or lacklustre
+         or ((astenia or asthenic) and syndrome)
+         or ((lack or loss or lost) adj3 (energy or vigour))).mp.
+      29 (apathy or apathetic or lassitude or weakness or lethargy or lethargic
+         or (feeling adj3 (drained or sleepy or sluggish))).mp.
+      30 or/26-29
+      Note: "astenia" is a typo for asthenia in the published strategy, reproduced as
+      printed. The line covers it anyway via "asthenic".
+
+  insomnia:
+    first_author_year: "Cooper JT, 2025"
+    journal: "BMC Cancer"
+    pmid: "40369457"
+    pmcid: "PMC12079849"
+    doi: "10.1186/s12885-025-14192-y"
+    review: "Effects of cognitive-behavioral therapy for insomnia compared with controls among cancer survivors"
+    source: "Additional file 1, E-Table 1 Search Strategy, row 4"
+    interface: "Ovid MEDLINE"
+    block: |
+      4 (Sleep* or Insomnia* or hyposomnia or agrypnia or polysomnograph*
+        or actigraph*).tw,kf.
+        or exp "Sleep Initiation and Maintenance Disorders"/
+        or exp "Sleep Wake Disorders"/ or exp "Sleep Hygiene"/
+
+  pain:
+    first_author_year: "Li Y, 2021"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "34350974"
+    pmcid: "PMC8406835"
+    doi: "10.1002/14651858.CD011108.pub3"
+    review: "Hydromorphone for cancer pain"
+    source: "Appendix 2, MEDLINE (Ovid), steps 16-20 (hit counts as printed)"
+    interface: "Ovid MEDLINE"
+    block: |
+      16 exp Pain/ (369037)
+      17 Pain Measurement/ (79733)
+      18 Pain Threshold/ (12115)
+      19 (Pain* or nocicept* or nocicept* or neuropath*).tw. (738677)
+      20 or/16-19 (886784)
+      Note: "nocicept*" is duplicated in the published line, reproduced as printed.
+      Note: this block folds neuropath* into the pain concept, so it will pull
+      chemotherapy-induced peripheral neuropathy records. Do not copy that choice if you
+      are keeping neuropathy as a separate symptom, as the core set does.
+
+  anorexia:
+    first_author_year: "Ruiz Garcia V, 2013"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "23543530"
+    pmcid: "PMC6418472"
+    doi: "10.1002/14651858.CD004310.pub3"
+    review: "Megestrol acetate for treatment of anorexia-cachexia syndrome"
+    source: "Appendix 2, MEDLINE in OVID, steps 1-8"
+    interface: "Ovid MEDLINE"
+    block: |
+      1 Cachexia/
+      2 Anorexia/
+      3 anorexi*.mp.
+      4 (cachex* or cachectic).mp.
+      5 exp Weight Loss/
+      6 Appetite/
+      7 (weight or wasting or appetite).mp.
+      8 1 or 2 or 3 or 4 or 5 or 6 or 7
+      Note: this is an anorexia-CACHEXIA concept, not a pure appetite-loss concept. No
+      Cochrane review with a pure appetite-loss block was found; the cachexia-only
+      alternatives checked contain no appetite terms at all, so they are weaker.
+
+  dyspnea:
+    first_author_year: "Haywood A, 2019"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "30784058"
+    pmcid: "PMC6381295"
+    doi: "10.1002/14651858.CD012704.pub2"
+    review: "Systemic corticosteroids for the management of cancer-related breathlessness (dyspnoea) in adults"
+    source: "Appendix 2, MEDLINE via Ovid, steps 43-49"
+    interface: "Ovid MEDLINE"
+    block: |
+      43. exp Dyspnea/
+      44. "dyspn*".tw.
+      45. (short* adj2 breath*).tw.
+      46. (breath* adj2 difficult*).tw.
+      47. (labo*r* adj2 breath*).tw.
+      48. "breathless*".tw.
+      49. 43 or 44 or 45 or 46 or 47 or 48
+
+  cognitive_problems:
+    first_author_year: "Treanor CJ, 2016"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "27529826"
+    pmcid: "PMC8734151"
+    doi: "10.1002/14651858.CD011325.pub2"
+    review: "Non-pharmacological interventions for cognitive impairment due to systemic cancer treatment"
+    source: "Appendix 2, MEDLINE, steps 4-11"
+    interface: "Ovid MEDLINE"
+    block: |
+      4  exp Cognition Disorders/
+      5  exp Neurobehavioral Manifestations/
+      6  exp Mental Processes/
+      7  exp Neuropsychological Tests/
+      8  Attention/
+      9  (chemo* adj5 (fog or brain)).mp.
+      10 ((cognit* or neurocognit* or neuropsycholog* or memory or neurobehavior*
+         or neurobehaviour* or problem solving or attention or concentrat*) adj5
+         (deficit* or declin* or disorder* or function* or dysfunction* or impair*
+         or decrement* or disturb* or problem* or sequelae*)).mp.
+      11 4 or 5 or 6 or 7 or 8 or 9 or 10
+      Note: exploding Mental Processes/ and Neuropsychological Tests/ is very broad.
+      This is the same block already recorded on workbook sheet 3, independently
+      transcribed - the two agree exactly.
+
+  anxiety:
+    first_author_year: "Salt S, 2017"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "28521070"
+    pmcid: "PMC6481598"
+    doi: "10.1002/14651858.CD004596.pub3"
+    review: "Drug therapy for symptoms associated with anxiety in adult palliative care patients"
+    source: "Appendix 2, MEDLINE search 2012, steps 1-6"
+    interface: "Ovid MEDLINE"
+    block: |
+      1 exp Anxiety/
+      2 exp Anxiety Disorders/
+      3 Adjustment Disorders/
+      4 Psychomotor Agitation/
+      5 (anxious* or anxiet* or agitat* or restless* or panic* or stress* or PTSD
+        or phobia* or phobic or nervous* or obsessive compulsive disorder* or OCD
+        or adjustment disorder*).mp.
+      6 1 or 2 or 3 or 4 or 5
+      Note: stress*, nervous* and agitat* make this very broad for a symptom block in a
+      cancer treatment review.
+
+  nausea:
+    first_author_year: "Vayne-Bossert P, 2017"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "28671265"
+    pmcid: "PMC6379017"
+    doi: "10.1002/14651858.CD012002.pub2"
+    review: "Corticosteroids for adult patients with advanced cancer who have nausea and vomiting"
+    source: "Appendix 2, MEDLINE Ovid, steps 22-32"
+    interface: "Ovid MEDLINE"
+    block: |
+      22 Nausea/
+      23 Vomiting/
+      24 Vomiting, Anticipatory/
+      25 Antiemetics/
+      26 "nause*".tw.
+      27 "vomit*".tw.
+      28 "anti*eme*".tw.
+      29 emesis.tw.
+      30 "emetic*".tw.
+      31 "retch*".tw.
+      32 22 or 23 or 24 or 25 or 26 or 27 or 28 or 29 or 30 or 31
+
+  depression:
+    first_author_year: "Vita G, 2023"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "36999619"
+    pmcid: "PMC10065046"
+    doi: "10.1002/14651858.CD011006.pub4"
+    review: "Antidepressants for the treatment of depression in people with cancer"
+    source: "Appendix 2, MEDLINE (Ovid), steps 4-8"
+    interface: "Ovid MEDLINE"
+    block: |
+      4 Depression/
+      5 exp Depressive Disorder/
+      6 Adjustment Disorders/
+      7 (depress* or melanchol* or ((adjustment or reactive or dysthymic) adj5
+        disorder*)).mp.
+      8 4 or 5 or 6 or 7
+      Note: same block as workbook sheet 4, independently transcribed - the two agree
+      exactly.
+
+  sensory_neuropathy:
+    first_author_year: "Sato MT, 2023"
+    journal: "BMJ Open"
+    pmid: "37699621"
+    pmcid: "PMC10503317"
+    doi: "10.1136/bmjopen-2022-070645"
+    review: "Efficacy and safety of drug therapy for the prevention and treatment of chemotherapy-induced peripheral neuropathy"
+    source: "Online supplemental Additional File 1, p.1, search #1"
+    interface: "PubMed"
+    block: |
+      #1 ("Peripheral Nervous System Diseases/chemically induced"[mh] OR CIPN[tiab]
+         OR "induced peripheral neuropath*"[tiab])
+         OR ((Peripheral Nervous System Diseases[mh] OR "peripheral nerve"[tiab]
+         OR "peripheral nervous"[tiab] OR neuropath*[tiab] OR neuralgia*[tiab]
+         OR radiculopath*[tiab] OR polyneuropath*[tiab] OR "peripheral neuro*"[tiab])
+         AND (induced[tiab] OR neurotoxic*[tiab] OR inciden*[tiab] OR prevent*[tiab]
+         OR protect*[tiab] OR chemoprevent*[tiab] OR chemoprotect*[tiab]
+         OR neuroprevent*[tiab] OR neuroprotect*[tiab] OR Prevention and Control[sh])
+         AND ("Antineoplastic Agents/therapeutic use"[mh] OR "Neoplasms/drug therapy"[mh]
+         OR chemotherap*[tiab] OR cancer*[tiab] OR neoplasm*[tiab] OR anticancer*[tiab]
+         OR antineoplas*[tiab] OR caricinoma*[tiab] OR tumor*[tiab] OR tumour*[tiab]
+         OR Bortezomib[tw] OR Cisplatin[tw] OR Oxaliplatin[tw] OR Carboplatin[tw]
+         OR Paclitaxel[mh] OR Paclitaxel[tw] OR Docetaxel[tw] OR Vincristine[tw]
+         OR Vinblastine[tw] OR Vinorelbine[tw] OR taxanes[tw] OR Vinca Alkaloids[mh]
+         OR Vinca Alkaloid*[tw] OR Thalidomide[tw]))
+      Note: the only non-Cochrane source here, and the only one already in PubMed syntax.
+      The review fused the neuropathy concept with causal attribution and the
+      antineoplastic drug list inside one numbered step, so it is quoted whole rather
+      than split. The neuropathy concept proper is the first two parenthesised groups.
+      "caricinoma*" is a typo in the published strategy, reproduced as printed.
+
+  constipation:
+    first_author_year: "Candy B, 2015"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "25967924"
+    pmcid: "PMC6956627"
+    doi: "10.1002/14651858.CD003448.pub4"
+    review: "Laxatives for the management of constipation in people receiving palliative care"
+    source: "Appendix 1, search strategies for the 2014 update, MEDLINE & MEDLINE in Process, steps 1-10"
+    interface: "Ovid MEDLINE and MEDLINE In-Process"
+    block: |
+      1.  Constipation/
+      2.  Defecation/
+      3.  Fecal Incontinence/
+      4.  Feces/
+      5.  Diarrhea/
+      6.  Irritable Bowel Syndrome/
+      7.  (constipat* or (hard adj3 stool*) or (bowel adj3 symptom*)
+          or (impact* adj3 stool*) or (impact* adj3 feces) or (impact* adj3 faeces)
+          or (fecal* adj3 incontin*) or (faecal* adj3 incontin*)
+          or (fecal* adj3 impact*) or (faecal* adj3 impact*) or (loose adj3 stool*)
+          or diarrh* or feces or faeces).tw.
+      8.  (defecat* or (bowel* adj3 function*) or (bowel* adj3 habit*)
+          or (bowel* adj3 symptom*) or (evacuat* adj3 f#eces) or (evacuat* adj3 bowel*)
+          or (bowel adj3 movement*) or (intestin* adj3 motility)
+          or (colon adj3 transit*) or (void* adj3 bowel*) or (strain* adj3 bowel*)
+          or (irritable adj bowel adj syndrome)).mp.
+      9.  Fecal Impaction/
+      10. or/1-9
+      Note: this block carries constipation AND diarrhoea together, which is convenient
+      here since both are in the core set. Line 8 in the published original repeats
+      "(evacuat* adj3 f#eces)" and "(bowel* adj3 symptom*)".
+
+  diarrhea:
+    first_author_year: "Wei D, 2018"
+    journal: "Cochrane Database of Systematic Reviews"
+    pmid: "30168576"
+    pmcid: "PMC6513393"
+    doi: "10.1002/14651858.CD008831.pub3"
+    review: "Probiotics for the prevention or treatment of chemotherapy- or radiotherapy-related diarrhoea in people with cancer"
+    source: "Appendix 2, MEDLINE (Ovid), steps 4-8"
+    interface: "Ovid MEDLINE"
+    block: |
+      4 exp Diarrhea/
+      5 diarrh*.mp.
+      6 antidiarrh*.mp.
+      7 anti-diarrh*.mp.
+      8 6 or 4 or 7 or 5
+      Note: the union on line 8 is printed in that order in the original.
+
+not_found:
+  - >-
+    Insomnia in cancer specifically: Cochrane published two directly relevant reviews in
+    2025 - "Cognitive behavioural therapy for insomnia in people with cancer"
+    (PMID 41170811) and "Acupuncture for insomnia in people with cancer"
+    (PMID 41347621) - but neither is yet deposited in PMC, so their appendices could not
+    be read. Cooper 2025 is used instead. Re-check the Cochrane pair in a few months;
+    they would be better sources.
+  - >-
+    A pure appetite-loss block. None exists in the Cochrane library; every candidate
+    fuses appetite with cachexia and weight loss. See the note on Ruiz Garcia 2013.

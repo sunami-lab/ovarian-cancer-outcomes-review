@@ -13,6 +13,10 @@ collection, with every line traced back to the review it came from.
 | `pubmed.txt` | Runnable PubMed strategy, generated from the YAML. **The only version that has been executed.** |
 | `counts.md` | Live PubMed yields for every block and combination. |
 | `recall.md` | Known-item recall test — does the strategy find what it must? |
+| `press.md` | PRESS self-assessment: 3 pass, 2 with reservations, 1 fail. |
+| `lint.md` | Static syntax check of the untested translations. |
+| `symptom_map.md` | The 12 recommended symptoms, one by one, with sources. |
+| `symptom_blocks_published.yml` | The twelve published symptom blocks, verbatim. |
 | `ovid_medline.txt` | Ovid MEDLINE translation. **Untested.** |
 | `embase_ovid.txt` | Embase (Ovid) translation. **Untested.** |
 | `web_of_science.txt` | Web of Science translation. **Untested.** |
@@ -33,16 +37,16 @@ against 23 verified studies a review of this question must not miss (`draft/reca
 | Strategy | Records to screen | Known items found | Recall |
 |---|---:|---:|---:|
 | Population only | 179,495 | 23/23 | 100% |
-| **Population AND any outcome** | **17,623** | **23/23** | **100%** ← recommended |
-| Population AND treatment AND any outcome | 12,061 | 22/23 | 96% |
+| **Population AND any outcome** | **18,472** | **23/23** | **100%** ← recommended |
+| Population AND treatment AND any outcome | 12,590 | 22/23 | 96% |
 | Population AND treatment | 91,708 | 22/23 | 96% |
-| … AND age block as well | 4,075 | 15/23 | 65% |
+| … AND age block as well | 4,194 | 15/23 | 65% |
 
 Per outcome, intersected with population AND treatment:
 
 | Outcome | Records |
 |---|---:|
-| Symptoms (the 12) | 7,184 |
+| Symptoms (the 12) | 7,844 |
 | HRQOL | 3,273 |
 | Functional status | 1,294 |
 | Nutritional status | 1,266 |
@@ -57,13 +61,13 @@ Per outcome, intersected with population AND treatment:
 The evidence from the 24 reviews says most reviews do not: population AND intervention,
 with the outcome applied at screening, is the dominant pattern. But that pattern is for
 reviews whose population block is already narrow. Here the arithmetic settles it: the
-outcome block cuts 179,495 records to 17,623 and loses none of the 23 known items. There is
+outcome block cuts 179,495 records to 18,472 and loses none of the 23 known items. There is
 no sensitivity argument against it in this particular review.
 
 **1b. Should the *treatment* block be in the search?** — Probably not, and this is the one
 place the recall test changed my recommendation.
 
-Adding it takes 17,623 records down to 12,061 — 32% less screening — but drops a known
+Adding it takes 18,472 records down to 12,590 — 32% less screening — but drops a known
 item: Wenzel 2021 (JNCI), a quality-of-life and adverse-event analysis of GOG-0218. That
 paper carries **no treatment MeSH heading at all**, and its abstract never names a drug or
 a procedure; it says only "post-treatment" and reports FACT-O-TOI scores. It is not an
@@ -74,7 +78,7 @@ intervention as read**. A treatment block systematically drops them.
 Since every study of ovarian cancer patients is, in practice, a study of treated ovarian
 cancer patients, the treatment block buys precision rather than validity here.
 
-My recommendation: run `P AND anyOutcome` as the primary search. If 17,623 abstracts is
+My recommendation: run `P AND anyOutcome` as the primary search. If 18,472 abstracts is
 beyond the team's capacity, `P AND I AND anyOutcome` is a defensible fallback — but record
 in the protocol that it is a pragmatic restriction, not a conceptual one, and consider
 running `P AND (O5_hrqol OR O6_symptoms)` without the treatment block as a top-up to
@@ -117,7 +121,7 @@ Every block names its sources in `blocks_pubmed.yml`. In summary:
 | Depression | Kulchycki 2024 (trimmed), Vita 2023 |
 | Nutritional status | Billson 2013, Takaoka 2024, Lovell 2025 |
 | HRQOL | Osanto 2024 (concepts), Mishra 2012 (instrument names) |
-| Symptoms | **Largely constructed.** No review in the collection enumerates the 12 symptoms; the block is built from the symptom names in Reeve 2014 plus the symptom terms inside Osanto 2024's PRO block. Scrutinise this one hardest. |
+| Symptoms | Rebuilt from **twelve published symptom blocks**, one per symptom — see `symptom_map.md` and `symptom_blocks_published.yml`. Ten of the twelve sources are Cochrane. |
 | Satisfaction | Jacobsen 2018 (narrowed — its full set 4 retrieves 5.3 million records), Alessy 2022 (instruments) |
 | Design | Coleridge 2021, widened with Neo 2017's cohort terms |
 
@@ -130,7 +134,9 @@ and each is a judgement you may want to reverse:
 - **PARP inhibitor, targeted therapy and immunotherapy terms** in the treatment block. The
   sheet-1 Cochrane strategies pre-date first-line PARP maintenance, so copying them
   unchanged would miss the trials that now define ovarian cancer treatment.
-- **The symptom block**, which had to be constructed because no exemplar exists.
+- **Three departures from the published symptom blocks** (neuropath* excluded from pain,
+  stress*/nervous*/agitat* excluded from anxiety, cachexia terms excluded from anorexia),
+  each explained in `symptom_map.md`.
 
 ## Known limitations
 

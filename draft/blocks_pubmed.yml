@@ -153,26 +153,40 @@ blocks:
   O6_symptoms:
     label: "Outcome - the 12 recommended patient-reported symptoms"
     sources: >-
-      Reeve 2014 (sheet 7) defines the 12 symptoms but does not search them; no review in
-      the collection enumerates them, so this block is assembled from the symptom names
-      themselves plus the symptom terms embedded in Osanto 2024's PRO block and the
-      instrument names from Mishra 2012. It is the most constructed block here and the one
-      to scrutinise most.
+      Rebuilt from twelve PUBLISHED symptom concept blocks, one per symptom, transcribed
+      verbatim in draft/symptom_blocks_published.yml and mapped symptom by symptom in
+      draft/symptom_map.md. Ten of the twelve sources are Cochrane reviews. This block was
+      originally constructed from the symptom names alone, because no review in the main
+      workbook enumerates the 12; that version is superseded. Three deliberate departures
+      from the published sources, each for a stated reason - neuropath* is NOT taken from
+      Li 2021's pain block (it belongs to sensory neuropathy, which the core set keeps
+      separate); stress*, nervous* and agitat* are NOT taken from Salt 2017's anxiety block
+      (too broad for a symptom concept in a treatment review); and cachexia and weight-loss
+      terms are NOT taken from Ruiz Garcia 2013's anorexia block (they live in O4_nutrition).
     query: >-
       "Fatigue"[Mesh] OR "Sleep Initiation and Maintenance Disorders"[Mesh]
-      OR "Pain"[Mesh] OR "Anorexia"[Mesh] OR "Dyspnea"[Mesh] OR "Anxiety"[Mesh]
-      OR "Nausea"[Mesh] OR "Vomiting"[Mesh] OR "Peripheral Nervous System Diseases"[Mesh]
-      OR "Constipation"[Mesh] OR "Diarrhea"[Mesh] OR "Symptom Assessment"[Mesh]
-      OR "Symptom Burden"[Mesh]
-      OR fatigue[tiab] OR asthenia[tiab] OR insomnia[tiab] OR "sleep disturbance"[tiab]
-      OR pain[tiab] OR "appetite loss"[tiab] OR "loss of appetite"[tiab]
-      OR dyspnea[tiab] OR dyspnoea[tiab] OR breathless*[tiab]
-      OR anxiety[tiab] OR anxious[tiab] OR worry[tiab]
-      OR nausea[tiab] OR vomit*[tiab]
-      OR "peripheral neuropathy"[tiab] OR "sensory neuropathy"[tiab]
-      OR neurotoxic*[tiab] OR constipation[tiab] OR diarrhea[tiab] OR diarrhoea[tiab]
+      OR "Sleep Wake Disorders"[Mesh] OR "Pain"[Mesh] OR "Pain Measurement"[Mesh]
+      OR "Anorexia"[Mesh] OR "Appetite"[Mesh] OR "Dyspnea"[Mesh] OR "Anxiety"[Mesh]
+      OR "Anxiety Disorders"[Mesh] OR "Nausea"[Mesh] OR "Vomiting"[Mesh]
+      OR "Antiemetics"[Mesh] OR "Peripheral Nervous System Diseases"[Mesh]
+      OR "Constipation"[Mesh] OR "Defecation"[Mesh] OR "Diarrhea"[Mesh]
+      OR "Symptom Assessment"[Mesh] OR "Symptom Burden"[Mesh]
+      OR fatigue[tiab] OR tired*[tiab] OR weary[tiab] OR weariness[tiab]
+      OR exhaustion[tiab] OR lassitude[tiab] OR lethargy[tiab] OR asthenia[tiab]
+      OR insomnia*[tiab] OR hyposomnia[tiab] OR agrypnia[tiab]
+      OR "sleep disturbance"[tiab] OR "sleep disturbances"[tiab] OR "sleep quality"[tiab]
+      OR pain[tiab] OR pain*[tiab]
+      OR anorexi*[tiab] OR appetite[tiab] OR "appetite loss"[tiab]
+      OR "loss of appetite"[tiab]
+      OR dyspn*[tiab] OR breathless*[tiab] OR "shortness of breath"[tiab]
+      OR anxiet*[tiab] OR anxious*[tiab] OR panic*[tiab] OR phobia*[tiab]
+      OR worry[tiab] OR worries[tiab]
+      OR nause*[tiab] OR vomit*[tiab] OR emesis[tiab] OR emetic*[tiab] OR retch*[tiab]
+      OR CIPN[tiab] OR neuropath*[tiab] OR neuralgia*[tiab] OR polyneuropath*[tiab]
+      OR neurotoxic*[tiab]
+      OR constipat*[tiab] OR defecat*[tiab] OR diarrh*[tiab]
       OR "symptom burden"[tiab] OR "symptom cluster"[tiab] OR "symptom clusters"[tiab]
-      OR MDASI[tiab] OR MSAS[tiab] OR "PRO-CTCAE"[tiab] OR "ESAS"[tiab]
+      OR MDASI[tiab] OR MSAS[tiab] OR "PRO-CTCAE"[tiab] OR ESAS[tiab]
 
   O7_satisfaction:
     label: "Outcome - patient satisfaction"
