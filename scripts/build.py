@@ -43,14 +43,16 @@ COLUMNS = [
     ("URL", "url", 40),
 ]
 
+# One typeface throughout the workbook: Arial 11.
+FONT_NAME = "Arial"
+FONT_SIZE = 11
+
 HEAD_FILL = PatternFill("solid", fgColor="1F3864")
-HEAD_FONT = Font(bold=True, color="FFFFFF", size=10, name="Calibri")
-BODY_FONT = Font(size=9, name="Calibri")
-MONO_FONT = Font(size=8.5, name="Consolas")
+HEAD_FONT = Font(bold=True, color="FFFFFF", size=FONT_SIZE, name=FONT_NAME)
+BODY_FONT = Font(size=FONT_SIZE, name=FONT_NAME)
 THIN = Side(style="thin", color="BFBFBF")
 BORDER = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
 BAND = PatternFill("solid", fgColor="F2F5FA")
-MONO_KEYS = {"search_pubmed", "search_embase", "search_wos"}
 
 
 def load():
@@ -83,7 +85,7 @@ def est_height(rec, cols=None):
         txt = clean(rec.get(key))
         n = sum(max(1, -(-len(ln) // max(width - 2, 10))) for ln in txt.split("\n"))
         lines = max(lines, n)
-    return min(max(lines, 4) * 11.5, EXCEL_MAX_ROW_HEIGHT)
+    return min(max(lines, 4) * (FONT_SIZE * 1.32), EXCEL_MAX_ROW_HEIGHT)
 
 
 def build_xlsx(cats):
@@ -96,7 +98,7 @@ def build_xlsx(cats):
         ws.freeze_panes = "A3"
 
         ws.cell(row=1, column=1, value=f"{meta['id']}. {meta['title']}").font = Font(
-            bold=True, size=12, name="Calibri")
+            bold=True, size=FONT_SIZE, name=FONT_NAME)
         ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=len(cols))
         ws.row_dimensions[1].height = 20
 
@@ -111,7 +113,7 @@ def build_xlsx(cats):
         for r, rec in enumerate(cat["records"], start=3):
             for i, (header, key, width) in enumerate(cols, start=1):
                 c = ws.cell(row=r, column=i, value=clean(rec.get(key)))
-                c.font = MONO_FONT if key in MONO_KEYS else BODY_FONT
+                c.font = BODY_FONT
                 c.alignment = Alignment(vertical="top", wrap_text=True)
                 c.border = BORDER
                 if r % 2:
@@ -128,7 +130,7 @@ def build_xlsx(cats):
                 "Excel's maximum row height (409.5 pt) allows it to display. The cell "
                 "content is complete - click the cell and read the formula bar, or use "
                 "docs/tables/*.md and strategies/*.txt for the full text."))
-            c.font = Font(size=9, italic=True, name="Calibri", color="7F7F7F")
+            c.font = Font(size=FONT_SIZE, italic=True, name=FONT_NAME, color="7F7F7F")
             c.alignment = Alignment(vertical="top", wrap_text=True)
             ws.merge_cells(start_row=n, start_column=1, end_row=n, end_column=len(cols))
             ws.row_dimensions[n].height = 28
