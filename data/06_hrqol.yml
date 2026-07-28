@@ -33,14 +33,17 @@ records:
       block is the most complete in this collection: alongside the expected controlled
       vocabulary and free text it lists the named measurement instruments, so trials
       reporting only "FACT-G" or "QLQ-C30" are still retrieved.
-    pico: |
-      P: Adults with any cancer, during active treatment (surgery, chemotherapy,
-         radiotherapy, hormonal therapy).
-      I: Exercise interventions (aerobic, resistance, combination, mind-body including
-         yoga, tai chi, qigong, hydrotherapy).
-      C: Usual care, no exercise, or an alternative non-exercise intervention.
-      O: Overall HRQoL and HRQoL domains - physical, psychological, social, spiritual
-         well-being, pain, fatigue, sleep, body image, vitality; adverse events.
+    pico_p: >-
+      Adults with any cancer, during active treatment (surgery, chemotherapy, radiotherapy,
+      hormonal therapy).
+    pico_i: >-
+      Exercise interventions (aerobic, resistance, combination, mind-body including yoga,
+      tai chi, qigong, hydrotherapy).
+    pico_c: >-
+      Usual care, no exercise, or an alternative non-exercise intervention.
+    pico_o: >-
+      Overall HRQoL and HRQoL domains - physical, psychological, social, spiritual
+      well-being, pain, fatigue, sleep, body image, vitality; adverse events.
     search_pubmed: |
       [MEDLINE searched via PubMed, inception to May 2010 (430 hits) and January 2010 to
       November 2011 (190 hits). Appendix 1, verbatim - lines 32-58 are the HRQoL block:]
@@ -178,15 +181,18 @@ records:
       depression, functional status, fatigue, pain, symptom burden, sexual and social
       functioning as facets of the same concept, which is exactly the union your review
       needs across categories 2, 3, 4, 6 and 7.
-    pico: |
-      P: Patients with metastatic hormone-sensitive prostate cancer (mHSPC).
-      I: Systemic treatment arms of phase III RCTs (androgen deprivation therapy alone or
-         in combination with docetaxel, abiraterone, apalutamide, enzalutamide, darolutamide
-         or radiotherapy).
-      C: The comparator arm of each trial (usually ADT alone).
-      O: Health-related quality of life and patient-reported outcomes - instrument used,
-         domains, timing, compliance, statistical handling, and the direction of any
-         between-arm difference.
+    pico_p: >-
+      Patients with metastatic hormone-sensitive prostate cancer (mHSPC).
+    pico_i: >-
+      Systemic treatment arms of phase III RCTs (androgen deprivation therapy alone or in
+      combination with docetaxel, abiraterone, apalutamide, enzalutamide, darolutamide or
+      radiotherapy).
+    pico_c: >-
+      The comparator arm of each trial (usually ADT alone).
+    pico_o: >-
+      Health-related quality of life and patient-reported outcomes - instrument used,
+      domains, timing, compliance, statistical handling, and the direction of any
+      between-arm difference.
     search_pubmed: |
       [PubMed searched natively; restricted to publications from 1 January 2015.
       Supplementary Table 2, verbatim - the HRQoL/PRO block reproduced in full, the
@@ -296,13 +302,16 @@ records:
       women: HRQoL is the first-named outcome in the title and the primary outcome of the
       review, yet no quality-of-life, mental-health or symptom term appears anywhere in any
       of the six search strategies.
-    pico: |
-      P: Women with a diagnosis of breast cancer, receiving active treatment or having
-         completed treatment.
-      I: Yoga (including asana, pranayama, dhyana, dharana, meditation).
-      C: No therapy, or another active intervention (psychosocial/educational, exercise).
-      O: Health-related quality of life; mental health (depression, anxiety); cancer-related
-         symptoms (fatigue, sleep disturbance); adverse events.
+    pico_p: >-
+      Women with a diagnosis of breast cancer, receiving active treatment or having
+      completed treatment.
+    pico_i: >-
+      Yoga (including asana, pranayama, dhyana, dharana, meditation).
+    pico_c: >-
+      No therapy, or another active intervention (psychosocial/educational, exercise).
+    pico_o: >-
+      Health-related quality of life; mental health (depression, anxiety); cancer-related
+      symptoms (fatigue, sleep disturbance); adverse events.
     search_pubmed: |
       [MEDLINE searched via PubMed on 29 January 2016. Appendix 1, verbatim:]
       #1  yoga [mh]

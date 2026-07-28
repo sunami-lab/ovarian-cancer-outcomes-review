@@ -17,13 +17,12 @@
 
 **PICO**
 
-```
-P: Adults with cancer (any type, any stage, any treatment setting).
-I: Nil - the review deliberately has no intervention concept.
-C: Nil.
-O: Disability in activities of daily living (ADL) and instrumental activities of daily
-   living (IADL) - prevalence, affected items, and measurement instruments.
-```
+| | |
+|---|---|
+| **P** — Population | Adults with cancer (any type, any stage, any treatment setting). |
+| **I** — Intervention / exposure | Nil - the review deliberately has no intervention concept. |
+| **C** — Comparison | Nil. |
+| **O** — Outcome | Disability in activities of daily living (ADL) and instrumental activities of daily living (IADL) - prevalence, affected items, and measurement instruments. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -112,14 +111,12 @@ one of two that searched it without publishing the string.
 
 **PICO**
 
-```
-P: Adults (>= 18 years) with cancer cachexia.
-I: Any cachexia intervention lasting more than 14 days (nutritional, pharmacological,
-   exercise, multimodal), in controlled trials with more than 40 participants.
-C: Control arm as defined by each trial.
-O: Physical function endpoints - handgrip strength, 6-minute walk test, timed
-   up-and-go, physical activity, patient-reported physical function.
-```
+| | |
+|---|---|
+| **P** — Population | Adults (>= 18 years) with cancer cachexia. |
+| **I** — Intervention / exposure | Any cachexia intervention lasting more than 14 days (nutritional, pharmacological, exercise, multimodal), in controlled trials with more than 40 participants. |
+| **C** — Comparison | Control arm as defined by each trial. |
+| **O** — Outcome | Physical function endpoints - handgrip strength, 6-minute walk test, timed up-and-go, physical activity, patient-reported physical function. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -255,16 +252,12 @@ Central Register of Controlled Trials, 1990 to 2 June 2021. Web of Science was n
 
 **PICO**
 
-```
-P: Older patients with a haematologic malignancy (leukaemia, lymphoma, multiple
-   myeloma, myelodysplastic syndrome, myeloproliferative neoplasms).
-I: Geriatric assessment (any validated multidomain instrument), applied before or
-   during antineoplastic treatment.
-C: No geriatric assessment, or patients without the impairment identified.
-O: Prevalence of geriatric impairments; treatment decision-making; chemotherapy
-   toxicity; healthcare utilisation; physical functioning after treatment; quality of
-   life; mortality.
-```
+| | |
+|---|---|
+| **P** — Population | Older patients with a haematologic malignancy (leukaemia, lymphoma, multiple myeloma, myelodysplastic syndrome, myeloproliferative neoplasms). |
+| **I** — Intervention / exposure | Geriatric assessment (any validated multidomain instrument), applied before or during antineoplastic treatment. |
+| **C** — Comparison | No geriatric assessment, or patients without the impairment identified. |
+| **O** — Outcome | Prevalence of geriatric impairments; treatment decision-making; chemotherapy toxicity; healthcare utilisation; physical functioning after treatment; quality of life; mortality. |
 
 **Search strategy - PubMed / MEDLINE**
 

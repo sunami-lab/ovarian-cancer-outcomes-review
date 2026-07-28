@@ -34,12 +34,15 @@ records:
       population of interest (older adults with cancer, patient-centred outcomes), and the
       only review here whose search carries an explicit older-adults block. The trade-off is
       sensitivity: the outcome block is four terms with no controlled vocabulary in PubMed.
-    pico: |
-      P: Older adults with cancer (mean age >= 60 years), any cancer type, any comorbidity.
-      I: Exercise interventions - aerobic, resistance and strength training, or mind-body
-         exercise (qigong, yoga, tai chi).
-      C: Usual care.
-      O: Depression severity; anxiety severity; health-related quality of life (HRQOL).
+    pico_p: >-
+      Older adults with cancer (mean age >= 60 years), any cancer type, any comorbidity.
+    pico_i: >-
+      Exercise interventions - aerobic, resistance and strength training, or mind-body
+      exercise (qigong, yoga, tai chi).
+    pico_c: >-
+      Usual care.
+    pico_o: >-
+      Depression severity; anxiety severity; health-related quality of life (HRQOL).
     search_pubmed: |
       [PubMed searched natively, database inception to 5 November 2024.
       eTable 1 in Supplement 1, verbatim:]
@@ -100,15 +103,17 @@ records:
       depression AND antidepressant, where the depression block pairs three MeSH terms with
       one adjacency that catches adjustment, reactive and dysthymic disorders, and the drug
       block names roughly 70 individual agents alongside five exploded drug classes.
-    pico: |
-      P: Adults (>= 18 years) with any primary cancer diagnosis and depression (major
-         depressive disorder, adjustment disorder, dysthymic disorder, or depressive
-         symptoms measured on a validated scale).
-      I: Any antidepressant.
-      C: Placebo, or another antidepressant.
-      O: Efficacy (change in depressive symptoms, response, remission); tolerability
-         (adverse events, dropouts due to adverse events); acceptability (dropouts for any
-         reason).
+    pico_p: >-
+      Adults (>= 18 years) with any primary cancer diagnosis and depression (major
+      depressive disorder, adjustment disorder, dysthymic disorder, or depressive symptoms
+      measured on a validated scale).
+    pico_i: >-
+      Any antidepressant.
+    pico_c: >-
+      Placebo, or another antidepressant.
+    pico_o: >-
+      Efficacy (change in depressive symptoms, response, remission); tolerability (adverse
+      events, dropouts due to adverse events); acceptability (dropouts for any reason).
     search_pubmed: |
       [Not searched as PubMed. MEDLINE via Ovid, 1946 to November 2022; latest search date
       24 November 2022. Appendix 2, verbatim:]
@@ -246,13 +251,16 @@ records:
       librarian and is the most sensitive depression block in this collection - it is the one
       to copy if you want maximum recall on the outcome, including a Scopus/citation-index
       translation in proximity syntax.
-    pico: |
-      P: Patients with any cancer diagnosis, including haematopoietic stem cell transplant
-         recipients.
-      I: Aerobic physical activity interventions (randomised controlled trials).
-      C: Usual care or non-aerobic control.
-      O: Severity of depression on validated self-reported scales (CES-D, HADS, BDI and
-         others), short- and long-term.
+    pico_p: >-
+      Patients with any cancer diagnosis, including haematopoietic stem cell transplant
+      recipients.
+    pico_i: >-
+      Aerobic physical activity interventions (randomised controlled trials).
+    pico_c: >-
+      Usual care or non-aerobic control.
+    pico_o: >-
+      Severity of depression on validated self-reported scales (CES-D, HADS, BDI and
+      others), short- and long-term.
     search_pubmed: |
       [Not searched as PubMed. Ovid MEDLINE, publications 1 January 1980 to 5 July 2023;
       strategy built by a research librarian. eTable 1 in Supplement 1, verbatim

@@ -35,15 +35,18 @@ records:
       nausea, depression (includes sadness), sensory neuropathy, constipation and diarrhea.
       Included as the anchor reference for the category, and as a caution: the paper that
       defines the symptom set retrieved its evidence with a two-term search.
-    pico: |
-      P: Adults (>= 18 years) with cancer, across diverse cancer populations and treatment
-         modalities.
-      I: Anticancer treatment (any modality) in clinical trials measuring a patient-reported
-         outcome.
-      C: Not applicable - this is a core-outcome-set derivation, not a comparative review.
-      O: Which symptoms should form a core set, judged on prevalence across cancer
-         populations, impact on health outcomes and quality of life, and attribution to
-         disease or to anticancer treatment.
+    pico_p: >-
+      Adults (>= 18 years) with cancer, across diverse cancer populations and treatment
+      modalities.
+    pico_i: >-
+      Anticancer treatment (any modality) in clinical trials measuring a patient-reported
+      outcome.
+    pico_c: >-
+      Not applicable - this is a core-outcome-set derivation, not a comparative review.
+    pico_o: >-
+      Which symptoms should form a core set, judged on prevalence across cancer populations,
+      impact on health outcomes and quality of life, and attribution to disease or to
+      anticancer treatment.
     search_pubmed: |
       [Reported in full in the Literature Review section, verbatim:]
       "Search terms included 'multiple symptoms' and 'cancer' and was limited to adults
@@ -82,15 +85,18 @@ records:
       symptom concept is expressed at one level of abstraction - "patient reported
       outcome(s)" AND (inventory or instrument* or measure* or self-report*) - rather than
       by naming symptoms.
-    pico: |
-      P: Adults (>= 18 years) with active cancer receiving anticancer therapy (survivors
-         excluded).
-      I: Administration of a patient-reported outcome measure, with results shared with the
-         patient's health care professional.
-      C: Standard care without PROM administration.
-      O: Patient-related outcomes (HRQOL, symptom control, patient-clinician communication);
-         therapy-related outcomes (treatment adherence, chemotherapy dose modification,
-         survival); health care utilisation (emergency visits, hospital admissions).
+    pico_p: >-
+      Adults (>= 18 years) with active cancer receiving anticancer therapy (survivors
+      excluded).
+    pico_i: >-
+      Administration of a patient-reported outcome measure, with results shared with the
+      patient's health care professional.
+    pico_c: >-
+      Standard care without PROM administration.
+    pico_o: >-
+      Patient-related outcomes (HRQOL, symptom control, patient-clinician communication);
+      therapy-related outcomes (treatment adherence, chemotherapy dose modification,
+      survival); health care utilisation (emergency visits, hospital admissions).
     search_pubmed: |
       [Not searched as PubMed. Ovid MEDLINE and MEDLINE Epub Ahead of Print, In-Process and
       other non-indexed citations, 1946 to present; searches to 26 September 2022.
@@ -208,13 +214,16 @@ records:
       separate outcomes - and yet not one symptom term appears in any of the three search
       strategies. It is the clearest demonstration in this collection that a symptom-focused
       review can be built entirely on a population-plus-intervention search.
-    pico: |
-      P: Adults (>= 18 years) with cancer, during or after treatment.
-      I: Telephone-delivered interventions for symptom management, alone or with additional
-         face-to-face, printed or electronic support.
-      C: Usual care or another intervention.
-      O: Individual symptoms - anxiety, depression, fatigue, emotional distress, pain,
-         nausea and others; symptom clusters; quality of life; adverse events.
+    pico_p: >-
+      Adults (>= 18 years) with cancer, during or after treatment.
+    pico_i: >-
+      Telephone-delivered interventions for symptom management, alone or with additional
+      face-to-face, printed or electronic support.
+    pico_c: >-
+      Usual care or another intervention.
+    pico_o: >-
+      Individual symptoms - anxiety, depression, fatigue, emotional distress, pain, nausea
+      and others; symptom clusters; quality of life; adverse events.
     search_pubmed: |
       [Not searched as PubMed. MEDLINE via Ovid. Appendix 2, verbatim:]
       1  exp Neoplasms/

@@ -26,12 +26,16 @@ records:
       surgery (primary debulking surgery, PDS). Included as an exemplar because the search
       builds two separate treatment-modality blocks (chemotherapy AND surgery) and
       intersects them with the ovarian cancer population block.
-    pico: |
-      P: Women with advanced (FIGO stage III/IV) epithelial ovarian cancer.
-      I: Platinum-based chemotherapy before cytoreductive surgery (neoadjuvant chemotherapy).
-      C: Platinum-based chemotherapy following cytoreductive surgery (primary debulking surgery).
-      O: Overall survival; progression-free survival; adverse events; quality of life;
-         surgical morbidity/mortality.
+    pico_p: >-
+      Women with advanced (FIGO stage III/IV) epithelial ovarian cancer.
+    pico_i: >-
+      Platinum-based chemotherapy before cytoreductive surgery (neoadjuvant chemotherapy).
+    pico_c: >-
+      Platinum-based chemotherapy following cytoreductive surgery (primary debulking
+      surgery).
+    pico_o: >-
+      Overall survival; progression-free survival; adverse events; quality of life; surgical
+      morbidity/mortality.
     search_pubmed: |
       [Not searched as PubMed. MEDLINE was searched via Silver Platter/Ovid,
       1966 to October week 1 2020; searches run 9 October 2020. Appendix 2, verbatim:]
@@ -136,13 +140,16 @@ records:
       procedure-named intervention block at all. Instead, treatment is captured through
       floating subheadings (drug therapy, surgery, therapy, radiotherapy) folded into the
       study-design block, so that any treatment is retrievable.
-    pico: |
-      P: Women with borderline (low malignant potential) ovarian tumours.
-      I: Any intervention for treatment - surgery (including fertility-sparing and
-         radical), chemotherapy, radiotherapy.
-      C: An alternative intervention, or observation/no further treatment.
-      O: Overall survival; recurrence/disease-free survival; fertility outcomes;
-         adverse events; quality of life.
+    pico_p: >-
+      Women with borderline (low malignant potential) ovarian tumours.
+    pico_i: >-
+      Any intervention for treatment - surgery (including fertility-sparing and radical),
+      chemotherapy, radiotherapy.
+    pico_c: >-
+      An alternative intervention, or observation/no further treatment.
+    pico_o: >-
+      Overall survival; recurrence/disease-free survival; fertility outcomes; adverse
+      events; quality of life.
     search_pubmed: |
       [Not searched as PubMed. MEDLINE via Ovid, 1950 to week 3 2009. Appendix 1, verbatim:]
       1  exp Ovarian Neoplasms/
@@ -251,14 +258,17 @@ records:
       treatment block that is deliberately layered: a broad surgery concept
       (MeSH + truncated free text + the surgery floating subheading) is intersected with
       a narrow procedure concept (debulk*/cytoreduc*).
-    pico: |
-      P: Women with advanced (FIGO stage III/IV) epithelial ovarian cancer undergoing
-         primary cytoreductive surgery.
-      I: Primary cytoreductive surgery achieving a given level of residual disease
-         (e.g. microscopic / < 1 cm / optimal).
-      C: Primary cytoreductive surgery achieving a greater level of residual disease
-         (e.g. suboptimal, > 1 cm).
-      O: Overall survival; progression-free survival; adverse events; quality of life.
+    pico_p: >-
+      Women with advanced (FIGO stage III/IV) epithelial ovarian cancer undergoing primary
+      cytoreductive surgery.
+    pico_i: >-
+      Primary cytoreductive surgery achieving a given level of residual disease (e.g.
+      microscopic / < 1 cm / optimal).
+    pico_c: >-
+      Primary cytoreductive surgery achieving a greater level of residual disease (e.g.
+      suboptimal, > 1 cm).
+    pico_o: >-
+      Overall survival; progression-free survival; adverse events; quality of life.
     search_pubmed: |
       [Not searched as PubMed. MEDLINE via Ovid, 1950 to July week 3 2010
       (databases searched to August 2010). Appendix 1, verbatim:]

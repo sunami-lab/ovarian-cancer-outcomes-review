@@ -17,16 +17,12 @@
 
 **PICO**
 
-```
-P: Adults (>= 18 years) with cancer, across diverse cancer populations and treatment
-   modalities.
-I: Anticancer treatment (any modality) in clinical trials measuring a patient-reported
-   outcome.
-C: Not applicable - this is a core-outcome-set derivation, not a comparative review.
-O: Which symptoms should form a core set, judged on prevalence across cancer
-   populations, impact on health outcomes and quality of life, and attribution to
-   disease or to anticancer treatment.
-```
+| | |
+|---|---|
+| **P** — Population | Adults (>= 18 years) with cancer, across diverse cancer populations and treatment modalities. |
+| **I** — Intervention / exposure | Anticancer treatment (any modality) in clinical trials measuring a patient-reported outcome. |
+| **C** — Comparison | Not applicable - this is a core-outcome-set derivation, not a comparative review. |
+| **O** — Outcome | Which symptoms should form a core set, judged on prevalence across cancer populations, impact on health outcomes and quality of life, and attribution to disease or to anticancer treatment. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -70,16 +66,12 @@ Not reported. See above.
 
 **PICO**
 
-```
-P: Adults (>= 18 years) with active cancer receiving anticancer therapy (survivors
-   excluded).
-I: Administration of a patient-reported outcome measure, with results shared with the
-   patient's health care professional.
-C: Standard care without PROM administration.
-O: Patient-related outcomes (HRQOL, symptom control, patient-clinician communication);
-   therapy-related outcomes (treatment adherence, chemotherapy dose modification,
-   survival); health care utilisation (emergency visits, hospital admissions).
-```
+| | |
+|---|---|
+| **P** — Population | Adults (>= 18 years) with active cancer receiving anticancer therapy (survivors excluded). |
+| **I** — Intervention / exposure | Administration of a patient-reported outcome measure, with results shared with the patient's health care professional. |
+| **C** — Comparison | Standard care without PROM administration. |
+| **O** — Outcome | Patient-related outcomes (HRQOL, symptom control, patient-clinician communication); therapy-related outcomes (treatment adherence, chemotherapy dose modification, survival); health care utilisation (emergency visits, hospital admissions). |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -204,14 +196,12 @@ S13 S3 AND S12]
 
 **PICO**
 
-```
-P: Adults (>= 18 years) with cancer, during or after treatment.
-I: Telephone-delivered interventions for symptom management, alone or with additional
-   face-to-face, printed or electronic support.
-C: Usual care or another intervention.
-O: Individual symptoms - anxiety, depression, fatigue, emotional distress, pain,
-   nausea and others; symptom clusters; quality of life; adverse events.
-```
+| | |
+|---|---|
+| **P** — Population | Adults (>= 18 years) with cancer, during or after treatment. |
+| **I** — Intervention / exposure | Telephone-delivered interventions for symptom management, alone or with additional face-to-face, printed or electronic support. |
+| **C** — Comparison | Usual care or another intervention. |
+| **O** — Outcome | Individual symptoms - anxiety, depression, fatigue, emotional distress, pain, nausea and others; symptom clusters; quality of life; adverse events. |
 
 **Search strategy - PubMed / MEDLINE**
 

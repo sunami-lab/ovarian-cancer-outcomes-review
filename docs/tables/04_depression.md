@@ -17,13 +17,12 @@
 
 **PICO**
 
-```
-P: Older adults with cancer (mean age >= 60 years), any cancer type, any comorbidity.
-I: Exercise interventions - aerobic, resistance and strength training, or mind-body
-   exercise (qigong, yoga, tai chi).
-C: Usual care.
-O: Depression severity; anxiety severity; health-related quality of life (HRQOL).
-```
+| | |
+|---|---|
+| **P** — Population | Older adults with cancer (mean age >= 60 years), any cancer type, any comorbidity. |
+| **I** — Intervention / exposure | Exercise interventions - aerobic, resistance and strength training, or mind-body exercise (qigong, yoga, tai chi). |
+| **C** — Comparison | Usual care. |
+| **O** — Outcome | Depression severity; anxiety severity; health-related quality of life (HRQOL). |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -93,16 +92,12 @@ PsycINFO version, verbatim:
 
 **PICO**
 
-```
-P: Adults (>= 18 years) with any primary cancer diagnosis and depression (major
-   depressive disorder, adjustment disorder, dysthymic disorder, or depressive
-   symptoms measured on a validated scale).
-I: Any antidepressant.
-C: Placebo, or another antidepressant.
-O: Efficacy (change in depressive symptoms, response, remission); tolerability
-   (adverse events, dropouts due to adverse events); acceptability (dropouts for any
-   reason).
-```
+| | |
+|---|---|
+| **P** — Population | Adults (>= 18 years) with any primary cancer diagnosis and depression (major depressive disorder, adjustment disorder, dysthymic disorder, or depressive symptoms measured on a validated scale). |
+| **I** — Intervention / exposure | Any antidepressant. |
+| **C** — Comparison | Placebo, or another antidepressant. |
+| **O** — Outcome | Efficacy (change in depressive symptoms, response, remission); tolerability (adverse events, dropouts due to adverse events); acceptability (dropouts for any reason). |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -247,14 +242,12 @@ Web of Science was not used.
 
 **PICO**
 
-```
-P: Patients with any cancer diagnosis, including haematopoietic stem cell transplant
-   recipients.
-I: Aerobic physical activity interventions (randomised controlled trials).
-C: Usual care or non-aerobic control.
-O: Severity of depression on validated self-reported scales (CES-D, HADS, BDI and
-   others), short- and long-term.
-```
+| | |
+|---|---|
+| **P** — Population | Patients with any cancer diagnosis, including haematopoietic stem cell transplant recipients. |
+| **I** — Intervention / exposure | Aerobic physical activity interventions (randomised controlled trials). |
+| **C** — Comparison | Usual care or non-aerobic control. |
+| **O** — Outcome | Severity of depression on validated self-reported scales (CES-D, HADS, BDI and others), short- and long-term. |
 
 **Search strategy - PubMed / MEDLINE**
 

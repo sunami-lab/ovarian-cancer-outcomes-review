@@ -17,15 +17,12 @@
 
 **PICO**
 
-```
-P: Individuals diagnosed with cancer.
-I: Survivor or care-provider receipt of a survivorship care plan (SCP).
-C: No receipt of an SCP, an alternative method of receiving an SCP, or no comparison
-   (for non-randomised studies).
-O: Patient-reported health outcomes (e.g. quality of life); health care use; health
-   care costs; health outcomes (e.g. quality-adjusted life years); and health care
-   experience (e.g. satisfaction with care).
-```
+| | |
+|---|---|
+| **P** — Population | Individuals diagnosed with cancer. |
+| **I** — Intervention / exposure | Survivor or care-provider receipt of a survivorship care plan (SCP). |
+| **C** — Comparison | No receipt of an SCP, an alternative method of receiving an SCP, or no comparison (for non-randomised studies). |
+| **O** — Outcome | Patient-reported health outcomes (e.g. quality of life); health care use; health care costs; health outcomes (e.g. quality-adjusted life years); and health care experience (e.g. satisfaction with care). |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -87,15 +84,12 @@ Not reported. See above.
 
 **PICO**
 
-```
-P: Adults with advanced illness (the majority of included participants had cancer)
-   and their family caregivers.
-I: Home palliative care services - specialist teams providing palliative care at home.
-C: Usual care, or care without a home palliative care service.
-O: Dying at home (primary); symptom burden and control; quality of life; caregiver
-   distress and grief; satisfaction with care; resource use, costs and
-   cost-effectiveness.
-```
+| | |
+|---|---|
+| **P** — Population | Adults with advanced illness (the majority of included participants had cancer) and their family caregivers. |
+| **I** — Intervention / exposure | Home palliative care services - specialist teams providing palliative care at home. |
+| **C** — Comparison | Usual care, or care without a home palliative care service. |
+| **O** — Outcome | Dying at home (primary); symptom burden and control; quality of life; caregiver distress and grief; satisfaction with care; resource use, costs and cost-effectiveness. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -227,18 +221,12 @@ outreach or ambulatory))]
 
 **PICO**
 
-```
-P: Adults with cancer responding to a national patient-experience survey in the USA,
-   United Kingdom or Canada.
-I/E: Patient, clinical and health-system characteristics (age, sex, ethnicity,
-   socioeconomic position, cancer type and stage, comorbidity, provider and
-   hospital factors).
-C: Patients with the contrasting characteristic within the same survey.
-O: Reported experience of cancer care, as measured by the National Cancer Patient
-   Experience Survey (CPES), the Consumer Assessment of Healthcare Providers and
-   Systems (CAHPS/SEER-CAHPS) or the Ambulatory Oncology Patient Satisfaction
-   Survey (AOPSS).
-```
+| | |
+|---|---|
+| **P** — Population | Adults with cancer responding to a national patient-experience survey in the USA, United Kingdom or Canada. |
+| **I** — Intervention / exposure | Patient, clinical and health-system characteristics (age, sex, ethnicity, socioeconomic position, cancer type and stage, comorbidity, provider and hospital factors). |
+| **C** — Comparison | Patients with the contrasting characteristic within the same survey. |
+| **O** — Outcome | Reported experience of cancer care, as measured by the National Cancer Patient Experience Survey (CPES), the Consumer Assessment of Healthcare Providers and Systems (CAHPS/SEER-CAHPS) or the Ambulatory Oncology Patient Satisfaction Survey (AOPSS). |
 
 **Search strategy - PubMed / MEDLINE**
 

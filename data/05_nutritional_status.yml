@@ -29,13 +29,16 @@ records:
       collection: an ovarian-cancer population block intersected with a 17-line nutrition
       block that includes Nutritional Status/ and Nutrition Assessment/ as explicit MeSH
       and Emtree terms, in a journal above the threshold.
-    pico: |
-      P: Women with ovarian cancer undergoing surgery (perioperative period).
-      I: Any nutrition intervention - enteral or parenteral nutrition, oral supplements,
-         immunonutrition, early feeding, dietary advice.
-      C: Standard perioperative care or an alternative nutrition intervention.
-      O: Postoperative complications and infection; length of hospital stay; nutritional
-         status; quality of life; gastrointestinal function; mortality.
+    pico_p: >-
+      Women with ovarian cancer undergoing surgery (perioperative period).
+    pico_i: >-
+      Any nutrition intervention - enteral or parenteral nutrition, oral supplements,
+      immunonutrition, early feeding, dietary advice.
+    pico_c: >-
+      Standard perioperative care or an alternative nutrition intervention.
+    pico_o: >-
+      Postoperative complications and infection; length of hospital stay; nutritional
+      status; quality of life; gastrointestinal function; mortality.
     search_pubmed: |
       [Not searched as PubMed. Medline via Ovid, 1946 to July week 4 2012.
       Appendix 2, verbatim:]
@@ -202,12 +205,15 @@ records:
       survival. Included because it is the only review in this collection that publishes a
       complete Web of Science strategy, set out side by side with the PubMed version so the
       MeSH-to-TS= translation is visible line for line.
-    pico: |
-      P: Patients with cancer (any type, any stage).
-      I/E: Presence of cachexia, diagnosed by any published definitive criterion
-         (Fearon, EPCRC, ASPEN/AND, Evans, GLIM and others).
-      C: Patients with cancer without cachexia.
-      O: Prevalence of cachexia by diagnostic criterion; overall survival.
+    pico_p: >-
+      Patients with cancer (any type, any stage).
+    pico_i: >-
+      Presence of cachexia, diagnosed by any published definitive criterion (Fearon, EPCRC,
+      ASPEN/AND, Evans, GLIM and others).
+    pico_c: >-
+      Patients with cancer without cachexia.
+    pico_o: >-
+      Prevalence of cachexia by diagnostic criterion; overall survival.
     search_pubmed: |
       [PubMed searched natively, inception to 31 July 2023. Supplemental Table 2, verbatim
       (result counts as printed):]
@@ -281,16 +287,17 @@ records:
       broken into three parallel sub-blocks - undernutrition, overnutrition, and neutral
       body-composition measures - which is the structure most likely to transfer to an
       ovarian cancer review where both directions matter.
-    pico: |
-      P: Children and young people (< 21 years) with cancer receiving antineoplastic
-         therapy.
-      I/E: Antineoplastic drug therapy (chemotherapy, alkylating agents, combination
-         protocols).
-      C: Nutritional status groups - undernutrition/sarcopenia versus normal nutrition
-         versus overweight/obesity/sarcopenic obesity, defined by body composition, BMI
-         or nutritional status measures.
-      O: Pharmacokinetic and pharmacodynamic parameters; drug toxicity and adverse
-         reactions; survival (overall, disease-free, progression-free).
+    pico_p: >-
+      Children and young people (< 21 years) with cancer receiving antineoplastic therapy.
+    pico_i: >-
+      Antineoplastic drug therapy (chemotherapy, alkylating agents, combination protocols).
+    pico_c: >-
+      Nutritional status groups - undernutrition/sarcopenia versus normal nutrition versus
+      overweight/obesity/sarcopenic obesity, defined by body composition, BMI or nutritional
+      status measures.
+    pico_o: >-
+      Pharmacokinetic and pharmacodynamic parameters; drug toxicity and adverse reactions;
+      survival (overall, disease-free, progression-free).
     search_pubmed: |
       [MEDLINE (PubMed) searched to 30 September 2024; strategy developed with a library
       specialist and set out by PICO element. Supplementary 1, verbatim:]

@@ -30,16 +30,19 @@ records:
       impairment terms, sitting alongside five controlled-vocabulary terms and a
       chemo-fog/chemo-brain phrase. Reproduced in six database syntaxes, including a
       native PubMed version.
-    pico: |
-      P: Adults with cancer receiving or having received systemic cancer treatment
-         (chemotherapy or hormonal therapy, alone or with other treatments).
-      I: Non-pharmacological interventions targeting cognitive function (compensatory
-         strategy training, cognitive rehabilitation/training, exercise, mind-body).
-      C: Wait-list, usual care, attention control or an alternative non-pharmacological
-         intervention.
-      O: Objective and subjective cognitive function; non-cognitive effects (quality of
-         life, physical and psychological well-being, fatigue, mood); duration of effect;
-         adverse events.
+    pico_p: >-
+      Adults with cancer receiving or having received systemic cancer treatment
+      (chemotherapy or hormonal therapy, alone or with other treatments).
+    pico_i: >-
+      Non-pharmacological interventions targeting cognitive function (compensatory strategy
+      training, cognitive rehabilitation/training, exercise, mind-body).
+    pico_c: >-
+      Wait-list, usual care, attention control or an alternative non-pharmacological
+      intervention.
+    pico_o: >-
+      Objective and subjective cognitive function; non-cognitive effects (quality of life,
+      physical and psychological well-being, fatigue, mood); duration of effect; adverse
+      events.
     search_pubmed: |
       [PubMed searched natively (via NCBI); 1980 to 29 September 2015. Appendix 6, verbatim:]
       #1  neoplasm*[MeSH Terms]
@@ -181,12 +184,15 @@ records:
       alternative structure: rather than a stand-alone cognition block, cognit* is one term
       inside a generic late-effects adjacency, so cognition is retrieved as a species of
       treatment harm.
-    pico: |
-      P: People with glioma (any grade), followed at least two years from diagnosis.
-      I: Radiotherapy, with or without chemotherapy.
-      C: No radiotherapy, or a different type/dose/schedule of radiotherapy.
-      O: Long-term neurocognitive function (primary); other late side effects; quality of
-         life; survival; costs (brief economic commentary).
+    pico_p: >-
+      People with glioma (any grade), followed at least two years from diagnosis.
+    pico_i: >-
+      Radiotherapy, with or without chemotherapy.
+    pico_c: >-
+      No radiotherapy, or a different type/dose/schedule of radiotherapy.
+    pico_o: >-
+      Long-term neurocognitive function (primary); other late side effects; quality of life;
+      survival; costs (brief economic commentary).
     search_pubmed: |
       [Not searched as PubMed. MEDLINE via Ovid, 1946 to October week 5 2018; searched
       16 February 2018 and updated 14 November 2018. Appendix 1, verbatim:]
@@ -327,14 +333,17 @@ records:
       deliberately as the counter-example: a meta-analysis in the highest-impact journal in
       this collection, whose entire search is seven short keyword pairings with no
       structured concept blocks, no truncation discipline and no design filter.
-    pico: |
-      P: Women who had completed standard-dose chemotherapy for breast cancer at least
-         six months previously.
-      I: Standard-dose chemotherapy (past exposure).
-      C: Healthy controls, patients not treated with chemotherapy, or the patient's own
-         pre-treatment/normative scores.
-      O: Objective neuropsychological test performance across cognitive domains (verbal
-         ability, memory, executive function, processing speed, attention, visuospatial).
+    pico_p: >-
+      Women who had completed standard-dose chemotherapy for breast cancer at least six
+      months previously.
+    pico_i: >-
+      Standard-dose chemotherapy (past exposure).
+    pico_c: >-
+      Healthy controls, patients not treated with chemotherapy, or the patient's own
+      pre-treatment/normative scores.
+    pico_o: >-
+      Objective neuropsychological test performance across cognitive domains (verbal
+      ability, memory, executive function, processing speed, attention, visuospatial).
     search_pubmed: |
       [PubMed searched natively; studies published 1937 to June 2011; English only.
       Seven search-term sets, verbatim from the Methods:]

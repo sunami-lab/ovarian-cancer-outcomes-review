@@ -17,14 +17,12 @@
 
 **PICO**
 
-```
-P: Women with ovarian cancer undergoing surgery (perioperative period).
-I: Any nutrition intervention - enteral or parenteral nutrition, oral supplements,
-   immunonutrition, early feeding, dietary advice.
-C: Standard perioperative care or an alternative nutrition intervention.
-O: Postoperative complications and infection; length of hospital stay; nutritional
-   status; quality of life; gastrointestinal function; mortality.
-```
+| | |
+|---|---|
+| **P** — Population | Women with ovarian cancer undergoing surgery (perioperative period). |
+| **I** — Intervention / exposure | Any nutrition intervention - enteral or parenteral nutrition, oral supplements, immunonutrition, early feeding, dietary advice. |
+| **C** — Comparison | Standard perioperative care or an alternative nutrition intervention. |
+| **O** — Outcome | Postoperative complications and infection; length of hospital stay; nutritional status; quality of life; gastrointestinal function; mortality. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -199,13 +197,12 @@ Line #24 is printed with "of PN" where "or PN" is meant.]
 
 **PICO**
 
-```
-P: Patients with cancer (any type, any stage).
-I/E: Presence of cachexia, diagnosed by any published definitive criterion
-   (Fearon, EPCRC, ASPEN/AND, Evans, GLIM and others).
-C: Patients with cancer without cachexia.
-O: Prevalence of cachexia by diagnostic criterion; overall survival.
-```
+| | |
+|---|---|
+| **P** — Population | Patients with cancer (any type, any stage). |
+| **I** — Intervention / exposure | Presence of cachexia, diagnosed by any published definitive criterion (Fearon, EPCRC, ASPEN/AND, Evans, GLIM and others). |
+| **C** — Comparison | Patients with cancer without cachexia. |
+| **O** — Outcome | Prevalence of cachexia by diagnostic criterion; overall survival. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -285,17 +282,12 @@ as free text in Web of Science, and that British and American spellings of
 
 **PICO**
 
-```
-P: Children and young people (< 21 years) with cancer receiving antineoplastic
-   therapy.
-I/E: Antineoplastic drug therapy (chemotherapy, alkylating agents, combination
-   protocols).
-C: Nutritional status groups - undernutrition/sarcopenia versus normal nutrition
-   versus overweight/obesity/sarcopenic obesity, defined by body composition, BMI
-   or nutritional status measures.
-O: Pharmacokinetic and pharmacodynamic parameters; drug toxicity and adverse
-   reactions; survival (overall, disease-free, progression-free).
-```
+| | |
+|---|---|
+| **P** — Population | Children and young people (< 21 years) with cancer receiving antineoplastic therapy. |
+| **I** — Intervention / exposure | Antineoplastic drug therapy (chemotherapy, alkylating agents, combination protocols). |
+| **C** — Comparison | Nutritional status groups - undernutrition/sarcopenia versus normal nutrition versus overweight/obesity/sarcopenic obesity, defined by body composition, BMI or nutritional status measures. |
+| **O** — Outcome | Pharmacokinetic and pharmacodynamic parameters; drug toxicity and adverse reactions; survival (overall, disease-free, progression-free). |
 
 **Search strategy - PubMed / MEDLINE**
 

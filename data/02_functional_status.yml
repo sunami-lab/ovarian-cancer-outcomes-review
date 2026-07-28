@@ -37,12 +37,15 @@ records:
       cancer population with a thirteen-synonym functional-disability block and an
       observational-design filter. If you take one outcome block for functional status,
       take this one.
-    pico: |
-      P: Adults with cancer (any type, any stage, any treatment setting).
-      I: Nil - the review deliberately has no intervention concept.
-      C: Nil.
-      O: Disability in activities of daily living (ADL) and instrumental activities of daily
-         living (IADL) - prevalence, affected items, and measurement instruments.
+    pico_p: >-
+      Adults with cancer (any type, any stage, any treatment setting).
+    pico_i: >-
+      Nil - the review deliberately has no intervention concept.
+    pico_c: >-
+      Nil.
+    pico_o: >-
+      Disability in activities of daily living (ADL) and instrumental activities of daily
+      living (IADL) - prevalence, affected items, and measurement instruments.
     search_pubmed: |
       [Not searched as PubMed. MEDLINE(R) via Ovid, 1946 to June 2016; search alerts run to
       November 2016. Online supplement, Appendix 1, verbatim - the review labels this the
@@ -127,13 +130,16 @@ records:
       point of the review yet appears nowhere in the search: retrieval is population
       (cancer) AND condition (cachexia) AND study design, with physical function applied as
       an eligibility criterion.
-    pico: |
-      P: Adults (>= 18 years) with cancer cachexia.
-      I: Any cachexia intervention lasting more than 14 days (nutritional, pharmacological,
-         exercise, multimodal), in controlled trials with more than 40 participants.
-      C: Control arm as defined by each trial.
-      O: Physical function endpoints - handgrip strength, 6-minute walk test, timed
-         up-and-go, physical activity, patient-reported physical function.
+    pico_p: >-
+      Adults (>= 18 years) with cancer cachexia.
+    pico_i: >-
+      Any cachexia intervention lasting more than 14 days (nutritional, pharmacological,
+      exercise, multimodal), in controlled trials with more than 40 participants.
+    pico_c: >-
+      Control arm as defined by each trial.
+    pico_o: >-
+      Physical function endpoints - handgrip strength, 6-minute walk test, timed up-and-go,
+      physical activity, patient-reported physical function.
     search_pubmed: |
       [Not searched as PubMed. Ovid MEDLINE(R) ALL 1946 to 1 July 2021; search run
       2 June 2021 by a research librarian, University of Oslo. Appendix S1, verbatim:]
@@ -261,15 +267,18 @@ records:
       mortality. Included as the one review of the three restricted to older adults, and
       because it shows the common substitute for a functional-status block: retrieval on
       "frailty OR geriatric assessment", with functional status captured only downstream.
-    pico: |
-      P: Older patients with a haematologic malignancy (leukaemia, lymphoma, multiple
-         myeloma, myelodysplastic syndrome, myeloproliferative neoplasms).
-      I: Geriatric assessment (any validated multidomain instrument), applied before or
-         during antineoplastic treatment.
-      C: No geriatric assessment, or patients without the impairment identified.
-      O: Prevalence of geriatric impairments; treatment decision-making; chemotherapy
-         toxicity; healthcare utilisation; physical functioning after treatment; quality of
-         life; mortality.
+    pico_p: >-
+      Older patients with a haematologic malignancy (leukaemia, lymphoma, multiple myeloma,
+      myelodysplastic syndrome, myeloproliferative neoplasms).
+    pico_i: >-
+      Geriatric assessment (any validated multidomain instrument), applied before or during
+      antineoplastic treatment.
+    pico_c: >-
+      No geriatric assessment, or patients without the impairment identified.
+    pico_o: >-
+      Prevalence of geriatric impairments; treatment decision-making; chemotherapy toxicity;
+      healthcare utilisation; physical functioning after treatment; quality of life;
+      mortality.
     search_pubmed: |
       [MEDLINE, searched 4 March 2019 and updated 20 January 2020; results limited to
       studies published after 1 January 2013. Reported in native PubMed syntax as a single

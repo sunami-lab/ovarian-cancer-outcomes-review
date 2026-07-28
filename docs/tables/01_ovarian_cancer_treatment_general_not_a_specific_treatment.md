@@ -17,13 +17,12 @@
 
 **PICO**
 
-```
-P: Women with advanced (FIGO stage III/IV) epithelial ovarian cancer.
-I: Platinum-based chemotherapy before cytoreductive surgery (neoadjuvant chemotherapy).
-C: Platinum-based chemotherapy following cytoreductive surgery (primary debulking surgery).
-O: Overall survival; progression-free survival; adverse events; quality of life;
-   surgical morbidity/mortality.
-```
+| | |
+|---|---|
+| **P** — Population | Women with advanced (FIGO stage III/IV) epithelial ovarian cancer. |
+| **I** — Intervention / exposure | Platinum-based chemotherapy before cytoreductive surgery (neoadjuvant chemotherapy). |
+| **C** — Comparison | Platinum-based chemotherapy following cytoreductive surgery (primary debulking surgery). |
+| **O** — Outcome | Overall survival; progression-free survival; adverse events; quality of life; surgical morbidity/mortality. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -137,14 +136,12 @@ investigators were also checked. Web of Science was not used.
 
 **PICO**
 
-```
-P: Women with borderline (low malignant potential) ovarian tumours.
-I: Any intervention for treatment - surgery (including fertility-sparing and
-   radical), chemotherapy, radiotherapy.
-C: An alternative intervention, or observation/no further treatment.
-O: Overall survival; recurrence/disease-free survival; fertility outcomes;
-   adverse events; quality of life.
-```
+| | |
+|---|---|
+| **P** — Population | Women with borderline (low malignant potential) ovarian tumours. |
+| **I** — Intervention / exposure | Any intervention for treatment - surgery (including fertility-sparing and radical), chemotherapy, radiotherapy. |
+| **C** — Comparison | An alternative intervention, or observation/no further treatment. |
+| **O** — Outcome | Overall survival; recurrence/disease-free survival; fertility outcomes; adverse events; quality of life. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -262,15 +259,12 @@ registers. Web of Science was not used.
 
 **PICO**
 
-```
-P: Women with advanced (FIGO stage III/IV) epithelial ovarian cancer undergoing
-   primary cytoreductive surgery.
-I: Primary cytoreductive surgery achieving a given level of residual disease
-   (e.g. microscopic / < 1 cm / optimal).
-C: Primary cytoreductive surgery achieving a greater level of residual disease
-   (e.g. suboptimal, > 1 cm).
-O: Overall survival; progression-free survival; adverse events; quality of life.
-```
+| | |
+|---|---|
+| **P** — Population | Women with advanced (FIGO stage III/IV) epithelial ovarian cancer undergoing primary cytoreductive surgery. |
+| **I** — Intervention / exposure | Primary cytoreductive surgery achieving a given level of residual disease (e.g. microscopic / < 1 cm / optimal). |
+| **C** — Comparison | Primary cytoreductive surgery achieving a greater level of residual disease (e.g. suboptimal, > 1 cm). |
+| **O** — Outcome | Overall survival; progression-free survival; adverse events; quality of life. |
 
 **Search strategy - PubMed / MEDLINE**
 

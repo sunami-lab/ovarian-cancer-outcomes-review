@@ -33,14 +33,17 @@ records:
       one of the health-care-experience outcomes. Included because its fourth search set is
       an explicit patient-centred outcome block - the clearest published example in this
       collection of retrieving on satisfaction rather than screening for it.
-    pico: |
-      P: Individuals diagnosed with cancer.
-      I: Survivor or care-provider receipt of a survivorship care plan (SCP).
-      C: No receipt of an SCP, an alternative method of receiving an SCP, or no comparison
-         (for non-randomised studies).
-      O: Patient-reported health outcomes (e.g. quality of life); health care use; health
-         care costs; health outcomes (e.g. quality-adjusted life years); and health care
-         experience (e.g. satisfaction with care).
+    pico_p: >-
+      Individuals diagnosed with cancer.
+    pico_i: >-
+      Survivor or care-provider receipt of a survivorship care plan (SCP).
+    pico_c: >-
+      No receipt of an SCP, an alternative method of receiving an SCP, or no comparison (for
+      non-randomised studies).
+    pico_o: >-
+      Patient-reported health outcomes (e.g. quality of life); health care use; health care
+      costs; health outcomes (e.g. quality-adjusted life years); and health care experience
+      (e.g. satisfaction with care).
     search_pubmed: |
       [PubMed/MEDLINE searched natively. Search strategy printed in the Appendix, verbatim -
       four sets combined as 1 AND 2 AND 3 AND 4:]
@@ -95,14 +98,17 @@ records:
       resource use, costs and cost-effectiveness. Included as the large-scale contrast:
       satisfaction with care is named in objective 2, twelve databases were searched, and
       not one of the strategies contains a satisfaction term.
-    pico: |
-      P: Adults with advanced illness (the majority of included participants had cancer)
-         and their family caregivers.
-      I: Home palliative care services - specialist teams providing palliative care at home.
-      C: Usual care, or care without a home palliative care service.
-      O: Dying at home (primary); symptom burden and control; quality of life; caregiver
-         distress and grief; satisfaction with care; resource use, costs and
-         cost-effectiveness.
+    pico_p: >-
+      Adults with advanced illness (the majority of included participants had cancer) and
+      their family caregivers.
+    pico_i: >-
+      Home palliative care services - specialist teams providing palliative care at home.
+    pico_c: >-
+      Usual care, or care without a home palliative care service.
+    pico_o: >-
+      Dying at home (primary); symptom burden and control; quality of life; caregiver
+      distress and grief; satisfaction with care; resource use, costs and
+      cost-effectiveness.
     search_pubmed: |
       [Not searched as PubMed. MEDLINE via Ovid, 1950 to 21 November 2012; strategies
       refined with the Cochrane PaPaS Trials Search Co-ordinator. Appendix 1, verbatim
@@ -228,17 +234,19 @@ records:
       route into this literature: rather than searching the concept "satisfaction" or
       "experience", it searches the named survey instruments (CPES, CAHPS/SEER-CAHPS,
       AOPSS), which is the same trick Mishra 2012 uses for HRQOL in category 6.
-    pico: |
-      P: Adults with cancer responding to a national patient-experience survey in the USA,
-         United Kingdom or Canada.
-      I/E: Patient, clinical and health-system characteristics (age, sex, ethnicity,
-         socioeconomic position, cancer type and stage, comorbidity, provider and
-         hospital factors).
-      C: Patients with the contrasting characteristic within the same survey.
-      O: Reported experience of cancer care, as measured by the National Cancer Patient
-         Experience Survey (CPES), the Consumer Assessment of Healthcare Providers and
-         Systems (CAHPS/SEER-CAHPS) or the Ambulatory Oncology Patient Satisfaction
-         Survey (AOPSS).
+    pico_p: >-
+      Adults with cancer responding to a national patient-experience survey in the USA,
+      United Kingdom or Canada.
+    pico_i: >-
+      Patient, clinical and health-system characteristics (age, sex, ethnicity,
+      socioeconomic position, cancer type and stage, comorbidity, provider and hospital
+      factors).
+    pico_c: >-
+      Patients with the contrasting characteristic within the same survey.
+    pico_o: >-
+      Reported experience of cancer care, as measured by the National Cancer Patient
+      Experience Survey (CPES), the Consumer Assessment of Healthcare Providers and Systems
+      (CAHPS/SEER-CAHPS) or the Ambulatory Oncology Patient Satisfaction Survey (AOPSS).
     search_pubmed: |
       [PubMed searched, no year restriction, English only; last search 27 February 2022.
       Table 1, verbatim - three parallel searches, one per survey instrument:]

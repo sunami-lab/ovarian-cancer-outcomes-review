@@ -36,7 +36,10 @@ COLUMNS = [
     ("Journal", "journal", 26),
     ("Impact factor", "impact_factor", 14),
     ("Purpose of the study", "purpose", 52),
-    ("PICO", "pico", 52),
+    ("P - Population", "pico_p", 32),
+    ("I - Intervention / exposure", "pico_i", 32),
+    ("C - Comparison", "pico_c", 32),
+    ("O - Outcome", "pico_o", 32),
     ("Search terms / strings - PubMed / MEDLINE", "search_pubmed", 62),
     ("Search terms / strings - Embase", "search_embase", 62),
     ("Search terms / strings - Web of Science", "search_wos", 52),
@@ -175,7 +178,12 @@ def build_md(cats):
             if rec.get("strategy_source"):
                 L += [f"- Search strategy taken from: {clean(rec['strategy_source'])}"]
             L += ["", "**Purpose.** " + clean(rec["purpose"]), ""]
-            L += ["**PICO**", "", "```", clean(rec["pico"]), "```", ""]
+            L += ["**PICO**", "",
+                  "| | |", "|---|---|",
+                  f"| **P** — Population | {md_cell(rec['pico_p'])} |",
+                  f"| **I** — Intervention / exposure | {md_cell(rec['pico_i'])} |",
+                  f"| **C** — Comparison | {md_cell(rec['pico_c'])} |",
+                  f"| **O** — Outcome | {md_cell(rec['pico_o'])} |", ""]
             for label, key in (("PubMed / MEDLINE", "search_pubmed"),
                                ("Embase", "search_embase"),
                                ("Web of Science", "search_wos")):

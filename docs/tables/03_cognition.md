@@ -17,17 +17,12 @@
 
 **PICO**
 
-```
-P: Adults with cancer receiving or having received systemic cancer treatment
-   (chemotherapy or hormonal therapy, alone or with other treatments).
-I: Non-pharmacological interventions targeting cognitive function (compensatory
-   strategy training, cognitive rehabilitation/training, exercise, mind-body).
-C: Wait-list, usual care, attention control or an alternative non-pharmacological
-   intervention.
-O: Objective and subjective cognitive function; non-cognitive effects (quality of
-   life, physical and psychological well-being, fatigue, mood); duration of effect;
-   adverse events.
-```
+| | |
+|---|---|
+| **P** — Population | Adults with cancer receiving or having received systemic cancer treatment (chemotherapy or hormonal therapy, alone or with other treatments). |
+| **I** — Intervention / exposure | Non-pharmacological interventions targeting cognitive function (compensatory strategy training, cognitive rehabilitation/training, exercise, mind-body). |
+| **C** — Comparison | Wait-list, usual care, attention control or an alternative non-pharmacological intervention. |
+| **O** — Outcome | Objective and subjective cognitive function; non-cognitive effects (quality of life, physical and psychological well-being, fatigue, mood); duration of effect; adverse events. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -176,13 +171,12 @@ S50 (S47 or S48 or S49) S51 (S44 and S50)]
 
 **PICO**
 
-```
-P: People with glioma (any grade), followed at least two years from diagnosis.
-I: Radiotherapy, with or without chemotherapy.
-C: No radiotherapy, or a different type/dose/schedule of radiotherapy.
-O: Long-term neurocognitive function (primary); other late side effects; quality of
-   life; survival; costs (brief economic commentary).
-```
+| | |
+|---|---|
+| **P** — Population | People with glioma (any grade), followed at least two years from diagnosis. |
+| **I** — Intervention / exposure | Radiotherapy, with or without chemotherapy. |
+| **C** — Comparison | No radiotherapy, or a different type/dose/schedule of radiotherapy. |
+| **O** — Outcome | Long-term neurocognitive function (primary); other late side effects; quality of life; survival; costs (brief economic commentary). |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -330,15 +324,12 @@ No language restrictions. Web of Science was not used.
 
 **PICO**
 
-```
-P: Women who had completed standard-dose chemotherapy for breast cancer at least
-   six months previously.
-I: Standard-dose chemotherapy (past exposure).
-C: Healthy controls, patients not treated with chemotherapy, or the patient's own
-   pre-treatment/normative scores.
-O: Objective neuropsychological test performance across cognitive domains (verbal
-   ability, memory, executive function, processing speed, attention, visuospatial).
-```
+| | |
+|---|---|
+| **P** — Population | Women who had completed standard-dose chemotherapy for breast cancer at least six months previously. |
+| **I** — Intervention / exposure | Standard-dose chemotherapy (past exposure). |
+| **C** — Comparison | Healthy controls, patients not treated with chemotherapy, or the patient's own pre-treatment/normative scores. |
+| **O** — Outcome | Objective neuropsychological test performance across cognitive domains (verbal ability, memory, executive function, processing speed, attention, visuospatial). |
 
 **Search strategy - PubMed / MEDLINE**
 

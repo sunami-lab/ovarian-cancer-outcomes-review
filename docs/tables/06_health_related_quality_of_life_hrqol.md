@@ -17,15 +17,12 @@
 
 **PICO**
 
-```
-P: Adults with any cancer, during active treatment (surgery, chemotherapy,
-   radiotherapy, hormonal therapy).
-I: Exercise interventions (aerobic, resistance, combination, mind-body including
-   yoga, tai chi, qigong, hydrotherapy).
-C: Usual care, no exercise, or an alternative non-exercise intervention.
-O: Overall HRQoL and HRQoL domains - physical, psychological, social, spiritual
-   well-being, pain, fatigue, sleep, body image, vitality; adverse events.
-```
+| | |
+|---|---|
+| **P** — Population | Adults with any cancer, during active treatment (surgery, chemotherapy, radiotherapy, hormonal therapy). |
+| **I** — Intervention / exposure | Exercise interventions (aerobic, resistance, combination, mind-body including yoga, tai chi, qigong, hydrotherapy). |
+| **C** — Comparison | Usual care, no exercise, or an alternative non-exercise intervention. |
+| **O** — Outcome | Overall HRQoL and HRQoL domains - physical, psychological, social, spiritual well-being, pain, fatigue, sleep, body image, vitality; adverse events. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -169,16 +166,12 @@ includes (MH "Functional Status") and (MH "Pain Measurement") as controlled term
 
 **PICO**
 
-```
-P: Patients with metastatic hormone-sensitive prostate cancer (mHSPC).
-I: Systemic treatment arms of phase III RCTs (androgen deprivation therapy alone or
-   in combination with docetaxel, abiraterone, apalutamide, enzalutamide, darolutamide
-   or radiotherapy).
-C: The comparator arm of each trial (usually ADT alone).
-O: Health-related quality of life and patient-reported outcomes - instrument used,
-   domains, timing, compliance, statistical handling, and the direction of any
-   between-arm difference.
-```
+| | |
+|---|---|
+| **P** — Population | Patients with metastatic hormone-sensitive prostate cancer (mHSPC). |
+| **I** — Intervention / exposure | Systemic treatment arms of phase III RCTs (androgen deprivation therapy alone or in combination with docetaxel, abiraterone, apalutamide, enzalutamide, darolutamide or radiotherapy). |
+| **C** — Comparison | The comparator arm of each trial (usually ADT alone). |
+| **O** — Outcome | Health-related quality of life and patient-reported outcomes - instrument used, domains, timing, compliance, statistical handling, and the direction of any between-arm difference. |
 
 **Search strategy - PubMed / MEDLINE**
 
@@ -295,14 +288,12 @@ Google Scholar and the Cochrane Library were also searched.
 
 **PICO**
 
-```
-P: Women with a diagnosis of breast cancer, receiving active treatment or having
-   completed treatment.
-I: Yoga (including asana, pranayama, dhyana, dharana, meditation).
-C: No therapy, or another active intervention (psychosocial/educational, exercise).
-O: Health-related quality of life; mental health (depression, anxiety); cancer-related
-   symptoms (fatigue, sleep disturbance); adverse events.
-```
+| | |
+|---|---|
+| **P** — Population | Women with a diagnosis of breast cancer, receiving active treatment or having completed treatment. |
+| **I** — Intervention / exposure | Yoga (including asana, pranayama, dhyana, dharana, meditation). |
+| **C** — Comparison | No therapy, or another active intervention (psychosocial/educational, exercise). |
+| **O** — Outcome | Health-related quality of life; mental health (depression, anxiety); cancer-related symptoms (fatigue, sleep disturbance); adverse events. |
 
 **Search strategy - PubMed / MEDLINE**
 
